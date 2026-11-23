@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-condition-clinical-cisis",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-09-28T15:42:26.434+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-23T15:12:19.238+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.164"
   }],
-  "version" : "20260928134052",
+  "version" : "20261120114401",
   "name" : "ConditionClinicalStatusCodes",
   "title" : "Condition Clinical Status Codes",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:52+01:00",
+  "date" : "2026-11-20T11:44:01+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Condition Clinical Status Codes",
   "jurisdiction" : [{

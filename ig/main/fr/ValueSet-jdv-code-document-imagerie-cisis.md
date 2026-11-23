@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-code-document-imagerie-cisis",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-09-28T15:42:46.873+02:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-11-23T15:12:42.714+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.687"
   }],
-  "version" : "20260928134049",
+  "version" : "20261120114401",
   "name" : "JdvCodeDocumentImagerieCisis",
   "title" : "JDV Code Document Imagerie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:49+01:00",
+  "date" : "2026-11-20T11:44:01+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Code Document Imagerie CISIS",
   "jurisdiction" : [{
@@ -124,11 +124,11 @@ Requête sur le SMT
       },
       {
         "code" : "24538-1",
-        "display" : "résonance magnétique cheville"
+        "display" : "IRM cheville"
       },
       {
         "code" : "24539-9",
-        "display" : "résonance magnétique cheville sans et avec contraste IV"
+        "display" : "IRM cheville sans et avec contraste IV"
       },
       {
         "code" : "24540-7",
@@ -144,15 +144,15 @@ Requête sur le SMT
       },
       {
         "code" : "24543-1",
-        "display" : "angiographie par fluoroscopie aorte abdominale et thoracique ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie aorte abdominale et thoracique ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24544-9",
-        "display" : "CT de l'aorte thoracique"
+        "display" : "TDM de l'aorte thoracique"
       },
       {
         "code" : "24545-6",
-        "display" : "CT aorte thoracique avec contraste IV"
+        "display" : "TDM aorte thoracique avec contraste IV"
       },
       {
         "code" : "24547-2",
@@ -168,11 +168,11 @@ Requête sur le SMT
       },
       {
         "code" : "24550-6",
-        "display" : "angiographie par fluoroscopie veines du membre supérieur ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre supérieur ; incidences avec contraste IV"
       },
       {
         "code" : "24551-4",
-        "display" : "angiographie par fluoroscopie fistule artérioveineuse ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie fistule artérioveineuse ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24552-2",
@@ -180,23 +180,23 @@ Requête sur le SMT
       },
       {
         "code" : "24553-0",
-        "display" : "angiographie par fluoroscopie vaisseau intracrânien ; guide pour l'élimination d'un embol avec contraste IV"
+        "display" : "angiofluoroscopie vaisseau intracrânien ; guide pour l'élimination d'un embol avec contraste IV"
       },
       {
         "code" : "24554-8",
-        "display" : "angiographie par fluoroscopie artère ; guidage pour embolisation avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère ; guidage pour embolisation avec contraste intraartériel"
       },
       {
         "code" : "24555-5",
-        "display" : "angiographie par fluoroscopie artère ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie artère ; guidage pour placement d'un stent"
       },
       {
         "code" : "24556-3",
-        "display" : "résonance magnétique abdomen"
+        "display" : "IRM abdomen"
       },
       {
         "code" : "24557-1",
-        "display" : "résonance magnétique abdomen sans et avec contraste IV"
+        "display" : "IRM abdomen sans et avec contraste IV"
       },
       {
         "code" : "24558-9",
@@ -228,15 +228,15 @@ Requête sur le SMT
       },
       {
         "code" : "24566-2",
-        "display" : "CT rétropéritoine"
+        "display" : "TDM rétropéritoine"
       },
       {
         "code" : "24568-8",
-        "display" : "angiographie par fluoroscopie fistule artérioveineuse ; guidage pour athérectomie avec contraste IV"
+        "display" : "angiofluoroscopie fistule artérioveineuse ; guidage pour athérectomie avec contraste IV"
       },
       {
         "code" : "24569-6",
-        "display" : "angiographie par fluoroscopie shunt artérioiveineux ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie shunt artérioiveineux ; incidences avec contraste IV"
       },
       {
         "code" : "24570-4",
@@ -244,11 +244,11 @@ Requête sur le SMT
       },
       {
         "code" : "24571-2",
-        "display" : "médecine nucléaire voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires et fraction d'éjection avec sincalide et avec radionucléide IV"
+        "display" : "MN voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires et fraction d'éjection avec sincalide et avec radionucléide IV"
       },
       {
         "code" : "24572-0",
-        "display" : "médecine nucléaire voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires avec Tc-99m IV"
+        "display" : "MN voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires avec Tc-99m IV"
       },
       {
         "code" : "24573-8",
@@ -264,7 +264,7 @@ Requête sur le SMT
       },
       {
         "code" : "24576-1",
-        "display" : "angiographie par fluoroscopie artères de la vessie urinaire ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères de la vessie urinaire ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24577-9",
@@ -272,7 +272,7 @@ Requête sur le SMT
       },
       {
         "code" : "24578-7",
-        "display" : "médecine nucléaire SPECT os avec radionucléide IV"
+        "display" : "SPECT os avec radionucléide IV"
       },
       {
         "code" : "24579-5",
@@ -280,19 +280,19 @@ Requête sur le SMT
       },
       {
         "code" : "24580-3",
-        "display" : "angiographie par fluoroscopie tronc artériel brachiocéphalique ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie tronc artériel brachiocéphalique ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24581-1",
-        "display" : "angiographie par fluoroscopie artère sousclavière et artère brachiale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère sousclavière et artère brachiale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24582-9",
-        "display" : "résonance magnétique plexus brachial"
+        "display" : "IRM plexus brachial"
       },
       {
         "code" : "24583-7",
-        "display" : "résonance magnétique plexus brachial sans et avec contraste IV"
+        "display" : "IRM plexus brachial sans et avec contraste IV"
       },
       {
         "code" : "24584-5",
@@ -300,31 +300,31 @@ Requête sur le SMT
       },
       {
         "code" : "24585-2",
-        "display" : "CT tête ; guidage pour biopsie stéréotaxique avec contraste IV"
+        "display" : "TDM tête ; guidage pour biopsie stéréotaxique avec contraste IV"
       },
       {
         "code" : "24586-0",
-        "display" : "résonance magnétique cerveau avec anesthésie"
+        "display" : "IRM cerveau avec anesthésie"
       },
       {
         "code" : "24587-8",
-        "display" : "résonance magnétique cerveau sans et avec contraste IV"
+        "display" : "IRM cerveau sans et avec contraste IV"
       },
       {
         "code" : "24588-6",
-        "display" : "résonance magnétique cerveau sans et avec contraste IV et avec anesthésie"
+        "display" : "IRM cerveau sans et avec contraste IV et avec anesthésie"
       },
       {
         "code" : "24589-4",
-        "display" : "résonance magnétique cerveau avec contraste IV"
+        "display" : "IRM cerveau avec contraste IV"
       },
       {
         "code" : "24590-2",
-        "display" : "résonance magnétique cerveau"
+        "display" : "IRM cerveau"
       },
       {
         "code" : "24591-0",
-        "display" : "médecine nucléaire cerveau ; incidences pour protocole de mort cérébrale avec Tc-99m HMPAO IV"
+        "display" : "MN cerveau ; incidences pour protocole de mort cérébrale avec Tc-99m HMPAO IV"
       },
       {
         "code" : "24593-6",
@@ -396,11 +396,11 @@ Requête sur le SMT
       },
       {
         "code" : "24614-0",
-        "display" : "angiographie par fluoroscopie artère carotide extracrâniale ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère carotide extracrâniale ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24615-7",
-        "display" : "angiographie par fluoroscopie artère carotidienne intracrânienne ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère carotidienne intracrânienne ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24616-5",
@@ -408,7 +408,7 @@ Requête sur le SMT
       },
       {
         "code" : "24617-3",
-        "display" : "angiographie par fluoroscopie artères carotidiennes ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24619-9",
@@ -424,35 +424,35 @@ Requête sur le SMT
       },
       {
         "code" : "24622-3",
-        "display" : "angiographie par fluoroscopie artère coeliaque ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère coeliaque ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24623-1",
-        "display" : "CT plexus coeliaque ; guidage pour blocage nerveux"
+        "display" : "TDM plexus coeliaque ; guidage pour blocage nerveux"
       },
       {
         "code" : "24624-9",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour changement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour changement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "24625-6",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour placement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour placement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "24626-4",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "24627-2",
-        "display" : "CT thorax"
+        "display" : "TDM thorax"
       },
       {
         "code" : "24628-0",
-        "display" : "CT thorax avec contraste IV"
+        "display" : "TDM thorax avec contraste IV"
       },
       {
         "code" : "24629-8",
-        "display" : "résonance magnétique thorax"
+        "display" : "IRM thorax"
       },
       {
         "code" : "24630-6",
@@ -564,7 +564,7 @@ Requête sur le SMT
       },
       {
         "code" : "24658-7",
-        "display" : "angiographie par fluoroscopie aorte abdominale et thoracique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie aorte abdominale et thoracique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24659-5",
@@ -584,7 +584,7 @@ Requête sur le SMT
       },
       {
         "code" : "24663-7",
-        "display" : "médecine nucléaire citernes cérébrales ; incidences avec radionucléide intrathécal"
+        "display" : "MN citernes cérébrales ; incidences avec radionucléide intrathécal"
       },
       {
         "code" : "24664-5",
@@ -624,11 +624,11 @@ Requête sur le SMT
       },
       {
         "code" : "24674-4",
-        "display" : "résonance magnétique coude"
+        "display" : "IRM coude"
       },
       {
         "code" : "24675-1",
-        "display" : "résonance magnétique coude sans et avec contraste IV"
+        "display" : "IRM coude sans et avec contraste IV"
       },
       {
         "code" : "24676-9",
@@ -656,19 +656,19 @@ Requête sur le SMT
       },
       {
         "code" : "24682-7",
-        "display" : "fluoroscopie.vidéo hypopharynx et oesophage ; incidences avec constraste liquide per os et avec contraste en pâte per os et pendant la déglution"
+        "display" : "fluoroscopie vidéo hypopharynx et oesophage ; incidences avec contraste liquide per os et avec contraste en pâte per os et pendant la déglution"
       },
       {
         "code" : "24683-5",
-        "display" : "médecine nucléaire oesophage et estomac ; incidences avec sulfocolloïde de technétium 99 per os"
+        "display" : "MN oesophage et estomac ; incidences avec sulfocolloïde de technétium 99 per os"
       },
       {
         "code" : "24684-3",
-        "display" : "angiographie par fluoroscopie vaisseaux extracrâniaux ; guide pour l'élimination d'un embol avec contraste intraartériel"
+        "display" : "angiofluoroscopie vaisseaux extracrâniaux ; guide pour l'élimination d'un embol avec contraste intraartériel"
       },
       {
         "code" : "24685-0",
-        "display" : "angiographie par fluoroscopie veines périphériques ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines périphériques ; incidences avec contraste IV"
       },
       {
         "code" : "24686-8",
@@ -676,11 +676,11 @@ Requête sur le SMT
       },
       {
         "code" : "24687-6",
-        "display" : "résonance magnétique articulation du membre inférieur"
+        "display" : "IRM articulation du membre inférieur"
       },
       {
         "code" : "24688-4",
-        "display" : "résonance magnétique membre supérieur"
+        "display" : "IRM membre supérieur"
       },
       {
         "code" : "24689-2",
@@ -688,11 +688,11 @@ Requête sur le SMT
       },
       {
         "code" : "24690-0",
-        "display" : "CT membre"
+        "display" : "TDM membre"
       },
       {
         "code" : "24691-8",
-        "display" : "CT membre avec contraste IV"
+        "display" : "TDM membre avec contraste IV"
       },
       {
         "code" : "24692-6",
@@ -704,7 +704,7 @@ Requête sur le SMT
       },
       {
         "code" : "24694-2",
-        "display" : "résonance magnétique face sans et avec contraste IV"
+        "display" : "IRM face sans et avec contraste IV"
       },
       {
         "code" : "24695-9",
@@ -712,19 +712,19 @@ Requête sur le SMT
       },
       {
         "code" : "24696-7",
-        "display" : "CT os de la face"
+        "display" : "TDM os de la face"
       },
       {
         "code" : "24697-5",
-        "display" : "CT os de la face avec contraste IV"
+        "display" : "TDM os de la face avec contraste IV"
       },
       {
         "code" : "24698-3",
-        "display" : "angiographie par fluoroscopie artère fémorale ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24699-1",
-        "display" : "angiographie par fluoroscopie artère fémorale ; incidence d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale ; incidence d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "24700-7",
@@ -732,11 +732,11 @@ Requête sur le SMT
       },
       {
         "code" : "24702-3",
-        "display" : "résonance magnétique cuisse"
+        "display" : "IRM cuisse"
       },
       {
         "code" : "24703-1",
-        "display" : "résonance magnétique cuisse sans et avec contraste IV"
+        "display" : "IRM cuisse sans et avec contraste IV"
       },
       {
         "code" : "24704-9",
@@ -744,7 +744,7 @@ Requête sur le SMT
       },
       {
         "code" : "24705-6",
-        "display" : "résonance magnétique doigt"
+        "display" : "IRM doigt"
       },
       {
         "code" : "24706-4",
@@ -752,7 +752,7 @@ Requête sur le SMT
       },
       {
         "code" : "24707-2",
-        "display" : "résonance magnétique pied"
+        "display" : "IRM pied"
       },
       {
         "code" : "24708-0",
@@ -764,7 +764,7 @@ Requête sur le SMT
       },
       {
         "code" : "24710-6",
-        "display" : "résonance magnétique avantbras"
+        "display" : "IRM avantbras"
       },
       {
         "code" : "24711-4",
@@ -780,7 +780,7 @@ Requête sur le SMT
       },
       {
         "code" : "24714-8",
-        "display" : "médecine nucléaire tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec globules rouges marqués au Tc-99m IV"
+        "display" : "MN tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec globules rouges marqués au Tc-99m IV"
       },
       {
         "code" : "24715-5",
@@ -800,7 +800,7 @@ Requête sur le SMT
       },
       {
         "code" : "24720-5",
-        "display" : "résonance magnétique main"
+        "display" : "IRM main"
       },
       {
         "code" : "24721-3",
@@ -820,27 +820,27 @@ Requête sur le SMT
       },
       {
         "code" : "24725-4",
-        "display" : "CT tête"
+        "display" : "TDM tête"
       },
       {
         "code" : "24726-2",
-        "display" : "CT tête sans et avec contraste IV"
+        "display" : "TDM tête sans et avec contraste IV"
       },
       {
         "code" : "24727-0",
-        "display" : "CT tête avec contraste IV"
+        "display" : "TDM tête avec contraste IV"
       },
       {
         "code" : "24728-8",
-        "display" : "CT perfusion tête"
+        "display" : "TDM perfusion tête"
       },
       {
         "code" : "24729-6",
-        "display" : "CT perfusion tête sans et avec contraste IV"
+        "display" : "TDM perfusion tête sans et avec contraste IV"
       },
       {
         "code" : "24730-4",
-        "display" : "médecine nucléaire cerveau ; incidences avec radionucléide IV"
+        "display" : "MN cerveau ; incidences avec radionucléide IV"
       },
       {
         "code" : "24731-2",
@@ -856,15 +856,15 @@ Requête sur le SMT
       },
       {
         "code" : "24734-6",
-        "display" : "CT citernes cérébrales avec contraste intrathécal"
+        "display" : "TDM citernes cérébrales avec contraste intrathécal"
       },
       {
         "code" : "24735-3",
-        "display" : "résonance magnétique conduit auditif interne et fosse postérieure"
+        "display" : "IRM conduit auditif interne et fosse postérieure"
       },
       {
         "code" : "24740-3",
-        "display" : "résonance magnétique conduit auditif interne et fosse postérieure sans et avec contraste IV"
+        "display" : "IRM conduit auditif interne et fosse postérieure sans et avec contraste IV"
       },
       {
         "code" : "24745-2",
@@ -872,31 +872,31 @@ Requête sur le SMT
       },
       {
         "code" : "24748-6",
-        "display" : "résonance magnétique coeur"
+        "display" : "IRM coeur"
       },
       {
         "code" : "24750-2",
-        "display" : "médecine nucléaire coeur ; incidences au repos et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences au repos et avec Tl-201 IV"
       },
       {
         "code" : "24751-0",
-        "display" : "médecine nucléaire glande parathyroïde ; incidences avec soustraction du Tc-99m du TI-201 IV"
+        "display" : "MN glande parathyroïde ; incidences avec soustraction du Tc-99m du TI-201 IV"
       },
       {
         "code" : "24752-8",
-        "display" : "fluoroscopie.vidéo coeur ; incidences"
+        "display" : "fluoroscopie vidéo coeur ; incidences"
       },
       {
         "code" : "24753-6",
-        "display" : "CT avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "24755-1",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour athérectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour athérectomie avec contraste IV"
       },
       {
         "code" : "24756-9",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie veine ; guidage pour placement d'un stent"
       },
       {
         "code" : "24760-1",
@@ -920,7 +920,7 @@ Requête sur le SMT
       },
       {
         "code" : "24766-8",
-        "display" : "angiographie par fluoroscopie artère iliaque ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère iliaque ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24767-6",
@@ -928,11 +928,11 @@ Requête sur le SMT
       },
       {
         "code" : "24769-2",
-        "display" : "CT espace articulaire ; guidage pour injection"
+        "display" : "TDM espace articulaire ; guidage pour injection"
       },
       {
         "code" : "24770-0",
-        "display" : "médecine nucléiare articulation ; incidences avec In-111 intraarticulaire"
+        "display" : "MN articulation ; incidences avec In-111 intraarticulaire"
       },
       {
         "code" : "24771-8",
@@ -1036,11 +1036,11 @@ Requête sur le SMT
       },
       {
         "code" : "24802-1",
-        "display" : "résonance magnétique genou"
+        "display" : "IRM genou"
       },
       {
         "code" : "24803-9",
-        "display" : "résonance magnétique genou sans et avec contraste IV"
+        "display" : "IRM genou sans et avec contraste IV"
       },
       {
         "code" : "24804-7",
@@ -1068,23 +1068,23 @@ Requête sur le SMT
       },
       {
         "code" : "24811-2",
-        "display" : "CT foie ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM foie ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "24812-0",
-        "display" : "CT foie ; guidage pour biopsie percutanée"
+        "display" : "TDM foie ; guidage pour biopsie percutanée"
       },
       {
         "code" : "24813-8",
-        "display" : "CT foie ; guidage pour la biopsie à l'aiguille creuse"
+        "display" : "TDM foie ; guidage pour la biopsie à l'aiguille creuse"
       },
       {
         "code" : "24814-6",
-        "display" : "CT foie"
+        "display" : "TDM foie"
       },
       {
         "code" : "24815-3",
-        "display" : "CT foie avec contraste IV"
+        "display" : "TDM foie avec contraste IV"
       },
       {
         "code" : "24816-1",
@@ -1092,7 +1092,7 @@ Requête sur le SMT
       },
       {
         "code" : "24817-9",
-        "display" : "médecine nucléaire SPECT foie avec Tc-99m IV"
+        "display" : "SPECT foie avec Tc-99m IV"
       },
       {
         "code" : "24818-7",
@@ -1104,19 +1104,19 @@ Requête sur le SMT
       },
       {
         "code" : "24821-1",
-        "display" : "résonance magnétique jambe"
+        "display" : "IRM jambe"
       },
       {
         "code" : "24822-9",
-        "display" : "CT poumon ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM poumon ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "24823-7",
-        "display" : "CT poumon ; guidage pour biopsie percutanée"
+        "display" : "TDM poumon ; guidage pour biopsie percutanée"
       },
       {
         "code" : "24824-5",
-        "display" : "médecine nucléaire poumon ; incidences avec portable avec radionucléide IV"
+        "display" : "MN poumon ; incidences avec portable avec radionucléide IV"
       },
       {
         "code" : "24825-2",
@@ -1124,11 +1124,11 @@ Requête sur le SMT
       },
       {
         "code" : "24826-0",
-        "display" : "médecine nucléaire vaisseaux lymphatiques ; incidences avec radionucléide intralymphatique"
+        "display" : "MN vaisseaux lymphatiques ; incidences avec radionucléide intralymphatique"
       },
       {
         "code" : "24827-8",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "24828-6",
@@ -1144,15 +1144,15 @@ Requête sur le SMT
       },
       {
         "code" : "24831-0",
-        "display" : "médecine nucléaire intestin grêle ; incidence pour diverticule de Meckel avec Tc-99m M04 IV"
+        "display" : "MN intestin grêle ; incidence pour diverticule de Meckel avec Tc-99m M04 IV"
       },
       {
         "code" : "24832-8",
-        "display" : "angiographie par fluoroscopie artère mésentérique ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère mésentérique ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "24833-6",
-        "display" : "angiographie par fluoroscopie artère mésentérique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère mésentérique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24834-4",
@@ -1160,31 +1160,31 @@ Requête sur le SMT
       },
       {
         "code" : "24835-1",
-        "display" : "CT nasopharynx et cou"
+        "display" : "TDM nasopharynx et cou"
       },
       {
         "code" : "24836-9",
-        "display" : "CT nasopharynx et cou avec contraste IV"
+        "display" : "TDM nasopharynx et cou avec contraste IV"
       },
       {
         "code" : "24837-7",
-        "display" : "CT cou ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM cou ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "24838-5",
-        "display" : "CT cou ; guidage pour biopsie percutanée"
+        "display" : "TDM cou ; guidage pour biopsie percutanée"
       },
       {
         "code" : "24839-3",
-        "display" : "résonance magnétique cou"
+        "display" : "IRM cou"
       },
       {
         "code" : "24840-1",
-        "display" : "résonance magnétique cou sans et avec contraste IV"
+        "display" : "IRM cou sans et avec contraste IV"
       },
       {
         "code" : "24841-9",
-        "display" : "résonance magnétique cou avec contraste IV"
+        "display" : "IRM cou avec contraste IV"
       },
       {
         "code" : "24842-7",
@@ -1208,23 +1208,23 @@ Requête sur le SMT
       },
       {
         "code" : "24848-4",
-        "display" : "CT orbite - bilatérale"
+        "display" : "TDM orbite - bilatérale"
       },
       {
         "code" : "24849-2",
-        "display" : "CT orbite - bilatérale sans et avec contraste IV"
+        "display" : "TDM orbite - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "24850-0",
-        "display" : "CT orbite - bilatérale avec contraste IV"
+        "display" : "TDM orbite - bilatérale avec contraste IV"
       },
       {
         "code" : "24851-8",
-        "display" : "résonance magnétique orbite - bilatérale sans et avec contraste IV"
+        "display" : "IRM orbite - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "24852-6",
-        "display" : "résonance magnétique orbite - bilatérale avec contraste IV"
+        "display" : "IRM orbite - bilatérale avec contraste IV"
       },
       {
         "code" : "24853-4",
@@ -1240,15 +1240,15 @@ Requête sur le SMT
       },
       {
         "code" : "24856-7",
-        "display" : "CT pancréas ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM pancréas ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "24857-5",
-        "display" : "CT pancréas"
+        "display" : "TDM pancréas"
       },
       {
         "code" : "24858-3",
-        "display" : "CT pancréas avec contraste IV"
+        "display" : "TDM pancréas avec contraste IV"
       },
       {
         "code" : "24859-1",
@@ -1256,7 +1256,7 @@ Requête sur le SMT
       },
       {
         "code" : "24860-9",
-        "display" : "angiographie par fluoroscopie artère pancréatique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère pancréatique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24861-7",
@@ -1264,27 +1264,27 @@ Requête sur le SMT
       },
       {
         "code" : "24862-5",
-        "display" : "angiographie par fluoroscopie artère iliaque interne ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère iliaque interne ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24863-3",
-        "display" : "CT pelvis ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM pelvis ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "24864-1",
-        "display" : "CT pelvis ; guidage pour biopsie percutanée"
+        "display" : "TDM pelvis ; guidage pour biopsie percutanée"
       },
       {
         "code" : "24865-8",
-        "display" : "CT pelvis"
+        "display" : "TDM pelvis"
       },
       {
         "code" : "24866-6",
-        "display" : "CT pelvis avec contraste IV"
+        "display" : "TDM pelvis avec contraste IV"
       },
       {
         "code" : "24867-4",
-        "display" : "résonance magnétique pelvis"
+        "display" : "IRM pelvis"
       },
       {
         "code" : "24868-2",
@@ -1304,7 +1304,7 @@ Requête sur le SMT
       },
       {
         "code" : "24872-4",
-        "display" : "résonance magnétique pelvis et hanche"
+        "display" : "IRM pelvis et hanche"
       },
       {
         "code" : "24873-2",
@@ -1312,27 +1312,27 @@ Requête sur le SMT
       },
       {
         "code" : "24874-0",
-        "display" : "angiographie par fluoroscopie artères périphériques ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères périphériques ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24876-5",
-        "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour permabilité d'un shunt avec Tc-99m DTPA intrathécal"
+        "display" : "MN tête et cou et thorax et abdomen et pelvis ; incidences pour permabilité d'un shunt avec Tc-99m DTPA intrathécal"
       },
       {
         "code" : "24877-3",
-        "display" : "CT partie pétreuse de l'os temporal"
+        "display" : "TDM partie pétreuse de l'os temporal"
       },
       {
         "code" : "24878-1",
-        "display" : "CT partie pétreuse de l'os temporal avec contraste IV"
+        "display" : "TDM partie pétreuse de l'os temporal avec contraste IV"
       },
       {
         "code" : "24879-9",
-        "display" : "résonance magnétique hypophyse et selle turcique sans et avec contraste IV"
+        "display" : "IRM hypophyse et selle turcique sans et avec contraste IV"
       },
       {
         "code" : "24880-7",
-        "display" : "résonance magnétique hypophyse et selle turcique"
+        "display" : "IRM hypophyse et selle turcique"
       },
       {
         "code" : "24881-5",
@@ -1340,7 +1340,7 @@ Requête sur le SMT
       },
       {
         "code" : "24882-3",
-        "display" : "angiographie par fluoroscopie artère poplitée ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère poplitée ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
       },
       {
         "code" : "24883-1",
@@ -1352,11 +1352,11 @@ Requête sur le SMT
       },
       {
         "code" : "24887-2",
-        "display" : "angiographie par fluoroscopie artères pulmonaires ; guide pour l'élimination d'un embol avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères pulmonaires ; guide pour l'élimination d'un embol avec contraste intraartériel"
       },
       {
         "code" : "24888-0",
-        "display" : "médecine nucléaire système pulmonaire ; incidences ventilation et perfusion avec Xe-133 en inhalation et W Tc-99m MAA IV"
+        "display" : "MN système pulmonaire ; incidences ventilation et perfusion avec Xe-133 en inhalation et W Tc-99m MAA IV"
       },
       {
         "code" : "24889-8",
@@ -1392,7 +1392,7 @@ Requête sur le SMT
       },
       {
         "code" : "24901-1",
-        "display" : "CT articulation sacro-iliaque ; guidage pour injection"
+        "display" : "TDM articulation sacro-iliaque ; guidage pour injection"
       },
       {
         "code" : "24902-9",
@@ -1404,15 +1404,15 @@ Requête sur le SMT
       },
       {
         "code" : "24904-5",
-        "display" : "CT hypophyse et selle turcique sans et avec contraste IV"
+        "display" : "TDM hypophyse et selle turcique sans et avec contraste IV"
       },
       {
         "code" : "24905-2",
-        "display" : "résonance magnétique épaule"
+        "display" : "IRM épaule"
       },
       {
         "code" : "24906-0",
-        "display" : "résonance magnétique épaule sans et avec contraste IV"
+        "display" : "IRM épaule sans et avec contraste IV"
       },
       {
         "code" : "24907-8",
@@ -1440,15 +1440,15 @@ Requête sur le SMT
       },
       {
         "code" : "24913-6",
-        "display" : "CT sinus limitée"
+        "display" : "TDM sinus limitée"
       },
       {
         "code" : "24914-4",
-        "display" : "résonance magnétique sinus"
+        "display" : "IRM sinus"
       },
       {
         "code" : "24915-1",
-        "display" : "résonance magnétique sinus avec contraste IV"
+        "display" : "IRM sinus avec contraste IV"
       },
       {
         "code" : "24916-9",
@@ -1488,7 +1488,7 @@ Requête sur le SMT
       },
       {
         "code" : "24925-0",
-        "display" : "angiographie par fluoroscopie artère spinale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère spinale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24926-8",
@@ -1516,31 +1516,31 @@ Requête sur le SMT
       },
       {
         "code" : "24932-6",
-        "display" : "CT rachis cervical"
+        "display" : "TDM rachis cervical"
       },
       {
         "code" : "24933-4",
-        "display" : "CT rachis cervical avec contraste IV"
+        "display" : "TDM rachis cervical avec contraste IV"
       },
       {
         "code" : "24934-2",
-        "display" : "CT rachis cervical avec contraste intrathécal"
+        "display" : "TDM rachis cervical avec contraste intrathécal"
       },
       {
         "code" : "24935-9",
-        "display" : "résonance magnétique rachis cervical"
+        "display" : "IRM rachis cervical"
       },
       {
         "code" : "24936-7",
-        "display" : "résonance magnétique rachis cervical avec anesthésie"
+        "display" : "IRM rachis cervical avec anesthésie"
       },
       {
         "code" : "24937-5",
-        "display" : "résonance magnétique rachis cervical sans et avec contraste IV"
+        "display" : "IRM rachis cervical sans et avec contraste IV"
       },
       {
         "code" : "24938-3",
-        "display" : "résonance magnétique rachis cervical avec contraste IV"
+        "display" : "IRM rachis cervical avec contraste IV"
       },
       {
         "code" : "24939-1",
@@ -1584,23 +1584,23 @@ Requête sur le SMT
       },
       {
         "code" : "24963-1",
-        "display" : "CT rachis lombaire"
+        "display" : "TDM rachis lombaire"
       },
       {
         "code" : "24964-9",
-        "display" : "CT rachis lombaire avec contraste IV"
+        "display" : "TDM rachis lombaire avec contraste IV"
       },
       {
         "code" : "24965-6",
-        "display" : "CT rachis lombaire avec contraste intrathécal"
+        "display" : "TDM rachis lombaire avec contraste intrathécal"
       },
       {
         "code" : "24967-2",
-        "display" : "résonance magnétique rachis lombaire sans et avec contraste IV"
+        "display" : "IRM rachis lombaire sans et avec contraste IV"
       },
       {
         "code" : "24968-0",
-        "display" : "résonance magnétique rachis lombaire"
+        "display" : "IRM rachis lombaire"
       },
       {
         "code" : "24969-8",
@@ -1632,27 +1632,27 @@ Requête sur le SMT
       },
       {
         "code" : "24977-1",
-        "display" : "résonance magnétique rachis lombaire avec anesthésie"
+        "display" : "IRM rachis lombaire avec anesthésie"
       },
       {
         "code" : "24978-9",
-        "display" : "CT rachis dorsal"
+        "display" : "TDM rachis dorsal"
       },
       {
         "code" : "24979-7",
-        "display" : "CT rachis dorsal avec contraste IV"
+        "display" : "TDM rachis dorsal avec contraste IV"
       },
       {
         "code" : "24980-5",
-        "display" : "résonance magnétique rachis dorsal"
+        "display" : "IRM rachis dorsal"
       },
       {
         "code" : "24981-3",
-        "display" : "résonance magnétique rachis dorsal sans et avec contraste IV"
+        "display" : "IRM rachis dorsal sans et avec contraste IV"
       },
       {
         "code" : "24982-1",
-        "display" : "résonance magnétique rachis dorsal avec contraste IV"
+        "display" : "IRM rachis dorsal avec contraste IV"
       },
       {
         "code" : "24983-9",
@@ -1668,19 +1668,19 @@ Requête sur le SMT
       },
       {
         "code" : "24986-2",
-        "display" : "CT rachis ; guidage pour biopsie percutanée"
+        "display" : "TDM rachis ; guidage pour biopsie percutanée"
       },
       {
         "code" : "24987-0",
-        "display" : "CT rachis avec contraste IV"
+        "display" : "TDM rachis avec contraste IV"
       },
       {
         "code" : "24988-8",
-        "display" : "CT rate"
+        "display" : "TDM rate"
       },
       {
         "code" : "24989-6",
-        "display" : "CT rate sans et avec contraste IV"
+        "display" : "TDM rate sans et avec contraste IV"
       },
       {
         "code" : "24990-4",
@@ -1688,11 +1688,11 @@ Requête sur le SMT
       },
       {
         "code" : "24991-2",
-        "display" : "angiographie par fluoroscopie veine splénique et veine porte ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie veine splénique et veine porte ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24992-0",
-        "display" : "angiographie par fluoroscopie artère splénique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère splénique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "24994-6",
@@ -1708,7 +1708,7 @@ Requête sur le SMT
       },
       {
         "code" : "24997-9",
-        "display" : "médecine nucléaire estomac ; incidences avec phase solide du vidange gastrique avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN estomac ; incidences avec phase solide du vidange gastrique avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "24998-7",
@@ -1716,7 +1716,7 @@ Requête sur le SMT
       },
       {
         "code" : "24999-5",
-        "display" : "résonance magnétique articulation temporomandibulaire"
+        "display" : "IRM articulation temporomandibulaire"
       },
       {
         "code" : "25000-1",
@@ -1736,7 +1736,7 @@ Requête sur le SMT
       },
       {
         "code" : "25005-0",
-        "display" : "angiographie par fluoroscopie trois vaisseaux ; incidences avec contraste"
+        "display" : "angiofluoroscopie trois vaisseaux ; incidences avec contraste"
       },
       {
         "code" : "25006-8",
@@ -1744,11 +1744,11 @@ Requête sur le SMT
       },
       {
         "code" : "25007-6",
-        "display" : "médecine nucléaire glande thyroïde ; incidences avec I-131 IV"
+        "display" : "MN glande thyroïde ; incidences avec I-131 IV"
       },
       {
         "code" : "25008-4",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-131 IV"
+        "display" : "MN glande thyroïde ; incidences et incidences pour absorption avec I-131 IV"
       },
       {
         "code" : "25009-2",
@@ -1768,7 +1768,7 @@ Requête sur le SMT
       },
       {
         "code" : "25014-2",
-        "display" : "angiographie par fluoroscopie deux vaisseaux ; incidences avec contraste"
+        "display" : "angiofluoroscopie deux vaisseaux ; incidences avec contraste"
       },
       {
         "code" : "25016-7",
@@ -1796,19 +1796,19 @@ Requête sur le SMT
       },
       {
         "code" : "25023-3",
-        "display" : "angiographie par fluoroscopie veine ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine ; incidences avec contraste IV"
       },
       {
         "code" : "25024-1",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
+        "display" : "angiofluoroscopie veine ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
       },
       {
         "code" : "25025-8",
-        "display" : "angiographie par fluoroscopie veine cave ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine cave ; incidences avec contraste IV"
       },
       {
         "code" : "25026-6",
-        "display" : "angiographie par fluoroscopie veine cave inférieure ; guidage pour placement d'un filtre veineux avec contraste IV"
+        "display" : "angiofluoroscopie veine cave inférieure ; guidage pour placement d'un filtre veineux avec contraste IV"
       },
       {
         "code" : "25027-4",
@@ -1816,27 +1816,27 @@ Requête sur le SMT
       },
       {
         "code" : "25028-2",
-        "display" : "angiographie par fluoroscopie vaisseau ; guidage pour placement d'un cathéter pour perfusion d'un thrombolytique avec contraste intravasculaire"
+        "display" : "angiofluoroscopie vaisseau ; guidage pour placement d'un cathéter pour perfusion d'un thrombolytique avec contraste intravasculaire"
       },
       {
         "code" : "25029-0",
-        "display" : "angiographie par fluoroscopie vaisseaux ; guidage pour le placement d'un cathéter pour une perfusion de vasoconstricteur"
+        "display" : "angiofluoroscopie vaisseaux ; guidage pour le placement d'un cathéter pour une perfusion de vasoconstricteur"
       },
       {
         "code" : "25030-8",
-        "display" : "angiographie par fluoroscopie artères abdominales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères abdominales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "25031-6",
-        "display" : "médecine nucléaire os ; incidences avec radionucléide IV"
+        "display" : "MN os ; incidences avec radionucléide IV"
       },
       {
         "code" : "25032-4",
-        "display" : "médecine nucléaire os ; incidences avec globules blancs marqués à l'In-111 IV"
+        "display" : "MN os ; incidences avec globules blancs marqués à l'In-111 IV"
       },
       {
         "code" : "25033-2",
-        "display" : "résonance magnétique poignet"
+        "display" : "IRM poignet"
       },
       {
         "code" : "25034-0",
@@ -1844,7 +1844,7 @@ Requête sur le SMT
       },
       {
         "code" : "25035-7",
-        "display" : "résonance magnétique poignet sans et avec contraste IV"
+        "display" : "IRM poignet sans et avec contraste IV"
       },
       {
         "code" : "25036-5",
@@ -1852,51 +1852,51 @@ Requête sur le SMT
       },
       {
         "code" : "25039-9",
-        "display" : "CT limitée dans une région du corps non spécifiée"
+        "display" : "TDM limitée dans une région du corps non spécifiée"
       },
       {
         "code" : "25041-5",
-        "display" : "CT ; guidage pour aspiration ou biopsie avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour aspiration ou biopsie avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "25042-3",
-        "display" : "CT ; guidage pour aspiration ou biopsie dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour aspiration ou biopsie dans une région du corps non spécifiée"
       },
       {
         "code" : "25043-1",
-        "display" : "CT ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "25044-9",
-        "display" : "CT ; guidage pour biopsie percutanée dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour biopsie percutanée dans une région du corps non spécifiée"
       },
       {
         "code" : "25045-6",
-        "display" : "CT dans une région du corps non spécifiée"
+        "display" : "TDM dans une région du corps non spécifiée"
       },
       {
         "code" : "25046-4",
-        "display" : "CT avec anesthésie dans une région du corps non spécifiée"
+        "display" : "TDM avec anesthésie dans une région du corps non spécifiée"
       },
       {
         "code" : "25047-2",
-        "display" : "CT avec sédation consciente dans une région du corps non spécifiée"
+        "display" : "TDM avec sédation consciente dans une région du corps non spécifiée"
       },
       {
         "code" : "25053-0",
-        "display" : "CT ; guidage pour radiochirurgie dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour radiochirurgie dans une région du corps non spécifiée"
       },
       {
         "code" : "25054-8",
-        "display" : "CT ; guidage pour radiochirurgie avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour radiochirurgie avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "25056-3",
-        "display" : "résonance magnétique dans une région du corps non spécifiée"
+        "display" : "IRM dans une région du corps non spécifiée"
       },
       {
         "code" : "25057-1",
-        "display" : "résonance magnétique avec sédation consciente dans une région du corps non spécifiée"
+        "display" : "IRM avec sédation consciente dans une région du corps non spécifiée"
       },
       {
         "code" : "25058-9",
@@ -1920,11 +1920,11 @@ Requête sur le SMT
       },
       {
         "code" : "25063-9",
-        "display" : "angiographie par fluoroscopie vaisseau ; incidence avec contraste intra-artériel"
+        "display" : "angiofluoroscopie vaisseau ; incidence avec contraste intra-artériel"
       },
       {
         "code" : "25064-7",
-        "display" : "angiographie par fluoroscopie vaisseau ; incidences pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie vaisseau ; incidences pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "25065-4",
@@ -1960,7 +1960,7 @@ Requête sur le SMT
       },
       {
         "code" : "25073-8",
-        "display" : "angiographie par fluoroscopie vaisseau ; guidage pour ablation d'un corps étranger"
+        "display" : "angiofluoroscopie vaisseau ; guidage pour ablation d'un corps étranger"
       },
       {
         "code" : "25074-6",
@@ -1968,11 +1968,11 @@ Requête sur le SMT
       },
       {
         "code" : "25076-1",
-        "display" : "angiographie par fluoroscopie artère hépatique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère hépatique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "25077-9",
-        "display" : "angiographie par fluoroscopie artère hépatique ; guidage pour positionnement d'un cathéter avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère hépatique ; guidage pour positionnement d'un cathéter avec contraste intraartériel"
       },
       {
         "code" : "25078-7",
@@ -1980,27 +1980,27 @@ Requête sur le SMT
       },
       {
         "code" : "25079-5",
-        "display" : "angiographie par fluoroscopie artères rénales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères rénales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "25080-3",
-        "display" : "angiographie par fluoroscopie veine rénale - bilatérale ; incidences pour échantillonage de rénine avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale - bilatérale ; incidences pour échantillonage de rénine avec contraste IV"
       },
       {
         "code" : "25081-1",
-        "display" : "angiographie par fluoroscopie vaisseau rénal ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie vaisseau rénal ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "26064-6",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine - bilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "26065-3",
-        "display" : "angiographie par fluoroscopie veine - gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine - gauche ; incidences avec contraste IV"
       },
       {
         "code" : "26066-1",
-        "display" : "angiographie par fluoroscopie veine - droite ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine - droite ; incidences avec contraste IV"
       },
       {
         "code" : "26067-9",
@@ -2052,27 +2052,27 @@ Requête sur le SMT
       },
       {
         "code" : "26079-4",
-        "display" : "angiographie par fluoroscopie artères carotidiennes - bilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes - bilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "26080-2",
-        "display" : "angiographie par fluoroscopie artères carotidiennes - gauches ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes - gauches ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "26081-0",
-        "display" : "angiographie par fluoroscopie artères carotidiennes - droites ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes - droites ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "26082-8",
-        "display" : "angiographie par fluoroscopie artère spinale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère spinale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "26083-6",
-        "display" : "angiographie par fluoroscopie artère du rachis - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère du rachis - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "26084-4",
-        "display" : "angiographie par fluoroscopie artère du rachis - droit ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère du rachis - droit ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "26085-1",
@@ -2412,15 +2412,15 @@ Requête sur le SMT
       },
       {
         "code" : "26178-4",
-        "display" : "angiographie par fluoroscopie artère fémorale - bilatérale ; incidence d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale - bilatérale ; incidence d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "26179-2",
-        "display" : "angiographie par fluoroscopie artère fémorale - gauche ; incidence d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale - gauche ; incidence d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "26180-0",
-        "display" : "angiographie par fluoroscopie artère fémorale - droite ; incidence d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale - droite ; incidence d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "26181-8",
@@ -2436,123 +2436,123 @@ Requête sur le SMT
       },
       {
         "code" : "26184-2",
-        "display" : "CT extrémité - bilatérale avec contraste IV"
+        "display" : "TDM extrémité - bilatérale avec contraste IV"
       },
       {
         "code" : "26185-9",
-        "display" : "CT extrémité gauche avec contraste IV"
+        "display" : "TDM extrémité gauche avec contraste IV"
       },
       {
         "code" : "26186-7",
-        "display" : "CT membre droit avec contraste IV"
+        "display" : "TDM membre droit avec contraste IV"
       },
       {
         "code" : "26187-5",
-        "display" : "résonance magnétique cheville bilatérale sans et avec contraste IV"
+        "display" : "IRM cheville bilatérale sans et avec contraste IV"
       },
       {
         "code" : "26188-3",
-        "display" : "résonance magnétique cheville gauche sans et avec contraste IV"
+        "display" : "IRM cheville gauche sans et avec contraste IV"
       },
       {
         "code" : "26189-1",
-        "display" : "résonance magnétique cheville droite sans et avec contraste IV"
+        "display" : "IRM cheville droite sans et avec contraste IV"
       },
       {
         "code" : "26190-9",
-        "display" : "résonance magnétique plexus brachial - bilatéral sans et avec contraste IV"
+        "display" : "IRM plexus brachial - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "26191-7",
-        "display" : "résonance magnétique plexus brachial - gauche sans et avec contraste IV"
+        "display" : "IRM plexus brachial - gauche sans et avec contraste IV"
       },
       {
         "code" : "26192-5",
-        "display" : "résonance magnétique plexus brachial - droit sans et avec contraste IV"
+        "display" : "IRM plexus brachial - droit sans et avec contraste IV"
       },
       {
         "code" : "26193-3",
-        "display" : "résonance magnétique coude - bilatéral sans et avec contraste IV"
+        "display" : "IRM coude - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "26194-1",
-        "display" : "résonance magnétique coude - gauche sans et avec contraste IV"
+        "display" : "IRM coude - gauche sans et avec contraste IV"
       },
       {
         "code" : "26195-8",
-        "display" : "résonance magnétique coude - droit sans et avec contraste IV"
+        "display" : "IRM coude - droit sans et avec contraste IV"
       },
       {
         "code" : "26196-6",
-        "display" : "résonance magnétique cuisse - bilatérale sans et avec contraste IV"
+        "display" : "IRM cuisse - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "26197-4",
-        "display" : "résonance magnétique cuisse - gauche sans et avec contraste IV"
+        "display" : "IRM cuisse - gauche sans et avec contraste IV"
       },
       {
         "code" : "26198-2",
-        "display" : "résonance magnétique cuisse - droite sans et avec contraste IV"
+        "display" : "IRM cuisse - droite sans et avec contraste IV"
       },
       {
         "code" : "26199-0",
-        "display" : "résonance magnétique genou - bilatéral sans et avec contraste IV"
+        "display" : "IRM genou - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "26200-6",
-        "display" : "résonance magnétique genou - gauche sans et avec contraste IV"
+        "display" : "IRM genou - gauche sans et avec contraste IV"
       },
       {
         "code" : "26201-4",
-        "display" : "résonance magnétique genou - droit sans et avec contraste IV"
+        "display" : "IRM genou - droit sans et avec contraste IV"
       },
       {
         "code" : "26202-2",
-        "display" : "résonance magnétique épaule - bilatérale sans et avec contraste IV"
+        "display" : "IRM épaule - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "26203-0",
-        "display" : "résonance magnétique épaule - gauche sans et avec contraste IV"
+        "display" : "IRM épaule - gauche sans et avec contraste IV"
       },
       {
         "code" : "26204-8",
-        "display" : "résonance magnétique épaule - droite sans et avec contraste IV"
+        "display" : "IRM épaule - droite sans et avec contraste IV"
       },
       {
         "code" : "26205-5",
-        "display" : "résonance magnétique poignet - bilatéral sans et avec contraste IV"
+        "display" : "IRM poignet - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "26206-3",
-        "display" : "résonance magnétique poignet - gauche sans et avec contraste IV"
+        "display" : "IRM poignet - gauche sans et avec contraste IV"
       },
       {
         "code" : "26207-1",
-        "display" : "résonance magnétique poignet - droit sans et avec contraste IV"
+        "display" : "IRM poignet - droit sans et avec contraste IV"
       },
       {
         "code" : "26208-9",
-        "display" : "résonance magnétique cheville bilatérale"
+        "display" : "IRM cheville bilatérale"
       },
       {
         "code" : "26209-7",
-        "display" : "résonance magnétique cheville gauche"
+        "display" : "IRM cheville gauche"
       },
       {
         "code" : "26210-5",
-        "display" : "résonance magnétique cheville droite"
+        "display" : "IRM cheville droite"
       },
       {
         "code" : "26211-3",
-        "display" : "résonance magnétique plexus brachial - bilatéral"
+        "display" : "IRM plexus brachial - bilatéral"
       },
       {
         "code" : "26212-1",
-        "display" : "résonance magnétique plexus brachial - gauche"
+        "display" : "IRM plexus brachial - gauche"
       },
       {
         "code" : "26213-9",
-        "display" : "résonance magnétique plexus brachial - droit"
+        "display" : "IRM plexus brachial - droit"
       },
       {
         "code" : "26214-7",
@@ -2580,15 +2580,15 @@ Requête sur le SMT
       },
       {
         "code" : "26220-4",
-        "display" : "résonance magnétique coude - bilatéral"
+        "display" : "IRM coude - bilatéral"
       },
       {
         "code" : "26221-2",
-        "display" : "résonance magnétique coude - gauche"
+        "display" : "IRM coude - gauche"
       },
       {
         "code" : "26222-0",
-        "display" : "résonance magnétique coude - droit"
+        "display" : "IRM coude - droit"
       },
       {
         "code" : "26223-8",
@@ -2596,7 +2596,7 @@ Requête sur le SMT
       },
       {
         "code" : "26224-6",
-        "display" : "CT extrémité - bilatérale"
+        "display" : "TDM extrémité - bilatérale"
       },
       {
         "code" : "26225-3",
@@ -2604,19 +2604,19 @@ Requête sur le SMT
       },
       {
         "code" : "26226-1",
-        "display" : "CT extrémité gauche"
+        "display" : "TDM extrémité gauche"
       },
       {
         "code" : "26227-9",
-        "display" : "résonance magnétique articulation du membre inférieur - bilatéral"
+        "display" : "IRM articulation du membre inférieur - bilatéral"
       },
       {
         "code" : "26228-7",
-        "display" : "résonance magnétique articulation du membre inférieur - gauche"
+        "display" : "IRM articulation du membre inférieur - gauche"
       },
       {
         "code" : "26229-5",
-        "display" : "résonance magnétique articulation du membre inférieur - droit"
+        "display" : "IRM articulation du membre inférieur - droit"
       },
       {
         "code" : "26230-3",
@@ -2624,79 +2624,79 @@ Requête sur le SMT
       },
       {
         "code" : "26231-1",
-        "display" : "CT membre droit"
+        "display" : "TDM membre droit"
       },
       {
         "code" : "26232-9",
-        "display" : "résonance magnétique membre supérieur - bilatéral"
+        "display" : "IRM membre supérieur - bilatéral"
       },
       {
         "code" : "26233-7",
-        "display" : "résonance magnétique membre supérieur - gauche"
+        "display" : "IRM membre supérieur - gauche"
       },
       {
         "code" : "26234-5",
-        "display" : "résonance magnétique membre supérieur - droit"
+        "display" : "IRM membre supérieur - droit"
       },
       {
         "code" : "26235-2",
-        "display" : "résonance magnétique cuisse - bilatérale"
+        "display" : "IRM cuisse - bilatérale"
       },
       {
         "code" : "26236-0",
-        "display" : "résonance magnétique cuisse - gauche"
+        "display" : "IRM cuisse - gauche"
       },
       {
         "code" : "26237-8",
-        "display" : "résonance magnétique cuisse - droite"
+        "display" : "IRM cuisse - droite"
       },
       {
         "code" : "26238-6",
-        "display" : "résonance magnétique doigt - bilatéral"
+        "display" : "IRM doigt - bilatéral"
       },
       {
         "code" : "26239-4",
-        "display" : "résonance magnétique doigt - gauche"
+        "display" : "IRM doigt - gauche"
       },
       {
         "code" : "26240-2",
-        "display" : "résonance magnétique doigt - droit"
+        "display" : "IRM doigt - droit"
       },
       {
         "code" : "26241-0",
-        "display" : "résonance magnétique pied - bilatéral"
+        "display" : "IRM pied - bilatéral"
       },
       {
         "code" : "26242-8",
-        "display" : "résonance magnétique pied - gauche"
+        "display" : "IRM pied - gauche"
       },
       {
         "code" : "26243-6",
-        "display" : "résonance magnétique pied - droit"
+        "display" : "IRM pied - droit"
       },
       {
         "code" : "26244-4",
-        "display" : "résonance magnétique avantbras - bilatéral"
+        "display" : "IRM avantbras - bilatéral"
       },
       {
         "code" : "26245-1",
-        "display" : "résonance magnétique avantbras - gauche"
+        "display" : "IRM avantbras - gauche"
       },
       {
         "code" : "26246-9",
-        "display" : "résonance magnétique avantbras - droit"
+        "display" : "IRM avantbras - droit"
       },
       {
         "code" : "26247-7",
-        "display" : "résonance magnétique main - bilatérale"
+        "display" : "IRM main - bilatérale"
       },
       {
         "code" : "26248-5",
-        "display" : "résonance magnétique main - gauche"
+        "display" : "IRM main - gauche"
       },
       {
         "code" : "26249-3",
-        "display" : "résonance magnétique main - droite"
+        "display" : "IRM main - droite"
       },
       {
         "code" : "26250-1",
@@ -2724,27 +2724,27 @@ Requête sur le SMT
       },
       {
         "code" : "26256-8",
-        "display" : "résonance magnétique genou - bilatéral"
+        "display" : "IRM genou - bilatéral"
       },
       {
         "code" : "26257-6",
-        "display" : "résonance magnétique genou - gauche"
+        "display" : "IRM genou - gauche"
       },
       {
         "code" : "26258-4",
-        "display" : "résonance magnétique genou - droit"
+        "display" : "IRM genou - droit"
       },
       {
         "code" : "26259-2",
-        "display" : "résonance magnétique pelvis et hanche - bilatéraux"
+        "display" : "IRM pelvis et hanche - bilatéraux"
       },
       {
         "code" : "26260-0",
-        "display" : "résonance magnétique pelvis et hanche - gauche"
+        "display" : "IRM pelvis et hanche - gauche"
       },
       {
         "code" : "26261-8",
-        "display" : "résonance magnétique pelvis et hanche - droite"
+        "display" : "IRM pelvis et hanche - droite"
       },
       {
         "code" : "26262-6",
@@ -2764,7 +2764,7 @@ Requête sur le SMT
       },
       {
         "code" : "26266-7",
-        "display" : "résonance magnétique épaule - bilatérale"
+        "display" : "IRM épaule - bilatérale"
       },
       {
         "code" : "26267-5",
@@ -2772,7 +2772,7 @@ Requête sur le SMT
       },
       {
         "code" : "26268-3",
-        "display" : "résonance magnétique épaule - gauche"
+        "display" : "IRM épaule - gauche"
       },
       {
         "code" : "26269-1",
@@ -2780,7 +2780,7 @@ Requête sur le SMT
       },
       {
         "code" : "26270-9",
-        "display" : "résonance magnétique épaule - droite"
+        "display" : "IRM épaule - droite"
       },
       {
         "code" : "26271-7",
@@ -2796,7 +2796,7 @@ Requête sur le SMT
       },
       {
         "code" : "26277-4",
-        "display" : "résonance magnétique poignet - bilatéral"
+        "display" : "IRM poignet - bilatéral"
       },
       {
         "code" : "26278-2",
@@ -2804,7 +2804,7 @@ Requête sur le SMT
       },
       {
         "code" : "26279-0",
-        "display" : "résonance magnétique poignet - gauche"
+        "display" : "IRM poignet - gauche"
       },
       {
         "code" : "26280-8",
@@ -2812,7 +2812,7 @@ Requête sur le SMT
       },
       {
         "code" : "26281-6",
-        "display" : "résonance magnétique poignet - droit"
+        "display" : "IRM poignet - droit"
       },
       {
         "code" : "26282-4",
@@ -2868,51 +2868,51 @@ Requête sur le SMT
       },
       {
         "code" : "26295-6",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26296-4",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26297-2",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour reposition d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26298-0",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour athérectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour athérectomie avec contraste IV"
       },
       {
         "code" : "26299-8",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour athérectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour athérectomie avec contraste IV"
       },
       {
         "code" : "26300-4",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour athérectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour athérectomie avec contraste IV"
       },
       {
         "code" : "26301-2",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour placement d'un stent"
       },
       {
         "code" : "26302-0",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour placement d'un stent"
       },
       {
         "code" : "26303-8",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour placement d'un stent"
       },
       {
         "code" : "26304-6",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
       },
       {
         "code" : "26305-3",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
       },
       {
         "code" : "26306-1",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour placement d'un cathéter veineux central inséré périphériquement"
       },
       {
         "code" : "26307-9",
@@ -2928,15 +2928,15 @@ Requête sur le SMT
       },
       {
         "code" : "26310-3",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour placement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour placement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26311-1",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour placement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour placement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26312-9",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour placement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour placement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26313-7",
@@ -2964,15 +2964,15 @@ Requête sur le SMT
       },
       {
         "code" : "26319-4",
-        "display" : "CT articulation sacro-iliaque - bilatérale ; guidage pour injection"
+        "display" : "TDM articulation sacro-iliaque - bilatérale ; guidage pour injection"
       },
       {
         "code" : "26320-2",
-        "display" : "CT articulation sacro-iliaque - gauche ; guidage pour injection"
+        "display" : "TDM articulation sacro-iliaque - gauche ; guidage pour injection"
       },
       {
         "code" : "26321-0",
-        "display" : "CT articulation sacro-iliaque - droite ; guidage pour injection"
+        "display" : "TDM articulation sacro-iliaque - droite ; guidage pour injection"
       },
       {
         "code" : "26322-8",
@@ -3012,15 +3012,15 @@ Requête sur le SMT
       },
       {
         "code" : "26331-9",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour changement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour changement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26332-7",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour changement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour changement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26333-5",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour changement d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour changement d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "26334-3",
@@ -3156,15 +3156,15 @@ Requête sur le SMT
       },
       {
         "code" : "26370-7",
-        "display" : "angiographie par fluoroscopie artère iliaque - bilatérale ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère iliaque - bilatérale ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "26371-5",
-        "display" : "angiographie par fluoroscopie artère iliaque - gauche ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère iliaque - gauche ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "26372-3",
-        "display" : "angiographie par fluoroscopie artère iliaque - droite ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère iliaque - droite ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "26379-8",
@@ -3300,7 +3300,7 @@ Requête sur le SMT
       },
       {
         "code" : "28576-7",
-        "display" : "résonance magnétique articulation"
+        "display" : "IRM articulation"
       },
       {
         "code" : "28582-5",
@@ -3316,7 +3316,7 @@ Requête sur le SMT
       },
       {
         "code" : "29252-4",
-        "display" : "CT thorax sans contraste"
+        "display" : "TDM thorax sans contraste"
       },
       {
         "code" : "29756-4",
@@ -3328,191 +3328,191 @@ Requête sur le SMT
       },
       {
         "code" : "30578-9",
-        "display" : "CT ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
       },
       {
         "code" : "30579-7",
-        "display" : "CT articulation zygapophysaire du rachis ; guidage pour injection"
+        "display" : "TDM articulation zygapophysaire du rachis ; guidage pour injection"
       },
       {
         "code" : "30580-5",
-        "display" : "CT ; guidage pour aspiration à l'aiguille fine percutanée dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour aspiration à l'aiguille fine percutanée dans une région du corps non spécifiée"
       },
       {
         "code" : "30581-3",
-        "display" : "CT ; guidage pour radiothérapie avec contraste IV"
+        "display" : "TDM ; guidage pour radiothérapie avec contraste IV"
       },
       {
         "code" : "30582-1",
-        "display" : "CT ; guidage pour radiothérapie sans contraste dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour radiothérapie sans contraste dans une région du corps non spécifiée"
       },
       {
         "code" : "30583-9",
-        "display" : "CT conduit auditif interne avec contraste IV"
+        "display" : "TDM conduit auditif interne avec contraste IV"
       },
       {
         "code" : "30584-7",
-        "display" : "CT conduit auditif interne sans contraste"
+        "display" : "TDM conduit auditif interne sans contraste"
       },
       {
         "code" : "30585-4",
-        "display" : "CT nasopharynx et cou sans contraste"
+        "display" : "TDM nasopharynx et cou sans contraste"
       },
       {
         "code" : "30586-2",
-        "display" : "CT cou sans et avec contraste IV"
+        "display" : "TDM cou sans et avec contraste IV"
       },
       {
         "code" : "30587-0",
-        "display" : "CT orbite - bilatérale sans contraste"
+        "display" : "TDM orbite - bilatérale sans contraste"
       },
       {
         "code" : "30588-8",
-        "display" : "CT sinus"
+        "display" : "TDM sinus"
       },
       {
         "code" : "30589-6",
-        "display" : "CT partie pétreuse de l'os temporal sans contraste"
+        "display" : "TDM partie pétreuse de l'os temporal sans contraste"
       },
       {
         "code" : "30590-4",
-        "display" : "CT hypophyse et selle turcique avec contraste IV"
+        "display" : "TDM hypophyse et selle turcique avec contraste IV"
       },
       {
         "code" : "30591-2",
-        "display" : "CT hypophyse et selle turcique sans contraste"
+        "display" : "TDM hypophyse et selle turcique sans contraste"
       },
       {
         "code" : "30592-0",
-        "display" : "CT rachis cervical sans contraste"
+        "display" : "TDM rachis cervical sans contraste"
       },
       {
         "code" : "30593-8",
-        "display" : "angiographie par tomodensitométrie vaisseaux de la tête sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux de la tête sans et avec contraste IV"
       },
       {
         "code" : "30594-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux du cou sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du cou sans et avec contraste IV"
       },
       {
         "code" : "30595-3",
-        "display" : "CT poumon ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM poumon ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30596-1",
-        "display" : "CT rachis dorsal avec contraste intrathécal"
+        "display" : "TDM rachis dorsal avec contraste intrathécal"
       },
       {
         "code" : "30597-9",
-        "display" : "CT rachis dorsal sans contraste"
+        "display" : "TDM rachis dorsal sans contraste"
       },
       {
         "code" : "30598-7",
-        "display" : "CT thorax sans et avec contraste IV"
+        "display" : "TDM thorax sans et avec contraste IV"
       },
       {
         "code" : "30600-1",
-        "display" : "CT intestin grêle avec contraste positif via une sonde d'entéroclyse"
+        "display" : "TDM intestin grêle avec contraste positif via une sonde d'entéroclyse"
       },
       {
         "code" : "30601-9",
-        "display" : "CT abdomen ; guidage pour biopsie percutanée"
+        "display" : "TDM abdomen ; guidage pour biopsie percutanée"
       },
       {
         "code" : "30602-7",
-        "display" : "CT abdomen ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM abdomen ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30603-5",
-        "display" : "CT foie ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM foie ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30604-3",
-        "display" : "CT pancréas ; guidage pour biopsie percutanée"
+        "display" : "TDM pancréas ; guidage pour biopsie percutanée"
       },
       {
         "code" : "30605-0",
-        "display" : "CT pancréas ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM pancréas ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30606-8",
-        "display" : "CT pelvis ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM pelvis ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30607-6",
-        "display" : "CT rein - bilatéral ; guidage pour biopsie percutanée"
+        "display" : "TDM rein - bilatéral ; guidage pour biopsie percutanée"
       },
       {
         "code" : "30608-4",
-        "display" : "CT rein - bilatéral ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM rein - bilatéral ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30609-2",
-        "display" : "CT rate ; guidage pour biopsie percutanée"
+        "display" : "TDM rate ; guidage pour biopsie percutanée"
       },
       {
         "code" : "30610-0",
-        "display" : "CT rate ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM rate ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "30611-8",
-        "display" : "CT foie sans contraste"
+        "display" : "TDM foie sans contraste"
       },
       {
         "code" : "30612-6",
-        "display" : "CT foie sans et avec contraste IV"
+        "display" : "TDM foie sans et avec contraste IV"
       },
       {
         "code" : "30613-4",
-        "display" : "CT pancréas sans contraste"
+        "display" : "TDM pancréas sans contraste"
       },
       {
         "code" : "30614-2",
-        "display" : "CT pancréas sans et avec contraste IV"
+        "display" : "TDM pancréas sans et avec contraste IV"
       },
       {
         "code" : "30615-9",
-        "display" : "CT pelvis sans contraste"
+        "display" : "TDM pelvis sans contraste"
       },
       {
         "code" : "30616-7",
-        "display" : "CT pelvis sans et avec contraste IV"
+        "display" : "TDM pelvis sans et avec contraste IV"
       },
       {
         "code" : "30619-1",
-        "display" : "CT articulation sacro-iliaque"
+        "display" : "TDM articulation sacro-iliaque"
       },
       {
         "code" : "30620-9",
-        "display" : "CT rachis lombaire sans contraste"
+        "display" : "TDM rachis lombaire sans contraste"
       },
       {
         "code" : "30621-7",
-        "display" : "CT rate sans contraste"
+        "display" : "TDM rate sans contraste"
       },
       {
         "code" : "30622-5",
-        "display" : "CT rate avec contraste IV"
+        "display" : "TDM rate avec contraste IV"
       },
       {
         "code" : "30623-3",
-        "display" : "angiographie par tomodensitométrie vaisseaux du pelvis sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du pelvis sans et avec contraste IV"
       },
       {
         "code" : "30624-1",
-        "display" : "CT membre inférieur avec contraste IV"
+        "display" : "TDM membre inférieur avec contraste IV"
       },
       {
         "code" : "30625-8",
-        "display" : "CT membre inférieur sans contraste"
+        "display" : "TDM membre inférieur sans contraste"
       },
       {
         "code" : "30626-6",
-        "display" : "CT membre supérieur avec contraste IV"
+        "display" : "TDM membre supérieur avec contraste IV"
       },
       {
         "code" : "30627-4",
-        "display" : "CT membre supérieur sans contraste"
+        "display" : "TDM membre supérieur sans contraste"
       },
       {
         "code" : "30628-2",
@@ -3556,15 +3556,15 @@ Requête sur le SMT
       },
       {
         "code" : "30639-9",
-        "display" : "angiographie par fluoroscopie vaisseau ; incidence avec contraste"
+        "display" : "angiofluoroscopie vaisseau ; incidence avec contraste"
       },
       {
         "code" : "30640-7",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour angioplastie avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour angioplastie avec contraste IV"
       },
       {
         "code" : "30641-5",
-        "display" : "angiographie par fluoroscopie veine ; guidage additionnel pour angioplastie avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage additionnel pour angioplastie avec contraste IV"
       },
       {
         "code" : "30642-3",
@@ -3580,7 +3580,7 @@ Requête sur le SMT
       },
       {
         "code" : "30645-6",
-        "display" : "angiographie par fluoroscopie veine cave supérieure ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine cave supérieure ; incidences avec contraste IV"
       },
       {
         "code" : "30646-4",
@@ -3592,11 +3592,11 @@ Requête sur le SMT
       },
       {
         "code" : "30648-0",
-        "display" : "angiographie par fluoroscopie artère périphérique ; incidences pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère périphérique ; incidences pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "30649-8",
-        "display" : "angiographie par fluoroscopie artère périphérique ; guidage additionnel pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère périphérique ; guidage additionnel pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "30650-6",
@@ -3616,163 +3616,163 @@ Requête sur le SMT
       },
       {
         "code" : "30654-8",
-        "display" : "résonance magnétique plexus brachial sans contraste"
+        "display" : "IRM plexus brachial sans contraste"
       },
       {
         "code" : "30655-5",
-        "display" : "résonance magnétique citernes cérébrales"
+        "display" : "IRM citernes cérébrales"
       },
       {
         "code" : "30656-3",
-        "display" : "résonance magnétique cerveau ; guidage pour localisation stéréotaxique avec contraste IV"
+        "display" : "IRM cerveau ; guidage pour localisation stéréotaxique avec contraste IV"
       },
       {
         "code" : "30657-1",
-        "display" : "résonance magnétique cerveau sans contraste"
+        "display" : "IRM cerveau sans contraste"
       },
       {
         "code" : "30658-9",
-        "display" : "résonance magnétique conduit auditif interne sans contraste"
+        "display" : "IRM conduit auditif interne sans contraste"
       },
       {
         "code" : "30659-7",
-        "display" : "résonance magnétique conduit auditif interne sans et avec contraste IV"
+        "display" : "IRM conduit auditif interne sans et avec contraste IV"
       },
       {
         "code" : "30660-5",
-        "display" : "résonance magnétique cou sans contraste"
+        "display" : "IRM cou sans contraste"
       },
       {
         "code" : "30661-3",
-        "display" : "résonance magnétique orbite - bilatérale sans contraste"
+        "display" : "IRM orbite - bilatérale sans contraste"
       },
       {
         "code" : "30662-1",
-        "display" : "résonance magnétique sinus sans contraste"
+        "display" : "IRM sinus sans contraste"
       },
       {
         "code" : "30663-9",
-        "display" : "résonance magnétique sinus sans et avec contraste IV"
+        "display" : "IRM sinus sans et avec contraste IV"
       },
       {
         "code" : "30664-7",
-        "display" : "résonance magnétique guidage pour radiothérapie avec contraste IV dans une région du corps non spécifiée"
+        "display" : "IRM guidage pour radiothérapie avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "30665-4",
-        "display" : "résonance magnétique guidage pour radiothérapie sans contraste dans une région du corps non spécifiée"
+        "display" : "IRM guidage pour radiothérapie sans contraste dans une région du corps non spécifiée"
       },
       {
         "code" : "30666-2",
-        "display" : "résonance magnétique hypophyse et selle turcique sans contraste"
+        "display" : "IRM hypophyse et selle turcique sans contraste"
       },
       {
         "code" : "30667-0",
-        "display" : "résonance magnétique rachis cervical sans contraste"
+        "display" : "IRM rachis cervical sans contraste"
       },
       {
         "code" : "30668-8",
-        "display" : "résonance magnétique abdomen sans contraste"
+        "display" : "IRM abdomen sans contraste"
       },
       {
         "code" : "30669-6",
-        "display" : "résonance magnétique foie sans contraste"
+        "display" : "IRM foie sans contraste"
       },
       {
         "code" : "30670-4",
-        "display" : "résonance magnétique foie sans et avec contraste IV"
+        "display" : "IRM foie sans et avec contraste IV"
       },
       {
         "code" : "30671-2",
-        "display" : "résonance magnétique pelvis et hanche sans contraste"
+        "display" : "IRM pelvis et hanche sans contraste"
       },
       {
         "code" : "30672-0",
-        "display" : "résonance magnétique pelvis et hanche sans et avec contraste IV"
+        "display" : "IRM pelvis et hanche sans et avec contraste IV"
       },
       {
         "code" : "30673-8",
-        "display" : "résonance magnétique pelvis sans contraste"
+        "display" : "IRM pelvis sans contraste"
       },
       {
         "code" : "30674-6",
-        "display" : "résonance magnétique pelvis sans et avec contraste IV"
+        "display" : "IRM pelvis sans et avec contraste IV"
       },
       {
         "code" : "30675-3",
-        "display" : "résonance magnétique prostate"
+        "display" : "IRM prostate"
       },
       {
         "code" : "30678-7",
-        "display" : "résonance magnétique rachis lombaire avec contraste IV"
+        "display" : "IRM rachis lombaire avec contraste IV"
       },
       {
         "code" : "30679-5",
-        "display" : "résonance magnétique rachis lombaire sans contraste"
+        "display" : "IRM rachis lombaire sans contraste"
       },
       {
         "code" : "30680-3",
-        "display" : "résonance magnétique cheville sans contraste"
+        "display" : "IRM cheville sans contraste"
       },
       {
         "code" : "30681-1",
-        "display" : "résonance magnétique pied sans contraste"
+        "display" : "IRM pied sans contraste"
       },
       {
         "code" : "30682-9",
-        "display" : "résonance magnétique pied sans et avec contraste IV"
+        "display" : "IRM pied sans et avec contraste IV"
       },
       {
         "code" : "30683-7",
-        "display" : "résonance magnétique avantbras sans contraste"
+        "display" : "IRM avantbras sans contraste"
       },
       {
         "code" : "30684-5",
-        "display" : "résonance magnétique avantbras sans et avec contraste IV"
+        "display" : "IRM avantbras sans et avec contraste IV"
       },
       {
         "code" : "30685-2",
-        "display" : "résonance magnétique main sans contraste"
+        "display" : "IRM main sans contraste"
       },
       {
         "code" : "30686-0",
-        "display" : "résonance magnétique main sans et avec contraste IV"
+        "display" : "IRM main sans et avec contraste IV"
       },
       {
         "code" : "30687-8",
-        "display" : "résonance magnétique hanche sans contraste"
+        "display" : "IRM hanche sans contraste"
       },
       {
         "code" : "30688-6",
-        "display" : "résonance magnétique hanche sans et avec contraste IV"
+        "display" : "IRM hanche sans et avec contraste IV"
       },
       {
         "code" : "30689-4",
-        "display" : "résonance magnétique bras sans contraste"
+        "display" : "IRM bras sans contraste"
       },
       {
         "code" : "30690-2",
-        "display" : "résonance magnétique bras sans et avec contraste IV"
+        "display" : "IRM bras sans et avec contraste IV"
       },
       {
         "code" : "30691-0",
-        "display" : "résonance magnétique genou sans contraste"
+        "display" : "IRM genou sans contraste"
       },
       {
         "code" : "30692-8",
-        "display" : "résonance magnétique membre inférieur"
+        "display" : "IRM membre inférieur"
       },
       {
         "code" : "30693-6",
-        "display" : "résonance magnétique épaule sans contraste"
+        "display" : "IRM épaule sans contraste"
       },
       {
         "code" : "30694-4",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidence pour absorption avec radionucléide IV"
+        "display" : "MN glande thyroïde ; incidences et incidence pour absorption avec radionucléide IV"
       },
       {
         "code" : "30695-1",
-        "display" : "médecine nucléaire glande thyroïde ; incidences avec radionucléide IV"
+        "display" : "MN glande thyroïde ; incidences avec radionucléide IV"
       },
       {
         "code" : "30696-9",
@@ -3780,7 +3780,7 @@ Requête sur le SMT
       },
       {
         "code" : "30697-7",
-        "display" : "médecine nucléaire système pulmonaire ; incidences de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
+        "display" : "MN système pulmonaire ; incidences de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
       },
       {
         "code" : "30698-5",
@@ -4140,15 +4140,15 @@ Requête sur le SMT
       },
       {
         "code" : "30794-2",
-        "display" : "résonance magnétique sein"
+        "display" : "IRM sein"
       },
       {
         "code" : "30795-9",
-        "display" : "résonance magnétique sein - unilatéral"
+        "display" : "IRM sein - unilatéral"
       },
       {
         "code" : "30796-7",
-        "display" : "résonance magnétique coude sans contraste"
+        "display" : "IRM coude sans contraste"
       },
       {
         "code" : "30797-5",
@@ -4156,35 +4156,35 @@ Requête sur le SMT
       },
       {
         "code" : "30799-1",
-        "display" : "CT tête sans contraste"
+        "display" : "TDM tête sans contraste"
       },
       {
         "code" : "30800-7",
-        "display" : "résonance magnétique cerveau ; guidage pour localisation stéréotaxique sans contraste"
+        "display" : "IRM cerveau ; guidage pour localisation stéréotaxique sans contraste"
       },
       {
         "code" : "30801-5",
-        "display" : "CT région maxillofaciale avec contraste IV"
+        "display" : "TDM région maxillofaciale avec contraste IV"
       },
       {
         "code" : "30802-3",
-        "display" : "CT région maxillofaciale sans contraste"
+        "display" : "TDM région maxillofaciale sans contraste"
       },
       {
         "code" : "30803-1",
-        "display" : "CT région maxillofaciale sans et avec contraste IV"
+        "display" : "TDM région maxillofaciale sans et avec contraste IV"
       },
       {
         "code" : "30804-9",
-        "display" : "angiographie par tomodensitométrie vaisseaux thoraciques sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux thoraciques sans et avec contraste IV"
       },
       {
         "code" : "30805-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux sans et avec contraste IV"
       },
       {
         "code" : "30807-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur sans et avec contraste IV"
       },
       {
         "code" : "30808-0",
@@ -4220,7 +4220,7 @@ Requête sur le SMT
       },
       {
         "code" : "30816-3",
-        "display" : "angiographie par fluoroscopie péritoine ; incidences avec contraste percutané intrapéritonéal"
+        "display" : "angiofluoroscopie péritoine ; incidences avec contraste percutané intrapéritonéal"
       },
       {
         "code" : "30817-1",
@@ -4232,127 +4232,127 @@ Requête sur le SMT
       },
       {
         "code" : "30819-7",
-        "display" : "angiographie par fluoroscopie veines épidurales ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines épidurales ; incidences avec contraste IV"
       },
       {
         "code" : "30820-5",
-        "display" : "angiographie par fluoroscopie artère carotidienne.externe - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne.externe - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30821-3",
-        "display" : "angiographie par fluoroscopie artère carotidienne externe ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne externe ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30822-1",
-        "display" : "angiographie par fluoroscopie artère de la tête - bilatérale et artère du cou - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère de la tête - bilatérale et artère du cou - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30823-9",
-        "display" : "angiographie par fluoroscopie artère de la tête et artère du cou ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère de la tête et artère du cou ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30824-7",
-        "display" : "angiographie par fluoroscopie vaisseau intracrânien et vaisseau du cou ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseau intracrânien et vaisseau du cou ; incidences avec contraste"
       },
       {
         "code" : "30825-4",
-        "display" : "angiographie par fluoroscopie veines de l'orbite ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines de l'orbite ; incidences avec contraste IV"
       },
       {
         "code" : "30828-8",
-        "display" : "angiographie par fluoroscopie artère brachiale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère brachiale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30829-6",
-        "display" : "angiographie par fluoroscopie artère thoracique interne ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère thoracique interne ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30830-4",
-        "display" : "angiographie par fluoroscopie artères pulmonaires - bilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères pulmonaires - bilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30831-2",
-        "display" : "angiographie par fluoroscopie artère surrénale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère surrénale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30832-0",
-        "display" : "angiographie par fluoroscopie artère surrénale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère surrénale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30833-8",
-        "display" : "angiographie par fluoroscopie artères du pelvis ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du pelvis ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30834-6",
-        "display" : "angiographie par fluoroscopie artère rénale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère rénale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30836-1",
-        "display" : "angiographie par fluoroscopie artère viscérale ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère viscérale ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "30837-9",
-        "display" : "angiographie par fluoroscopie aorte abdominale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie aorte abdominale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30838-7",
-        "display" : "angiographie par fluoroscopie aorte et artère fémorale - bilatérale ; incidences d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie aorte et artère fémorale - bilatérale ; incidences d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "30839-5",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques abdominaux ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "30840-3",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux - bilatéraux ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques abdominaux - bilatéraux ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "30841-1",
-        "display" : "angiographie par fluoroscopie veine porte ; incidences avec contraste transhépatique"
+        "display" : "angiofluoroscopie veine porte ; incidences avec contraste transhépatique"
       },
       {
         "code" : "30842-9",
-        "display" : "angiographie par fluoroscopie veine porte ; incidences pour hémodynamique avec contraste transhépatique"
+        "display" : "angiofluoroscopie veine porte ; incidences pour hémodynamique avec contraste transhépatique"
       },
       {
         "code" : "30843-7",
-        "display" : "angiographie par fluoroscopie veine surrénale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine surrénale ; incidences avec contraste IV"
       },
       {
         "code" : "30844-5",
-        "display" : "angiographie par fluoroscopie veine surrénale - bilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine surrénale - bilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "30845-2",
-        "display" : "angiographie par fluoroscopie veine cave inférieure ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine cave inférieure ; incidences avec contraste IV"
       },
       {
         "code" : "30846-0",
-        "display" : "angiographie par fluoroscopie veine rénale - bilatéral ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale - bilatéral ; incidences avec contraste IV"
       },
       {
         "code" : "30847-8",
-        "display" : "angiographie par fluoroscopie veine rénale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale ; incidences avec contraste IV"
       },
       {
         "code" : "30848-6",
-        "display" : "angiographie par fluoroscopie artères d'extrémité ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères d'extrémité ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30849-4",
-        "display" : "angiographie par fluoroscopie artères d'extrémité - bilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères d'extrémité - bilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "30850-2",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques d'extrémité ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques d'extrémité ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "30851-0",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques d'un membre - bilatéral ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques d'un membre - bilatéral ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "30852-8",
-        "display" : "angiographie par fluoroscopie XXX>veines périphériques - bilatérales ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie XXX>veines périphériques - bilatérales ; incidences avec contraste IV"
       },
       {
         "code" : "30853-6",
@@ -4360,11 +4360,11 @@ Requête sur le SMT
       },
       {
         "code" : "30854-4",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire sans contraste"
+        "display" : "IRM rachis cervical et rachis dorsal et rachis lombaire sans contraste"
       },
       {
         "code" : "30855-1",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire sans et avec contraste IV"
+        "display" : "IRM rachis cervical et rachis dorsal et rachis lombaire sans et avec contraste IV"
       },
       {
         "code" : "30856-9",
@@ -4372,7 +4372,7 @@ Requête sur le SMT
       },
       {
         "code" : "30857-7",
-        "display" : "résonance magnétique nerf crânien"
+        "display" : "IRM nerf crânien"
       },
       {
         "code" : "30858-5",
@@ -4384,7 +4384,7 @@ Requête sur le SMT
       },
       {
         "code" : "30860-1",
-        "display" : "résonance magnétique nasopharynx"
+        "display" : "IRM nasopharynx"
       },
       {
         "code" : "30861-9",
@@ -4404,7 +4404,7 @@ Requête sur le SMT
       },
       {
         "code" : "30866-8",
-        "display" : "résonance magnétique plexus lombosacré"
+        "display" : "IRM plexus lombosacré"
       },
       {
         "code" : "30867-6",
@@ -4416,11 +4416,11 @@ Requête sur le SMT
       },
       {
         "code" : "30869-2",
-        "display" : "résonance magnétique jambe sans contraste"
+        "display" : "IRM jambe sans contraste"
       },
       {
         "code" : "30870-0",
-        "display" : "résonance magnétique jambe sans et avec contraste IV"
+        "display" : "IRM jambe sans et avec contraste IV"
       },
       {
         "code" : "30871-8",
@@ -4440,7 +4440,7 @@ Requête sur le SMT
       },
       {
         "code" : "30875-9",
-        "display" : "résonance magnétique articulation du membre supérieur"
+        "display" : "IRM articulation du membre supérieur"
       },
       {
         "code" : "30876-7",
@@ -4500,19 +4500,19 @@ Requête sur le SMT
       },
       {
         "code" : "35881-2",
-        "display" : "angiographie par fluoroscopie artère d'extrémité ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère d'extrémité ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "35882-0",
-        "display" : "angiographie par fluoroscopie veine cave inférieure ; guidage pour angioplastie avec contraste IV"
+        "display" : "angiofluoroscopie veine cave inférieure ; guidage pour angioplastie avec contraste IV"
       },
       {
         "code" : "35883-8",
-        "display" : "angiographie par fluoroscopie aorte abdominale et thoracique ; guidage pour athérectomie avec contraste intraartériel"
+        "display" : "angiofluoroscopie aorte abdominale et thoracique ; guidage pour athérectomie avec contraste intraartériel"
       },
       {
         "code" : "35884-6",
-        "display" : "CT abdomen ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM abdomen ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "35885-3",
@@ -4520,11 +4520,11 @@ Requête sur le SMT
       },
       {
         "code" : "35886-1",
-        "display" : "CT sein ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM sein ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "35887-9",
-        "display" : "CT ; guidage pour aspiration percutanée d'un kyste dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour aspiration percutanée d'un kyste dans une région du corps non spécifiée"
       },
       {
         "code" : "35888-7",
@@ -4540,15 +4540,15 @@ Requête sur le SMT
       },
       {
         "code" : "35891-1",
-        "display" : "CT os ; guidage pour biopsie percutanée"
+        "display" : "TDM os ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35892-9",
-        "display" : "CT tête ; guidage pour biopsie percutanée"
+        "display" : "TDM tête ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35893-7",
-        "display" : "CT sein ; guidage pour biopsie percutanée"
+        "display" : "TDM sein ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35894-5",
@@ -4556,19 +4556,19 @@ Requête sur le SMT
       },
       {
         "code" : "35895-2",
-        "display" : "CT thorax ; guidage pour biopsie percutanée"
+        "display" : "TDM thorax ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35896-0",
-        "display" : "CT membre inférieur ; guidage pour biopsie percutanée"
+        "display" : "TDM membre inférieur ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35897-8",
-        "display" : "CT membre supérieur ; guidage pour biopsie percutanée"
+        "display" : "TDM membre supérieur ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35898-6",
-        "display" : "CT glande salivaire ; guidage pour biopsie percutanée"
+        "display" : "TDM glande salivaire ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35899-4",
@@ -4580,7 +4580,7 @@ Requête sur le SMT
       },
       {
         "code" : "35901-8",
-        "display" : "CT ganglion lymphatique ; guidage pour biopsie percutanée"
+        "display" : "TDM ganglion lymphatique ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35902-6",
@@ -4588,19 +4588,19 @@ Requête sur le SMT
       },
       {
         "code" : "35903-4",
-        "display" : "CT prostate ; guidage pour biopsie"
+        "display" : "TDM prostate ; guidage pour biopsie"
       },
       {
         "code" : "35904-2",
-        "display" : "CT rachis cervical ; guidage pour biopsie percutanée"
+        "display" : "TDM rachis cervical ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35905-9",
-        "display" : "CT rachis lombaire ; guidage pour biopsie percutanée"
+        "display" : "TDM rachis lombaire ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35906-7",
-        "display" : "CT rachis dorsal ; guidage pour biopsie percutanée"
+        "display" : "TDM rachis dorsal ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35907-5",
@@ -4608,19 +4608,19 @@ Requête sur le SMT
       },
       {
         "code" : "35908-3",
-        "display" : "CT glande thyroïde ; guidage pour biopsie percutanée"
+        "display" : "TDM glande thyroïde ; guidage pour biopsie percutanée"
       },
       {
         "code" : "35909-1",
-        "display" : "CT thorax ; guidage pour biopsie percutanée avec contraste IV"
+        "display" : "TDM thorax ; guidage pour biopsie percutanée avec contraste IV"
       },
       {
         "code" : "35910-9",
-        "display" : "CT thorax ; guidage pour biopsie percutanée sans et avec contraste IV"
+        "display" : "TDM thorax ; guidage pour biopsie percutanée sans et avec contraste IV"
       },
       {
         "code" : "35911-7",
-        "display" : "CT thorax ; guidage pour biopsie percutanée sans contraste IV"
+        "display" : "TDM thorax ; guidage pour biopsie percutanée sans contraste IV"
       },
       {
         "code" : "35912-5",
@@ -4628,51 +4628,51 @@ Requête sur le SMT
       },
       {
         "code" : "35913-3",
-        "display" : "CT abdomen ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM abdomen ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35914-1",
-        "display" : "CT anus ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM anus ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35915-8",
-        "display" : "CT appendice ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM appendice ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35916-6",
-        "display" : "CT thorax ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM thorax ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35917-4",
-        "display" : "CT vésicule biliaire ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM vésicule biliaire ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35918-2",
-        "display" : "CT rein ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM rein ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35919-0",
-        "display" : "CT foie ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM foie ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35920-8",
-        "display" : "CT ganglion lymphatique ; guidage pour drainage"
+        "display" : "TDM ganglion lymphatique ; guidage pour drainage"
       },
       {
         "code" : "35921-6",
-        "display" : "CT pelvis ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM pelvis ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35922-4",
-        "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "35923-2",
-        "display" : "CT thorax ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
+        "display" : "TDM thorax ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
       },
       {
         "code" : "35924-0",
-        "display" : "CT thorax ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
+        "display" : "TDM thorax ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
       },
       {
         "code" : "35925-7",
@@ -4688,35 +4688,35 @@ Requête sur le SMT
       },
       {
         "code" : "35928-1",
-        "display" : "CT sein gauche ; guidage pour localisation"
+        "display" : "TDM sein gauche ; guidage pour localisation"
       },
       {
         "code" : "35929-9",
-        "display" : "CT sein droit ; guidage pour localisation"
+        "display" : "TDM sein droit ; guidage pour localisation"
       },
       {
         "code" : "35930-7",
-        "display" : "CT abdomen ; guidage pour blocage nerveux"
+        "display" : "TDM abdomen ; guidage pour blocage nerveux"
       },
       {
         "code" : "35931-5",
-        "display" : "CT pelvis ; guidage pour blocage nerveux"
+        "display" : "TDM pelvis ; guidage pour blocage nerveux"
       },
       {
         "code" : "35932-3",
-        "display" : "CT rachis lombaire ; guidage pour blocage nerveux"
+        "display" : "TDM rachis lombaire ; guidage pour blocage nerveux"
       },
       {
         "code" : "35933-1",
-        "display" : "CT rachis ; guidage pour vertébroplastie percutanée"
+        "display" : "TDM rachis ; guidage pour vertébroplastie percutanée"
       },
       {
         "code" : "35934-9",
-        "display" : "CT rachis lombaire ; guidage pour vertébroplastie percutanée"
+        "display" : "TDM rachis lombaire ; guidage pour vertébroplastie percutanée"
       },
       {
         "code" : "35935-6",
-        "display" : "CT rachis dorsal ; guidage pour vertébroplastie percutanée"
+        "display" : "TDM rachis dorsal ; guidage pour vertébroplastie percutanée"
       },
       {
         "code" : "35936-4",
@@ -4724,11 +4724,11 @@ Requête sur le SMT
       },
       {
         "code" : "35937-2",
-        "display" : "CT ; guidage pour placement des champs de radiothérapie dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour placement des champs de radiothérapie dans une région du corps non spécifiée"
       },
       {
         "code" : "35938-0",
-        "display" : "CT thorax ; guidage pour placement d'une sonde"
+        "display" : "TDM thorax ; guidage pour placement d'une sonde"
       },
       {
         "code" : "35939-8",
@@ -4736,15 +4736,15 @@ Requête sur le SMT
       },
       {
         "code" : "35940-6",
-        "display" : "CT cheville"
+        "display" : "TDM cheville"
       },
       {
         "code" : "35941-4",
-        "display" : "CT cheville bilatérale"
+        "display" : "TDM cheville bilatérale"
       },
       {
         "code" : "35942-2",
-        "display" : "CT cheville gauche"
+        "display" : "TDM cheville gauche"
       },
       {
         "code" : "35943-0",
@@ -4752,11 +4752,11 @@ Requête sur le SMT
       },
       {
         "code" : "35944-8",
-        "display" : "CT cheville droite"
+        "display" : "TDM cheville droite"
       },
       {
         "code" : "35945-5",
-        "display" : "CT aorte abdominale et thoracique"
+        "display" : "TDM aorte abdominale et thoracique"
       },
       {
         "code" : "35946-3",
@@ -4764,19 +4764,19 @@ Requête sur le SMT
       },
       {
         "code" : "35947-1",
-        "display" : "résonance magnétique aorte abdominale et thoracique"
+        "display" : "IRM aorte abdominale et thoracique"
       },
       {
         "code" : "35948-9",
-        "display" : "CT aorte abdominale"
+        "display" : "TDM aorte abdominale"
       },
       {
         "code" : "35949-7",
-        "display" : "résonance magnétique aorte abdominale"
+        "display" : "IRM aorte abdominale"
       },
       {
         "code" : "35950-5",
-        "display" : "résonance magnétique aorte thoracique"
+        "display" : "IRM aorte thoracique"
       },
       {
         "code" : "35951-3",
@@ -4784,31 +4784,31 @@ Requête sur le SMT
       },
       {
         "code" : "35952-1",
-        "display" : "CT appendice"
+        "display" : "TDM appendice"
       },
       {
         "code" : "35953-9",
-        "display" : "résonance magnétique face"
+        "display" : "IRM face"
       },
       {
         "code" : "35954-7",
-        "display" : "résonance magnétique sein gauche"
+        "display" : "IRM sein gauche"
       },
       {
         "code" : "35955-4",
-        "display" : "résonance magnétique sein droit"
+        "display" : "IRM sein droit"
       },
       {
         "code" : "35956-2",
-        "display" : "résonance magnétique conduit auditif interne"
+        "display" : "IRM conduit auditif interne"
       },
       {
         "code" : "35957-0",
-        "display" : "CT conduit auditif interne - gauche"
+        "display" : "TDM conduit auditif interne - gauche"
       },
       {
         "code" : "35958-8",
-        "display" : "CT conduit auditif interne"
+        "display" : "TDM conduit auditif interne"
       },
       {
         "code" : "35959-6",
@@ -4816,15 +4816,15 @@ Requête sur le SMT
       },
       {
         "code" : "35960-4",
-        "display" : "CT clavicule"
+        "display" : "TDM clavicule"
       },
       {
         "code" : "35961-2",
-        "display" : "résonance magnétique clavicule"
+        "display" : "IRM clavicule"
       },
       {
         "code" : "35962-0",
-        "display" : "CT coude"
+        "display" : "TDM coude"
       },
       {
         "code" : "35963-8",
@@ -4836,11 +4836,11 @@ Requête sur le SMT
       },
       {
         "code" : "35965-3",
-        "display" : "CT coude - bilatéral"
+        "display" : "TDM coude - bilatéral"
       },
       {
         "code" : "35966-1",
-        "display" : "CT coude - gauche"
+        "display" : "TDM coude - gauche"
       },
       {
         "code" : "35967-9",
@@ -4848,11 +4848,11 @@ Requête sur le SMT
       },
       {
         "code" : "35968-7",
-        "display" : "CT coude - droit"
+        "display" : "TDM coude - droit"
       },
       {
         "code" : "35969-5",
-        "display" : "CT oesophage"
+        "display" : "TDM oesophage"
       },
       {
         "code" : "35970-3",
@@ -4860,7 +4860,7 @@ Requête sur le SMT
       },
       {
         "code" : "35971-1",
-        "display" : "CT membre inférieur"
+        "display" : "TDM membre inférieur"
       },
       {
         "code" : "35972-9",
@@ -4868,7 +4868,7 @@ Requête sur le SMT
       },
       {
         "code" : "35973-7",
-        "display" : "CT membre inférieur - bilatéral"
+        "display" : "TDM membre inférieur - bilatéral"
       },
       {
         "code" : "35974-5",
@@ -4876,11 +4876,11 @@ Requête sur le SMT
       },
       {
         "code" : "35975-2",
-        "display" : "résonance magnétique membre inférieur - bilatéral"
+        "display" : "IRM membre inférieur - bilatéral"
       },
       {
         "code" : "35976-0",
-        "display" : "CT membre inférieur - gauche"
+        "display" : "TDM membre inférieur - gauche"
       },
       {
         "code" : "35977-8",
@@ -4888,31 +4888,31 @@ Requête sur le SMT
       },
       {
         "code" : "35978-6",
-        "display" : "résonance magnétique membre inférieur - gauche"
+        "display" : "IRM membre inférieur - gauche"
       },
       {
         "code" : "35979-4",
-        "display" : "CT membre inférieur - droit"
+        "display" : "TDM membre inférieur - droit"
       },
       {
         "code" : "35980-2",
-        "display" : "résonance magnétique membre inférieur - droit"
+        "display" : "IRM membre inférieur - droit"
       },
       {
         "code" : "35981-0",
-        "display" : "CT membre supérieur"
+        "display" : "TDM membre supérieur"
       },
       {
         "code" : "35982-8",
-        "display" : "CT membre supérieur - gauche"
+        "display" : "TDM membre supérieur - gauche"
       },
       {
         "code" : "35983-6",
-        "display" : "CT membre supérieur - droit"
+        "display" : "TDM membre supérieur - droit"
       },
       {
         "code" : "35984-4",
-        "display" : "CT cuisse"
+        "display" : "TDM cuisse"
       },
       {
         "code" : "35985-1",
@@ -4924,7 +4924,7 @@ Requête sur le SMT
       },
       {
         "code" : "35987-7",
-        "display" : "CT cuisse - gauche"
+        "display" : "TDM cuisse - gauche"
       },
       {
         "code" : "35988-5",
@@ -4932,15 +4932,15 @@ Requête sur le SMT
       },
       {
         "code" : "35989-3",
-        "display" : "CT cuisse - droite"
+        "display" : "TDM cuisse - droite"
       },
       {
         "code" : "35990-1",
-        "display" : "résonance magnétique du foetus"
+        "display" : "IRM du foetus"
       },
       {
         "code" : "35991-9",
-        "display" : "CT pied"
+        "display" : "TDM pied"
       },
       {
         "code" : "35992-7",
@@ -4948,11 +4948,11 @@ Requête sur le SMT
       },
       {
         "code" : "35993-5",
-        "display" : "CT pied - bilatéral"
+        "display" : "TDM pied - bilatéral"
       },
       {
         "code" : "35994-3",
-        "display" : "CT pied - gauche"
+        "display" : "TDM pied - gauche"
       },
       {
         "code" : "35995-0",
@@ -4960,23 +4960,23 @@ Requête sur le SMT
       },
       {
         "code" : "35996-8",
-        "display" : "CT pied - droit"
+        "display" : "TDM pied - droit"
       },
       {
         "code" : "35997-6",
-        "display" : "CT avantbras"
+        "display" : "TDM avantbras"
       },
       {
         "code" : "35998-4",
-        "display" : "CT avantbras - bilatéral"
+        "display" : "TDM avantbras - bilatéral"
       },
       {
         "code" : "35999-2",
-        "display" : "CT avantbras - gauche"
+        "display" : "TDM avantbras - gauche"
       },
       {
         "code" : "36000-8",
-        "display" : "CT avantbras - droit"
+        "display" : "TDM avantbras - droit"
       },
       {
         "code" : "36001-6",
@@ -4984,7 +4984,7 @@ Requête sur le SMT
       },
       {
         "code" : "36002-4",
-        "display" : "CT main"
+        "display" : "TDM main"
       },
       {
         "code" : "36003-2",
@@ -4992,11 +4992,11 @@ Requête sur le SMT
       },
       {
         "code" : "36004-0",
-        "display" : "CT main - bilatérale"
+        "display" : "TDM main - bilatérale"
       },
       {
         "code" : "36005-7",
-        "display" : "CT main - gauche"
+        "display" : "TDM main - gauche"
       },
       {
         "code" : "36006-5",
@@ -5004,11 +5004,11 @@ Requête sur le SMT
       },
       {
         "code" : "36007-3",
-        "display" : "CT main - droite"
+        "display" : "TDM main - droite"
       },
       {
         "code" : "36008-1",
-        "display" : "résonance magnétique poignet et main"
+        "display" : "IRM poignet et main"
       },
       {
         "code" : "36009-9",
@@ -5024,11 +5024,11 @@ Requête sur le SMT
       },
       {
         "code" : "36013-1",
-        "display" : "résonance magnétique hanche"
+        "display" : "IRM hanche"
       },
       {
         "code" : "36014-9",
-        "display" : "CT hanche"
+        "display" : "TDM hanche"
       },
       {
         "code" : "36015-6",
@@ -5036,15 +5036,15 @@ Requête sur le SMT
       },
       {
         "code" : "36016-4",
-        "display" : "CT hanche - bilatérale"
+        "display" : "TDM hanche - bilatérale"
       },
       {
         "code" : "36017-2",
-        "display" : "résonance magnétique hanche - bilatérale"
+        "display" : "IRM hanche - bilatérale"
       },
       {
         "code" : "36018-0",
-        "display" : "CT hanche - gauche"
+        "display" : "TDM hanche - gauche"
       },
       {
         "code" : "36019-8",
@@ -5052,19 +5052,19 @@ Requête sur le SMT
       },
       {
         "code" : "36020-6",
-        "display" : "résonance magnétique hanche - gauche"
+        "display" : "IRM hanche - gauche"
       },
       {
         "code" : "36021-4",
-        "display" : "CT hanche - droite"
+        "display" : "TDM hanche - droite"
       },
       {
         "code" : "36022-2",
-        "display" : "résonance magnétique hanche - droite"
+        "display" : "IRM hanche - droite"
       },
       {
         "code" : "36023-0",
-        "display" : "CT bras"
+        "display" : "TDM bras"
       },
       {
         "code" : "36024-8",
@@ -5072,31 +5072,31 @@ Requête sur le SMT
       },
       {
         "code" : "36025-5",
-        "display" : "résonance magnétique bras"
+        "display" : "IRM bras"
       },
       {
         "code" : "36026-3",
-        "display" : "CT bras - bilatéral"
+        "display" : "TDM bras - bilatéral"
       },
       {
         "code" : "36027-1",
-        "display" : "CT bras - gauche"
+        "display" : "TDM bras - gauche"
       },
       {
         "code" : "36028-9",
-        "display" : "résonance magnétique bras - gauche"
+        "display" : "IRM bras - gauche"
       },
       {
         "code" : "36029-7",
-        "display" : "CT bras - droit"
+        "display" : "TDM bras - droit"
       },
       {
         "code" : "36030-5",
-        "display" : "résonance magnétique bras - droit"
+        "display" : "IRM bras - droit"
       },
       {
         "code" : "36031-3",
-        "display" : "résonance magnétique articulation sacro-iliaque"
+        "display" : "IRM articulation sacro-iliaque"
       },
       {
         "code" : "36032-1",
@@ -5104,23 +5104,23 @@ Requête sur le SMT
       },
       {
         "code" : "36033-9",
-        "display" : "résonance magnétique rein"
+        "display" : "IRM rein"
       },
       {
         "code" : "36034-7",
-        "display" : "résonance magnétique rein - bilatéral"
+        "display" : "IRM rein - bilatéral"
       },
       {
         "code" : "36035-4",
-        "display" : "résonance magnétique rein - gauche"
+        "display" : "IRM rein - gauche"
       },
       {
         "code" : "36036-2",
-        "display" : "résonance magnétique rein - droit"
+        "display" : "IRM rein - droit"
       },
       {
         "code" : "36037-0",
-        "display" : "CT genou"
+        "display" : "TDM genou"
       },
       {
         "code" : "36038-8",
@@ -5132,11 +5132,11 @@ Requête sur le SMT
       },
       {
         "code" : "36040-4",
-        "display" : "CT genou - bilatéral"
+        "display" : "TDM genou - bilatéral"
       },
       {
         "code" : "36041-2",
-        "display" : "CT genou - gauche"
+        "display" : "TDM genou - gauche"
       },
       {
         "code" : "36042-0",
@@ -5144,7 +5144,7 @@ Requête sur le SMT
       },
       {
         "code" : "36043-8",
-        "display" : "CT genou - droit"
+        "display" : "TDM genou - droit"
       },
       {
         "code" : "36044-6",
@@ -5152,15 +5152,15 @@ Requête sur le SMT
       },
       {
         "code" : "36045-3",
-        "display" : "résonance magnétique larynx"
+        "display" : "IRM larynx"
       },
       {
         "code" : "36046-1",
-        "display" : "résonance magnétique foie"
+        "display" : "IRM foie"
       },
       {
         "code" : "36047-9",
-        "display" : "CT mandibule"
+        "display" : "TDM mandibule"
       },
       {
         "code" : "36048-7",
@@ -5168,67 +5168,67 @@ Requête sur le SMT
       },
       {
         "code" : "36049-5",
-        "display" : "CT maxillaire et mandibule"
+        "display" : "TDM maxillaire et mandibule"
       },
       {
         "code" : "36050-3",
-        "display" : "CT maxillaire"
+        "display" : "TDM maxillaire"
       },
       {
         "code" : "36051-1",
-        "display" : "CT cou"
+        "display" : "TDM cou"
       },
       {
         "code" : "36052-9",
-        "display" : "résonance magnétique pancréas"
+        "display" : "IRM pancréas"
       },
       {
         "code" : "36053-7",
-        "display" : "résonance magnétique glande parathyroïde"
+        "display" : "IRM glande parathyroïde"
       },
       {
         "code" : "36054-5",
-        "display" : "CT plexus brachial"
+        "display" : "TDM plexus brachial"
       },
       {
         "code" : "36055-2",
-        "display" : "CT fosse postérieure"
+        "display" : "TDM fosse postérieure"
       },
       {
         "code" : "36056-0",
-        "display" : "résonance magnétique fosse postérieure"
+        "display" : "IRM fosse postérieure"
       },
       {
         "code" : "36057-8",
-        "display" : "CT prostate"
+        "display" : "TDM prostate"
       },
       {
         "code" : "36058-6",
-        "display" : "CT sacrum"
+        "display" : "TDM sacrum"
       },
       {
         "code" : "36059-4",
-        "display" : "résonance magnétique sacrum"
+        "display" : "IRM sacrum"
       },
       {
         "code" : "36060-2",
-        "display" : "résonance magnétique sacrum et coccyx"
+        "display" : "IRM sacrum et coccyx"
       },
       {
         "code" : "36061-0",
-        "display" : "résonance magnétique scapula"
+        "display" : "IRM scapula"
       },
       {
         "code" : "36062-8",
-        "display" : "CT épaule"
+        "display" : "TDM épaule"
       },
       {
         "code" : "36063-6",
-        "display" : "CT épaule - bilatérale"
+        "display" : "TDM épaule - bilatérale"
       },
       {
         "code" : "36064-4",
-        "display" : "CT épaule - gauche"
+        "display" : "TDM épaule - gauche"
       },
       {
         "code" : "36065-1",
@@ -5236,11 +5236,11 @@ Requête sur le SMT
       },
       {
         "code" : "36066-9",
-        "display" : "CT épaule - droite"
+        "display" : "TDM épaule - droite"
       },
       {
         "code" : "36067-7",
-        "display" : "résonance magnétique rachis"
+        "display" : "IRM rachis"
       },
       {
         "code" : "36068-5",
@@ -5252,31 +5252,31 @@ Requête sur le SMT
       },
       {
         "code" : "36070-1",
-        "display" : "résonance magnétique rate"
+        "display" : "IRM rate"
       },
       {
         "code" : "36071-9",
-        "display" : "CT sternum"
+        "display" : "TDM sternum"
       },
       {
         "code" : "36072-7",
-        "display" : "résonance magnétique sternum"
+        "display" : "IRM sternum"
       },
       {
         "code" : "36073-5",
-        "display" : "résonance magnétique scrotum et testicule"
+        "display" : "IRM scrotum et testicule"
       },
       {
         "code" : "36074-3",
-        "display" : "CT jambe"
+        "display" : "TDM jambe"
       },
       {
         "code" : "36075-0",
-        "display" : "résonance magnétique jambe - gauche"
+        "display" : "IRM jambe - gauche"
       },
       {
         "code" : "36076-8",
-        "display" : "résonance magnétique jambe droite"
+        "display" : "IRM jambe droite"
       },
       {
         "code" : "36077-6",
@@ -5304,7 +5304,7 @@ Requête sur le SMT
       },
       {
         "code" : "36083-4",
-        "display" : "résonance magnétique veine cave inférieure"
+        "display" : "IRM veine cave inférieure"
       },
       {
         "code" : "36084-2",
@@ -5316,731 +5316,731 @@ Requête sur le SMT
       },
       {
         "code" : "36086-7",
-        "display" : "CT abdomen limitée"
+        "display" : "TDM abdomen limitée"
       },
       {
         "code" : "36087-5",
-        "display" : "CT tête limitée"
+        "display" : "TDM tête limitée"
       },
       {
         "code" : "36088-3",
-        "display" : "résonance magnétique conduit auditif interne limitée"
+        "display" : "IRM conduit auditif interne limitée"
       },
       {
         "code" : "36089-1",
-        "display" : "CT thorax limitée"
+        "display" : "TDM thorax limitée"
       },
       {
         "code" : "36090-9",
-        "display" : "CT membre limitée"
+        "display" : "TDM membre limitée"
       },
       {
         "code" : "36091-7",
-        "display" : "résonance magnétique coeur limitée"
+        "display" : "IRM coeur limitée"
       },
       {
         "code" : "36092-5",
-        "display" : "CT hanche limitée"
+        "display" : "TDM hanche limitée"
       },
       {
         "code" : "36093-3",
-        "display" : "résonance magnétique articulation du membre inférieur limitée"
+        "display" : "IRM articulation du membre inférieur limitée"
       },
       {
         "code" : "36094-1",
-        "display" : "résonance magnétique membre supérieur articulation limitée"
+        "display" : "IRM membre supérieur articulation limitée"
       },
       {
         "code" : "36095-8",
-        "display" : "CT abdomen limitée avec contraste IV"
+        "display" : "TDM abdomen limitée avec contraste IV"
       },
       {
         "code" : "36096-6",
-        "display" : "résonance magnétique cerveau limitée avec contraste IV"
+        "display" : "IRM cerveau limitée avec contraste IV"
       },
       {
         "code" : "36097-4",
-        "display" : "CT membre supérieur limitée avec contraste IV"
+        "display" : "TDM membre supérieur limitée avec contraste IV"
       },
       {
         "code" : "36098-2",
-        "display" : "CT pelvis limitée avec contraste IV"
+        "display" : "TDM pelvis limitée avec contraste IV"
       },
       {
         "code" : "36099-0",
-        "display" : "CT rachis cervical limitée avec contraste IV"
+        "display" : "TDM rachis cervical limitée avec contraste IV"
       },
       {
         "code" : "36100-6",
-        "display" : "résonance magnétique rachis lombaire limitée avec contraste IV"
+        "display" : "IRM rachis lombaire limitée avec contraste IV"
       },
       {
         "code" : "36101-4",
-        "display" : "résonance magnétique rachis dorsal limitée avec contraste IV"
+        "display" : "IRM rachis dorsal limitée avec contraste IV"
       },
       {
         "code" : "36102-2",
-        "display" : "CT abdomen limitée sans et avec contraste IV"
+        "display" : "TDM abdomen limitée sans et avec contraste IV"
       },
       {
         "code" : "36103-0",
-        "display" : "CT abdomen limitée sans contraste"
+        "display" : "TDM abdomen limitée sans contraste"
       },
       {
         "code" : "36104-8",
-        "display" : "CT tête limitée sans contraste"
+        "display" : "TDM tête limitée sans contraste"
       },
       {
         "code" : "36105-5",
-        "display" : "résonance magnétique cerveau limitée sans contraste"
+        "display" : "IRM cerveau limitée sans contraste"
       },
       {
         "code" : "36106-3",
-        "display" : "CT membre inférieur limitée sans contraste"
+        "display" : "TDM membre inférieur limitée sans contraste"
       },
       {
         "code" : "36107-1",
-        "display" : "résonance magnétique articulation du membre inférieur - gauche limitée sans contraste"
+        "display" : "IRM articulation du membre inférieur - gauche limitée sans contraste"
       },
       {
         "code" : "36108-9",
-        "display" : "CT pelvis limitée sans contraste"
+        "display" : "TDM pelvis limitée sans contraste"
       },
       {
         "code" : "36109-7",
-        "display" : "CT rachis cervical limitée sans contraste"
+        "display" : "TDM rachis cervical limitée sans contraste"
       },
       {
         "code" : "36110-5",
-        "display" : "CT rachis lombaire limitée sans contraste"
+        "display" : "TDM rachis lombaire limitée sans contraste"
       },
       {
         "code" : "36111-3",
-        "display" : "résonance magnétique rachis lombaire limitée sans contraste"
+        "display" : "IRM rachis lombaire limitée sans contraste"
       },
       {
         "code" : "36112-1",
-        "display" : "résonance magnétique rachis dorsal limitée sans contraste"
+        "display" : "IRM rachis dorsal limitée sans contraste"
       },
       {
         "code" : "36113-9",
-        "display" : "résonance magnétique rein avec contraste IV"
+        "display" : "IRM rein avec contraste IV"
       },
       {
         "code" : "36114-7",
-        "display" : "résonance magnétique sein bilatéral dynamique avec contraste IV"
+        "display" : "IRM sein bilatéral dynamique avec contraste IV"
       },
       {
         "code" : "36115-4",
-        "display" : "résonance magnétique cheville avec contraste intraarticulaire"
+        "display" : "IRM cheville avec contraste intraarticulaire"
       },
       {
         "code" : "36116-2",
-        "display" : "résonance magnétique cheville gauche avec contraste intraarticulaire"
+        "display" : "IRM cheville gauche avec contraste intraarticulaire"
       },
       {
         "code" : "36117-0",
-        "display" : "résonance magnétique cheville droite avec contraste intraarticulaire"
+        "display" : "IRM cheville droite avec contraste intraarticulaire"
       },
       {
         "code" : "36118-8",
-        "display" : "résonance magnétique coude - gauche avec contraste intraarticulaire"
+        "display" : "IRM coude - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "36119-6",
-        "display" : "résonance magnétique coude - droit avec contraste intraarticulaire"
+        "display" : "IRM coude - droit avec contraste intraarticulaire"
       },
       {
         "code" : "36120-4",
-        "display" : "résonance magnétique hanche avec contraste intraarticulaire"
+        "display" : "IRM hanche avec contraste intraarticulaire"
       },
       {
         "code" : "36121-2",
-        "display" : "résonance magnétique hanche - gauche avec contraste intraarticulaire"
+        "display" : "IRM hanche - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "36122-0",
-        "display" : "résonance magnétique hanche - droite avec contraste intraarticulaire"
+        "display" : "IRM hanche - droite avec contraste intraarticulaire"
       },
       {
         "code" : "36123-8",
-        "display" : "CT articulation sacro-iliaque avec contraste intraarticulaire"
+        "display" : "TDM articulation sacro-iliaque avec contraste intraarticulaire"
       },
       {
         "code" : "36124-6",
-        "display" : "CT genou avec contraste intraarticulaire"
+        "display" : "TDM genou avec contraste intraarticulaire"
       },
       {
         "code" : "36125-3",
-        "display" : "résonance magnétique genou avec contraste intraarticulaire"
+        "display" : "IRM genou avec contraste intraarticulaire"
       },
       {
         "code" : "36126-1",
-        "display" : "résonance magnétique genou - gauche avec contraste intraarticulaire"
+        "display" : "IRM genou - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "36127-9",
-        "display" : "résonance magnétique genou - droit avec contraste intraarticulaire"
+        "display" : "IRM genou - droit avec contraste intraarticulaire"
       },
       {
         "code" : "36128-7",
-        "display" : "CT épaule avec contraste intraarticulaire"
+        "display" : "TDM épaule avec contraste intraarticulaire"
       },
       {
         "code" : "36129-5",
-        "display" : "résonance magnétique épaule avec contraste intraarticulaire"
+        "display" : "IRM épaule avec contraste intraarticulaire"
       },
       {
         "code" : "36130-3",
-        "display" : "résonance magnétique épaule - gauche avec contraste intraarticulaire"
+        "display" : "IRM épaule - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "36131-1",
-        "display" : "CT épaule - droite avec contraste intraarticulaire"
+        "display" : "TDM épaule - droite avec contraste intraarticulaire"
       },
       {
         "code" : "36132-9",
-        "display" : "résonance magnétique épaule - droite avec contraste intraarticulaire"
+        "display" : "IRM épaule - droite avec contraste intraarticulaire"
       },
       {
         "code" : "36134-5",
-        "display" : "résonance magnétique abdomen avec contraste IV"
+        "display" : "IRM abdomen avec contraste IV"
       },
       {
         "code" : "36135-2",
-        "display" : "CT cheville avec contraste IV"
+        "display" : "TDM cheville avec contraste IV"
       },
       {
         "code" : "36136-0",
-        "display" : "résonance magnétique cheville avec contraste IV"
+        "display" : "IRM cheville avec contraste IV"
       },
       {
         "code" : "36137-8",
-        "display" : "CT cheville gauche avec contraste IV"
+        "display" : "TDM cheville gauche avec contraste IV"
       },
       {
         "code" : "36138-6",
-        "display" : "résonance magnétique cheville gauche avec contraste IV"
+        "display" : "IRM cheville gauche avec contraste IV"
       },
       {
         "code" : "36139-4",
-        "display" : "CT cheville droite avec contraste IV"
+        "display" : "TDM cheville droite avec contraste IV"
       },
       {
         "code" : "36140-2",
-        "display" : "résonance magnétique cheville droite avec contraste IV"
+        "display" : "IRM cheville droite avec contraste IV"
       },
       {
         "code" : "36141-0",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique avec contraste IV"
+        "display" : "angioscanner aorte abdominale et thoracique avec contraste IV"
       },
       {
         "code" : "36142-8",
-        "display" : "CT aorte abdominale et thoracique avec contraste IV"
+        "display" : "TDM aorte abdominale et thoracique avec contraste IV"
       },
       {
         "code" : "36143-6",
-        "display" : "CT aorte abdominale avec contraste IV"
+        "display" : "TDM aorte abdominale avec contraste IV"
       },
       {
         "code" : "36144-4",
-        "display" : "angiographie par tomodensitométrie arc aortique avec contraste IV"
+        "display" : "angioscanner arc aortique avec contraste IV"
       },
       {
         "code" : "36145-1",
-        "display" : "CT appendice avec contraste IV"
+        "display" : "TDM appendice avec contraste IV"
       },
       {
         "code" : "36146-9",
-        "display" : "angiographie par tomodensitométrie artère carotidienne avec contraste IV"
+        "display" : "angioscanner artère carotidienne avec contraste IV"
       },
       {
         "code" : "36147-7",
-        "display" : "angiographie par tomodensitométrie artères pulmonaires avec contraste IV"
+        "display" : "angioscanner artères pulmonaires avec contraste IV"
       },
       {
         "code" : "36148-5",
-        "display" : "résonance magnétique face avec contraste IV"
+        "display" : "IRM face avec contraste IV"
       },
       {
         "code" : "36149-3",
-        "display" : "résonance magnétique sein avec contraste IV"
+        "display" : "IRM sein avec contraste IV"
       },
       {
         "code" : "36150-1",
-        "display" : "résonance magnétique sein bilatéral avec contraste IV"
+        "display" : "IRM sein bilatéral avec contraste IV"
       },
       {
         "code" : "36151-9",
-        "display" : "résonance magnétique sein gauche avec contraste IV"
+        "display" : "IRM sein gauche avec contraste IV"
       },
       {
         "code" : "36152-7",
-        "display" : "résonance magnétique sein droit avec contraste IV"
+        "display" : "IRM sein droit avec contraste IV"
       },
       {
         "code" : "36155-0",
-        "display" : "résonance magnétique conduit auditif interne avec contraste IV"
+        "display" : "IRM conduit auditif interne avec contraste IV"
       },
       {
         "code" : "36156-8",
-        "display" : "résonance magnétique thorax avec contraste IV"
+        "display" : "IRM thorax avec contraste IV"
       },
       {
         "code" : "36157-6",
-        "display" : "CT coude avec contraste IV"
+        "display" : "TDM coude avec contraste IV"
       },
       {
         "code" : "36158-4",
-        "display" : "résonance magnétique coude avec contraste IV"
+        "display" : "IRM coude avec contraste IV"
       },
       {
         "code" : "36159-2",
-        "display" : "CT coude - gauche avec contraste IV"
+        "display" : "TDM coude - gauche avec contraste IV"
       },
       {
         "code" : "36160-0",
-        "display" : "résonance magnétique coude - gauche avec contraste IV"
+        "display" : "IRM coude - gauche avec contraste IV"
       },
       {
         "code" : "36161-8",
-        "display" : "CT coude - droit avec contraste IV"
+        "display" : "TDM coude - droit avec contraste IV"
       },
       {
         "code" : "36162-6",
-        "display" : "résonance magnétique coude - droit avec contraste IV"
+        "display" : "IRM coude - droit avec contraste IV"
       },
       {
         "code" : "36163-4",
-        "display" : "résonance magnétique membre inférieur - bilatéral avec contraste IV"
+        "display" : "IRM membre inférieur - bilatéral avec contraste IV"
       },
       {
         "code" : "36164-2",
-        "display" : "CT membre inférieur - gauche avec contraste IV"
+        "display" : "TDM membre inférieur - gauche avec contraste IV"
       },
       {
         "code" : "36165-9",
-        "display" : "résonance magnétique membre inférieur - gauche avec contraste IV"
+        "display" : "IRM membre inférieur - gauche avec contraste IV"
       },
       {
         "code" : "36166-7",
-        "display" : "CT membre inférieur - droit avec contraste IV"
+        "display" : "TDM membre inférieur - droit avec contraste IV"
       },
       {
         "code" : "36167-5",
-        "display" : "résonance magnétique membre inférieur - droit avec contraste IV"
+        "display" : "IRM membre inférieur - droit avec contraste IV"
       },
       {
         "code" : "36168-3",
-        "display" : "CT membre supérieur - bilatéral avec contraste IV"
+        "display" : "TDM membre supérieur - bilatéral avec contraste IV"
       },
       {
         "code" : "36169-1",
-        "display" : "CT membre supérieur - gauche avec contraste IV"
+        "display" : "TDM membre supérieur - gauche avec contraste IV"
       },
       {
         "code" : "36170-9",
-        "display" : "CT membre supérieur - droit avec contraste IV"
+        "display" : "TDM membre supérieur - droit avec contraste IV"
       },
       {
         "code" : "36171-7",
-        "display" : "résonance magnétique membre supérieur - droit avec contraste IV"
+        "display" : "IRM membre supérieur - droit avec contraste IV"
       },
       {
         "code" : "36172-5",
-        "display" : "CT cuisse avec contraste IV"
+        "display" : "TDM cuisse avec contraste IV"
       },
       {
         "code" : "36173-3",
-        "display" : "résonance magnétique cuisse avec contraste IV"
+        "display" : "IRM cuisse avec contraste IV"
       },
       {
         "code" : "36174-1",
-        "display" : "CT cuisse - gauche avec contraste IV"
+        "display" : "TDM cuisse - gauche avec contraste IV"
       },
       {
         "code" : "36175-8",
-        "display" : "résonance magnétique cuisse - gauche avec contraste IV"
+        "display" : "IRM cuisse - gauche avec contraste IV"
       },
       {
         "code" : "36176-6",
-        "display" : "CT cuisse - droite avec contraste IV"
+        "display" : "TDM cuisse - droite avec contraste IV"
       },
       {
         "code" : "36177-4",
-        "display" : "résonance magnétique cuisse - droite avec contraste IV"
+        "display" : "IRM cuisse - droite avec contraste IV"
       },
       {
         "code" : "36178-2",
-        "display" : "CT pied avec contraste IV"
+        "display" : "TDM pied avec contraste IV"
       },
       {
         "code" : "36179-0",
-        "display" : "résonance magnétique pied avec contraste IV"
+        "display" : "IRM pied avec contraste IV"
       },
       {
         "code" : "36180-8",
-        "display" : "résonance magnétique pied - bilatéral avec contraste IV"
+        "display" : "IRM pied - bilatéral avec contraste IV"
       },
       {
         "code" : "36181-6",
-        "display" : "CT pied - gauche avec contraste IV"
+        "display" : "TDM pied - gauche avec contraste IV"
       },
       {
         "code" : "36182-4",
-        "display" : "résonance magnétique pied - gauche avec contraste IV"
+        "display" : "IRM pied - gauche avec contraste IV"
       },
       {
         "code" : "36183-2",
-        "display" : "CT pied - droit avec contraste IV"
+        "display" : "TDM pied - droit avec contraste IV"
       },
       {
         "code" : "36184-0",
-        "display" : "résonance magnétique pied - droit avec contraste IV"
+        "display" : "IRM pied - droit avec contraste IV"
       },
       {
         "code" : "36185-7",
-        "display" : "CT avantbras avec contraste IV"
+        "display" : "TDM avantbras avec contraste IV"
       },
       {
         "code" : "36186-5",
-        "display" : "résonance magnétique avantbras avec contraste IV"
+        "display" : "IRM avantbras avec contraste IV"
       },
       {
         "code" : "36187-3",
-        "display" : "CT avantbras - gauche avec contraste IV"
+        "display" : "TDM avantbras - gauche avec contraste IV"
       },
       {
         "code" : "36188-1",
-        "display" : "résonance magnétique avantbras - gauche avec contraste IV"
+        "display" : "IRM avantbras - gauche avec contraste IV"
       },
       {
         "code" : "36189-9",
-        "display" : "CT avantbras - droit avec contraste IV"
+        "display" : "TDM avantbras - droit avec contraste IV"
       },
       {
         "code" : "36190-7",
-        "display" : "résonance magnétique avantbras - droit avec contraste IV"
+        "display" : "IRM avantbras - droit avec contraste IV"
       },
       {
         "code" : "36191-5",
-        "display" : "CT main avec contraste IV"
+        "display" : "TDM main avec contraste IV"
       },
       {
         "code" : "36192-3",
-        "display" : "résonance magnétique main - avec contraste IV"
+        "display" : "IRM main - avec contraste IV"
       },
       {
         "code" : "36193-1",
-        "display" : "CT main - gauche avec contraste IV"
+        "display" : "TDM main - gauche avec contraste IV"
       },
       {
         "code" : "36194-9",
-        "display" : "résonance magnétique main - gauche avec contraste IV"
+        "display" : "IRM main - gauche avec contraste IV"
       },
       {
         "code" : "36195-6",
-        "display" : "CT main - droite avec contraste IV"
+        "display" : "TDM main - droite avec contraste IV"
       },
       {
         "code" : "36196-4",
-        "display" : "résonance magnétique main - droite avec contraste IV"
+        "display" : "IRM main - droite avec contraste IV"
       },
       {
         "code" : "36197-2",
-        "display" : "résonance magnétique coeur avec contraste IV"
+        "display" : "IRM coeur avec contraste IV"
       },
       {
         "code" : "36199-8",
-        "display" : "résonance magnétique hanche avec contraste IV"
+        "display" : "IRM hanche avec contraste IV"
       },
       {
         "code" : "36200-4",
-        "display" : "CT hanche avec contraste IV"
+        "display" : "TDM hanche avec contraste IV"
       },
       {
         "code" : "36201-2",
-        "display" : "CT hanche - bilatérale avec contraste IV"
+        "display" : "TDM hanche - bilatérale avec contraste IV"
       },
       {
         "code" : "36202-0",
-        "display" : "résonance magnétique hanche - bilatérale avec contraste IV"
+        "display" : "IRM hanche - bilatérale avec contraste IV"
       },
       {
         "code" : "36203-8",
-        "display" : "CT hanche - gauche avec contraste IV"
+        "display" : "TDM hanche - gauche avec contraste IV"
       },
       {
         "code" : "36204-6",
-        "display" : "résonance magnétique hanche - gauche avec contraste IV"
+        "display" : "IRM hanche - gauche avec contraste IV"
       },
       {
         "code" : "36205-3",
-        "display" : "CT hanche - droite avec contraste IV"
+        "display" : "TDM hanche - droite avec contraste IV"
       },
       {
         "code" : "36206-1",
-        "display" : "résonance magnétique hanche - droite avec contraste IV"
+        "display" : "IRM hanche - droite avec contraste IV"
       },
       {
         "code" : "36207-9",
-        "display" : "CT bras avec contraste IV"
+        "display" : "TDM bras avec contraste IV"
       },
       {
         "code" : "36208-7",
-        "display" : "résonance magnétique bras avec contraste IV"
+        "display" : "IRM bras avec contraste IV"
       },
       {
         "code" : "36209-5",
-        "display" : "CT bras - gauche avec contraste IV"
+        "display" : "TDM bras - gauche avec contraste IV"
       },
       {
         "code" : "36210-3",
-        "display" : "résonance magnétique bras - gauche avec contraste IV"
+        "display" : "IRM bras - gauche avec contraste IV"
       },
       {
         "code" : "36211-1",
-        "display" : "CT bras - droit avec contraste IV"
+        "display" : "TDM bras - droit avec contraste IV"
       },
       {
         "code" : "36212-9",
-        "display" : "résonance magnétique bras - droit avec contraste IV"
+        "display" : "IRM bras - droit avec contraste IV"
       },
       {
         "code" : "36213-7",
-        "display" : "résonance magnétique articulation du membre inférieur avec contraste IV"
+        "display" : "IRM articulation du membre inférieur avec contraste IV"
       },
       {
         "code" : "36214-5",
-        "display" : "résonance magnétique articulation du membre inférieur - gauche avec contraste IV"
+        "display" : "IRM articulation du membre inférieur - gauche avec contraste IV"
       },
       {
         "code" : "36215-2",
-        "display" : "résonance magnétique articulation du membre inférieur - droit avec contraste IV"
+        "display" : "IRM articulation du membre inférieur - droit avec contraste IV"
       },
       {
         "code" : "36216-0",
-        "display" : "résonance magnétique articulation du membre supérieur avec contraste IV"
+        "display" : "IRM articulation du membre supérieur avec contraste IV"
       },
       {
         "code" : "36217-8",
-        "display" : "CT articulation sacro-iliaque avec contraste IV"
+        "display" : "TDM articulation sacro-iliaque avec contraste IV"
       },
       {
         "code" : "36218-6",
-        "display" : "résonance magnétique articulation sacro-iliaque avec contraste IV"
+        "display" : "IRM articulation sacro-iliaque avec contraste IV"
       },
       {
         "code" : "36219-4",
-        "display" : "résonance magnétique rein - bilatéral avec contraste IV"
+        "display" : "IRM rein - bilatéral avec contraste IV"
       },
       {
         "code" : "36220-2",
-        "display" : "résonance magnétique rein - gauche avec contraste IV"
+        "display" : "IRM rein - gauche avec contraste IV"
       },
       {
         "code" : "36221-0",
-        "display" : "résonance magnétique rein - droit avec contraste IV"
+        "display" : "IRM rein - droit avec contraste IV"
       },
       {
         "code" : "36222-8",
-        "display" : "CT genou avec contraste IV"
+        "display" : "TDM genou avec contraste IV"
       },
       {
         "code" : "36223-6",
-        "display" : "résonance magnétique genou avec contraste IV"
+        "display" : "IRM genou avec contraste IV"
       },
       {
         "code" : "36224-4",
-        "display" : "résonance magnétique genou - bilatéral avec contraste IV"
+        "display" : "IRM genou - bilatéral avec contraste IV"
       },
       {
         "code" : "36225-1",
-        "display" : "CT genou - gauche avec contraste IV"
+        "display" : "TDM genou - gauche avec contraste IV"
       },
       {
         "code" : "36226-9",
-        "display" : "résonance magnétique genou - gauche avec contraste IV"
+        "display" : "IRM genou - gauche avec contraste IV"
       },
       {
         "code" : "36227-7",
-        "display" : "CT genou - droit avec contraste IV"
+        "display" : "TDM genou - droit avec contraste IV"
       },
       {
         "code" : "36228-5",
-        "display" : "résonance magnétique genou - droit avec contraste IV"
+        "display" : "IRM genou - droit avec contraste IV"
       },
       {
         "code" : "36229-3",
-        "display" : "CT larynx avec contraste IV"
+        "display" : "TDM larynx avec contraste IV"
       },
       {
         "code" : "36230-1",
-        "display" : "résonance magnétique larynx avec contraste IV"
+        "display" : "IRM larynx avec contraste IV"
       },
       {
         "code" : "36231-9",
-        "display" : "résonance magnétique foie avec contraste IV"
+        "display" : "IRM foie avec contraste IV"
       },
       {
         "code" : "36232-7",
-        "display" : "CT mandibule avec contraste IV"
+        "display" : "TDM mandibule avec contraste IV"
       },
       {
         "code" : "36233-5",
-        "display" : "résonance magnétique nasopharynx avec contraste IV"
+        "display" : "IRM nasopharynx avec contraste IV"
       },
       {
         "code" : "36234-3",
-        "display" : "angiographie par tomodensitométrie vaisseaux du cou avec contraste IV"
+        "display" : "angioscanner vaisseaux du cou avec contraste IV"
       },
       {
         "code" : "36235-0",
-        "display" : "CT cou avec contraste IV"
+        "display" : "TDM cou avec contraste IV"
       },
       {
         "code" : "36236-8",
-        "display" : "résonance magnétique pancréas avec contraste IV"
+        "display" : "IRM pancréas avec contraste IV"
       },
       {
         "code" : "36237-6",
-        "display" : "résonance magnétique pelvis avec contraste IV"
+        "display" : "IRM pelvis avec contraste IV"
       },
       {
         "code" : "36238-4",
-        "display" : "résonance magnétique hypophyse et selle turcique avec contraste IV"
+        "display" : "IRM hypophyse et selle turcique avec contraste IV"
       },
       {
         "code" : "36239-2",
-        "display" : "résonance magnétique plexus brachial avec contraste IV"
+        "display" : "IRM plexus brachial avec contraste IV"
       },
       {
         "code" : "36240-0",
-        "display" : "résonance magnétique plexus brachial - gauche avec contraste IV"
+        "display" : "IRM plexus brachial - gauche avec contraste IV"
       },
       {
         "code" : "36241-8",
-        "display" : "résonance magnétique plexus brachial - droit avec contraste IV"
+        "display" : "IRM plexus brachial - droit avec contraste IV"
       },
       {
         "code" : "36242-6",
-        "display" : "CT fosse postérieure avec contraste IV"
+        "display" : "TDM fosse postérieure avec contraste IV"
       },
       {
         "code" : "36243-4",
-        "display" : "résonance magnétique fosse postérieure avec contraste IV"
+        "display" : "IRM fosse postérieure avec contraste IV"
       },
       {
         "code" : "36244-2",
-        "display" : "résonance magnétique prostate avec contraste IV"
+        "display" : "IRM prostate avec contraste IV"
       },
       {
         "code" : "36245-9",
-        "display" : "CT sacrum avec contraste IV"
+        "display" : "TDM sacrum avec contraste IV"
       },
       {
         "code" : "36246-7",
-        "display" : "résonance magnétique sacrum avec contraste IV"
+        "display" : "IRM sacrum avec contraste IV"
       },
       {
         "code" : "36247-5",
-        "display" : "résonance magnétique sacrum et coccyx avec contraste IV"
+        "display" : "IRM sacrum et coccyx avec contraste IV"
       },
       {
         "code" : "36248-3",
-        "display" : "résonance magnétique scapula - gauche avec contraste IV"
+        "display" : "IRM scapula - gauche avec contraste IV"
       },
       {
         "code" : "36249-1",
-        "display" : "résonance magnétique scapula - droite avec contraste IV"
+        "display" : "IRM scapula - droite avec contraste IV"
       },
       {
         "code" : "36250-9",
-        "display" : "CT épaule avec contraste IV"
+        "display" : "TDM épaule avec contraste IV"
       },
       {
         "code" : "36251-7",
-        "display" : "résonance magnétique épaule avec contraste IV"
+        "display" : "IRM épaule avec contraste IV"
       },
       {
         "code" : "36252-5",
-        "display" : "CT épaule - gauche avec contraste IV"
+        "display" : "TDM épaule - gauche avec contraste IV"
       },
       {
         "code" : "36253-3",
-        "display" : "CT épaule - droite avec contraste IV"
+        "display" : "TDM épaule - droite avec contraste IV"
       },
       {
         "code" : "36254-1",
-        "display" : "résonance magnétique épaule - droite avec contraste IV"
+        "display" : "IRM épaule - droite avec contraste IV"
       },
       {
         "code" : "36255-8",
-        "display" : "CT sinus avec contraste IV"
+        "display" : "TDM sinus avec contraste IV"
       },
       {
         "code" : "36256-6",
-        "display" : "résonance magnétique rachis avec contraste IV"
+        "display" : "IRM rachis avec contraste IV"
       },
       {
         "code" : "36257-4",
-        "display" : "CT sternum avec contraste IV"
+        "display" : "TDM sternum avec contraste IV"
       },
       {
         "code" : "36258-2",
-        "display" : "CT jambe avec contraste IV"
+        "display" : "TDM jambe avec contraste IV"
       },
       {
         "code" : "36259-0",
-        "display" : "résonance magnétique jambe avec contraste IV"
+        "display" : "IRM jambe avec contraste IV"
       },
       {
         "code" : "36260-8",
-        "display" : "CT jambe - gauche avec contraste IV"
+        "display" : "TDM jambe - gauche avec contraste IV"
       },
       {
         "code" : "36261-6",
-        "display" : "résonance magnétique jambe - gauche avec contraste IV"
+        "display" : "IRM jambe - gauche avec contraste IV"
       },
       {
         "code" : "36262-4",
-        "display" : "CT jambe droite avec contraste IV"
+        "display" : "TDM jambe droite avec contraste IV"
       },
       {
         "code" : "36263-2",
-        "display" : "résonance magnétique jambe droite avec contraste IV"
+        "display" : "IRM jambe droite avec contraste IV"
       },
       {
         "code" : "36264-0",
-        "display" : "CT utérus avec contraste IV"
+        "display" : "TDM utérus avec contraste IV"
       },
       {
         "code" : "36265-7",
-        "display" : "résonance magnétique utérus avec contraste IV"
+        "display" : "IRM utérus avec contraste IV"
       },
       {
         "code" : "36266-5",
-        "display" : "angiographie par tomodensitométrie vaisseaux thoraciques avec contraste IV"
+        "display" : "angioscanner vaisseaux thoraciques avec contraste IV"
       },
       {
         "code" : "36267-3",
-        "display" : "CT abdomen sans et avec contraste IV"
+        "display" : "TDM abdomen sans et avec contraste IV"
       },
       {
         "code" : "36268-1",
-        "display" : "CT cheville sans et avec contraste IV"
+        "display" : "TDM cheville sans et avec contraste IV"
       },
       {
         "code" : "36269-9",
-        "display" : "CT cheville gauche sans et avec contraste IV"
+        "display" : "TDM cheville gauche sans et avec contraste IV"
       },
       {
         "code" : "36270-7",
-        "display" : "CT cheville droite sans et avec contraste IV"
+        "display" : "TDM cheville droite sans et avec contraste IV"
       },
       {
         "code" : "36271-5",
-        "display" : "CT aorte abdominale sans et avec contraste IV"
+        "display" : "TDM aorte abdominale sans et avec contraste IV"
       },
       {
         "code" : "36272-3",
@@ -6048,7 +6048,7 @@ Requête sur le SMT
       },
       {
         "code" : "36273-1",
-        "display" : "résonance magnétique aorte abdominale sans et avec contraste IV"
+        "display" : "IRM aorte abdominale sans et avec contraste IV"
       },
       {
         "code" : "36274-9",
@@ -6060,63 +6060,63 @@ Requête sur le SMT
       },
       {
         "code" : "36276-4",
-        "display" : "résonance magnétique sein sans et avec contraste IV"
+        "display" : "IRM sein sans et avec contraste IV"
       },
       {
         "code" : "36277-2",
-        "display" : "résonance magnétique sein bilatéral sans et avec contraste IV"
+        "display" : "IRM sein bilatéral sans et avec contraste IV"
       },
       {
         "code" : "36278-0",
-        "display" : "résonance magnétique sein gauche sans et avec contraste IV"
+        "display" : "IRM sein gauche sans et avec contraste IV"
       },
       {
         "code" : "36279-8",
-        "display" : "résonance magnétique sein droit sans et avec contraste IV"
+        "display" : "IRM sein droit sans et avec contraste IV"
       },
       {
         "code" : "36282-2",
-        "display" : "CT conduit auditif interne sans et avec contraste IV"
+        "display" : "TDM conduit auditif interne sans et avec contraste IV"
       },
       {
         "code" : "36283-0",
-        "display" : "résonance magnétique thorax sans et avec contraste IV"
+        "display" : "IRM thorax sans et avec contraste IV"
       },
       {
         "code" : "36284-8",
-        "display" : "résonance magnétique thorax et abdomen sans et avec contraste IV"
+        "display" : "IRM thorax et abdomen sans et avec contraste IV"
       },
       {
         "code" : "36285-5",
-        "display" : "CT coude sans et avec contraste IV"
+        "display" : "TDM coude sans et avec contraste IV"
       },
       {
         "code" : "36286-3",
-        "display" : "CT coude - gauche sans et avec contraste IV"
+        "display" : "TDM coude - gauche sans et avec contraste IV"
       },
       {
         "code" : "36287-1",
-        "display" : "CT coude - droit sans et avec contraste IV"
+        "display" : "TDM coude - droit sans et avec contraste IV"
       },
       {
         "code" : "36288-9",
-        "display" : "CT membre inférieur sans et avec contraste IV"
+        "display" : "TDM membre inférieur sans et avec contraste IV"
       },
       {
         "code" : "36289-7",
-        "display" : "résonance magnétique membre inférieur - bilatéral sans et avec contraste IV"
+        "display" : "IRM membre inférieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "36290-5",
-        "display" : "CT membre inférieur - gauche sans et avec contraste IV"
+        "display" : "TDM membre inférieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "36291-3",
-        "display" : "résonance magnétique membre inférieur - gauche sans et avec contraste IV"
+        "display" : "IRM membre inférieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "36292-1",
-        "display" : "CT membre inférieur - droit sans et avec contraste IV"
+        "display" : "TDM membre inférieur - droit sans et avec contraste IV"
       },
       {
         "code" : "36293-9",
@@ -6280,319 +6280,319 @@ Requête sur le SMT
       },
       {
         "code" : "36333-3",
-        "display" : "résonance magnétique membre inférieur - droit sans et avec contraste IV"
+        "display" : "IRM membre inférieur - droit sans et avec contraste IV"
       },
       {
         "code" : "36334-1",
-        "display" : "CT membre supérieur sans et avec contraste IV"
+        "display" : "TDM membre supérieur sans et avec contraste IV"
       },
       {
         "code" : "36335-8",
-        "display" : "CT membre supérieur - gauche sans et avec contraste IV"
+        "display" : "TDM membre supérieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "36336-6",
-        "display" : "CT membre supérieur - droit sans et avec contraste IV"
+        "display" : "TDM membre supérieur - droit sans et avec contraste IV"
       },
       {
         "code" : "36337-4",
-        "display" : "résonance magnétique membre supérieur - droit sans et avec contraste IV"
+        "display" : "IRM membre supérieur - droit sans et avec contraste IV"
       },
       {
         "code" : "36338-2",
-        "display" : "CT cuisse sans et avec contraste IV"
+        "display" : "TDM cuisse sans et avec contraste IV"
       },
       {
         "code" : "36339-0",
-        "display" : "CT cuisse - gauche sans et avec contraste IV"
+        "display" : "TDM cuisse - gauche sans et avec contraste IV"
       },
       {
         "code" : "36340-8",
-        "display" : "CT cuisse - droite sans et avec contraste IV"
+        "display" : "TDM cuisse - droite sans et avec contraste IV"
       },
       {
         "code" : "36341-6",
-        "display" : "CT pied sans et avec contraste IV"
+        "display" : "TDM pied sans et avec contraste IV"
       },
       {
         "code" : "36342-4",
-        "display" : "résonance magnétique pied - bilatéral sans et avec contraste IV"
+        "display" : "IRM pied - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "36343-2",
-        "display" : "CT pied - gauche sans et avec contraste IV"
+        "display" : "TDM pied - gauche sans et avec contraste IV"
       },
       {
         "code" : "36344-0",
-        "display" : "résonance magnétique pied - gauche sans et avec contraste IV"
+        "display" : "IRM pied - gauche sans et avec contraste IV"
       },
       {
         "code" : "36345-7",
-        "display" : "CT pied - droit sans et avec contraste IV"
+        "display" : "TDM pied - droit sans et avec contraste IV"
       },
       {
         "code" : "36346-5",
-        "display" : "résonance magnétique pied - droit sans et avec contraste IV"
+        "display" : "IRM pied - droit sans et avec contraste IV"
       },
       {
         "code" : "36347-3",
-        "display" : "CT avantbras sans et avec contraste IV"
+        "display" : "TDM avantbras sans et avec contraste IV"
       },
       {
         "code" : "36348-1",
-        "display" : "CT avantbras - gauche sans et avec contraste IV"
+        "display" : "TDM avantbras - gauche sans et avec contraste IV"
       },
       {
         "code" : "36349-9",
-        "display" : "résonance magnétique avantbras - gauche sans et avec contraste IV"
+        "display" : "IRM avantbras - gauche sans et avec contraste IV"
       },
       {
         "code" : "36350-7",
-        "display" : "CT avantbras - droit sans et avec contraste IV"
+        "display" : "TDM avantbras - droit sans et avec contraste IV"
       },
       {
         "code" : "36351-5",
-        "display" : "résonance magnétique avantbras - droit sans et avec contraste IV"
+        "display" : "IRM avantbras - droit sans et avec contraste IV"
       },
       {
         "code" : "36352-3",
-        "display" : "CT main sans et avec contraste IV"
+        "display" : "TDM main sans et avec contraste IV"
       },
       {
         "code" : "36353-1",
-        "display" : "CT main - gauche sans et avec contraste IV"
+        "display" : "TDM main - gauche sans et avec contraste IV"
       },
       {
         "code" : "36354-9",
-        "display" : "résonance magnétique main - gauche sans et avec contraste IV"
+        "display" : "IRM main - gauche sans et avec contraste IV"
       },
       {
         "code" : "36355-6",
-        "display" : "CT main - droite sans et avec contraste IV"
+        "display" : "TDM main - droite sans et avec contraste IV"
       },
       {
         "code" : "36356-4",
-        "display" : "résonance magnétique main - droite sans et avec contraste IV"
+        "display" : "IRM main - droite sans et avec contraste IV"
       },
       {
         "code" : "36357-2",
-        "display" : "résonance magnétique coeur sans et avec contraste IV"
+        "display" : "IRM coeur sans et avec contraste IV"
       },
       {
         "code" : "36359-8",
-        "display" : "CT hanche sans et avec contraste IV"
+        "display" : "TDM hanche sans et avec contraste IV"
       },
       {
         "code" : "36360-6",
-        "display" : "CT hanche - bilatérale sans et avec contraste IV"
+        "display" : "TDM hanche - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "36361-4",
-        "display" : "résonance magnétique hanche - bilatérale sans et avec contraste IV"
+        "display" : "IRM hanche - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "36362-2",
-        "display" : "CT hanche - gauche sans et avec contraste IV"
+        "display" : "TDM hanche - gauche sans et avec contraste IV"
       },
       {
         "code" : "36363-0",
-        "display" : "résonance magnétique hanche - gauche sans et avec contraste IV"
+        "display" : "IRM hanche - gauche sans et avec contraste IV"
       },
       {
         "code" : "36364-8",
-        "display" : "CT hanche - droite sans et avec contraste IV"
+        "display" : "TDM hanche - droite sans et avec contraste IV"
       },
       {
         "code" : "36365-5",
-        "display" : "résonance magnétique hanche - droite sans et avec contraste IV"
+        "display" : "IRM hanche - droite sans et avec contraste IV"
       },
       {
         "code" : "36366-3",
-        "display" : "CT bras sans et avec contraste IV"
+        "display" : "TDM bras sans et avec contraste IV"
       },
       {
         "code" : "36367-1",
-        "display" : "CT bras - gauche sans et avec contraste IV"
+        "display" : "TDM bras - gauche sans et avec contraste IV"
       },
       {
         "code" : "36368-9",
-        "display" : "résonance magnétique bras - gauche sans et avec contraste IV"
+        "display" : "IRM bras - gauche sans et avec contraste IV"
       },
       {
         "code" : "36369-7",
-        "display" : "CT bras - droit sans et avec contraste IV"
+        "display" : "TDM bras - droit sans et avec contraste IV"
       },
       {
         "code" : "36370-5",
-        "display" : "résonance magnétique bras - droit sans et avec contraste IV"
+        "display" : "IRM bras - droit sans et avec contraste IV"
       },
       {
         "code" : "36371-3",
-        "display" : "résonance magnétique articulation du membre inférieur sans et avec contraste IV"
+        "display" : "IRM articulation du membre inférieur sans et avec contraste IV"
       },
       {
         "code" : "36372-1",
-        "display" : "résonance magnétique articulation du membre inférieur - gauche sans et avec contraste IV"
+        "display" : "IRM articulation du membre inférieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "36373-9",
-        "display" : "résonance magnétique articulation du membre inférieur - droit sans et avec contraste IV"
+        "display" : "IRM articulation du membre inférieur - droit sans et avec contraste IV"
       },
       {
         "code" : "36374-7",
-        "display" : "résonance magnétique membre supérieur.articulation sans et avec contraste IV"
+        "display" : "IRM membre supérieur.articulation sans et avec contraste IV"
       },
       {
         "code" : "36375-4",
-        "display" : "CT articulation sacro-iliaque sans et avec contraste IV"
+        "display" : "TDM articulation sacro-iliaque sans et avec contraste IV"
       },
       {
         "code" : "36376-2",
-        "display" : "résonance magnétique articulation sacro-iliaque sans et avec contraste IV"
+        "display" : "IRM articulation sacro-iliaque sans et avec contraste IV"
       },
       {
         "code" : "36377-0",
-        "display" : "CT rein - bilatéral sans et avec contraste IV"
+        "display" : "TDM rein - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "36378-8",
-        "display" : "résonance magnétique rein - bilatéral sans et avec contraste IV"
+        "display" : "IRM rein - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "36379-6",
-        "display" : "CT genou sans et avec contraste IV"
+        "display" : "TDM genou sans et avec contraste IV"
       },
       {
         "code" : "36380-4",
-        "display" : "CT genou - gauche sans et avec contraste IV"
+        "display" : "TDM genou - gauche sans et avec contraste IV"
       },
       {
         "code" : "36381-2",
-        "display" : "CT genou - droit sans et avec contraste IV"
+        "display" : "TDM genou - droit sans et avec contraste IV"
       },
       {
         "code" : "36382-0",
-        "display" : "résonance magnétique larynx sans et avec contraste IV"
+        "display" : "IRM larynx sans et avec contraste IV"
       },
       {
         "code" : "36383-8",
-        "display" : "CT mandibule sans et avec contraste IV"
+        "display" : "TDM mandibule sans et avec contraste IV"
       },
       {
         "code" : "36384-6",
-        "display" : "résonance magnétique nasopharynx sans et avec contraste IV"
+        "display" : "IRM nasopharynx sans et avec contraste IV"
       },
       {
         "code" : "36385-3",
-        "display" : "résonance magnétique pancréas sans et avec contraste IV"
+        "display" : "IRM pancréas sans et avec contraste IV"
       },
       {
         "code" : "36387-9",
-        "display" : "CT fosse postérieure sans et avec contraste IV"
+        "display" : "TDM fosse postérieure sans et avec contraste IV"
       },
       {
         "code" : "36388-7",
-        "display" : "résonance magnétique fosse postérieure sans et avec contraste IV"
+        "display" : "IRM fosse postérieure sans et avec contraste IV"
       },
       {
         "code" : "36389-5",
-        "display" : "résonance magnétique prostate sans et avec contraste IV"
+        "display" : "IRM prostate sans et avec contraste IV"
       },
       {
         "code" : "36390-3",
-        "display" : "CT sacrum sans et avec contraste IV"
+        "display" : "TDM sacrum sans et avec contraste IV"
       },
       {
         "code" : "36391-1",
-        "display" : "résonance magnétique sacrum sans et avec contraste IV"
+        "display" : "IRM sacrum sans et avec contraste IV"
       },
       {
         "code" : "36392-9",
-        "display" : "résonance magnétique sacrum et coccyx sans et avec contraste IV"
+        "display" : "IRM sacrum et coccyx sans et avec contraste IV"
       },
       {
         "code" : "36393-7",
-        "display" : "résonance magnétique scapula - gauche sans et avec contraste IV"
+        "display" : "IRM scapula - gauche sans et avec contraste IV"
       },
       {
         "code" : "36394-5",
-        "display" : "résonance magnétique scapula - droite sans et avec contraste IV"
+        "display" : "IRM scapula - droite sans et avec contraste IV"
       },
       {
         "code" : "36395-2",
-        "display" : "CT épaule sans et avec contraste IV"
+        "display" : "TDM épaule sans et avec contraste IV"
       },
       {
         "code" : "36396-0",
-        "display" : "CT épaule - gauche sans et avec contraste IV"
+        "display" : "TDM épaule - gauche sans et avec contraste IV"
       },
       {
         "code" : "36397-8",
-        "display" : "CT épaule - droite sans et avec contraste IV"
+        "display" : "TDM épaule - droite sans et avec contraste IV"
       },
       {
         "code" : "36398-6",
-        "display" : "CT sinus sans et avec contraste IV"
+        "display" : "TDM sinus sans et avec contraste IV"
       },
       {
         "code" : "36399-4",
-        "display" : "CT rachis sans et avec contraste IV"
+        "display" : "TDM rachis sans et avec contraste IV"
       },
       {
         "code" : "36400-0",
-        "display" : "résonance magnétique rachis sans et avec contraste IV"
+        "display" : "IRM rachis sans et avec contraste IV"
       },
       {
         "code" : "36401-8",
-        "display" : "CT rachis cervical sans et avec contraste IV"
+        "display" : "TDM rachis cervical sans et avec contraste IV"
       },
       {
         "code" : "36402-6",
-        "display" : "CT rachis lombaire sans et avec contraste IV"
+        "display" : "TDM rachis lombaire sans et avec contraste IV"
       },
       {
         "code" : "36403-4",
-        "display" : "CT rachis dorsal sans et avec contraste IV"
+        "display" : "TDM rachis dorsal sans et avec contraste IV"
       },
       {
         "code" : "36404-2",
-        "display" : "résonance magnétique rate sans et avec contraste IV"
+        "display" : "IRM rate sans et avec contraste IV"
       },
       {
         "code" : "36405-9",
-        "display" : "CT sternum sans et avec contraste IV"
+        "display" : "TDM sternum sans et avec contraste IV"
       },
       {
         "code" : "36406-7",
-        "display" : "résonance magnétique scrotum et testicule sans et avec contraste IV"
+        "display" : "IRM scrotum et testicule sans et avec contraste IV"
       },
       {
         "code" : "36407-5",
-        "display" : "résonance magnétique glande thyroïde sans et avec contraste IV"
+        "display" : "IRM glande thyroïde sans et avec contraste IV"
       },
       {
         "code" : "36408-3",
-        "display" : "CT jambe sans et avec contraste IV"
+        "display" : "TDM jambe sans et avec contraste IV"
       },
       {
         "code" : "36409-1",
-        "display" : "CT jambe - gauche sans et avec contraste IV"
+        "display" : "TDM jambe - gauche sans et avec contraste IV"
       },
       {
         "code" : "36410-9",
-        "display" : "résonance magnétique jambe - gauche sans et avec contraste IV"
+        "display" : "IRM jambe - gauche sans et avec contraste IV"
       },
       {
         "code" : "36411-7",
-        "display" : "CT jambe droite sans et avec contraste IV"
+        "display" : "TDM jambe droite sans et avec contraste IV"
       },
       {
         "code" : "36412-5",
-        "display" : "résonance magnétique jambe droite sans et avec contraste IV"
+        "display" : "IRM jambe droite sans et avec contraste IV"
       },
       {
         "code" : "36413-3",
-        "display" : "résonance magnétique utérus sans et avec contraste IV"
+        "display" : "IRM utérus sans et avec contraste IV"
       },
       {
         "code" : "36414-1",
@@ -6612,11 +6612,11 @@ Requête sur le SMT
       },
       {
         "code" : "36418-2",
-        "display" : "résonance magnétique veine cave inférieure sans et avec contraste IV"
+        "display" : "IRM veine cave inférieure sans et avec contraste IV"
       },
       {
         "code" : "36419-0",
-        "display" : "résonance magnétique veine cave supérieure sans et avec contraste IV"
+        "display" : "IRM veine cave supérieure sans et avec contraste IV"
       },
       {
         "code" : "36420-8",
@@ -6624,7 +6624,7 @@ Requête sur le SMT
       },
       {
         "code" : "36421-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur sans et avec contraste IV"
       },
       {
         "code" : "36422-4",
@@ -6636,35 +6636,35 @@ Requête sur le SMT
       },
       {
         "code" : "36424-0",
-        "display" : "CT abdomen sans contraste"
+        "display" : "TDM abdomen sans contraste"
       },
       {
         "code" : "36425-7",
-        "display" : "CT cheville sans contraste"
+        "display" : "TDM cheville sans contraste"
       },
       {
         "code" : "36426-5",
-        "display" : "CT cheville gauche sans contraste"
+        "display" : "TDM cheville gauche sans contraste"
       },
       {
         "code" : "36427-3",
-        "display" : "résonance magnétique cheville gauche sans contraste"
+        "display" : "IRM cheville gauche sans contraste"
       },
       {
         "code" : "36428-1",
-        "display" : "CT cheville droite sans contraste"
+        "display" : "TDM cheville droite sans contraste"
       },
       {
         "code" : "36429-9",
-        "display" : "résonance magnétique cheville droite sans contraste"
+        "display" : "IRM cheville droite sans contraste"
       },
       {
         "code" : "36430-7",
-        "display" : "CT aorte abdominale et thoracique sans contraste"
+        "display" : "TDM aorte abdominale et thoracique sans contraste"
       },
       {
         "code" : "36431-5",
-        "display" : "CT aorte abdominale sans contraste"
+        "display" : "TDM aorte abdominale sans contraste"
       },
       {
         "code" : "36432-3",
@@ -6676,59 +6676,59 @@ Requête sur le SMT
       },
       {
         "code" : "36434-9",
-        "display" : "CT appendice sans contraste"
+        "display" : "TDM appendice sans contraste"
       },
       {
         "code" : "36435-6",
-        "display" : "résonance magnétique face sans contraste"
+        "display" : "IRM face sans contraste"
       },
       {
         "code" : "36436-4",
-        "display" : "résonance magnétique sein sans contraste"
+        "display" : "IRM sein sans contraste"
       },
       {
         "code" : "36437-2",
-        "display" : "résonance magnétique sein bilatéral sans contraste"
+        "display" : "IRM sein bilatéral sans contraste"
       },
       {
         "code" : "36438-0",
-        "display" : "résonance magnétique sein gauche sans contraste"
+        "display" : "IRM sein gauche sans contraste"
       },
       {
         "code" : "36439-8",
-        "display" : "résonance magnétique sein droit sans contraste"
+        "display" : "IRM sein droit sans contraste"
       },
       {
         "code" : "36442-2",
-        "display" : "résonance magnétique thorax sans contraste"
+        "display" : "IRM thorax sans contraste"
       },
       {
         "code" : "36443-0",
-        "display" : "CT coude sans contraste"
+        "display" : "TDM coude sans contraste"
       },
       {
         "code" : "36444-8",
-        "display" : "CT coude - bilatéral sans contraste"
+        "display" : "TDM coude - bilatéral sans contraste"
       },
       {
         "code" : "36445-5",
-        "display" : "CT coude - gauche sans contraste"
+        "display" : "TDM coude - gauche sans contraste"
       },
       {
         "code" : "36446-3",
-        "display" : "résonance magnétique coude - gauche sans contraste"
+        "display" : "IRM coude - gauche sans contraste"
       },
       {
         "code" : "36447-1",
-        "display" : "CT coude - droit sans contraste"
+        "display" : "TDM coude - droit sans contraste"
       },
       {
         "code" : "36448-9",
-        "display" : "résonance magnétique coude - droit sans contraste"
+        "display" : "IRM coude - droit sans contraste"
       },
       {
         "code" : "36449-7",
-        "display" : "CT membre inférieur - bilatéral sans contraste"
+        "display" : "TDM membre inférieur - bilatéral sans contraste"
       },
       {
         "code" : "36450-5",
@@ -6736,367 +6736,367 @@ Requête sur le SMT
       },
       {
         "code" : "36451-3",
-        "display" : "résonance magnétique membre inférieur - bilatéral sans contraste"
+        "display" : "IRM membre inférieur - bilatéral sans contraste"
       },
       {
         "code" : "36452-1",
-        "display" : "CT membre inférieur - gauche sans contraste"
+        "display" : "TDM membre inférieur - gauche sans contraste"
       },
       {
         "code" : "36453-9",
-        "display" : "résonance magnétique membre inférieur - gauche sans contraste"
+        "display" : "IRM membre inférieur - gauche sans contraste"
       },
       {
         "code" : "36454-7",
-        "display" : "CT membre inférieur - droit sans contraste"
+        "display" : "TDM membre inférieur - droit sans contraste"
       },
       {
         "code" : "36455-4",
-        "display" : "résonance magnétique membre inférieur - droit sans contraste"
+        "display" : "IRM membre inférieur - droit sans contraste"
       },
       {
         "code" : "36456-2",
-        "display" : "CT membre supérieur - bilatéral sans contraste"
+        "display" : "TDM membre supérieur - bilatéral sans contraste"
       },
       {
         "code" : "36457-0",
-        "display" : "CT membre supérieur - gauche sans contraste"
+        "display" : "TDM membre supérieur - gauche sans contraste"
       },
       {
         "code" : "36458-8",
-        "display" : "CT membre supérieur - droit sans contraste"
+        "display" : "TDM membre supérieur - droit sans contraste"
       },
       {
         "code" : "36459-6",
-        "display" : "résonance magnétique membre supérieur - droit sans contraste"
+        "display" : "IRM membre supérieur - droit sans contraste"
       },
       {
         "code" : "36460-4",
-        "display" : "CT cuisse sans contraste"
+        "display" : "TDM cuisse sans contraste"
       },
       {
         "code" : "36461-2",
-        "display" : "résonance magnétique cuisse sans contraste"
+        "display" : "IRM cuisse sans contraste"
       },
       {
         "code" : "36462-0",
-        "display" : "CT cuisse - gauche sans contraste"
+        "display" : "TDM cuisse - gauche sans contraste"
       },
       {
         "code" : "36463-8",
-        "display" : "résonance magnétique cuisse - gauche sans contraste"
+        "display" : "IRM cuisse - gauche sans contraste"
       },
       {
         "code" : "36464-6",
-        "display" : "CT cuisse - droite sans contraste"
+        "display" : "TDM cuisse - droite sans contraste"
       },
       {
         "code" : "36465-3",
-        "display" : "résonance magnétique cuisse - droite sans contraste"
+        "display" : "IRM cuisse - droite sans contraste"
       },
       {
         "code" : "36466-1",
-        "display" : "CT pied sans contraste"
+        "display" : "TDM pied sans contraste"
       },
       {
         "code" : "36467-9",
-        "display" : "résonance magnétique pied - bilatéral sans contraste"
+        "display" : "IRM pied - bilatéral sans contraste"
       },
       {
         "code" : "36468-7",
-        "display" : "CT pied - gauche sans contraste"
+        "display" : "TDM pied - gauche sans contraste"
       },
       {
         "code" : "36469-5",
-        "display" : "résonance magnétique pied - gauche sans contraste"
+        "display" : "IRM pied - gauche sans contraste"
       },
       {
         "code" : "36470-3",
-        "display" : "CT pied - droit sans contraste"
+        "display" : "TDM pied - droit sans contraste"
       },
       {
         "code" : "36471-1",
-        "display" : "résonance magnétique pied - droit sans contraste"
+        "display" : "IRM pied - droit sans contraste"
       },
       {
         "code" : "36472-9",
-        "display" : "CT avantbras sans contraste"
+        "display" : "TDM avantbras sans contraste"
       },
       {
         "code" : "36473-7",
-        "display" : "CT avantbras - gauche sans contraste"
+        "display" : "TDM avantbras - gauche sans contraste"
       },
       {
         "code" : "36474-5",
-        "display" : "résonance magnétique avantbras - gauche sans contraste"
+        "display" : "IRM avantbras - gauche sans contraste"
       },
       {
         "code" : "36475-2",
-        "display" : "CT avantbras - droit sans contraste"
+        "display" : "TDM avantbras - droit sans contraste"
       },
       {
         "code" : "36476-0",
-        "display" : "résonance magnétique avantbras - droit sans contraste"
+        "display" : "IRM avantbras - droit sans contraste"
       },
       {
         "code" : "36477-8",
-        "display" : "CT main sans contraste"
+        "display" : "TDM main sans contraste"
       },
       {
         "code" : "36478-6",
-        "display" : "CT main - gauche sans contraste"
+        "display" : "TDM main - gauche sans contraste"
       },
       {
         "code" : "36479-4",
-        "display" : "résonance magnétique main - gauche sans contraste"
+        "display" : "IRM main - gauche sans contraste"
       },
       {
         "code" : "36480-2",
-        "display" : "CT main - droite sans contraste"
+        "display" : "TDM main - droite sans contraste"
       },
       {
         "code" : "36481-0",
-        "display" : "résonance magnétique main - droite sans contraste"
+        "display" : "IRM main - droite sans contraste"
       },
       {
         "code" : "36482-8",
-        "display" : "résonance magnétique coeur sans contraste"
+        "display" : "IRM coeur sans contraste"
       },
       {
         "code" : "36484-4",
-        "display" : "CT hanche sans contraste"
+        "display" : "TDM hanche sans contraste"
       },
       {
         "code" : "36485-1",
-        "display" : "CT hanche - bilatérale sans contraste"
+        "display" : "TDM hanche - bilatérale sans contraste"
       },
       {
         "code" : "36486-9",
-        "display" : "résonance magnétique hanche - bilatérale sans contraste"
+        "display" : "IRM hanche - bilatérale sans contraste"
       },
       {
         "code" : "36487-7",
-        "display" : "CT hanche - gauche sans contraste"
+        "display" : "TDM hanche - gauche sans contraste"
       },
       {
         "code" : "36488-5",
-        "display" : "résonance magnétique hanche - gauche sans contraste"
+        "display" : "IRM hanche - gauche sans contraste"
       },
       {
         "code" : "36489-3",
-        "display" : "CT hanche - droite sans contraste"
+        "display" : "TDM hanche - droite sans contraste"
       },
       {
         "code" : "36490-1",
-        "display" : "résonance magnétique hanche - droite sans contraste"
+        "display" : "IRM hanche - droite sans contraste"
       },
       {
         "code" : "36491-9",
-        "display" : "CT bras sans contraste"
+        "display" : "TDM bras sans contraste"
       },
       {
         "code" : "36492-7",
-        "display" : "CT bras - gauche sans contraste"
+        "display" : "TDM bras - gauche sans contraste"
       },
       {
         "code" : "36493-5",
-        "display" : "résonance magnétique bras - gauche sans contraste"
+        "display" : "IRM bras - gauche sans contraste"
       },
       {
         "code" : "36494-3",
-        "display" : "CT bras - droit sans contraste"
+        "display" : "TDM bras - droit sans contraste"
       },
       {
         "code" : "36495-0",
-        "display" : "résonance magnétique bras - droit sans contraste"
+        "display" : "IRM bras - droit sans contraste"
       },
       {
         "code" : "36496-8",
-        "display" : "résonance magnétique articulation acromioclaviculaire sans contraste"
+        "display" : "IRM articulation acromioclaviculaire sans contraste"
       },
       {
         "code" : "36497-6",
-        "display" : "résonance magnétique articulation du membre inférieur sans contraste"
+        "display" : "IRM articulation du membre inférieur sans contraste"
       },
       {
         "code" : "36498-4",
-        "display" : "résonance magnétique articulation du membre inférieur - gauche sans contraste"
+        "display" : "IRM articulation du membre inférieur - gauche sans contraste"
       },
       {
         "code" : "36499-2",
-        "display" : "résonance magnétique articulation du membre inférieur - droit sans contraste"
+        "display" : "IRM articulation du membre inférieur - droit sans contraste"
       },
       {
         "code" : "36500-7",
-        "display" : "résonance magnétique membre supérieur.articulation sans contraste"
+        "display" : "IRM membre supérieur.articulation sans contraste"
       },
       {
         "code" : "36501-5",
-        "display" : "CT articulation sacro-iliaque sans contraste"
+        "display" : "TDM articulation sacro-iliaque sans contraste"
       },
       {
         "code" : "36502-3",
-        "display" : "résonance magnétique articulation sacro-iliaque sans contraste"
+        "display" : "IRM articulation sacro-iliaque sans contraste"
       },
       {
         "code" : "36503-1",
-        "display" : "CT rein - bilatéral sans contraste"
+        "display" : "TDM rein - bilatéral sans contraste"
       },
       {
         "code" : "36504-9",
-        "display" : "résonance magnétique rein - bilatéral sans contraste"
+        "display" : "IRM rein - bilatéral sans contraste"
       },
       {
         "code" : "36505-6",
-        "display" : "CT genou sans contraste"
+        "display" : "TDM genou sans contraste"
       },
       {
         "code" : "36506-4",
-        "display" : "résonance magnétique genou - bilatéral sans contraste"
+        "display" : "IRM genou - bilatéral sans contraste"
       },
       {
         "code" : "36507-2",
-        "display" : "CT genou - gauche sans contraste"
+        "display" : "TDM genou - gauche sans contraste"
       },
       {
         "code" : "36508-0",
-        "display" : "résonance magnétique genou - gauche sans contraste"
+        "display" : "IRM genou - gauche sans contraste"
       },
       {
         "code" : "36509-8",
-        "display" : "CT genou - droit sans contraste"
+        "display" : "TDM genou - droit sans contraste"
       },
       {
         "code" : "36510-6",
-        "display" : "résonance magnétique genou - droit sans contraste"
+        "display" : "IRM genou - droit sans contraste"
       },
       {
         "code" : "36511-4",
-        "display" : "CT larynx sans contraste"
+        "display" : "TDM larynx sans contraste"
       },
       {
         "code" : "36512-2",
-        "display" : "CT mandibule sans contraste"
+        "display" : "TDM mandibule sans contraste"
       },
       {
         "code" : "36513-0",
-        "display" : "résonance magnétique nasopharynx sans contraste"
+        "display" : "IRM nasopharynx sans contraste"
       },
       {
         "code" : "36514-8",
-        "display" : "CT cou sans contraste"
+        "display" : "TDM cou sans contraste"
       },
       {
         "code" : "36515-5",
-        "display" : "résonance magnétique pancréas sans contraste"
+        "display" : "IRM pancréas sans contraste"
       },
       {
         "code" : "36516-3",
-        "display" : "résonance magnétique plexus brachial - droit sans contraste"
+        "display" : "IRM plexus brachial - droit sans contraste"
       },
       {
         "code" : "36517-1",
-        "display" : "CT fosse postérieure sans contraste"
+        "display" : "TDM fosse postérieure sans contraste"
       },
       {
         "code" : "36518-9",
-        "display" : "résonance magnétique fosse postérieure sans contraste"
+        "display" : "IRM fosse postérieure sans contraste"
       },
       {
         "code" : "36519-7",
-        "display" : "résonance magnétique prostate sans contraste"
+        "display" : "IRM prostate sans contraste"
       },
       {
         "code" : "36520-5",
-        "display" : "CT sacrum sans contraste"
+        "display" : "TDM sacrum sans contraste"
       },
       {
         "code" : "36521-3",
-        "display" : "résonance magnétique sacrum sans contraste"
+        "display" : "IRM sacrum sans contraste"
       },
       {
         "code" : "36522-1",
-        "display" : "résonance magnétique sacrum et coccyx sans contraste"
+        "display" : "IRM sacrum et coccyx sans contraste"
       },
       {
         "code" : "36523-9",
-        "display" : "résonance magnétique scapula - gauche sans contraste"
+        "display" : "IRM scapula - gauche sans contraste"
       },
       {
         "code" : "36524-7",
-        "display" : "CT épaule sans contraste"
+        "display" : "TDM épaule sans contraste"
       },
       {
         "code" : "36525-4",
-        "display" : "résonance magnétique épaule - bilatérale sans contraste"
+        "display" : "IRM épaule - bilatérale sans contraste"
       },
       {
         "code" : "36526-2",
-        "display" : "CT épaule - gauche sans contraste"
+        "display" : "TDM épaule - gauche sans contraste"
       },
       {
         "code" : "36527-0",
-        "display" : "CT épaule - droite sans contraste"
+        "display" : "TDM épaule - droite sans contraste"
       },
       {
         "code" : "36528-8",
-        "display" : "résonance magnétique épaule - droite sans contraste"
+        "display" : "IRM épaule - droite sans contraste"
       },
       {
         "code" : "36529-6",
-        "display" : "CT sinus sans contraste"
+        "display" : "TDM sinus sans contraste"
       },
       {
         "code" : "36530-4",
-        "display" : "CT rachis sans contraste"
+        "display" : "TDM rachis sans contraste"
       },
       {
         "code" : "36531-2",
-        "display" : "résonance magnétique rachis sans contraste"
+        "display" : "IRM rachis sans contraste"
       },
       {
         "code" : "36532-0",
-        "display" : "résonance magnétique rachis dorsal sans contraste"
+        "display" : "IRM rachis dorsal sans contraste"
       },
       {
         "code" : "36533-8",
-        "display" : "résonance magnétique rate sans contraste"
+        "display" : "IRM rate sans contraste"
       },
       {
         "code" : "36534-6",
-        "display" : "CT sternum sans contraste"
+        "display" : "TDM sternum sans contraste"
       },
       {
         "code" : "36535-3",
-        "display" : "résonance magnétique scrotum et testicule sans contraste"
+        "display" : "IRM scrotum et testicule sans contraste"
       },
       {
         "code" : "36536-1",
-        "display" : "résonance magnétique glande thyroïde sans contraste"
+        "display" : "IRM glande thyroïde sans contraste"
       },
       {
         "code" : "36537-9",
-        "display" : "CT jambe sans contraste"
+        "display" : "TDM jambe sans contraste"
       },
       {
         "code" : "36538-7",
-        "display" : "CT jambe - gauche sans contraste"
+        "display" : "TDM jambe - gauche sans contraste"
       },
       {
         "code" : "36539-5",
-        "display" : "résonance magnétique jambe - gauche sans contraste"
+        "display" : "IRM jambe - gauche sans contraste"
       },
       {
         "code" : "36540-3",
-        "display" : "CT jambe droite sans contraste"
+        "display" : "TDM jambe droite sans contraste"
       },
       {
         "code" : "36541-1",
-        "display" : "résonance magnétique jambe droite sans contraste"
+        "display" : "IRM jambe droite sans contraste"
       },
       {
         "code" : "36542-9",
-        "display" : "résonance magnétique utérus sans contraste"
+        "display" : "IRM utérus sans contraste"
       },
       {
         "code" : "36543-7",
@@ -7108,11 +7108,11 @@ Requête sur le SMT
       },
       {
         "code" : "36545-2",
-        "display" : "résonance magnétique veine cave inférieure sans contraste"
+        "display" : "IRM veine cave inférieure sans contraste"
       },
       {
         "code" : "36546-0",
-        "display" : "résonance magnétique veine cave supérieure sans contraste"
+        "display" : "IRM veine cave supérieure sans contraste"
       },
       {
         "code" : "36547-8",
@@ -7956,7 +7956,7 @@ Requête sur le SMT
       },
       {
         "code" : "36760-7",
-        "display" : "angiographie par fluoroscopie shunt artérioiveineux ; guidage pour angioplastie avec contraste"
+        "display" : "angiofluoroscopie shunt artérioiveineux ; guidage pour angioplastie avec contraste"
       },
       {
         "code" : "36761-5",
@@ -7964,39 +7964,39 @@ Requête sur le SMT
       },
       {
         "code" : "36762-3",
-        "display" : "angiographie par fluoroscopie vaisseau d'extrémité ; guidage pour angioplastie avec contraste"
+        "display" : "angiofluoroscopie vaisseau d'extrémité ; guidage pour angioplastie avec contraste"
       },
       {
         "code" : "36763-1",
-        "display" : "angiographie par fluoroscopie artère fémorale et artère poplitée ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale et artère poplitée ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "36764-9",
-        "display" : "angiographie par fluoroscopie vaisseau fémoral et artère poplitée ; guidage pour athérectomie avec contraste"
+        "display" : "angiofluoroscopie vaisseau fémoral et artère poplitée ; guidage pour athérectomie avec contraste"
       },
       {
         "code" : "36765-6",
-        "display" : "angiographie par fluoroscopie vaisseau ; guidage pour athérectomie avec contraste"
+        "display" : "angiofluoroscopie vaisseau ; guidage pour athérectomie avec contraste"
       },
       {
         "code" : "36766-4",
-        "display" : "angiographie par fluoroscopie artères coronaires ; guidage pour athérectomie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères coronaires ; guidage pour athérectomie avec contraste intraartériel"
       },
       {
         "code" : "36767-2",
-        "display" : "CT glande surrénale ; guidage pour biopsie percutanée"
+        "display" : "TDM glande surrénale ; guidage pour biopsie percutanée"
       },
       {
         "code" : "36768-0",
-        "display" : "CT muscle ; guidage pour biopsie percutanée"
+        "display" : "TDM muscle ; guidage pour biopsie percutanée"
       },
       {
         "code" : "36769-8",
-        "display" : "CT rein ; guidage pour l'échange d'une sonde de néphrostomie"
+        "display" : "TDM rein ; guidage pour l'échange d'une sonde de néphrostomie"
       },
       {
         "code" : "36770-6",
-        "display" : "CT voies biliaires et vésicule biliaire ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM voies biliaires et vésicule biliaire ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "36771-4",
@@ -8004,19 +8004,19 @@ Requête sur le SMT
       },
       {
         "code" : "36772-2",
-        "display" : "CT rein ; guidage pour placement d'une sonde de néphrostomie"
+        "display" : "TDM rein ; guidage pour placement d'une sonde de néphrostomie"
       },
       {
         "code" : "36773-0",
-        "display" : "CT os temporal"
+        "display" : "TDM os temporal"
       },
       {
         "code" : "36774-8",
-        "display" : "résonance magnétique articulation du membre inférieur gauche"
+        "display" : "IRM articulation du membre inférieur gauche"
       },
       {
         "code" : "36775-5",
-        "display" : "résonance magnétique articulation du membre inférieur droit"
+        "display" : "IRM articulation du membre inférieur droit"
       },
       {
         "code" : "36776-3",
@@ -8024,19 +8024,19 @@ Requête sur le SMT
       },
       {
         "code" : "36777-1",
-        "display" : "résonance magnétique orbite"
+        "display" : "IRM orbite"
       },
       {
         "code" : "36778-9",
-        "display" : "résonance magnétique orbite - droite"
+        "display" : "IRM orbite - droite"
       },
       {
         "code" : "36779-7",
-        "display" : "résonance magnétique ovaire"
+        "display" : "IRM ovaire"
       },
       {
         "code" : "36780-5",
-        "display" : "résonance magnétique orteil"
+        "display" : "IRM orteil"
       },
       {
         "code" : "36781-3",
@@ -8148,67 +8148,67 @@ Requête sur le SMT
       },
       {
         "code" : "36809-2",
-        "display" : "angiographie par tomodensitométrie artère hépatique avec contraste intraartériel"
+        "display" : "angioscanner artère hépatique avec contraste intraartériel"
       },
       {
         "code" : "36811-8",
-        "display" : "CT articulation avec contraste intraarticulaire"
+        "display" : "TDM articulation avec contraste intraarticulaire"
       },
       {
         "code" : "36812-6",
-        "display" : "résonance magnétique articulation avec contraste intraarticulaire"
+        "display" : "IRM articulation avec contraste intraarticulaire"
       },
       {
         "code" : "36813-4",
-        "display" : "CT abdomen et pelvis avec contraste IV"
+        "display" : "TDM abdomen et pelvis avec contraste IV"
       },
       {
         "code" : "36814-2",
-        "display" : "angiographie par tomodensitométrie  artères de la tête avec contraste IV"
+        "display" : "angioscanner artères de la tête avec contraste IV"
       },
       {
         "code" : "36815-9",
-        "display" : "CT os temporal avec contraste IV"
+        "display" : "TDM os temporal avec contraste IV"
       },
       {
         "code" : "36816-7",
-        "display" : "CT os temporal - droit avec contraste IV"
+        "display" : "TDM os temporal - droit avec contraste IV"
       },
       {
         "code" : "36817-5",
-        "display" : "résonance magnétique articulation bilatérale du membre inférieur avec contraste IV"
+        "display" : "IRM articulation bilatérale du membre inférieur avec contraste IV"
       },
       {
         "code" : "36818-3",
-        "display" : "résonance magnétique articulation gauche du membre inférieur avec contraste IV"
+        "display" : "IRM articulation gauche du membre inférieur avec contraste IV"
       },
       {
         "code" : "36819-1",
-        "display" : "résonance magnétique articulation droite du membre inférieur avec contraste IV"
+        "display" : "IRM articulation droite du membre inférieur avec contraste IV"
       },
       {
         "code" : "36820-9",
-        "display" : "résonance magnétique orbite avec contraste IV"
+        "display" : "IRM orbite avec contraste IV"
       },
       {
         "code" : "36821-7",
-        "display" : "résonance magnétique orbite - gauche avec contraste IV"
+        "display" : "IRM orbite - gauche avec contraste IV"
       },
       {
         "code" : "36822-5",
-        "display" : "résonance magnétique orbite - droite avec contraste IV"
+        "display" : "IRM orbite - droite avec contraste IV"
       },
       {
         "code" : "36823-3",
-        "display" : "résonance magnétique ovaire avec contraste IV"
+        "display" : "IRM ovaire avec contraste IV"
       },
       {
         "code" : "36824-1",
-        "display" : "angiographie par tomodensitométrie veines du membre inférieur - gauche avec contraste IV"
+        "display" : "angioscanner veines du membre inférieur - gauche avec contraste IV"
       },
       {
         "code" : "36825-8",
-        "display" : "angiographie par tomodensitométrie veines du membre inférieur - droit avec contraste IV"
+        "display" : "angioscanner veines du membre inférieur - droit avec contraste IV"
       },
       {
         "code" : "36826-6",
@@ -8220,15 +8220,15 @@ Requête sur le SMT
       },
       {
         "code" : "36828-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux avec contraste IV"
       },
       {
         "code" : "36830-8",
-        "display" : "angiographie par tomodensitométrie vaisseaux de la tête avec contraste IV"
+        "display" : "angioscanner vaisseaux de la tête avec contraste IV"
       },
       {
         "code" : "36831-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur avec contraste IV"
       },
       {
         "code" : "36832-4",
@@ -8236,19 +8236,19 @@ Requête sur le SMT
       },
       {
         "code" : "36833-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux rénaux avec contraste IV"
+        "display" : "angioscanner vaisseaux rénaux avec contraste IV"
       },
       {
         "code" : "36834-0",
-        "display" : "angiographie par tomodensitométrie vaisseau avec contraste IV"
+        "display" : "angioscanner vaisseau avec contraste IV"
       },
       {
         "code" : "36835-7",
-        "display" : "CT partie pétreuse de l'os temporal sans et avec contraste IV"
+        "display" : "TDM partie pétreuse de l'os temporal sans et avec contraste IV"
       },
       {
         "code" : "36837-3",
-        "display" : "CT os temporal sans et avec contraste IV"
+        "display" : "TDM os temporal sans et avec contraste IV"
       },
       {
         "code" : "36838-1",
@@ -8260,27 +8260,27 @@ Requête sur le SMT
       },
       {
         "code" : "36840-7",
-        "display" : "résonance magnétique membre inférieur articulation gauche sans et avec contraste IV"
+        "display" : "IRM membre inférieur articulation gauche sans et avec contraste IV"
       },
       {
         "code" : "36841-5",
-        "display" : "résonance magnétique membre inférieur articulation droite sans et avec contraste IV"
+        "display" : "IRM membre inférieur articulation droite sans et avec contraste IV"
       },
       {
         "code" : "36842-3",
-        "display" : "résonance magnétique orbite sans et avec contraste IV"
+        "display" : "IRM orbite sans et avec contraste IV"
       },
       {
         "code" : "36843-1",
-        "display" : "résonance magnétique orbite - gauche sans et avec contraste IV"
+        "display" : "IRM orbite - gauche sans et avec contraste IV"
       },
       {
         "code" : "36844-9",
-        "display" : "résonance magnétique orbite - droite sans et avec contraste IV"
+        "display" : "IRM orbite - droite sans et avec contraste IV"
       },
       {
         "code" : "36845-6",
-        "display" : "résonance magnétique ovaire sans et avec contraste IV"
+        "display" : "IRM ovaire sans et avec contraste IV"
       },
       {
         "code" : "36846-4",
@@ -8360,43 +8360,43 @@ Requête sur le SMT
       },
       {
         "code" : "36866-2",
-        "display" : "CT os temporal sans contraste"
+        "display" : "TDM os temporal sans contraste"
       },
       {
         "code" : "36867-0",
-        "display" : "CT os temporal - gauche sans contraste"
+        "display" : "TDM os temporal - gauche sans contraste"
       },
       {
         "code" : "36868-8",
-        "display" : "CT os temporal - droit sans contraste"
+        "display" : "TDM os temporal - droit sans contraste"
       },
       {
         "code" : "36869-6",
-        "display" : "résonance magnétique membre inférieur articulation gauche sans contraste"
+        "display" : "IRM membre inférieur articulation gauche sans contraste"
       },
       {
         "code" : "36870-4",
-        "display" : "résonance magnétique membre inférieur articulation droite sans contraste"
+        "display" : "IRM membre inférieur articulation droite sans contraste"
       },
       {
         "code" : "36871-2",
-        "display" : "résonance magnétique articulation sans contraste"
+        "display" : "IRM articulation sans contraste"
       },
       {
         "code" : "36872-0",
-        "display" : "résonance magnétique orbite sans contraste"
+        "display" : "IRM orbite sans contraste"
       },
       {
         "code" : "36873-8",
-        "display" : "résonance magnétique orbite - gauche sans contraste"
+        "display" : "IRM orbite - gauche sans contraste"
       },
       {
         "code" : "36874-6",
-        "display" : "résonance magnétique orbite - droite sans contraste"
+        "display" : "IRM orbite - droite sans contraste"
       },
       {
         "code" : "36875-3",
-        "display" : "résonance magnétique ovaire sans contraste"
+        "display" : "IRM ovaire sans contraste"
       },
       {
         "code" : "36876-1",
@@ -8448,67 +8448,67 @@ Requête sur le SMT
       },
       {
         "code" : "36927-2",
-        "display" : "CT région maxillofaciale ; guidage pour biopsie percutanée"
+        "display" : "TDM région maxillofaciale ; guidage pour biopsie percutanée"
       },
       {
         "code" : "36928-0",
-        "display" : "CT tête ; guidage pour biopsie stéréotaxique"
+        "display" : "TDM tête ; guidage pour biopsie stéréotaxique"
       },
       {
         "code" : "36929-8",
-        "display" : "CT tête ; guidage pour biopsie stéréotaxique sans contraste"
+        "display" : "TDM tête ; guidage pour biopsie stéréotaxique sans contraste"
       },
       {
         "code" : "36930-6",
-        "display" : "CT glande surrénale"
+        "display" : "TDM glande surrénale"
       },
       {
         "code" : "36931-4",
-        "display" : "résonance magnétique glande surrénale"
+        "display" : "IRM glande surrénale"
       },
       {
         "code" : "36932-2",
-        "display" : "CT hypophyse et selle turcique"
+        "display" : "TDM hypophyse et selle turcique"
       },
       {
         "code" : "36933-0",
-        "display" : "résonance magnétique glande salivaire"
+        "display" : "IRM glande salivaire"
       },
       {
         "code" : "36934-8",
-        "display" : "CT coeur pour score calcique"
+        "display" : "TDM coeur pour score calcique"
       },
       {
         "code" : "36935-5",
-        "display" : "CT coeur pour score calcique avec contraste IV"
+        "display" : "TDM coeur pour score calcique avec contraste IV"
       },
       {
         "code" : "36936-3",
-        "display" : "résonance magnétique cerveau ; guidage pour biopsie stéréotaxique"
+        "display" : "IRM cerveau ; guidage pour biopsie stéréotaxique"
       },
       {
         "code" : "36937-1",
-        "display" : "CT région maxillofaciale limitée"
+        "display" : "TDM région maxillofaciale limitée"
       },
       {
         "code" : "36938-9",
-        "display" : "CT région maxillofaciale limitée sans contraste"
+        "display" : "TDM région maxillofaciale limitée sans contraste"
       },
       {
         "code" : "36941-3",
-        "display" : "CT glande salivaire avec contraste intra canal salivaire"
+        "display" : "TDM glande salivaire avec contraste intra canal salivaire"
       },
       {
         "code" : "36942-1",
-        "display" : "résonance magnétique thorax et abdomen avec contraste IV"
+        "display" : "IRM thorax et abdomen avec contraste IV"
       },
       {
         "code" : "36943-9",
-        "display" : "CT glande surrénale avec contraste IV"
+        "display" : "TDM glande surrénale avec contraste IV"
       },
       {
         "code" : "36944-7",
-        "display" : "résonance magnétique voies biliaires et canaux pancréatiques sans et avec contraste IV"
+        "display" : "IRM voies biliaires et canaux pancréatiques sans et avec contraste IV"
       },
       {
         "code" : "36945-4",
@@ -8532,31 +8532,31 @@ Requête sur le SMT
       },
       {
         "code" : "36950-4",
-        "display" : "CT glande surrénale sans et avec contraste IV"
+        "display" : "TDM glande surrénale sans et avec contraste IV"
       },
       {
         "code" : "36951-2",
-        "display" : "résonance magnétique glande surrénale sans et avec contraste IV"
+        "display" : "IRM glande surrénale sans et avec contraste IV"
       },
       {
         "code" : "36952-0",
-        "display" : "CT abdomen et pelvis sans contraste"
+        "display" : "TDM abdomen et pelvis sans contraste"
       },
       {
         "code" : "36953-8",
-        "display" : "CT glande surrénale sans contraste"
+        "display" : "TDM glande surrénale sans contraste"
       },
       {
         "code" : "36954-6",
-        "display" : "résonance magnétique glande surrénale sans contraste"
+        "display" : "IRM glande surrénale sans contraste"
       },
       {
         "code" : "36955-3",
-        "display" : "CT glande thyroïde sans contraste"
+        "display" : "TDM glande thyroïde sans contraste"
       },
       {
         "code" : "36956-1",
-        "display" : "résonance magnétique orbite et face sans contraste"
+        "display" : "IRM orbite et face sans contraste"
       },
       {
         "code" : "36958-7",
@@ -9304,7 +9304,7 @@ Requête sur le SMT
       },
       {
         "code" : "37151-8",
-        "display" : "fluoroscopie.portable ; incidences dans une région du corps non spécifiée"
+        "display" : "fluoroscopie portable ; incidences dans une région du corps non spécifiée"
       },
       {
         "code" : "37152-6",
@@ -9388,43 +9388,43 @@ Requête sur le SMT
       },
       {
         "code" : "37173-2",
-        "display" : "angiographie par fluoroscopie artère cérébrale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère cérébrale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37174-0",
-        "display" : "angiographie par fluoroscopie artères coronaires ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères coronaires ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37175-7",
-        "display" : "angiographie par fluoroscopie artère fémorale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère fémorale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37176-5",
-        "display" : "angiographie par fluoroscopie artère fémorale et artère poplitée ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère fémorale et artère poplitée ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37177-3",
-        "display" : "angiographie par fluoroscopie artère iliaque - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère iliaque - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37178-1",
-        "display" : "angiographie par fluoroscopie artère iliaque - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère iliaque - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37179-9",
-        "display" : "angiographie par fluoroscopie artère mésentérique inférieure ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère mésentérique inférieure ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37180-7",
-        "display" : "angiographie par fluoroscopie artère mésentérique supérieure ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère mésentérique supérieure ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37181-5",
-        "display" : "angiographie par fluoroscopie artère poplitée - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère poplitée - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37182-3",
-        "display" : "angiographie par fluoroscopie artères pulmonaires - gauches ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères pulmonaires - gauches ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37183-1",
@@ -9472,11 +9472,11 @@ Requête sur le SMT
       },
       {
         "code" : "37195-5",
-        "display" : "angiographie par fluoroscopie veine cérébrale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine cérébrale ; incidences avec contraste IV"
       },
       {
         "code" : "37196-3",
-        "display" : "angiographie par fluoroscopie veines du membre inférieur - gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre inférieur - gauche ; incidences avec contraste IV"
       },
       {
         "code" : "37198-9",
@@ -9528,67 +9528,67 @@ Requête sur le SMT
       },
       {
         "code" : "37210-2",
-        "display" : "CT abdomen ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM abdomen ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "37211-0",
-        "display" : "CT moelle osseuse ; guidage pour biopsie percutanée"
+        "display" : "TDM moelle osseuse ; guidage pour biopsie percutanée"
       },
       {
         "code" : "37212-8",
-        "display" : "CT épididyme ; guidage pour biopsie percutanée"
+        "display" : "TDM épididyme ; guidage pour biopsie percutanée"
       },
       {
         "code" : "37213-6",
-        "display" : "CT médiastin ; guidage pour biopsie percutanée"
+        "display" : "TDM médiastin ; guidage pour biopsie percutanée"
       },
       {
         "code" : "37214-4",
-        "display" : "CT tissu ; guidage pour biopsie superficielle"
+        "display" : "TDM tissu ; guidage pour biopsie superficielle"
       },
       {
         "code" : "37215-1",
-        "display" : "résonance magnétique cerveau et larynx avec contraste IV"
+        "display" : "IRM cerveau et larynx avec contraste IV"
       },
       {
         "code" : "37217-7",
-        "display" : "résonance magnétique tronc cérébral et nerfs crâniens"
+        "display" : "IRM tronc cérébral et nerfs crâniens"
       },
       {
         "code" : "37218-5",
-        "display" : "résonance magnétique cerveau temporal"
+        "display" : "IRM cerveau temporal"
       },
       {
         "code" : "37219-3",
-        "display" : "résonance magnétique canaux biliaires"
+        "display" : "IRM canaux biliaires"
       },
       {
         "code" : "37220-1",
-        "display" : "résonance magnétique voies biliaires et canaux pancréatiques"
+        "display" : "IRM voies biliaires et canaux pancréatiques"
       },
       {
         "code" : "37221-9",
-        "display" : "CT pour fistule dans une région du corps non spécifiée"
+        "display" : "TDM pour fistule dans une région du corps non spécifiée"
       },
       {
         "code" : "37222-7",
-        "display" : "résonance magnétique cheville et pied"
+        "display" : "IRM cheville et pied"
       },
       {
         "code" : "37223-5",
-        "display" : "CT glande parotide"
+        "display" : "TDM glande parotide"
       },
       {
         "code" : "37224-3",
-        "display" : "résonance magnétique glande parotide"
+        "display" : "IRM glande parotide"
       },
       {
         "code" : "37225-0",
-        "display" : "CT articulation sternoclaviculaire"
+        "display" : "TDM articulation sternoclaviculaire"
       },
       {
         "code" : "37226-8",
-        "display" : "CT articulation temporomandibulaire"
+        "display" : "TDM articulation temporomandibulaire"
       },
       {
         "code" : "37227-6",
@@ -9596,7 +9596,7 @@ Requête sur le SMT
       },
       {
         "code" : "37228-4",
-        "display" : "résonance magnétique articulation temporomandibulaire - bilatérale"
+        "display" : "IRM articulation temporomandibulaire - bilatérale"
       },
       {
         "code" : "37229-2",
@@ -9604,15 +9604,15 @@ Requête sur le SMT
       },
       {
         "code" : "37230-0",
-        "display" : "résonance magnétique articulation temporomandibulaire - gauche"
+        "display" : "IRM articulation temporomandibulaire - gauche"
       },
       {
         "code" : "37231-8",
-        "display" : "résonance magnétique articulation temporomandibulaire - droite"
+        "display" : "IRM articulation temporomandibulaire - droite"
       },
       {
         "code" : "37232-6",
-        "display" : "CT articulation lombosacrée du rachis"
+        "display" : "TDM articulation lombosacrée du rachis"
       },
       {
         "code" : "37233-4",
@@ -9620,7 +9620,7 @@ Requête sur le SMT
       },
       {
         "code" : "37234-2",
-        "display" : "résonance magnétique médiastin"
+        "display" : "IRM médiastin"
       },
       {
         "code" : "37235-9",
@@ -9628,59 +9628,59 @@ Requête sur le SMT
       },
       {
         "code" : "37237-5",
-        "display" : "CT tractus du sinus avec contraste intra tractus du sinus"
+        "display" : "TDM tractus du sinus avec contraste intra tractus du sinus"
       },
       {
         "code" : "37238-3",
-        "display" : "CT articulation du membre inférieur avec contraste intraarticulaire"
+        "display" : "TDM articulation du membre inférieur avec contraste intraarticulaire"
       },
       {
         "code" : "37239-1",
-        "display" : "résonance magnétique cerveau et conduit auditif interne avec contraste IV"
+        "display" : "IRM cerveau et conduit auditif interne avec contraste IV"
       },
       {
         "code" : "37240-9",
-        "display" : "CT glande parotide avec contraste IV"
+        "display" : "TDM glande parotide avec contraste IV"
       },
       {
         "code" : "37241-7",
-        "display" : "résonance magnétique glande parotide avec contraste IV"
+        "display" : "IRM glande parotide avec contraste IV"
       },
       {
         "code" : "37242-5",
-        "display" : "CT articulation sternoclaviculaire avec contraste IV"
+        "display" : "TDM articulation sternoclaviculaire avec contraste IV"
       },
       {
         "code" : "37243-3",
-        "display" : "CT articulation temporomandibulaire avec contraste IV"
+        "display" : "TDM articulation temporomandibulaire avec contraste IV"
       },
       {
         "code" : "37244-1",
-        "display" : "résonance magnétique articulation temporomandibulaire avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire avec contraste IV"
       },
       {
         "code" : "37245-8",
-        "display" : "résonance magnétique articulation temporomandibulaire - bilatérale avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire - bilatérale avec contraste IV"
       },
       {
         "code" : "37246-6",
-        "display" : "CT articulation temporomandibulaire - gauche avec contraste IV"
+        "display" : "TDM articulation temporomandibulaire - gauche avec contraste IV"
       },
       {
         "code" : "37247-4",
-        "display" : "résonance magnétique articulation temporomandibulaire - gauche avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire - gauche avec contraste IV"
       },
       {
         "code" : "37248-2",
-        "display" : "CT articulation temporomandibulaire - droite avec contraste IV"
+        "display" : "TDM articulation temporomandibulaire - droite avec contraste IV"
       },
       {
         "code" : "37249-0",
-        "display" : "résonance magnétique articulation temporomandibulaire - droite avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire - droite avec contraste IV"
       },
       {
         "code" : "37253-2",
-        "display" : "résonance magnétique tissu mou avec contraste IV"
+        "display" : "IRM tissu mou avec contraste IV"
       },
       {
         "code" : "37254-0",
@@ -9708,35 +9708,35 @@ Requête sur le SMT
       },
       {
         "code" : "37265-6",
-        "display" : "résonance magnétique glande parotide sans et avec contraste IV"
+        "display" : "IRM glande parotide sans et avec contraste IV"
       },
       {
         "code" : "37266-4",
-        "display" : "CT articulation sternoclaviculaire sans et avec contraste IV"
+        "display" : "TDM articulation sternoclaviculaire sans et avec contraste IV"
       },
       {
         "code" : "37267-2",
-        "display" : "CT articulation temporomandibulaire sans et avec contraste IV"
+        "display" : "TDM articulation temporomandibulaire sans et avec contraste IV"
       },
       {
         "code" : "37268-0",
-        "display" : "résonance magnétique articulation temporomandibulaire sans et avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire sans et avec contraste IV"
       },
       {
         "code" : "37269-8",
-        "display" : "résonance magnétique articulation temporomandibulaire - bilatérale sans et avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "37270-6",
-        "display" : "résonance magnétique articulation temporomandibulaire - gauche sans et avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire - gauche sans et avec contraste IV"
       },
       {
         "code" : "37271-4",
-        "display" : "résonance magnétique articulation temporomandibulaire - droite sans et avec contraste IV"
+        "display" : "IRM articulation temporomandibulaire - droite sans et avec contraste IV"
       },
       {
         "code" : "37272-2",
-        "display" : "résonance magnétique médiastin sans et avec contraste IV"
+        "display" : "IRM médiastin sans et avec contraste IV"
       },
       {
         "code" : "37277-1",
@@ -9744,51 +9744,51 @@ Requête sur le SMT
       },
       {
         "code" : "37278-9",
-        "display" : "résonance magnétique cerveau et conduit auditif interne sans contraste"
+        "display" : "IRM cerveau et conduit auditif interne sans contraste"
       },
       {
         "code" : "37279-7",
-        "display" : "résonance magnétique cerveau et larynx sans contraste"
+        "display" : "IRM cerveau et larynx sans contraste"
       },
       {
         "code" : "37280-5",
-        "display" : "CT glande parotide sans contraste"
+        "display" : "TDM glande parotide sans contraste"
       },
       {
         "code" : "37281-3",
-        "display" : "résonance magnétique glande parotide sans contraste"
+        "display" : "IRM glande parotide sans contraste"
       },
       {
         "code" : "37282-1",
-        "display" : "CT articulation sternoclaviculaire sans contraste"
+        "display" : "TDM articulation sternoclaviculaire sans contraste"
       },
       {
         "code" : "37283-9",
-        "display" : "CT articulation temporomandibulaire sans contraste"
+        "display" : "TDM articulation temporomandibulaire sans contraste"
       },
       {
         "code" : "37284-7",
-        "display" : "résonance magnétique articulation temporomandibulaire sans contraste"
+        "display" : "IRM articulation temporomandibulaire sans contraste"
       },
       {
         "code" : "37285-4",
-        "display" : "résonance magnétique articulation temporomandibulaire - bilatérale sans contraste"
+        "display" : "IRM articulation temporomandibulaire - bilatérale sans contraste"
       },
       {
         "code" : "37286-2",
-        "display" : "résonance magnétique articulation temporomandibulaire - gauche sans contraste"
+        "display" : "IRM articulation temporomandibulaire - gauche sans contraste"
       },
       {
         "code" : "37287-0",
-        "display" : "résonance magnétique articulation temporomandibulaire - droite sans contraste"
+        "display" : "IRM articulation temporomandibulaire - droite sans contraste"
       },
       {
         "code" : "37288-8",
-        "display" : "CT articulation lombosacrée du rachis sans contraste"
+        "display" : "TDM articulation lombosacrée du rachis sans contraste"
       },
       {
         "code" : "37293-8",
-        "display" : "résonance magnétique tissu mou sans contraste"
+        "display" : "IRM tissu mou sans contraste"
       },
       {
         "code" : "37297-9",
@@ -9900,7 +9900,7 @@ Requête sur le SMT
       },
       {
         "code" : "37364-7",
-        "display" : "angiographie par fluoroscopie aorte et artère fémorale - gauche ; incidences d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie aorte et artère fémorale - gauche ; incidences d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "37365-4",
@@ -9908,115 +9908,115 @@ Requête sur le SMT
       },
       {
         "code" : "37379-5",
-        "display" : "angiographie par fluoroscopie arc aortique et artère du membre supérieur ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère du membre supérieur ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37380-3",
-        "display" : "angiographie par fluoroscopie arc aortique et artère brachiale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère brachiale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37381-1",
-        "display" : "angiographie par fluoroscopie artère carotidienne ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37382-9",
-        "display" : "angiographie par fluoroscopie arc aortique et artère sousclavière ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère sousclavière ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37383-7",
-        "display" : "angiographie par fluoroscopie arc aortique et artère sousclavière - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère sousclavière - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37384-5",
-        "display" : "angiographie par fluoroscopie artère vertébrale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère vertébrale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37385-2",
-        "display" : "angiographie par fluoroscopie arc aortique et artère vertébrale - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère vertébrale - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37386-0",
-        "display" : "angiographie par fluoroscopie arc aortique et artère vertébrale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère vertébrale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37387-8",
-        "display" : "angiographie par fluoroscopie artère surrénale - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère surrénale - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37388-6",
-        "display" : "angiographie par fluoroscopie artère brachiale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère brachiale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37389-4",
-        "display" : "angiographie par fluoroscopie artère bronchique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère bronchique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37390-2",
-        "display" : "angiographie par fluoroscopie artère carotidienne.externe - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne.externe - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37391-0",
-        "display" : "angiographie par fluoroscopie artères carotidiennes et artère vertébrale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes et artère vertébrale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37392-8",
-        "display" : "angiographie par fluoroscopie artères carotidiennes et artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes et artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37393-6",
-        "display" : "angiographie par fluoroscopie artères carotidiennes et artère vertébrale - gauches ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes et artère vertébrale - gauches ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37394-4",
-        "display" : "angiographie par fluoroscopie artère coeliaque et artère mésentérique supérieure et artère mésentérique inférieure ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère coeliaque et artère mésentérique supérieure et artère mésentérique inférieure ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37395-1",
-        "display" : "angiographie par fluoroscopie artères d'un membre - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères d'un membre - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37396-9",
-        "display" : "angiographie par fluoroscopie artères du membre supérieur - bilatéral ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre supérieur - bilatéral ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37397-7",
-        "display" : "angiographie par fluoroscopie artère gastrique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère gastrique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37398-5",
-        "display" : "angiographie par fluoroscopie artère gastrique - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère gastrique - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37399-3",
-        "display" : "angiographie par fluoroscopie artère gastroduodénale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère gastroduodénale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37401-7",
-        "display" : "angiographie par fluoroscopie artère maxillaire interne ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère maxillaire interne ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37402-5",
-        "display" : "angiographie par fluoroscopie artère mésentérique supérieure et artère mésentérique inférieure ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère mésentérique supérieure et artère mésentérique inférieure ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37403-3",
-        "display" : "angiographie par fluoroscopie artère coeliaque et artère gastrique - gauches et artère mésentérique supérieure ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère coeliaque et artère gastrique - gauches et artère mésentérique supérieure ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37404-1",
-        "display" : "angiographie par fluoroscopie artère pudendale interne ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère pudendale interne ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37405-8",
-        "display" : "angiographie par fluoroscopie artère sousclavière - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère sousclavière - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37406-6",
-        "display" : "angiographie par fluoroscopie artère sousclavière - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère sousclavière - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37407-4",
-        "display" : "angiographie par fluoroscopie artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37409-0",
@@ -10028,47 +10028,47 @@ Requête sur le SMT
       },
       {
         "code" : "37411-6",
-        "display" : "angiographie par fluoroscopie veine azygos ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine azygos ; incidences avec contraste IV"
       },
       {
         "code" : "37412-4",
-        "display" : "angiographie par fluoroscopie veines d'extrémité - bilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines d'extrémité - bilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "37413-2",
-        "display" : "angiographie par fluoroscopie veines du membre - gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre - gauche ; incidences avec contraste IV"
       },
       {
         "code" : "37414-0",
-        "display" : "angiographie par fluoroscopie veines du membre inférieur - bilatéral ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre inférieur - bilatéral ; incidences avec contraste IV"
       },
       {
         "code" : "37415-7",
-        "display" : "angiographie par fluoroscopie veines du membre supérieur - bilatéral ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre supérieur - bilatéral ; incidences avec contraste IV"
       },
       {
         "code" : "37416-5",
-        "display" : "angiographie par fluoroscopie veine fémorale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine fémorale ; incidences avec contraste IV"
       },
       {
         "code" : "37419-9",
-        "display" : "angiographie par fluoroscopie veines intraosseuses ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines intraosseuses ; incidences avec contraste IV"
       },
       {
         "code" : "37421-5",
-        "display" : "angiographie par fluoroscopie veine mésentérique inférieure ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine mésentérique inférieure ; incidences avec contraste IV"
       },
       {
         "code" : "37422-3",
-        "display" : "angiographie par fluoroscopie veines de l'orbite - gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines de l'orbite - gauche ; incidences avec contraste IV"
       },
       {
         "code" : "37423-1",
-        "display" : "angiographie par fluoroscopie veine rénale gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale gauche ; incidences avec contraste IV"
       },
       {
         "code" : "37426-4",
-        "display" : "angiographie par fluoroscopie veine du membre inférieur ; guidage pour angioplastie avec contraste IV"
+        "display" : "angiofluoroscopie veine du membre inférieur ; guidage pour angioplastie avec contraste IV"
       },
       {
         "code" : "37427-2",
@@ -10076,7 +10076,7 @@ Requête sur le SMT
       },
       {
         "code" : "37428-0",
-        "display" : "CT poignet"
+        "display" : "TDM poignet"
       },
       {
         "code" : "37429-8",
@@ -10084,11 +10084,11 @@ Requête sur le SMT
       },
       {
         "code" : "37430-6",
-        "display" : "CT poignet - bilatéral"
+        "display" : "TDM poignet - bilatéral"
       },
       {
         "code" : "37431-4",
-        "display" : "CT poignet - gauche"
+        "display" : "TDM poignet - gauche"
       },
       {
         "code" : "37432-2",
@@ -10096,31 +10096,31 @@ Requête sur le SMT
       },
       {
         "code" : "37433-0",
-        "display" : "CT poignet - droit"
+        "display" : "TDM poignet - droit"
       },
       {
         "code" : "37434-8",
-        "display" : "résonance magnétique coeur ; ciné pour fonction"
+        "display" : "IRM coeur ; ciné pour fonction"
       },
       {
         "code" : "37435-5",
-        "display" : "résonance magnétique articulation temporomandibulaire ; ciné"
+        "display" : "IRM articulation temporomandibulaire ; ciné"
       },
       {
         "code" : "37437-1",
-        "display" : "résonance magnétique sein dynamique avec contraste IV"
+        "display" : "IRM sein dynamique avec contraste IV"
       },
       {
         "code" : "37439-7",
-        "display" : "CT parenchyme pulmonaire"
+        "display" : "TDM parenchyme pulmonaire"
       },
       {
         "code" : "37440-5",
-        "display" : "CT parenchyme pulmonaire avec contraste IV"
+        "display" : "TDM parenchyme pulmonaire avec contraste IV"
       },
       {
         "code" : "37441-3",
-        "display" : "CT parenchyme pulmonaire sans contraste"
+        "display" : "TDM parenchyme pulmonaire sans contraste"
       },
       {
         "code" : "37442-1",
@@ -10132,43 +10132,43 @@ Requête sur le SMT
       },
       {
         "code" : "37444-7",
-        "display" : "résonance magnétique poignet avec contraste intraarticulaire"
+        "display" : "IRM poignet avec contraste intraarticulaire"
       },
       {
         "code" : "37445-4",
-        "display" : "résonance magnétique poignet - gauche avec contraste intraarticulaire"
+        "display" : "IRM poignet - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "37446-2",
-        "display" : "résonance magnétique poignet - droit avec contraste intraarticulaire"
+        "display" : "IRM poignet - droit avec contraste intraarticulaire"
       },
       {
         "code" : "37447-0",
-        "display" : "CT poignet avec contraste IV"
+        "display" : "TDM poignet avec contraste IV"
       },
       {
         "code" : "37448-8",
-        "display" : "résonance magnétique poignet avec contraste IV"
+        "display" : "IRM poignet avec contraste IV"
       },
       {
         "code" : "37449-6",
-        "display" : "résonance magnétique poignet - bilatéral avec contraste IV"
+        "display" : "IRM poignet - bilatéral avec contraste IV"
       },
       {
         "code" : "37450-4",
-        "display" : "CT poignet - gauche avec contraste IV"
+        "display" : "TDM poignet - gauche avec contraste IV"
       },
       {
         "code" : "37451-2",
-        "display" : "résonance magnétique poignet - gauche avec contraste IV"
+        "display" : "IRM poignet - gauche avec contraste IV"
       },
       {
         "code" : "37452-0",
-        "display" : "CT poignet - droit avec contraste IV"
+        "display" : "TDM poignet - droit avec contraste IV"
       },
       {
         "code" : "37453-8",
-        "display" : "résonance magnétique poignet - droit avec contraste IV"
+        "display" : "IRM poignet - droit avec contraste IV"
       },
       {
         "code" : "37454-6",
@@ -10180,43 +10180,43 @@ Requête sur le SMT
       },
       {
         "code" : "37457-9",
-        "display" : "CT poignet sans et avec contraste IV"
+        "display" : "TDM poignet sans et avec contraste IV"
       },
       {
         "code" : "37458-7",
-        "display" : "CT poignet - gauche sans et avec contraste IV"
+        "display" : "TDM poignet - gauche sans et avec contraste IV"
       },
       {
         "code" : "37459-5",
-        "display" : "CT poignet sans contraste"
+        "display" : "TDM poignet sans contraste"
       },
       {
         "code" : "37460-3",
-        "display" : "résonance magnétique poignet sans contraste"
+        "display" : "IRM poignet sans contraste"
       },
       {
         "code" : "37461-1",
-        "display" : "CT poignet - bilatéral sans contraste"
+        "display" : "TDM poignet - bilatéral sans contraste"
       },
       {
         "code" : "37462-9",
-        "display" : "résonance magnétique poignet - bilatéral sans contraste"
+        "display" : "IRM poignet - bilatéral sans contraste"
       },
       {
         "code" : "37463-7",
-        "display" : "CT poignet - gauche sans contraste"
+        "display" : "TDM poignet - gauche sans contraste"
       },
       {
         "code" : "37464-5",
-        "display" : "résonance magnétique poignet - gauche sans contraste"
+        "display" : "IRM poignet - gauche sans contraste"
       },
       {
         "code" : "37465-2",
-        "display" : "CT poignet - droit sans contraste"
+        "display" : "TDM poignet - droit sans contraste"
       },
       {
         "code" : "37466-0",
-        "display" : "résonance magnétique poignet - droit sans contraste"
+        "display" : "IRM poignet - droit sans contraste"
       },
       {
         "code" : "37467-8",
@@ -10288,31 +10288,31 @@ Requête sur le SMT
       },
       {
         "code" : "37487-6",
-        "display" : "angiographie par fluoroscopie artères du membre inférieur ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre inférieur ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37488-4",
-        "display" : "angiographie par fluoroscopie artères du membre supérieur - gauches ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre supérieur - gauches ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37489-2",
-        "display" : "angiographie par fluoroscopie artères tibiofibulaires ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères tibiofibulaires ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37490-0",
-        "display" : "angiographie par fluoroscopie artère vertébrale - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère vertébrale - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37491-8",
-        "display" : "CT espace pleural ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM espace pleural ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "37492-6",
-        "display" : "CT plèvre thoracique ; guidage pour biopsie percutanée"
+        "display" : "TDM plèvre thoracique ; guidage pour biopsie percutanée"
       },
       {
         "code" : "37493-4",
-        "display" : "CT disque intervertébral du rachis cervical ; guidage pour injection"
+        "display" : "TDM disque intervertébral du rachis cervical ; guidage pour injection"
       },
       {
         "code" : "37494-2",
@@ -10320,11 +10320,11 @@ Requête sur le SMT
       },
       {
         "code" : "37495-9",
-        "display" : "CT base du crâne"
+        "display" : "TDM base du crâne"
       },
       {
         "code" : "37496-7",
-        "display" : "CT rachis cervical avec contraste intradiscal"
+        "display" : "TDM rachis cervical avec contraste intradiscal"
       },
       {
         "code" : "37497-5",
@@ -10332,7 +10332,7 @@ Requête sur le SMT
       },
       {
         "code" : "37498-3",
-        "display" : "angiographie par tomodensitométrie vaisseaux de la tête et vaisseaux du cou avec contraste IV"
+        "display" : "angioscanner vaisseaux de la tête et vaisseaux du cou avec contraste IV"
       },
       {
         "code" : "37500-6",
@@ -10368,7 +10368,7 @@ Requête sur le SMT
       },
       {
         "code" : "37509-7",
-        "display" : "CT rachis lombaire avec contraste intradiscal"
+        "display" : "TDM rachis lombaire avec contraste intradiscal"
       },
       {
         "code" : "37510-5",
@@ -10596,7 +10596,7 @@ Requête sur le SMT
       },
       {
         "code" : "37574-1",
-        "display" : "angiographie par fluoroscopie vaisseaux du membre inférieur ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie vaisseaux du membre inférieur ; incidences avec contraste IV"
       },
       {
         "code" : "37575-8",
@@ -10648,67 +10648,67 @@ Requête sur le SMT
       },
       {
         "code" : "37587-3",
-        "display" : "angiographie par fluoroscopie arc aortique et artère carotidienne - bilatérale et artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère carotidienne - bilatérale et artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37588-1",
-        "display" : "angiographie par fluoroscopie artère carotide commune bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide commune bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37589-9",
-        "display" : "angiographie par fluoroscopie artère carotide commune gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide commune gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37590-7",
-        "display" : "angiographie par fluoroscopie artère carotide commune - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide commune - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37591-5",
-        "display" : "angiographie par fluoroscopie arc aortique et artère carotide externe - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère carotide externe - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37592-3",
-        "display" : "angiographie par fluoroscopie arc aortique et artère carotide externe - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère carotide externe - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37593-1",
-        "display" : "angiographie par fluoroscopie arc aortique et artère carotidienne externe - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère carotidienne externe - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37594-9",
-        "display" : "angiographie par fluoroscopie artère carotidienne et artère vertébrale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne et artère vertébrale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37595-6",
-        "display" : "angiographie par fluoroscopie artères coronaires ; incidences pour greffe avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères coronaires ; incidences pour greffe avec contraste intraartériel"
       },
       {
         "code" : "37596-4",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux et pelviens - gauches ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques abdominaux et pelviens - gauches ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "37597-2",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux et pelviens ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques abdominaux et pelviens ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "37598-0",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux et pelviens - bilatéraux ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques abdominaux et pelviens - bilatéraux ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "37599-8",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques d'un membre - gauche ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques d'un membre - gauche ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "37600-4",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques - gauches ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques - gauches ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "37601-2",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques pelviens - bilatéraux ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques pelviens - bilatéraux ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "37602-0",
-        "display" : "angiographie par fluoroscopie veine surrénale - gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine surrénale - gauche ; incidences avec contraste IV"
       },
       {
         "code" : "37604-6",
@@ -10752,7 +10752,7 @@ Requête sur le SMT
       },
       {
         "code" : "37615-2",
-        "display" : "angiographie par fluoroscopie vaisseaux du pelvis ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux du pelvis ; incidences avec contraste"
       },
       {
         "code" : "37616-0",
@@ -10848,7 +10848,7 @@ Requête sur le SMT
       },
       {
         "code" : "37640-0",
-        "display" : "angiographie par fluoroscopie vaisseaux rénaux ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux rénaux ; incidences avec contraste"
       },
       {
         "code" : "37641-8",
@@ -11240,7 +11240,7 @@ Requête sur le SMT
       },
       {
         "code" : "37739-0",
-        "display" : "angiographie par fluoroscopie artère iliaque - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère iliaque - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37740-8",
@@ -11344,7 +11344,7 @@ Requête sur le SMT
       },
       {
         "code" : "37765-5",
-        "display" : "angiographie par fluoroscopie vaisseaux du membre inférieur - droit ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux du membre inférieur - droit ; incidences avec contraste"
       },
       {
         "code" : "37766-3",
@@ -11352,7 +11352,7 @@ Requête sur le SMT
       },
       {
         "code" : "37767-1",
-        "display" : "angiographie par fluoroscopie veines du membre inférieur - droit ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre inférieur - droit ; incidences avec contraste IV"
       },
       {
         "code" : "37768-9",
@@ -11396,11 +11396,11 @@ Requête sur le SMT
       },
       {
         "code" : "37778-8",
-        "display" : "angiographie par fluoroscopie artère poplitée - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère poplitée - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37779-6",
-        "display" : "angiographie par fluoroscopie artères pulmonaires droites ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères pulmonaires droites ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37780-4",
@@ -11580,7 +11580,7 @@ Requête sur le SMT
       },
       {
         "code" : "37824-0",
-        "display" : "angiographie par fluoroscopie veines du membre supérieur - droit ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre supérieur - droit ; incidences avec contraste IV"
       },
       {
         "code" : "37825-7",
@@ -11812,7 +11812,7 @@ Requête sur le SMT
       },
       {
         "code" : "37886-9",
-        "display" : "angiographie par fluoroscopie artère sousclavière ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère sousclavière ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37887-7",
@@ -12000,11 +12000,11 @@ Requête sur le SMT
       },
       {
         "code" : "37935-4",
-        "display" : "angiographie par fluoroscopie artères du pelvis et artères du membre inférieur - bilatéral ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du pelvis et artères du membre inférieur - bilatéral ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37936-2",
-        "display" : "angiographie par fluoroscopie vaisseaux périphériques ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux périphériques ; incidences avec contraste"
       },
       {
         "code" : "37937-0",
@@ -12016,15 +12016,15 @@ Requête sur le SMT
       },
       {
         "code" : "37939-6",
-        "display" : "angiographie par fluoroscopie artère surrénale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère surrénale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37940-4",
-        "display" : "angiographie par fluoroscopie veine surrénale - droite ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine surrénale - droite ; incidences avec contraste IV"
       },
       {
         "code" : "37941-2",
-        "display" : "angiographie par fluoroscopie artères de la cheville ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères de la cheville ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37942-0",
@@ -12032,15 +12032,15 @@ Requête sur le SMT
       },
       {
         "code" : "37943-8",
-        "display" : "angiographie par fluoroscopie artères carotidiennes- droites et artère vertébrale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes- droites et artère vertébrale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37944-6",
-        "display" : "angiographie par fluoroscopie artère carotidienne et artère cérébrale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne et artère cérébrale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37945-3",
-        "display" : "angiographie par fluoroscopie artère carotide.cervicale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide.cervicale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37947-9",
@@ -12048,31 +12048,31 @@ Requête sur le SMT
       },
       {
         "code" : "37948-7",
-        "display" : "angiographie par fluoroscopie artère carotidienne externe - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne externe - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37949-5",
-        "display" : "angiographie par fluoroscopie artères d'un membre - droit ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères d'un membre - droit ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37950-3",
-        "display" : "angiographie par fluoroscopie veines d'un membre - droit ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines d'un membre - droit ; incidences avec contraste IV"
       },
       {
         "code" : "37952-9",
-        "display" : "angiographie par fluoroscopie artère carotidienne interne - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne interne - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37953-7",
-        "display" : "angiographie par fluoroscopie artère carotidienne et artère cérébrale interne - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne et artère cérébrale interne - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37958-6",
-        "display" : "angiographie par fluoroscopie veines de l'orbite - droite ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines de l'orbite - droite ; incidences avec contraste IV"
       },
       {
         "code" : "37959-4",
-        "display" : "angiographie par fluoroscopie veine rénale droite ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale droite ; incidences avec contraste IV"
       },
       {
         "code" : "37960-2",
@@ -12100,31 +12100,31 @@ Requête sur le SMT
       },
       {
         "code" : "37966-9",
-        "display" : "angiographie par fluoroscopie artère sousclavière - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère sousclavière - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37967-7",
-        "display" : "angiographie par fluoroscopie artères du membre supérieur - droit ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre supérieur - droit ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37968-5",
-        "display" : "angiographie par fluoroscopie artère vertébrale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère vertébrale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37969-3",
-        "display" : "angiographie par fluoroscopie sinus veineux ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie sinus veineux ; incidences avec contraste IV"
       },
       {
         "code" : "37970-1",
-        "display" : "angiographie par fluoroscopie veine splénique ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine splénique ; incidences avec contraste IV"
       },
       {
         "code" : "37971-9",
-        "display" : "angiographie par fluoroscopie veine sousclavière ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine sousclavière ; incidences avec contraste IV"
       },
       {
         "code" : "37972-7",
-        "display" : "angiographie par fluoroscopie veine mésentérique supérieure ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine mésentérique supérieure ; incidences avec contraste IV"
       },
       {
         "code" : "37973-5",
@@ -12140,23 +12140,23 @@ Requête sur le SMT
       },
       {
         "code" : "37976-8",
-        "display" : "angiographie par fluoroscopie vaisseaux du membre supérieur ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux du membre supérieur ; incidences avec contraste"
       },
       {
         "code" : "37977-6",
-        "display" : "angiographie par fluoroscopie artères du membre supérieur ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre supérieur ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37979-2",
-        "display" : "angiographie par fluoroscopie artère utérine ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère utérine ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "37980-0",
-        "display" : "angiographie par fluoroscopie vaisseaux vertébraux ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux vertébraux ; incidences avec contraste"
       },
       {
         "code" : "37981-8",
-        "display" : "angiographie par fluoroscopie vaisseaux viscéraux ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux viscéraux ; incidences avec contraste"
       },
       {
         "code" : "37994-1",
@@ -12384,23 +12384,23 @@ Requête sur le SMT
       },
       {
         "code" : "38057-6",
-        "display" : "résonance magnétique sein gauche ; pour implant"
+        "display" : "IRM sein gauche ; pour implant"
       },
       {
         "code" : "38058-4",
-        "display" : "résonance magnétique sein droit ; pour implant"
+        "display" : "IRM sein droit ; pour implant"
       },
       {
         "code" : "38061-8",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire et sacrum avec contraste IV"
+        "display" : "IRM rachis cervical et rachis dorsal et rachis lombaire et sacrum avec contraste IV"
       },
       {
         "code" : "38062-6",
-        "display" : "résonance magnétique sein droit pour implant sans et avec contraste IV"
+        "display" : "IRM sein droit pour implant sans et avec contraste IV"
       },
       {
         "code" : "38064-2",
-        "display" : "résonance magnétique sein gauche pour implant sans contraste IV"
+        "display" : "IRM sein gauche pour implant sans contraste IV"
       },
       {
         "code" : "38065-9",
@@ -12572,7 +12572,7 @@ Requête sur le SMT
       },
       {
         "code" : "38119-4",
-        "display" : "angiographie par fluoroscopie artère thoracique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère thoracique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38120-2",
@@ -12736,7 +12736,7 @@ Requête sur le SMT
       },
       {
         "code" : "38767-0",
-        "display" : "CT conduit auditif interne droit"
+        "display" : "TDM conduit auditif interne droit"
       },
       {
         "code" : "38768-8",
@@ -12744,11 +12744,11 @@ Requête sur le SMT
       },
       {
         "code" : "38769-6",
-        "display" : "résonance magnétique articulation du membre inférieur - droit limitée sans contraste"
+        "display" : "IRM articulation du membre inférieur - droit limitée sans contraste"
       },
       {
         "code" : "38770-4",
-        "display" : "résonance magnétique scapula - droite sans contraste"
+        "display" : "IRM scapula - droite sans contraste"
       },
       {
         "code" : "38771-2",
@@ -12860,19 +12860,19 @@ Requête sur le SMT
       },
       {
         "code" : "38799-3",
-        "display" : "angiographie par fluoroscopie aorte et artère fémorale - droite ; incidences d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie aorte et artère fémorale - droite ; incidences d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "38800-9",
-        "display" : "angiographie par fluoroscopie arc aortique et artère sousclavière - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique et artère sousclavière - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38801-7",
-        "display" : "angiographie par fluoroscopie artère gastrique - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère gastrique - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38802-5",
-        "display" : "CT poignet - droit sans et avec contraste IV"
+        "display" : "TDM poignet - droit sans et avec contraste IV"
       },
       {
         "code" : "38803-3",
@@ -12904,15 +12904,15 @@ Requête sur le SMT
       },
       {
         "code" : "38811-6",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux et pelviens - droits ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques abdominaux et pelviens - droits ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "38812-4",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques d'un membre - droit ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques d'un membre - droit ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "38813-2",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques - droits ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques - droits ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "38814-0",
@@ -12928,7 +12928,7 @@ Requête sur le SMT
       },
       {
         "code" : "38817-3",
-        "display" : "résonance magnétique sein droit pour implant sans contraste IV"
+        "display" : "IRM sein droit pour implant sans contraste IV"
       },
       {
         "code" : "38818-1",
@@ -12968,39 +12968,39 @@ Requête sur le SMT
       },
       {
         "code" : "38828-0",
-        "display" : "CT épaule - gauche avec contraste intraarticulaire"
+        "display" : "TDM épaule - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "38829-8",
-        "display" : "résonance magnétique membre supérieur - gauche avec contraste IV"
+        "display" : "IRM membre supérieur - gauche avec contraste IV"
       },
       {
         "code" : "38830-6",
-        "display" : "résonance magnétique épaule - gauche avec contraste IV"
+        "display" : "IRM épaule - gauche avec contraste IV"
       },
       {
         "code" : "38831-4",
-        "display" : "résonance magnétique membre supérieur - gauche sans et avec contraste IV"
+        "display" : "IRM membre supérieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "38832-2",
-        "display" : "résonance magnétique membre supérieur - gauche sans contraste"
+        "display" : "IRM membre supérieur - gauche sans contraste"
       },
       {
         "code" : "38833-0",
-        "display" : "résonance magnétique plexus brachial - gauche sans contraste"
+        "display" : "IRM plexus brachial - gauche sans contraste"
       },
       {
         "code" : "38834-8",
-        "display" : "résonance magnétique épaule - gauche sans contraste"
+        "display" : "IRM épaule - gauche sans contraste"
       },
       {
         "code" : "38835-5",
-        "display" : "CT os temporal - gauche avec contraste IV"
+        "display" : "TDM os temporal - gauche avec contraste IV"
       },
       {
         "code" : "38836-3",
-        "display" : "résonance magnétique orbite - gauche"
+        "display" : "IRM orbite - gauche"
       },
       {
         "code" : "38837-1",
@@ -13068,7 +13068,7 @@ Requête sur le SMT
       },
       {
         "code" : "38853-8",
-        "display" : "angiographie par fluoroscopie vaisseaux du membre inférieur - gauche ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux du membre inférieur - gauche ; incidences avec contraste"
       },
       {
         "code" : "38854-6",
@@ -13092,7 +13092,7 @@ Requête sur le SMT
       },
       {
         "code" : "38859-5",
-        "display" : "angiographie par fluoroscopie veines du membre supérieur - gauche ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines du membre supérieur - gauche ; incidences avec contraste IV"
       },
       {
         "code" : "38860-3",
@@ -13100,23 +13100,23 @@ Requête sur le SMT
       },
       {
         "code" : "38861-1",
-        "display" : "angiographie par fluoroscopie artères de la cheville gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères de la cheville gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38862-9",
-        "display" : "angiographie par fluoroscopie artère carotidienne et artère cérébrale - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne et artère cérébrale - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38863-7",
-        "display" : "angiographie par fluoroscopie artère carotide.cervicale - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide.cervicale - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38864-5",
-        "display" : "angiographie par fluoroscopie artère carotidienne.interne - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne.interne - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38865-2",
-        "display" : "angiographie par fluoroscopie artère carotidienne et artère cérébrale interne - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne et artère cérébrale interne - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "38866-0",
@@ -13136,7 +13136,7 @@ Requête sur le SMT
       },
       {
         "code" : "38870-2",
-        "display" : "résonance magnétique sein gauche pour implant sans et avec contraste IV"
+        "display" : "IRM sein gauche pour implant sans et avec contraste IV"
       },
       {
         "code" : "38871-0",
@@ -13152,7 +13152,7 @@ Requête sur le SMT
       },
       {
         "code" : "39026-0",
-        "display" : "CT ; guidage pour localisation à l'aiguille dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour localisation à l'aiguille dans une région du corps non spécifiée"
       },
       {
         "code" : "39027-8",
@@ -13160,11 +13160,11 @@ Requête sur le SMT
       },
       {
         "code" : "39028-6",
-        "display" : "résonance magnétique guidage pour localisation à l'aiguille d'une région du corps non spécifié"
+        "display" : "IRM guidage pour localisation à l'aiguille d'une région du corps non spécifié"
       },
       {
         "code" : "39029-4",
-        "display" : "résonance magnétique orbite et face sans et avec contraste IV"
+        "display" : "IRM orbite et face sans et avec contraste IV"
       },
       {
         "code" : "39030-2",
@@ -13180,11 +13180,11 @@ Requête sur le SMT
       },
       {
         "code" : "39033-6",
-        "display" : "résonance magnétique membre supérieur sans contraste"
+        "display" : "IRM membre supérieur sans contraste"
       },
       {
         "code" : "39034-4",
-        "display" : "résonance magnétique membre supérieur sans et avec contraste IV"
+        "display" : "IRM membre supérieur sans et avec contraste IV"
       },
       {
         "code" : "39036-9",
@@ -13192,11 +13192,11 @@ Requête sur le SMT
       },
       {
         "code" : "39037-7",
-        "display" : "résonance magnétique membre supérieur avec contraste IV"
+        "display" : "IRM membre supérieur avec contraste IV"
       },
       {
         "code" : "39038-5",
-        "display" : "résonance magnétique orbite et face avec contraste IV"
+        "display" : "IRM orbite et face avec contraste IV"
       },
       {
         "code" : "39039-3",
@@ -13220,7 +13220,7 @@ Requête sur le SMT
       },
       {
         "code" : "39046-8",
-        "display" : "CT pelvis limitée pour pelvimétrie sans contraste"
+        "display" : "TDM pelvis limitée pour pelvimétrie sans contraste"
       },
       {
         "code" : "39047-6",
@@ -13256,7 +13256,7 @@ Requête sur le SMT
       },
       {
         "code" : "39055-9",
-        "display" : "angiographie par fluoroscopie veines d'une extrémité ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines d'une extrémité ; incidences avec contraste IV"
       },
       {
         "code" : "39056-7",
@@ -13264,7 +13264,7 @@ Requête sur le SMT
       },
       {
         "code" : "39057-5",
-        "display" : "angiographie par fluoroscopie artères pulmonaires ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères pulmonaires ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "39058-3",
@@ -13352,27 +13352,27 @@ Requête sur le SMT
       },
       {
         "code" : "39093-0",
-        "display" : "angiographie par fluoroscopie veines hépatiques ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines hépatiques ; incidences avec contraste IV"
       },
       {
         "code" : "39094-8",
-        "display" : "angiographie par fluoroscopie artère carotide.cervicale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide.cervicale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "39095-5",
-        "display" : "angiographie par fluoroscopie artère carotidienne et artère cérébrale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne et artère cérébrale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "39096-3",
-        "display" : "angiographie par fluoroscopie veines hépatiques ; incidences pour hémodynamique avec contraste IV"
+        "display" : "angiofluoroscopie veines hépatiques ; incidences pour hémodynamique avec contraste IV"
       },
       {
         "code" : "39097-1",
-        "display" : "angiographie par fluoroscopie artère carotidienne - bilatérale et artère cérébrale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotidienne - bilatérale et artère cérébrale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "39098-9",
-        "display" : "angiographie par fluoroscopie artère carotide.cervicale - bilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère carotide.cervicale - bilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "39099-7",
@@ -13380,7 +13380,7 @@ Requête sur le SMT
       },
       {
         "code" : "39138-3",
-        "display" : "angiographie par fluoroscopie vaisseau ; guidage pour accès vasculaire"
+        "display" : "angiofluoroscopie vaisseau ; guidage pour accès vasculaire"
       },
       {
         "code" : "39139-1",
@@ -13388,15 +13388,15 @@ Requête sur le SMT
       },
       {
         "code" : "39140-9",
-        "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin"
+        "display" : "IRM coeur ciné pour cartographie de la vélocité du flux sanguin"
       },
       {
         "code" : "39141-7",
-        "display" : "résonance magnétique moelle osseuse"
+        "display" : "IRM moelle osseuse"
       },
       {
         "code" : "39142-5",
-        "display" : "CT perfusion tête avec contraste IV"
+        "display" : "TDM perfusion tête avec contraste IV"
       },
       {
         "code" : "39144-1",
@@ -13444,15 +13444,15 @@ Requête sur le SMT
       },
       {
         "code" : "39291-0",
-        "display" : "résonance magnétique membre inférieur sans et avec contraste IV"
+        "display" : "IRM membre inférieur sans et avec contraste IV"
       },
       {
         "code" : "39292-8",
-        "display" : "résonance magnétique membre inférieur sans contraste"
+        "display" : "IRM membre inférieur sans contraste"
       },
       {
         "code" : "39293-6",
-        "display" : "résonance magnétique membre inférieur avec contraste IV"
+        "display" : "IRM membre inférieur avec contraste IV"
       },
       {
         "code" : "39321-5",
@@ -13460,7 +13460,7 @@ Requête sur le SMT
       },
       {
         "code" : "39322-3",
-        "display" : "CT rachis avec contraste intradiscal"
+        "display" : "TDM rachis avec contraste intradiscal"
       },
       {
         "code" : "39323-1",
@@ -13600,7 +13600,7 @@ Requête sur le SMT
       },
       {
         "code" : "39363-7",
-        "display" : "angiographie par fluoroscopie fistule artérioveineuse ; incidences avec contraste rétrograde"
+        "display" : "angiofluoroscopie fistule artérioveineuse ; incidences avec contraste rétrograde"
       },
       {
         "code" : "39364-5",
@@ -14044,7 +14044,7 @@ Requête sur le SMT
       },
       {
         "code" : "39510-3",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques pelviens ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques pelviens ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "39511-1",
@@ -14116,19 +14116,19 @@ Requête sur le SMT
       },
       {
         "code" : "39619-2",
-        "display" : "médecine nucléaire système pulmonaire ; incidences avec radionucléide IV"
+        "display" : "MN système pulmonaire ; incidences avec radionucléide IV"
       },
       {
         "code" : "39620-0",
-        "display" : "médecine nucléaire ; guidage limité pour localisation d'un abcès avec radionucléide IV dans une région du corps non spécifiée"
+        "display" : "MN ; guidage limité pour localisation d'un abcès avec radionucléide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39621-8",
-        "display" : "médecine nucléaire SPECT ; guidage pour localisation d'un abcès avec radionucléide IV"
+        "display" : "SPECT ; guidage pour localisation d'un abcès avec radionucléide IV"
       },
       {
         "code" : "39622-6",
-        "display" : "médecine nucléaire SPECT corps entier ; guidage pour localisation d'un abcès avec radionucléide IV"
+        "display" : "SPECT corps entier ; guidage pour localisation d'un abcès avec radionucléide IV"
       },
       {
         "code" : "39623-4",
@@ -14136,83 +14136,83 @@ Requête sur le SMT
       },
       {
         "code" : "39624-2",
-        "display" : "médecine nucléaire glande surrénale ; incidences avec I-131 norcholestérol IV"
+        "display" : "MN glande surrénale ; incidences avec I-131 norcholestérol IV"
       },
       {
         "code" : "39625-9",
-        "display" : "médecine nucléaire artère ; incidences avec Tc-99m DTPA intraartériel"
+        "display" : "MN artère ; incidences avec Tc-99m DTPA intraartériel"
       },
       {
         "code" : "39626-7",
-        "display" : "médecine nucléaire veine - bilatérale ; incidences avec radionucléide IV"
+        "display" : "MN veine - bilatérale ; incidences avec radionucléide IV"
       },
       {
         "code" : "39627-5",
-        "display" : "médecine nucléaire os ; incidences limitées avec radionucélide IV"
+        "display" : "MN os ; incidences limitées avec radionucélide IV"
       },
       {
         "code" : "39628-3",
-        "display" : "médecine nucléaire SPECT intestin grêle pour diverticule de Meckel avec radionucléide IV"
+        "display" : "SPECT intestin grêle pour diverticule de Meckel avec radionucléide IV"
       },
       {
         "code" : "39629-1",
-        "display" : "médecine nucléaire intestin grêle ; incidences pour diverticule de Meckel avec radionucléide IV"
+        "display" : "MN intestin grêle ; incidences pour diverticule de Meckel avec radionucléide IV"
       },
       {
         "code" : "39630-9",
-        "display" : "médecine nucléaire cerveau ; incidences avec Tc-99m HMPAO IV"
+        "display" : "MN cerveau ; incidences avec Tc-99m HMPAO IV"
       },
       {
         "code" : "39631-7",
-        "display" : "médecine nucléaire SPECT cerveau avec Tc-99m HMPAO IV"
+        "display" : "SPECT cerveau avec Tc-99m HMPAO IV"
       },
       {
         "code" : "39632-5",
-        "display" : "médecine nucléaire SPECT cerveau avec radionucléide IV"
+        "display" : "SPECT cerveau avec radionucléide IV"
       },
       {
         "code" : "39634-1",
-        "display" : "médecine nucléaire cerveau ; incidences limitées avec radionucélide IV"
+        "display" : "MN cerveau ; incidences limitées avec radionucélide IV"
       },
       {
         "code" : "39635-8",
-        "display" : "médecine nucléaire cerveau ; incidences avec Tl-201 IV"
+        "display" : "MN cerveau ; incidences avec Tl-201 IV"
       },
       {
         "code" : "39636-6",
-        "display" : "médecine nucléaire cerveau ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN cerveau ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39637-4",
-        "display" : "médecine nucléaire SPECT cerveau pour débit sanguin avec radionucléide IV"
+        "display" : "SPECT cerveau pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39638-2",
-        "display" : "médecine nucléaire SPECT cerveau avec I-123 IV"
+        "display" : "SPECT cerveau avec I-123 IV"
       },
       {
         "code" : "39639-0",
-        "display" : "médecine nucléaire SPECT cerveau avec Tl-201 IV"
+        "display" : "SPECT cerveau avec Tl-201 IV"
       },
       {
         "code" : "39640-8",
-        "display" : "médecine nucléaire SPECT cerveau avec Tc-99m DTPA IV"
+        "display" : "SPECT cerveau avec Tc-99m DTPA IV"
       },
       {
         "code" : "39641-6",
-        "display" : "médecine nucléaire SPECT cerveau avec Tc-99m glucoheptonate IV"
+        "display" : "SPECT cerveau avec Tc-99m glucoheptonate IV"
       },
       {
         "code" : "39642-4",
-        "display" : "médecine nucléaire cerveau ; incidences avec Tc-99m glucoheptonate IV"
+        "display" : "MN cerveau ; incidences avec Tc-99m glucoheptonate IV"
       },
       {
         "code" : "39643-2",
-        "display" : "médecine nucléaire veines du cerveau ; incidences avec radionucléide IV"
+        "display" : "MN veines du cerveau ; incidences avec radionucléide IV"
       },
       {
         "code" : "39644-0",
-        "display" : "médecine nucléaire SPECT sein avec radionucléide IV"
+        "display" : "SPECT sein avec radionucléide IV"
       },
       {
         "code" : "39645-7",
@@ -14224,87 +14224,87 @@ Requête sur le SMT
       },
       {
         "code" : "39647-3",
-        "display" : "médecine nucléaire SPECT coeur avec Tc 99m tétrofosmine IV"
+        "display" : "SPECT coeur avec Tc 99m tétrofosmine IV"
       },
       {
         "code" : "39648-1",
-        "display" : "médecine nucléaire SPECT coeur avec dipyridamole IV et avec radionucléide IV"
+        "display" : "SPECT coeur avec dipyridamole IV et avec radionucléide IV"
       },
       {
         "code" : "39649-9",
-        "display" : "médecine nucléaire SPECT coeur avec radionucléide IV"
+        "display" : "SPECT coeur avec radionucléide IV"
       },
       {
         "code" : "39650-7",
-        "display" : "médecine nucléaire coeur ; incidences avec radionucléide IV"
+        "display" : "MN coeur ; incidences avec radionucléide IV"
       },
       {
         "code" : "39651-5",
-        "display" : "médecine nucléaire coeur ; incidences avec adénosine et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences avec adénosine et avec Tl-201 IV"
       },
       {
         "code" : "39652-3",
-        "display" : "médecine nucléaire coeur ; incidences avec dobutamine et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences avec dobutamine et avec Tl-201 IV"
       },
       {
         "code" : "39653-1",
-        "display" : "médecine nucléaire coeur ; incidence pour infarctus avec radionucléide IV"
+        "display" : "MN coeur ; incidence pour infarctus avec radionucléide IV"
       },
       {
         "code" : "39654-9",
-        "display" : "médecine nucléaire SPECT coeur pour infarctus avec Tc-99m PYP IV"
+        "display" : "SPECT coeur pour infarctus avec Tc-99m PYP IV"
       },
       {
         "code" : "39655-6",
-        "display" : "médecine nucléaire SPECT coeur pour infarctus avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur pour infarctus avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39656-4",
-        "display" : "médecine nucléaire SPECT coeur pour infarctus avec radionucléide IV"
+        "display" : "SPECT coeur pour infarctus avec radionucléide IV"
       },
       {
         "code" : "39657-2",
-        "display" : "médecine nucléaire coeur ; incidences pour infarctus avec Tc-99m PYP IV"
+        "display" : "MN coeur ; incidences pour infarctus avec Tc-99m PYP IV"
       },
       {
         "code" : "39658-0",
-        "display" : "médecine nucléaire SPECT coeur au repos et avec radionucléide IV"
+        "display" : "SPECT coeur au repos et avec radionucléide IV"
       },
       {
         "code" : "39660-6",
-        "display" : "médecine nucléaire coeur ; incidences au repos et avec dipyridamole IV et avec radionucléide IV"
+        "display" : "MN coeur ; incidences au repos et avec dipyridamole IV et avec radionucléide IV"
       },
       {
         "code" : "39661-4",
-        "display" : "médecine nucléaire coeur ; incidences au repos et avec dobutamine et avec radionucléide IV"
+        "display" : "MN coeur ; incidences au repos et avec dobutamine et avec radionucléide IV"
       },
       {
         "code" : "39662-2",
-        "display" : "médecine nucléaire SPECT coeur au repos et avec stress et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur au repos et avec stress et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39663-0",
-        "display" : "médecine nucléaire coeur ; incidences au repos et avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences au repos et avec stress et avec radionucléide IV"
       },
       {
         "code" : "39664-8",
-        "display" : "médecine nucléaire coeur ; incidences pour détection de shunt avec Tc-99m MAA IV"
+        "display" : "MN coeur ; incidences pour détection de shunt avec Tc-99m MAA IV"
       },
       {
         "code" : "39665-5",
-        "display" : "médecine nucléaire coeur ; incidences pour détection d'un shunt avec radionucléide IV"
+        "display" : "MN coeur ; incidences pour détection d'un shunt avec radionucléide IV"
       },
       {
         "code" : "39666-3",
-        "display" : "médecine nucléaire coeur ; incidences avec stress et avec 201 TH IV"
+        "display" : "MN coeur ; incidences avec stress et avec 201 TH IV"
       },
       {
         "code" : "39667-1",
-        "display" : "médecine nucléaire coeur ; incidences avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences avec stress et avec radionucléide IV"
       },
       {
         "code" : "39668-9",
-        "display" : "médecine nucléaire SPECT coeur avec stress et avec radionucléide IV"
+        "display" : "SPECT coeur avec stress et avec radionucléide IV"
       },
       {
         "code" : "39669-7",
@@ -14312,7 +14312,7 @@ Requête sur le SMT
       },
       {
         "code" : "39670-5",
-        "display" : "médecine nucléaire conduit lacrymal ; incidences avec radionucléide intra canal lacrymal"
+        "display" : "MN conduit lacrymal ; incidences avec radionucléide intra canal lacrymal"
       },
       {
         "code" : "39671-3",
@@ -14320,43 +14320,43 @@ Requête sur le SMT
       },
       {
         "code" : "39672-1",
-        "display" : "médecine nucléaire oesophage ; incidences pour motilité avec radionucléide per os"
+        "display" : "MN oesophage ; incidences pour motilité avec radionucléide per os"
       },
       {
         "code" : "39673-9",
-        "display" : "médecine nucléaire oesophage ; incidences pour reflux avec radionucléide per os"
+        "display" : "MN oesophage ; incidences pour reflux avec radionucléide per os"
       },
       {
         "code" : "39674-7",
-        "display" : "médecine nucléaire vésicule biliaire ; incidences avec disofénine de technétium (99mTc) IV"
+        "display" : "MN vésicule biliaire ; incidences avec disofénine de technétium (99mTc) IV"
       },
       {
         "code" : "39675-4",
-        "display" : "médecine nucléaire SPECT corps entier pour infection avec Ga-67 IV"
+        "display" : "SPECT corps entier pour infection avec Ga-67 IV"
       },
       {
         "code" : "39677-0",
-        "display" : "médecine nucléaire ; incidences pour infection avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour infection avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39678-8",
-        "display" : "médecine nucléaire SPECT corps entier pour tumeur avec Ga-67 IV"
+        "display" : "SPECT corps entier pour tumeur avec Ga-67 IV"
       },
       {
         "code" : "39679-6",
-        "display" : "médecine nucléaire ; incidences pour tumeur avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour tumeur avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39680-4",
-        "display" : "médecine nucléaire SPECT corps entier avec Ga-67 IV"
+        "display" : "SPECT corps entier avec Ga-67 IV"
       },
       {
         "code" : "39681-2",
-        "display" : "médecine nucléaire SPECT limitée avec Ga-67 IV"
+        "display" : "SPECT limitée avec Ga-67 IV"
       },
       {
         "code" : "39682-0",
-        "display" : "médecine nucléaire SPECT avec Ga-67 IV"
+        "display" : "SPECT avec Ga-67 IV"
       },
       {
         "code" : "39683-8",
@@ -14364,11 +14364,11 @@ Requête sur le SMT
       },
       {
         "code" : "39684-6",
-        "display" : "médecine nucléaire SPECT pour abcès avec Ga-67 IV"
+        "display" : "SPECT pour abcès avec Ga-67 IV"
       },
       {
         "code" : "39685-3",
-        "display" : "médecine nucléaire ; incidences pour abcès avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour abcès avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39686-1",
@@ -14376,47 +14376,47 @@ Requête sur le SMT
       },
       {
         "code" : "39687-9",
-        "display" : "médecine nucléaire ; incidences limitées avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences limitées avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39688-7",
-        "display" : "médecine nucléaire ; incidences avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39689-5",
-        "display" : "médecine nucléaire tractus gastro-intestinal ; incidences avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN tractus gastro-intestinal ; incidences avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "39690-3",
-        "display" : "médecine nucléaire foie ; incidences avec globules rouges marqués au Tc-99m IV"
+        "display" : "MN foie ; incidences avec globules rouges marqués au Tc-99m IV"
       },
       {
         "code" : "39691-1",
-        "display" : "médecine nucléaire SPECT foie avec globules rouges marqués au Tc-99m IV"
+        "display" : "SPECT foie avec globules rouges marqués au Tc-99m IV"
       },
       {
         "code" : "39692-9",
-        "display" : "médecine nucléaire SPECT foie avec radionucléide IV"
+        "display" : "SPECT foie avec radionucléide IV"
       },
       {
         "code" : "39693-7",
-        "display" : "médecine nucléaire foie ; incidences avec radionucléide IV"
+        "display" : "MN foie ; incidences avec radionucléide IV"
       },
       {
         "code" : "39694-5",
-        "display" : "médecine nucléaire abdomen ; incidences pour foie transplanté avec radionucléide IV"
+        "display" : "MN abdomen ; incidences pour foie transplanté avec radionucléide IV"
       },
       {
         "code" : "39695-2",
-        "display" : "médecine nucléaire poumon ; incidences limitées avec radionucélide IV"
+        "display" : "MN poumon ; incidences limitées avec radionucélide IV"
       },
       {
         "code" : "39696-0",
-        "display" : "médecine nucléaire poumon ; incidences avec dépréotide et avec radionucléide IV"
+        "display" : "MN poumon ; incidences avec dépréotide et avec radionucléide IV"
       },
       {
         "code" : "39697-8",
-        "display" : "médecine nucléaire poumon ; incidences de perfusion avec radionucléide IV"
+        "display" : "MN poumon ; incidences de perfusion avec radionucléide IV"
       },
       {
         "code" : "39698-6",
@@ -14424,99 +14424,99 @@ Requête sur le SMT
       },
       {
         "code" : "39699-4",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39700-0",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec adénosine et avec radionucléide IV"
+        "display" : "SPECT coeur de perfusion avec adénosine et avec radionucléide IV"
       },
       {
         "code" : "39701-8",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec adénosine et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec adénosine et avec radionucléide IV"
       },
       {
         "code" : "39702-6",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dobutamine et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion avec dobutamine et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39703-4",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dobutamine et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec dobutamine et avec radionucléide IV"
       },
       {
         "code" : "39704-2",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39705-9",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39707-5",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV et avec Tl-201 IV"
       },
       {
         "code" : "39708-3",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV et avec radionucléide IV"
       },
       {
         "code" : "39709-1",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec Tc-99m IV"
+        "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV et avec Tc-99m IV"
       },
       {
         "code" : "39710-9",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur de perfusion avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39711-7",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec Tl-201 IV"
+        "display" : "SPECT coeur de perfusion avec Tl-201 IV"
       },
       {
         "code" : "39712-5",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec radionucléide IV"
+        "display" : "SPECT coeur de perfusion avec radionucléide IV"
       },
       {
         "code" : "39713-3",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec Tl-201 IV et avec Tc-99m Tétrofosmine IV"
+        "display" : "MN coeur ; incidences de perfusion avec Tl-201 IV et avec Tc-99m Tétrofosmine IV"
       },
       {
         "code" : "39714-1",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec Tl-201 IV"
+        "display" : "MN coeur ; incidences de perfusion avec Tl-201 IV"
       },
       {
         "code" : "39715-8",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec stress et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences de perfusion avec stress et avec Tl-201 IV"
       },
       {
         "code" : "39716-6",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec radionucléide IV"
       },
       {
         "code" : "39718-2",
-        "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec radionucléide IV"
+        "display" : "SPECT coeur perfusion au repos et avec radionucléide IV"
       },
       {
         "code" : "39719-0",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec adénosine et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec adénosine et avec radionucléide IV"
       },
       {
         "code" : "39720-8",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec dipyridamole IV et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec dipyridamole IV et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39722-4",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec dipyridamole IV et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec dipyridamole IV et avec radionucléide IV"
       },
       {
         "code" : "39723-2",
-        "display" : "médecine nucléaire SPECT coeur de perfusion au repos et avec stress et avec Tl-201 IV"
+        "display" : "SPECT coeur de perfusion au repos et avec stress et avec Tl-201 IV"
       },
       {
         "code" : "39724-0",
-        "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec stress et avec radionucléide IV"
+        "display" : "SPECT coeur perfusion au repos et avec stress et avec radionucléide IV"
       },
       {
         "code" : "39725-7",
-        "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec adénosine et avec Tl-201 IV"
+        "display" : "SPECT coeur perfusion au repos et avec adénosine et avec Tl-201 IV"
       },
       {
         "code" : "39726-5",
@@ -14524,71 +14524,71 @@ Requête sur le SMT
       },
       {
         "code" : "39727-3",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec stress IV et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec stress IV et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39728-1",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec radionucléide IV"
       },
       {
         "code" : "39729-9",
-        "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec Tl-201 IV"
+        "display" : "SPECT coeur perfusion au repos et avec Tl-201 IV"
       },
       {
         "code" : "39730-7",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec stress et avec radionucléide IV"
       },
       {
         "code" : "39731-5",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec adénosine et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion avec adénosine et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39732-3",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec stress et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de perfusion avec stress et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39733-1",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec dobutamine et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences de perfusion avec dobutamine et avec Tl-201 IV"
       },
       {
         "code" : "39734-9",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec stress et avec radionucléide IV"
+        "display" : "SPECT coeur de perfusion avec stress et avec radionucléide IV"
       },
       {
         "code" : "39735-6",
-        "display" : "médecine nucléaire coeur ; incidences perfusion avec adénosine et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences perfusion avec adénosine et avec Tl-201 IV"
       },
       {
         "code" : "39736-4",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec stress et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur de perfusion avec stress et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39737-2",
-        "display" : "médecine nucléaire cou ; incidences avec radionucléide IV"
+        "display" : "MN cou ; incidences avec radionucléide IV"
       },
       {
         "code" : "39738-0",
-        "display" : "médecine nucléaire abdomen ; incidences avec In-111 Satumomab IV"
+        "display" : "MN abdomen ; incidences avec In-111 Satumomab IV"
       },
       {
         "code" : "39739-8",
-        "display" : "médecine nucléaire pancréas ; incidences avec radionucléide IV"
+        "display" : "MN pancréas ; incidences avec radionucléide IV"
       },
       {
         "code" : "39740-6",
-        "display" : "médecine nucléaire SPECT glande parathyroïde avec radionucléide IV"
+        "display" : "SPECT glande parathyroïde avec radionucléide IV"
       },
       {
         "code" : "39741-4",
-        "display" : "médecine nucléaire glande parathyroïde ; incidences retardées avec radionucléide IV"
+        "display" : "MN glande parathyroïde ; incidences retardées avec radionucléide IV"
       },
       {
         "code" : "39742-2",
-        "display" : "médecine nucléaire glande parathyroïde ; incidences avec radionucléide IV"
+        "display" : "MN glande parathyroïde ; incidences avec radionucléide IV"
       },
       {
         "code" : "39743-0",
-        "display" : "médecine nucléaire SPECT prostate avec Tc-99m capromab pendatide IV"
+        "display" : "SPECT prostate avec Tc-99m capromab pendatide IV"
       },
       {
         "code" : "39744-8",
@@ -14604,11 +14604,11 @@ Requête sur le SMT
       },
       {
         "code" : "39747-1",
-        "display" : "médecine nucléaire glande salivaire ; incidences avec radionucléide IV"
+        "display" : "MN glande salivaire ; incidences avec radionucléide IV"
       },
       {
         "code" : "39748-9",
-        "display" : "médecine nucléaire SPECT corps entier pour tumeur avec Tc-99m Sestamibi IV"
+        "display" : "SPECT corps entier pour tumeur avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39749-7",
@@ -14616,7 +14616,7 @@ Requête sur le SMT
       },
       {
         "code" : "39750-5",
-        "display" : "médecine nucléaire ; incidences pour tumeur avec Tc-99m Sestamibi IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour tumeur avec Tc-99m Sestamibi IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39751-3",
@@ -14632,19 +14632,19 @@ Requête sur le SMT
       },
       {
         "code" : "39754-7",
-        "display" : "médecine nucléaire glande thyroïde ; incidences limitées avec I-131 IV"
+        "display" : "MN glande thyroïde ; incidences limitées avec I-131 IV"
       },
       {
         "code" : "39755-4",
-        "display" : "médecine nucléaire SPECT glande thyroïde avec I-131 IV"
+        "display" : "SPECT glande thyroïde avec I-131 IV"
       },
       {
         "code" : "39756-2",
-        "display" : "médecine nucléaire glande thyroïde ; incidences avec Tc-99m Sestamibi IV"
+        "display" : "MN glande thyroïde ; incidences avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39757-0",
-        "display" : "médecine nucléaire glande thyroïde ; incidences avec Tc-99m IV"
+        "display" : "MN glande thyroïde ; incidences avec Tc-99m IV"
       },
       {
         "code" : "39758-8",
@@ -14652,103 +14652,103 @@ Requête sur le SMT
       },
       {
         "code" : "39759-6",
-        "display" : "médecine nucléaire SPECT ; guidage limité pour localisation de tumeur avec radionucléide IV"
+        "display" : "SPECT ; guidage limité pour localisation de tumeur avec radionucléide IV"
       },
       {
         "code" : "39760-4",
-        "display" : "médecine nucléaire ; guidage limité pour localisation de tumeur avec radionucléide IV dans une région du corps non spécifiée"
+        "display" : "MN ; guidage limité pour localisation de tumeur avec radionucléide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39761-2",
-        "display" : "médecine nucléaire ; guidage limité pour localisation de tumeur avec Tc-99m Sestamibi IV"
+        "display" : "MN ; guidage limité pour localisation de tumeur avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39762-0",
-        "display" : "médecine nucléaire SPECT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
+        "display" : "SPECT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
       },
       {
         "code" : "39763-8",
-        "display" : "médecine nucléaire corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
+        "display" : "MN corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
       },
       {
         "code" : "39764-6",
-        "display" : "médecine nucléaire veine ; incidences avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN veine ; incidences avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "39765-3",
-        "display" : "médecine nucléaire veine ; incidences avec Tc-99m DTPA IV"
+        "display" : "MN veine ; incidences avec Tc-99m DTPA IV"
       },
       {
         "code" : "39766-1",
-        "display" : "médecine nucléaire veine ; incidences avec oxidronate marqué au technétium 99mTc IV"
+        "display" : "MN veine ; incidences avec oxidronate marqué au technétium 99mTc IV"
       },
       {
         "code" : "39767-9",
-        "display" : "médecine nucléaire estomac ; incidences pour la phase solide de la vidange gastrique avec radionucléide per os"
+        "display" : "MN estomac ; incidences pour la phase solide de la vidange gastrique avec radionucléide per os"
       },
       {
         "code" : "39768-7",
-        "display" : "médecine nucléaire estomac ; incidences avec vidange gastrique avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN estomac ; incidences avec vidange gastrique avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "39769-5",
-        "display" : "médecine nucléaire estomac ; incidence pour vidange gastrique avec radionucléide per os"
+        "display" : "MN estomac ; incidence pour vidange gastrique avec radionucléide per os"
       },
       {
         "code" : "39770-3",
-        "display" : "médecine nucléaire SPECT tractus gastro-intestinal avec radionucléide IV"
+        "display" : "SPECT tractus gastro-intestinal avec radionucléide IV"
       },
       {
         "code" : "39811-5",
-        "display" : "médecine nucléaire SPECT pour abcès avec radionucléide IV"
+        "display" : "SPECT pour abcès avec radionucléide IV"
       },
       {
         "code" : "39812-3",
-        "display" : "médecine nucléaire os ; incidences avec Tc-99m HMPAO IV"
+        "display" : "MN os ; incidences avec Tc-99m HMPAO IV"
       },
       {
         "code" : "39813-1",
-        "display" : "médecine nucléaire SPECT os limitée avec radionucléide IV"
+        "display" : "SPECT os limitée avec radionucléide IV"
       },
       {
         "code" : "39816-4",
-        "display" : "médecine nucléaire SPECT os du corps entier avec radionucléide IV"
+        "display" : "SPECT os du corps entier avec radionucléide IV"
       },
       {
         "code" : "39818-0",
-        "display" : "médecine nucléaire os du corps entier ; incidences avec radionucléide IV"
+        "display" : "MN os du corps entier ; incidences avec radionucléide IV"
       },
       {
         "code" : "39819-8",
-        "display" : "médecine nucléaire os ; incidences retardées avec radionucléide IV"
+        "display" : "MN os ; incidences retardées avec radionucléide IV"
       },
       {
         "code" : "39820-6",
-        "display" : "médecine nucléaire os ; incidences avec Sm-153 IV"
+        "display" : "MN os ; incidences avec Sm-153 IV"
       },
       {
         "code" : "39821-4",
-        "display" : "médecine nucléaire SPECT moelle osseuse limitée avec radionucléide IV"
+        "display" : "SPECT moelle osseuse limitée avec radionucléide IV"
       },
       {
         "code" : "39822-2",
-        "display" : "médecine nucléaire moelle osseuse ; incidences limitées avec radionucélide IV"
+        "display" : "MN moelle osseuse ; incidences limitées avec radionucélide IV"
       },
       {
         "code" : "39823-0",
-        "display" : "médecine nucléaire SPECT moelle osseuse avec radionucléide IV"
+        "display" : "SPECT moelle osseuse avec radionucléide IV"
       },
       {
         "code" : "39824-8",
-        "display" : "médecine nucléaire moelle osseuse ; incidences avec radionucléide IV"
+        "display" : "MN moelle osseuse ; incidences avec radionucléide IV"
       },
       {
         "code" : "39825-5",
-        "display" : "médecine nucléaire SPECT moelle osseuse corps entier avec radionucléide IV"
+        "display" : "SPECT moelle osseuse corps entier avec radionucléide IV"
       },
       {
         "code" : "39826-3",
-        "display" : "médecine nucléaire moelle osseuse corps entier ; incidences avec radionucléide IV"
+        "display" : "MN moelle osseuse corps entier ; incidences avec radionucléide IV"
       },
       {
         "code" : "39827-1",
@@ -14760,7 +14760,7 @@ Requête sur le SMT
       },
       {
         "code" : "39829-7",
-        "display" : "médecine nucléaire corps entier ; incidences pour tumeur avec Ga-67 IV"
+        "display" : "MN corps entier ; incidences pour tumeur avec Ga-67 IV"
       },
       {
         "code" : "39830-5",
@@ -14768,23 +14768,23 @@ Requête sur le SMT
       },
       {
         "code" : "39831-3",
-        "display" : "médecine nucléaire ; incidences limitées pour tumeur avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences limitées pour tumeur avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39834-7",
-        "display" : "médecine nucléaire poumon ; incidences de ventilation avec Tc-99m DTPA aérosol en inhalation"
+        "display" : "MN poumon ; incidences de ventilation avec Tc-99m DTPA aérosol en inhalation"
       },
       {
         "code" : "39837-0",
-        "display" : "médecine nucléaire poumon ; incidences de ventilation avec radionucléide en inhalation"
+        "display" : "MN poumon ; incidences de ventilation avec radionucléide en inhalation"
       },
       {
         "code" : "39838-8",
-        "display" : "médecine nucléaire SPECT poumon de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
+        "display" : "SPECT poumon de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
       },
       {
         "code" : "39839-6",
-        "display" : "médecine nucléaire SPECT corps entier avec I-131 MIBG IV"
+        "display" : "SPECT corps entier avec I-131 MIBG IV"
       },
       {
         "code" : "39840-4",
@@ -14792,7 +14792,7 @@ Requête sur le SMT
       },
       {
         "code" : "39841-2",
-        "display" : "médecine nucléaire ; incidences avec I-131 MIBG IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences avec I-131 MIBG IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39842-0",
@@ -14800,11 +14800,11 @@ Requête sur le SMT
       },
       {
         "code" : "39843-8",
-        "display" : "médecine nucléaire ; incidences limitées avec In-111 Satumomab IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences limitées avec In-111 Satumomab IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39844-6",
-        "display" : "médecine nucléaire SPECT corps entier avec In-111 Satumomab IV"
+        "display" : "SPECT corps entier avec In-111 Satumomab IV"
       },
       {
         "code" : "39845-3",
@@ -14812,19 +14812,19 @@ Requête sur le SMT
       },
       {
         "code" : "39846-1",
-        "display" : "médecine nucléaire ; incidences avec In-111 Satumomab IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences avec In-111 Satumomab IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39847-9",
-        "display" : "médecine nucléaire glande parotide ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN glande parotide ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39848-7",
-        "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt W In-111 IT"
+        "display" : "MN tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt W In-111 IT"
       },
       {
         "code" : "39849-5",
-        "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide intrathécal"
+        "display" : "MN tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide intrathécal"
       },
       {
         "code" : "39850-3",
@@ -14832,87 +14832,87 @@ Requête sur le SMT
       },
       {
         "code" : "39851-1",
-        "display" : "médecine nucléaire SPECT rein - bilatéral avec Tc-99m Mertiatide IV"
+        "display" : "SPECT rein - bilatéral avec Tc-99m Mertiatide IV"
       },
       {
         "code" : "39852-9",
-        "display" : "médecine nucléaire SPECT rein - bilatéral avec radionucléide IV"
+        "display" : "SPECT rein - bilatéral avec radionucléide IV"
       },
       {
         "code" : "39856-0",
-        "display" : "médecine nucléaire glande thyroïde ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN glande thyroïde ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39857-8",
-        "display" : "médecine nucléaire glande surrénale ; incidences avec I-131 MIBG IV"
+        "display" : "MN glande surrénale ; incidences avec I-131 MIBG IV"
       },
       {
         "code" : "39858-6",
-        "display" : "médecine nucléaire os ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN os ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39859-4",
-        "display" : "médecine nucléaire cerveau ; incidences retardées avec radionucléide IV"
+        "display" : "MN cerveau ; incidences retardées avec radionucléide IV"
       },
       {
         "code" : "39860-2",
-        "display" : "médecine nucléaire coeur ; incidences pool sanguin avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences pool sanguin avec stress et avec radionucléide IV"
       },
       {
         "code" : "39861-0",
-        "display" : "médecine nucléaire coeur ; incidences pool sanguin avec radionucléide IV"
+        "display" : "MN coeur ; incidences pool sanguin avec radionucléide IV"
       },
       {
         "code" : "39862-8",
-        "display" : "médecine nucléaire SPECT coeur pool sanguin au repos et avec radionucléide IV"
+        "display" : "SPECT coeur pool sanguin au repos et avec radionucléide IV"
       },
       {
         "code" : "39863-6",
-        "display" : "médecine nucléaire coeur ; incidences de première passe au repos et avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de première passe au repos et avec stress et avec radionucléide IV"
       },
       {
         "code" : "39864-4",
-        "display" : "médecine nucléaire coeur ; incidences de premier passage avec radionucléide IV"
+        "display" : "MN coeur ; incidences de premier passage avec radionucléide IV"
       },
       {
         "code" : "39865-1",
-        "display" : "médecine nucléaire ventricule gauche ; incidences de premier passage avec radionucléide IV"
+        "display" : "MN ventricule gauche ; incidences de premier passage avec radionucléide IV"
       },
       {
         "code" : "39866-9",
-        "display" : "médecine nucléaire coeur ; incidences de premier passage au repos et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de premier passage au repos et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39867-7",
-        "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences au premier passage du marqueur au repos et avec radionucléide IV"
       },
       {
         "code" : "39868-5",
-        "display" : "médecine nucléaire coeur ; incidences de premier passage avec stress et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences de premier passage avec stress et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39869-3",
-        "display" : "médecine nucléaire coeur ; incidences de premier passage avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de premier passage avec stress et avec radionucléide IV"
       },
       {
         "code" : "39870-1",
-        "display" : "médecine nucléaire coeur ; incidences pour débit sanguin avec avec pertechnétate de technétium 99m Tc IV"
+        "display" : "MN coeur ; incidences pour débit sanguin avec avec pertechnétate de technétium 99m Tc IV"
       },
       {
         "code" : "39871-9",
-        "display" : "médecine nucléaire coeur ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN coeur ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39872-7",
-        "display" : "médecine nucléaire SPECT coeur cinétique pariétale avec radionucléide IV"
+        "display" : "SPECT coeur cinétique pariétale avec radionucléide IV"
       },
       {
         "code" : "39873-5",
-        "display" : "médecine nucléaire coeur ; incidences cinétique pariétale avec radionucléide IV"
+        "display" : "MN coeur ; incidences cinétique pariétale avec radionucléide IV"
       },
       {
         "code" : "39874-3",
-        "display" : "médecine nucléaire citernes cérébrales ; incidences retardées avec radionucléide intrathécal"
+        "display" : "MN citernes cérébrales ; incidences retardées avec radionucléide intrathécal"
       },
       {
         "code" : "39875-0",
@@ -14920,111 +14920,111 @@ Requête sur le SMT
       },
       {
         "code" : "39876-8",
-        "display" : "médecine nucléaire SPECT foie et rate avec radionucléide IV"
+        "display" : "SPECT foie et rate avec radionucléide IV"
       },
       {
         "code" : "39877-6",
-        "display" : "médecine nucléaire foie et rate ; incidences avec radionucléide IV"
+        "display" : "MN foie et rate ; incidences avec radionucléide IV"
       },
       {
         "code" : "39879-2",
-        "display" : "médecine nucléaire SPECT os (unique) avec radionucléide IV"
+        "display" : "SPECT os (unique) avec radionucléide IV"
       },
       {
         "code" : "39880-0",
-        "display" : "médecine nucléaire os ; incidences 2 phases avec radionucléide IV"
+        "display" : "MN os ; incidences 2 phases avec radionucléide IV"
       },
       {
         "code" : "39881-8",
-        "display" : "médecine nucléaire SPECT os du corps entier 3 phases avec radionucléide IV"
+        "display" : "SPECT os du corps entier 3 phases avec radionucléide IV"
       },
       {
         "code" : "39882-6",
-        "display" : "médecine nucléaire os du corps entier ; incidences 3 phases avec radionucléide IV"
+        "display" : "MN os du corps entier ; incidences 3 phases avec radionucléide IV"
       },
       {
         "code" : "39883-4",
-        "display" : "médecine nucléaire os ; incidences 3 phases avec radionucléide IV"
+        "display" : "MN os ; incidences 3 phases avec radionucléide IV"
       },
       {
         "code" : "39884-2",
-        "display" : "médecine nucléaire os ; incidences pool sanguin avec radionucléide IV"
+        "display" : "MN os ; incidences pool sanguin avec radionucléide IV"
       },
       {
         "code" : "39885-9",
-        "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et volume ventriculaire avec radionucléide IV"
+        "display" : "MN coeur ; incidences au premier passage du marqueur et volume ventriculaire avec radionucléide IV"
       },
       {
         "code" : "39886-7",
-        "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences premier passage et cinétique pariétale au repos et avec radionucléide IV"
       },
       {
         "code" : "39887-5",
-        "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et fraction d'éjection au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences au premier passage du marqueur et fraction d'éjection au repos et avec radionucléide IV"
       },
       {
         "code" : "39888-3",
-        "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences premier passage et cinétique pariétale avec stress et avec radionucléide IV"
       },
       {
         "code" : "39889-1",
-        "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et fraction d'éjection avec radionucléide IV"
+        "display" : "MN coeur ; incidences au premier passage du marqueur et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39890-9",
-        "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale avec radionucléide IV"
+        "display" : "MN coeur ; incidences premier passage et cinétique pariétale avec radionucléide IV"
       },
       {
         "code" : "39891-7",
-        "display" : "médecine nucléaire coeur ; incidences pour infarctus et au premier passage du marqueur avec Tc-99m PYP IV"
+        "display" : "MN coeur ; incidences pour infarctus et au premier passage du marqueur avec Tc-99m PYP IV"
       },
       {
         "code" : "39892-5",
-        "display" : "médecine nucléaire coeur ; incidences pour infarctus et première passe avec radionucléide IV"
+        "display" : "MN coeur ; incidences pour infarctus et première passe avec radionucléide IV"
       },
       {
         "code" : "39893-3",
-        "display" : "médecine nucléaire coeur ; incidences pour débit sanguin et détection d'un shunt avec radionucléide IV"
+        "display" : "MN coeur ; incidences pour débit sanguin et détection d'un shunt avec radionucléide IV"
       },
       {
         "code" : "39895-8",
-        "display" : "médecine nucléaire vésicule biliaire ; incidences pour fraction d'éjection avec Tc-99m DISIDA IV"
+        "display" : "MN vésicule biliaire ; incidences pour fraction d'éjection avec Tc-99m DISIDA IV"
       },
       {
         "code" : "39897-4",
-        "display" : "médecine nucléaire poumon et foie ; incidences avec radionucléide IV"
+        "display" : "MN poumon et foie ; incidences avec radionucléide IV"
       },
       {
         "code" : "39898-2",
-        "display" : "médecine nucléaire SPECT poumon de ventilation avec aérosol de radionucléide en inhalation"
+        "display" : "SPECT poumon de ventilation avec aérosol de radionucléide en inhalation"
       },
       {
         "code" : "39899-0",
-        "display" : "médecine nucléaire glande salivaire ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN glande salivaire ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "39901-4",
-        "display" : "médecine nucléaire os ; incidences 3 phases aires multiples avec radionucléide IV"
+        "display" : "MN os ; incidences 3 phases aires multiples avec radionucléide IV"
       },
       {
         "code" : "39902-2",
-        "display" : "médecine nucléaire os ; incidences 3 phases aire unique avec radionucléide IV"
+        "display" : "MN os ; incidences 3 phases aire unique avec radionucléide IV"
       },
       {
         "code" : "39904-8",
-        "display" : "médecine nucléaire os ; incidences d'aires multiples avec radionucléide IV"
+        "display" : "MN os ; incidences d'aires multiples avec radionucléide IV"
       },
       {
         "code" : "39905-5",
-        "display" : "médecine nucléaire SPECT os aires multiples avec radionucléide IV"
+        "display" : "SPECT os aires multiples avec radionucléide IV"
       },
       {
         "code" : "39906-3",
-        "display" : "médecine nucléaire SPECT moelle osseuse aires multiples avec radionucléide IV"
+        "display" : "SPECT moelle osseuse aires multiples avec radionucléide IV"
       },
       {
         "code" : "39907-1",
-        "display" : "médecine nucléaire moelle osseuse ; incidences d'aires multiples avec radionucléide IV"
+        "display" : "MN moelle osseuse ; incidences d'aires multiples avec radionucléide IV"
       },
       {
         "code" : "39908-9",
@@ -15032,143 +15032,143 @@ Requête sur le SMT
       },
       {
         "code" : "39909-7",
-        "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire et fraction d'éjection avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire et fraction d'éjection avec stress et avec radionucléide IV"
       },
       {
         "code" : "39910-5",
-        "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale et fraction d'éjection avec radionucléide IV"
+        "display" : "MN coeur ; incidences premier passage et cinétique pariétale et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39912-1",
-        "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire et fraction d'éjection avec radionucléide IV"
+        "display" : "MN coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39913-9",
-        "display" : "médecine nucléaire SPECT coeur synchronisée et fraction d'éjection avec radionucléide IV"
+        "display" : "SPECT coeur synchronisée et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39914-7",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences synchronisées avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39915-4",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées avec radionucléide IV"
       },
       {
         "code" : "39916-2",
-        "display" : "médecine nucléaire SPECT coeur synchronisée avec radionucléide IV"
+        "display" : "SPECT coeur synchronisée avec radionucléide IV"
       },
       {
         "code" : "39917-0",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et fraction d'éjection avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39918-8",
-        "display" : "médecine nucléaire SPECT coeur synchronisée et cinétique pariétale avec radionucléide IV"
+        "display" : "SPECT coeur synchronisée et cinétique pariétale avec radionucléide IV"
       },
       {
         "code" : "39919-6",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et premier passage avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et premier passage avec radionucléide IV"
       },
       {
         "code" : "39920-4",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences synchronisées au repos et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "39921-2",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées au repos et avec radionucléide IV"
       },
       {
         "code" : "39922-0",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec Tc-99m pertechnétate IV"
+        "display" : "MN coeur ; incidences synchronisées au repos et avec Tc-99m pertechnétate IV"
       },
       {
         "code" : "39923-8",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et fraction d'éjection au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et fraction d'éjection au repos et avec radionucléide IV"
       },
       {
         "code" : "39924-6",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées au repos et avec stress et avec radionucléide IV"
       },
       {
         "code" : "39925-3",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection au repos et avec radionucléide IV"
       },
       {
         "code" : "39927-9",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées avec stress et avec Tc-99m pertechnétate IV"
+        "display" : "MN coeur ; incidences synchronisées avec stress et avec Tc-99m pertechnétate IV"
       },
       {
         "code" : "39928-7",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées avec stress et avec radionucléide IV"
       },
       {
         "code" : "39929-5",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale avec stress et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et cinétique pariétale avec stress et avec radionucléide IV"
       },
       {
         "code" : "39930-3",
-        "display" : "médecine nucléaire SPECT coeur synchronisée avec stress et avec radionucléide IV"
+        "display" : "SPECT coeur synchronisée avec stress et avec radionucléide IV"
       },
       {
         "code" : "39931-1",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39932-9",
-        "display" : "médecine nucléaire coeur ; incidences cinétique pariétale et fraction d'éjection avec radionucléide IV"
+        "display" : "MN coeur ; incidences cinétique pariétale et fraction d'éjection avec radionucléide IV"
       },
       {
         "code" : "39933-7",
-        "display" : "médecine nucléaire ; incidences pour infection d'aires mutliples avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour infection d'aires mutliples avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39934-5",
-        "display" : "médecine nucléaire ; incidences pour aires mutliples de tumeur avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour aires mutliples de tumeur avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39935-2",
-        "display" : "médecine nucléaire ; incidences d'aires mutliples avec Ga-67 IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences d'aires mutliples avec Ga-67 IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39936-0",
-        "display" : "médecine nucléiare articulation ; incidences limitées avec radionucélide IV"
+        "display" : "MN articulation ; incidences limitées avec radionucélide IV"
       },
       {
         "code" : "39937-8",
-        "display" : "médecine nucléaire articulation ; incidences d'aires multiples avec radionucléide XXX"
+        "display" : "MN articulation ; incidences d'aires multiples avec radionucléide XXX"
       },
       {
         "code" : "39938-6",
-        "display" : "médecine nucléaire SPECT articulation avec radionucléide IV"
+        "display" : "SPECT articulation avec radionucléide IV"
       },
       {
         "code" : "39939-4",
-        "display" : "médecine nucléiare articulation ; incidences avec radionucléide IV"
+        "display" : "MN articulation ; incidences avec radionucléide IV"
       },
       {
         "code" : "39940-2",
-        "display" : "médecine nucléaire poumon ; incidences pour clairance avec Tc-99m DTPA en aérosol en inhalation"
+        "display" : "MN poumon ; incidences pour clairance avec Tc-99m DTPA en aérosol en inhalation"
       },
       {
         "code" : "39942-8",
-        "display" : "médecine nucléaire poumon ; incidences de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
+        "display" : "MN poumon ; incidences de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
       },
       {
         "code" : "39944-4",
-        "display" : "médecine nucléaire poumon ; incidences de ventilation et d'équilibre et de lavage avec radionucléide en inhalation"
+        "display" : "MN poumon ; incidences de ventilation et d'équilibre et de lavage avec radionucléide en inhalation"
       },
       {
         "code" : "39946-9",
-        "display" : "médecine nucléaire poumon ; incidences de ventilation et de perfusion et différentielles avec radionucléide en inhalation et avec radionucléide IV"
+        "display" : "MN poumon ; incidences de ventilation et de perfusion et différentielles avec radionucléide en inhalation et avec radionucléide IV"
       },
       {
         "code" : "39947-7",
-        "display" : "médecine nucléaire poumon ; incidences ventilation et équilibre avec radionucléide en inhalation"
+        "display" : "MN poumon ; incidences ventilation et équilibre avec radionucléide en inhalation"
       },
       {
         "code" : "39949-3",
-        "display" : "médecine nucléaire ; incidences en aires multiples avec In-111 Satumomab IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences en aires multiples avec In-111 Satumomab IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39950-1",
@@ -15176,7 +15176,7 @@ Requête sur le SMT
       },
       {
         "code" : "39951-9",
-        "display" : "médecine nucléaire ; incidences pour aires mutliples de tumeur avecTc-99m Sestamibi IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour aires mutliples de tumeur avecTc-99m Sestamibi IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39952-7",
@@ -15184,15 +15184,15 @@ Requête sur le SMT
       },
       {
         "code" : "39953-5",
-        "display" : "médecine nucléaire ; guidage pour localisation de tumeur d'aires multiples avec radionucléide IV dans une région du corps non spécifiée"
+        "display" : "MN ; guidage pour localisation de tumeur d'aires multiples avec radionucléide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "39954-3",
-        "display" : "médecine nucléaire veine ; incidences pour thrombose avec radionucléide IV"
+        "display" : "MN veine ; incidences pour thrombose avec radionucléide IV"
       },
       {
         "code" : "41770-9",
-        "display" : "médecine nucléaire vésicule biliaire ; incidences avec cholécystokinine et avec radionucléide IV"
+        "display" : "MN vésicule biliaire ; incidences avec cholécystokinine et avec radionucléide IV"
       },
       {
         "code" : "41771-7",
@@ -15200,7 +15200,7 @@ Requête sur le SMT
       },
       {
         "code" : "41772-5",
-        "display" : "médecine nucléaire SPECT os avec globules blancs marqués In-111 IV"
+        "display" : "SPECT os avec globules blancs marqués In-111 IV"
       },
       {
         "code" : "41773-3",
@@ -15300,7 +15300,7 @@ Requête sur le SMT
       },
       {
         "code" : "41801-2",
-        "display" : "angiographie par fluoroscopie veine porte ; guidage pour placement d'un cathéter avec contraste IV"
+        "display" : "angiofluoroscopie veine porte ; guidage pour placement d'un cathéter avec contraste IV"
       },
       {
         "code" : "41802-0",
@@ -15312,15 +15312,15 @@ Requête sur le SMT
       },
       {
         "code" : "41806-1",
-        "display" : "CT abdomen"
+        "display" : "TDM abdomen"
       },
       {
         "code" : "41807-9",
-        "display" : "CT orbite"
+        "display" : "TDM orbite"
       },
       {
         "code" : "41808-7",
-        "display" : "CT région maxillofaciale"
+        "display" : "TDM région maxillofaciale"
       },
       {
         "code" : "41809-5",
@@ -15420,15 +15420,15 @@ Requête sur le SMT
       },
       {
         "code" : "41836-8",
-        "display" : "médecine nucléaire os ; incidences limitées avec globules blancs marqués à l'In-111 IV"
+        "display" : "MN os ; incidences limitées avec globules blancs marqués à l'In-111 IV"
       },
       {
         "code" : "41837-6",
-        "display" : "médecine nucléaire SPECT corps entier avec Tc-99m Arcitumomab IV"
+        "display" : "SPECT corps entier avec Tc-99m Arcitumomab IV"
       },
       {
         "code" : "41838-4",
-        "display" : "médecine nucléaire SPECT prostate avec In-111 Satumomab IV"
+        "display" : "SPECT prostate avec In-111 Satumomab IV"
       },
       {
         "code" : "42007-5",
@@ -15464,7 +15464,7 @@ Requête sur le SMT
       },
       {
         "code" : "42018-2",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
+        "display" : "angiofluoroscopie veine ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
       },
       {
         "code" : "42019-0",
@@ -15472,11 +15472,11 @@ Requête sur le SMT
       },
       {
         "code" : "42020-8",
-        "display" : "CT rachis lombaire ; guidage pour localisation à l'aiguille"
+        "display" : "TDM rachis lombaire ; guidage pour localisation à l'aiguille"
       },
       {
         "code" : "42021-6",
-        "display" : "CT rachis cervical ; guidage pour localisation à l'aiguille"
+        "display" : "TDM rachis cervical ; guidage pour localisation à l'aiguille"
       },
       {
         "code" : "42132-1",
@@ -15496,7 +15496,7 @@ Requête sur le SMT
       },
       {
         "code" : "42136-2",
-        "display" : "CT coeur ; guidage pour biopsie percutanée"
+        "display" : "TDM coeur ; guidage pour biopsie percutanée"
       },
       {
         "code" : "42137-0",
@@ -15556,15 +15556,15 @@ Requête sur le SMT
       },
       {
         "code" : "42156-0",
-        "display" : "angiographie par fluoroscopie vaisseaux ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie vaisseaux ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "42157-8",
-        "display" : "angiographie par fluoroscopie vaisseaux d'extrémité ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie vaisseaux d'extrémité ; incidences avec contraste IV"
       },
       {
         "code" : "42158-6",
-        "display" : "médecine nucléaire glande surrénale ; incidences avec radionucléide IV"
+        "display" : "MN glande surrénale ; incidences avec radionucléide IV"
       },
       {
         "code" : "42159-4",
@@ -15576,7 +15576,7 @@ Requête sur le SMT
       },
       {
         "code" : "42161-0",
-        "display" : "médecine nucléaire coeur ; incidences avec dobutamine et avec radionucléide IV"
+        "display" : "MN coeur ; incidences avec dobutamine et avec radionucléide IV"
       },
       {
         "code" : "42163-6",
@@ -15592,7 +15592,7 @@ Requête sur le SMT
       },
       {
         "code" : "42166-9",
-        "display" : "médecine nucléaire coeur ; 2 incidences au repos et avec Tl-201 IV"
+        "display" : "MN coeur ; 2 incidences au repos et avec Tl-201 IV"
       },
       {
         "code" : "42167-7",
@@ -15624,7 +15624,7 @@ Requête sur le SMT
       },
       {
         "code" : "42260-0",
-        "display" : "CT ; guidage pour biopsie percutanée avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour biopsie percutanée avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "42261-8",
@@ -15632,7 +15632,7 @@ Requête sur le SMT
       },
       {
         "code" : "42262-6",
-        "display" : "médecine nucléaire foie ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN foie ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "42263-4",
@@ -15640,11 +15640,11 @@ Requête sur le SMT
       },
       {
         "code" : "42265-9",
-        "display" : "CT os ; guidage pour biopsie superficielle"
+        "display" : "TDM os ; guidage pour biopsie superficielle"
       },
       {
         "code" : "42268-3",
-        "display" : "CT membre sans et avec contraste IV"
+        "display" : "TDM membre sans et avec contraste IV"
       },
       {
         "code" : "42269-1",
@@ -15652,11 +15652,11 @@ Requête sur le SMT
       },
       {
         "code" : "42270-9",
-        "display" : "résonance magnétique rachis cervical avec flexion et avec extension"
+        "display" : "IRM rachis cervical avec flexion et avec extension"
       },
       {
         "code" : "42271-7",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-123 IV"
+        "display" : "MN glande thyroïde ; incidences et incidences pour absorption avec I-123 IV"
       },
       {
         "code" : "42272-5",
@@ -15668,79 +15668,79 @@ Requête sur le SMT
       },
       {
         "code" : "42274-1",
-        "display" : "CT abdomen et pelvis sans et avec contraste IV"
+        "display" : "TDM abdomen et pelvis sans et avec contraste IV"
       },
       {
         "code" : "42275-8",
-        "display" : "CT thorax et abdomen avec contraste IV"
+        "display" : "TDM thorax et abdomen avec contraste IV"
       },
       {
         "code" : "42276-6",
-        "display" : "CT thorax et abdomen sans contraste"
+        "display" : "TDM thorax et abdomen sans contraste"
       },
       {
         "code" : "42277-4",
-        "display" : "CT thorax et abdomen sans et avec contraste IV"
+        "display" : "TDM thorax et abdomen sans et avec contraste IV"
       },
       {
         "code" : "42278-2",
-        "display" : "CT membre sans contraste"
+        "display" : "TDM membre sans contraste"
       },
       {
         "code" : "42279-0",
-        "display" : "CT rein ; guidage pour biopsie percutanée"
+        "display" : "TDM rein ; guidage pour biopsie percutanée"
       },
       {
         "code" : "42280-8",
-        "display" : "CT appendice ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM appendice ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "42281-6",
-        "display" : "CT thorax ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM thorax ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "42282-4",
-        "display" : "CT foie ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM foie ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "42283-2",
-        "display" : "CT pancréas ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM pancréas ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "42284-0",
-        "display" : "CT espace pleural ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
       },
       {
         "code" : "42285-7",
-        "display" : "CT rein ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM rein ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "42286-5",
-        "display" : "CT pelvis ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM pelvis ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "42287-3",
-        "display" : "CT rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "42291-5",
-        "display" : "CT rétropéritoine sans contraste"
+        "display" : "TDM rétropéritoine sans contraste"
       },
       {
         "code" : "42292-3",
-        "display" : "médecine nucléaire SPECT corps entier pour tumeur avec Tl-201 IV"
+        "display" : "SPECT corps entier pour tumeur avec Tl-201 IV"
       },
       {
         "code" : "42293-1",
-        "display" : "angiographie par tomodensitométrie vaisseaux de la tête sans contraste"
+        "display" : "angioscanner vaisseaux de la tête sans contraste"
       },
       {
         "code" : "42294-9",
-        "display" : "angiographie par tomodensitométrie vaisseaux du pelvis avec contraste IV"
+        "display" : "angioscanner vaisseaux du pelvis avec contraste IV"
       },
       {
         "code" : "42295-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur avec contraste IV"
       },
       {
         "code" : "42296-4",
@@ -15752,27 +15752,27 @@ Requête sur le SMT
       },
       {
         "code" : "42298-0",
-        "display" : "résonance magnétique sans et avec contraste IV dans une région du corps non spécifiée"
+        "display" : "IRM sans et avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "42299-8",
-        "display" : "résonance magnétique clavicule sans et avec contraste IV"
+        "display" : "IRM clavicule sans et avec contraste IV"
       },
       {
         "code" : "42300-4",
-        "display" : "résonance magnétique glande thyroïde"
+        "display" : "IRM glande thyroïde"
       },
       {
         "code" : "42301-2",
-        "display" : "résonance magnétique utérus"
+        "display" : "IRM utérus"
       },
       {
         "code" : "42302-0",
-        "display" : "résonance magnétique clavicule sans contraste"
+        "display" : "IRM clavicule sans contraste"
       },
       {
         "code" : "42303-8",
-        "display" : "résonance magnétique orbite et face"
+        "display" : "IRM orbite et face"
       },
       {
         "code" : "42304-6",
@@ -15784,19 +15784,19 @@ Requête sur le SMT
       },
       {
         "code" : "42306-1",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et cinétique pariétale avec radionucléide IV"
       },
       {
         "code" : "42308-7",
-        "display" : "médecine nucléaire scrotum et testicule ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN scrotum et testicule ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "42309-5",
-        "display" : "médecine nucléaire coeur ; incidences au repos et avec stress et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences au repos et avec stress et avec Tl-201 IV"
       },
       {
         "code" : "42310-3",
-        "display" : "médecine nucléaire SPECT rein avec radionucléide IV"
+        "display" : "SPECT rein avec radionucléide IV"
       },
       {
         "code" : "42311-1",
@@ -15820,7 +15820,7 @@ Requête sur le SMT
       },
       {
         "code" : "42334-3",
-        "display" : "angiographie par fluoroscopie artère thoracique interne - gauche ; guidage pour injection"
+        "display" : "angiofluoroscopie artère thoracique interne - gauche ; guidage pour injection"
       },
       {
         "code" : "42335-0",
@@ -15828,7 +15828,7 @@ Requête sur le SMT
       },
       {
         "code" : "42377-2",
-        "display" : "CT perfusion tête avec Xe-133 en inhalation et sans et avec contraste IV"
+        "display" : "TDM perfusion tête avec Xe-133 en inhalation et sans et avec contraste IV"
       },
       {
         "code" : "42378-0",
@@ -15856,43 +15856,43 @@ Requête sur le SMT
       },
       {
         "code" : "42385-5",
-        "display" : "résonance magnétique cerveau et hypophyse et selle turcique"
+        "display" : "IRM cerveau et hypophyse et selle turcique"
       },
       {
         "code" : "42386-3",
-        "display" : "résonance magnétique cerveau ; ciné pour flux du liquide céphalorachidien"
+        "display" : "IRM cerveau ; ciné pour flux du liquide céphalorachidien"
       },
       {
         "code" : "42387-1",
-        "display" : "résonance magnétique ciné pour flux du liquide céphalorachidien"
+        "display" : "IRM ciné pour flux du liquide céphalorachidien"
       },
       {
         "code" : "42388-9",
-        "display" : "résonance magnétique prostate ; endorectal"
+        "display" : "IRM prostate ; endorectal"
       },
       {
         "code" : "42389-7",
-        "display" : "résonance magnétique pelvis ; endorectal"
+        "display" : "IRM pelvis ; endorectal"
       },
       {
         "code" : "42390-5",
-        "display" : "résonance magnétique endovaginale"
+        "display" : "IRM endovaginale"
       },
       {
         "code" : "42391-3",
-        "display" : "résonance magnétique cerveau et hypophyse et selle turcique avec contraste IV"
+        "display" : "IRM cerveau et hypophyse et selle turcique avec contraste IV"
       },
       {
         "code" : "42392-1",
-        "display" : "résonance magnétique cerveau et hypophyse et selle turcique sans et avec contraste IV"
+        "display" : "IRM cerveau et hypophyse et selle turcique sans et avec contraste IV"
       },
       {
         "code" : "42393-9",
-        "display" : "résonance magnétique cerveau et hypophyse et selle turcique sans contraste"
+        "display" : "IRM cerveau et hypophyse et selle turcique sans contraste"
       },
       {
         "code" : "42394-7",
-        "display" : "CT système pulmonaire avec Xe-133 en inhalation"
+        "display" : "TDM système pulmonaire avec Xe-133 en inhalation"
       },
       {
         "code" : "42395-4",
@@ -16220,7 +16220,7 @@ Requête sur le SMT
       },
       {
         "code" : "42688-2",
-        "display" : "CT rachis ; guidage pour blocage nerveux"
+        "display" : "TDM rachis ; guidage pour blocage nerveux"
       },
       {
         "code" : "42689-0",
@@ -16240,27 +16240,27 @@ Requête sur le SMT
       },
       {
         "code" : "42693-2",
-        "display" : "résonance magnétique vessie urinaire et urètre ; ciné"
+        "display" : "IRM vessie urinaire et urètre ; ciné"
       },
       {
         "code" : "42694-0",
-        "display" : "résonance magnétique clavicule avec contraste IV"
+        "display" : "IRM clavicule avec contraste IV"
       },
       {
         "code" : "42695-7",
-        "display" : "résonance magnétique jambe - bilatérale avec contraste IV"
+        "display" : "IRM jambe - bilatérale avec contraste IV"
       },
       {
         "code" : "42696-5",
-        "display" : "résonance magnétique jambe - bilatérale"
+        "display" : "IRM jambe - bilatérale"
       },
       {
         "code" : "42697-3",
-        "display" : "résonance magnétique jambe - bilatérale sans et avec contraste IV"
+        "display" : "IRM jambe - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "42698-1",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire"
+        "display" : "IRM rachis cervical et rachis dorsal et rachis lombaire"
       },
       {
         "code" : "42699-9",
@@ -16268,11 +16268,11 @@ Requête sur le SMT
       },
       {
         "code" : "42700-5",
-        "display" : "médecine nucléaire os ; incidences avec globules blancs marqués au Tc-99m IV"
+        "display" : "MN os ; incidences avec globules blancs marqués au Tc-99m IV"
       },
       {
         "code" : "42701-3",
-        "display" : "CT utérus ; guidage pour localisation du placenta"
+        "display" : "TDM utérus ; guidage pour localisation du placenta"
       },
       {
         "code" : "42702-1",
@@ -16300,7 +16300,7 @@ Requête sur le SMT
       },
       {
         "code" : "42709-6",
-        "display" : "médecine nucléaire foie ; incidences pool sanguin avec radionucléide IV"
+        "display" : "MN foie ; incidences pool sanguin avec radionucléide IV"
       },
       {
         "code" : "42710-4",
@@ -16312,7 +16312,7 @@ Requête sur le SMT
       },
       {
         "code" : "42776-5",
-        "display" : "médecine nucléaire ; incidences pour shunt artérioveineux avec radionucléide IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour shunt artérioveineux avec radionucléide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "42811-0",
@@ -16332,51 +16332,51 @@ Requête sur le SMT
       },
       {
         "code" : "43444-9",
-        "display" : "CT ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
       },
       {
         "code" : "43445-6",
-        "display" : "CT système pulmonaire"
+        "display" : "TDM système pulmonaire"
       },
       {
         "code" : "43448-0",
-        "display" : "résonance magnétique foie sans et avec ferumoxides IV"
+        "display" : "IRM foie sans et avec ferumoxides IV"
       },
       {
         "code" : "43449-8",
-        "display" : "résonance magnétique cheville droite dynamique avec contraste IV"
+        "display" : "IRM cheville droite dynamique avec contraste IV"
       },
       {
         "code" : "43450-6",
-        "display" : "résonance magnétique coude - gauche dynamique avec contraste IV"
+        "display" : "IRM coude - gauche dynamique avec contraste IV"
       },
       {
         "code" : "43451-4",
-        "display" : "résonance magnétique coude - droit dynamique avec contraste IV"
+        "display" : "IRM coude - droit dynamique avec contraste IV"
       },
       {
         "code" : "43452-2",
-        "display" : "résonance magnétique genou - gauche dynamique avec contraste IV"
+        "display" : "IRM genou - gauche dynamique avec contraste IV"
       },
       {
         "code" : "43453-0",
-        "display" : "résonance magnétique genou - droit dynamique avec contraste IV"
+        "display" : "IRM genou - droit dynamique avec contraste IV"
       },
       {
         "code" : "43454-8",
-        "display" : "résonance magnétique système pulmonaire"
+        "display" : "IRM système pulmonaire"
       },
       {
         "code" : "43455-5",
-        "display" : "résonance magnétique oropharynx"
+        "display" : "IRM oropharynx"
       },
       {
         "code" : "43456-3",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal sans et avec contraste IV"
+        "display" : "IRM rachis cervical et rachis dorsal sans et avec contraste IV"
       },
       {
         "code" : "43457-1",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal"
+        "display" : "IRM rachis cervical et rachis dorsal"
       },
       {
         "code" : "43458-9",
@@ -16384,7 +16384,7 @@ Requête sur le SMT
       },
       {
         "code" : "43459-7",
-        "display" : "médecine nucléaire cerveau ; incidences pendant un traitement par choc électroconvulsif"
+        "display" : "MN cerveau ; incidences pendant un traitement par choc électroconvulsif"
       },
       {
         "code" : "43461-3",
@@ -16448,7 +16448,7 @@ Requête sur le SMT
       },
       {
         "code" : "43479-5",
-        "display" : "angiographie par fluoroscopie aorte abdominale ; incidences d'écoulement avec contraste intraartériel"
+        "display" : "angiofluoroscopie aorte abdominale ; incidences d'écoulement avec contraste intraartériel"
       },
       {
         "code" : "43480-3",
@@ -16528,47 +16528,47 @@ Requête sur le SMT
       },
       {
         "code" : "43500-8",
-        "display" : "médecine nucléaire vaisseau ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN vaisseau ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43501-6",
-        "display" : "médecine nucléaire vaisseau ; incidences avec radionucléide IV"
+        "display" : "MN vaisseau ; incidences avec radionucléide IV"
       },
       {
         "code" : "43502-4",
-        "display" : "CT récessus subphrénique ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM récessus subphrénique ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "43504-0",
-        "display" : "résonance magnétique aisselle - gauche avec contraste IV"
+        "display" : "IRM aisselle - gauche avec contraste IV"
       },
       {
         "code" : "43505-7",
-        "display" : "résonance magnétique aisselle - droite avec contraste IV"
+        "display" : "IRM aisselle - droite avec contraste IV"
       },
       {
         "code" : "43506-5",
-        "display" : "résonance magnétique ovaire - bilatéral"
+        "display" : "IRM ovaire - bilatéral"
       },
       {
         "code" : "43507-3",
-        "display" : "résonance magnétique thymus"
+        "display" : "IRM thymus"
       },
       {
         "code" : "43508-1",
-        "display" : "résonance magnétique aisselle - gauche"
+        "display" : "IRM aisselle - gauche"
       },
       {
         "code" : "43509-9",
-        "display" : "résonance magnétique aisselle - gauche sans et avec contraste IV"
+        "display" : "IRM aisselle - gauche sans et avec contraste IV"
       },
       {
         "code" : "43510-7",
-        "display" : "résonance magnétique aisselle - droite"
+        "display" : "IRM aisselle - droite"
       },
       {
         "code" : "43511-5",
-        "display" : "résonance magnétique aisselle - droite sans et avec contraste IV"
+        "display" : "IRM aisselle - droite sans et avec contraste IV"
       },
       {
         "code" : "43512-3",
@@ -16620,15 +16620,15 @@ Requête sur le SMT
       },
       {
         "code" : "43525-5",
-        "display" : "CT sans contraste dans une région du corps non spécifiée"
+        "display" : "TDM sans contraste dans une région du corps non spécifiée"
       },
       {
         "code" : "43526-3",
-        "display" : "médecine nucléaire SPECT avec radionucléide IV"
+        "display" : "SPECT avec radionucléide IV"
       },
       {
         "code" : "43528-9",
-        "display" : "résonance magnétique sein - unilatéral sans et avec contraste IV"
+        "display" : "IRM sein - unilatéral sans et avec contraste IV"
       },
       {
         "code" : "43529-7",
@@ -16636,7 +16636,7 @@ Requête sur le SMT
       },
       {
         "code" : "43530-5",
-        "display" : "résonance magnétique orbite, face et cou"
+        "display" : "IRM orbite, face et cou"
       },
       {
         "code" : "43532-1",
@@ -16644,7 +16644,7 @@ Requête sur le SMT
       },
       {
         "code" : "43536-2",
-        "display" : "vidéofluoroscopie rachis lombaire ; incidences"
+        "display" : "fluoroscopie vidéo rachis lombaire ; incidences"
       },
       {
         "code" : "43537-0",
@@ -16652,7 +16652,7 @@ Requête sur le SMT
       },
       {
         "code" : "43538-8",
-        "display" : "fluoroscopie.vidéo rachis cervical ; incidences"
+        "display" : "fluoroscopie vidéo rachis cervical ; incidences"
       },
       {
         "code" : "43539-6",
@@ -16664,7 +16664,7 @@ Requête sur le SMT
       },
       {
         "code" : "43550-3",
-        "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin et fonction avec radionucléide IV"
+        "display" : "MN cerveau ; incidences pour débit sanguin et fonction avec radionucléide IV"
       },
       {
         "code" : "43552-9",
@@ -16672,11 +16672,11 @@ Requête sur le SMT
       },
       {
         "code" : "43554-5",
-        "display" : "angiographie par fluoroscopie vaisseaux - gauches ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie vaisseaux - gauches ; incidences avec contraste IV"
       },
       {
         "code" : "43555-2",
-        "display" : "résonance magnétique cheville gauche dynamique avec contraste IV"
+        "display" : "IRM cheville gauche dynamique avec contraste IV"
       },
       {
         "code" : "43556-0",
@@ -16684,7 +16684,7 @@ Requête sur le SMT
       },
       {
         "code" : "43557-8",
-        "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec radionucléide IV"
+        "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec radionucléide IV"
       },
       {
         "code" : "43558-6",
@@ -16700,11 +16700,11 @@ Requête sur le SMT
       },
       {
         "code" : "43562-8",
-        "display" : "médecine nucléaire système squelettique.axial ; incidences pour densité osseuse"
+        "display" : "MN système squelettique.axial ; incidences pour densité osseuse"
       },
       {
         "code" : "43563-6",
-        "display" : "médecine nucléaire système squelettique.périphérique ; incidences pour densité osseuse"
+        "display" : "MN système squelettique.périphérique ; incidences pour densité osseuse"
       },
       {
         "code" : "43564-4",
@@ -16720,7 +16720,7 @@ Requête sur le SMT
       },
       {
         "code" : "43567-7",
-        "display" : "CT os ; guidage pour biopsie profonde"
+        "display" : "TDM os ; guidage pour biopsie profonde"
       },
       {
         "code" : "43569-3",
@@ -16744,15 +16744,15 @@ Requête sur le SMT
       },
       {
         "code" : "43642-8",
-        "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin avec Tc-99m DTPA IV"
+        "display" : "MN cerveau ; incidences pour débit sanguin avec Tc-99m DTPA IV"
       },
       {
         "code" : "43643-6",
-        "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin avec Tc-99m glucoheptonate IV"
+        "display" : "MN cerveau ; incidences pour débit sanguin avec Tc-99m glucoheptonate IV"
       },
       {
         "code" : "43644-4",
-        "display" : "médecine nucléaire cerveau ; incidences limitées pour débit sanguin avec radionucléide IV"
+        "display" : "MN cerveau ; incidences limitées pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43645-1",
@@ -16760,71 +16760,71 @@ Requête sur le SMT
       },
       {
         "code" : "43646-9",
-        "display" : "médecine nucléaire coeur ; incidences qualitatives et quantitatives pour infarctus avec radionucléide IV"
+        "display" : "MN coeur ; incidences qualitatives et quantitatives pour infarctus avec radionucléide IV"
       },
       {
         "code" : "43647-7",
-        "display" : "médecine nucléaire coeur ; incidences quantitatives pour infarctus avec radionucléide IV"
+        "display" : "MN coeur ; incidences quantitatives pour infarctus avec radionucléide IV"
       },
       {
         "code" : "43648-5",
-        "display" : "médecine nucléaire ; incidences pour tumeur endocrine d'aires multiples avec I-131 MIBG IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour tumeur endocrine d'aires multiples avec I-131 MIBG IV dans une région du corps non spécifiée"
       },
       {
         "code" : "43649-3",
-        "display" : "médecine nucléaire ; incidences pour tumeur endocrine d'aires multiples avec In-111 pentétréotide IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences pour tumeur endocrine d'aires multiples avec In-111 pentétréotide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "43650-1",
-        "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinine et avec radionucléide IV"
+        "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinine et avec radionucléide IV"
       },
       {
         "code" : "43651-9",
-        "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec sincalide et avec radionucléide IV"
+        "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec sincalide et avec radionucléide IV"
       },
       {
         "code" : "43652-7",
-        "display" : "médecine nucléaire SPECT foie et rate pour débit sanguin avec radionucléide IV"
+        "display" : "SPECT foie et rate pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43653-5",
-        "display" : "médecine nucléaire foie et rate ; incidence pour débit sanguin avec radionucléide IV"
+        "display" : "MN foie et rate ; incidence pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43654-3",
-        "display" : "médecine nucléaire foie ; incidences pour débit sanguin avec globules rouges marqués au Tc-99m IV"
+        "display" : "MN foie ; incidences pour débit sanguin avec globules rouges marqués au Tc-99m IV"
       },
       {
         "code" : "43655-0",
-        "display" : "médecine nucléaire SPECT foie pour débit sanguin avec radionucléide IV"
+        "display" : "SPECT foie pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43656-8",
-        "display" : "médecine nucléaire poumon ; incidences de perfusion quantitative avec radionucléide IV"
+        "display" : "MN poumon ; incidences de perfusion quantitative avec radionucléide IV"
       },
       {
         "code" : "43657-6",
-        "display" : "médecine nucléaire poumon ; incidences quantitatives avec radionucléide IV"
+        "display" : "MN poumon ; incidences quantitatives avec radionucléide IV"
       },
       {
         "code" : "43658-4",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion quantitative avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion quantitative avec radionucléide IV"
       },
       {
         "code" : "43659-2",
-        "display" : "médecine nucléaire SPECT coeur perfusion qualitative au repos et avec radionucléide IV"
+        "display" : "SPECT coeur perfusion qualitative au repos et avec radionucléide IV"
       },
       {
         "code" : "43660-0",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion qualitative au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion qualitative au repos et avec radionucléide IV"
       },
       {
         "code" : "43661-8",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion quantitative au repos et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion quantitative au repos et avec radionucléide IV"
       },
       {
         "code" : "43662-6",
-        "display" : "médecine nucléaire SPECT vaisseaux rénaux pour débit sanguin avec Tc-99m glucoheptonate IV"
+        "display" : "SPECT vaisseaux rénaux pour débit sanguin avec Tc-99m glucoheptonate IV"
       },
       {
         "code" : "43663-4",
@@ -16852,19 +16852,19 @@ Requête sur le SMT
       },
       {
         "code" : "43670-9",
-        "display" : "médecine nucléaire SPECT rate pour débit sanguin avec radionucléide IV"
+        "display" : "SPECT rate pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43671-7",
-        "display" : "médecine nucléaire glande thyroïde ; incidence centrée avec radionucléide IV"
+        "display" : "MN glande thyroïde ; incidence centrée avec radionucléide IV"
       },
       {
         "code" : "43672-5",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption Incidences et incidence pour absorption avec radionucléide IV"
+        "display" : "MN glande thyroïde ; incidences et incidences pour absorption Incidences et incidence pour absorption avec radionucléide IV"
       },
       {
         "code" : "43673-3",
-        "display" : "médecine nucléaire SPECT glande thyroïde pour débit sanguin avec radionucléide IV"
+        "display" : "SPECT glande thyroïde pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "43756-6",
@@ -16872,7 +16872,7 @@ Requête sur le SMT
       },
       {
         "code" : "43757-4",
-        "display" : "CT rein ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM rein ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "43758-2",
@@ -16888,19 +16888,19 @@ Requête sur le SMT
       },
       {
         "code" : "43761-6",
-        "display" : "angiographie par fluoroscopie veine - bilatérale ; guidage pour thrombectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine - bilatérale ; guidage pour thrombectomie avec contraste IV"
       },
       {
         "code" : "43762-4",
-        "display" : "angiographie par fluoroscopie veine - gauche ; guidage pour thrombectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine - gauche ; guidage pour thrombectomie avec contraste IV"
       },
       {
         "code" : "43763-2",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour thrombectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour thrombectomie avec contraste IV"
       },
       {
         "code" : "43764-0",
-        "display" : "angiographie par fluoroscopie veine - droite ; guidage pour thrombectomie avec contraste IV"
+        "display" : "angiofluoroscopie veine - droite ; guidage pour thrombectomie avec contraste IV"
       },
       {
         "code" : "43765-7",
@@ -16908,23 +16908,23 @@ Requête sur le SMT
       },
       {
         "code" : "43766-5",
-        "display" : "CT rein - bilatéral avec contraste IV"
+        "display" : "TDM rein - bilatéral avec contraste IV"
       },
       {
         "code" : "43767-3",
-        "display" : "CT rein - bilatéral"
+        "display" : "TDM rein - bilatéral"
       },
       {
         "code" : "43768-1",
-        "display" : "CT rein sans et avec contraste IV"
+        "display" : "TDM rein sans et avec contraste IV"
       },
       {
         "code" : "43769-9",
-        "display" : "résonance magnétique cerveau et conduit auditif interne sans et avec contraste IV"
+        "display" : "IRM cerveau et conduit auditif interne sans et avec contraste IV"
       },
       {
         "code" : "43770-7",
-        "display" : "CT rein sans contraste"
+        "display" : "TDM rein sans contraste"
       },
       {
         "code" : "43771-5",
@@ -16932,11 +16932,11 @@ Requête sur le SMT
       },
       {
         "code" : "43772-3",
-        "display" : "résonance magnétique cerveau et conduit auditif interne"
+        "display" : "IRM cerveau et conduit auditif interne"
       },
       {
         "code" : "43773-1",
-        "display" : "résonance magnétique rein sans contraste"
+        "display" : "IRM rein sans contraste"
       },
       {
         "code" : "43774-9",
@@ -16944,7 +16944,7 @@ Requête sur le SMT
       },
       {
         "code" : "43775-6",
-        "display" : "résonance magnétique rein sans et avec contraste IV"
+        "display" : "IRM rein sans et avec contraste IV"
       },
       {
         "code" : "43776-4",
@@ -16952,7 +16952,7 @@ Requête sur le SMT
       },
       {
         "code" : "43777-2",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec adénosine et avec Tl-201 IV"
+        "display" : "MN coeur ; incidences de perfusion au repos et avec adénosine et avec Tl-201 IV"
       },
       {
         "code" : "43778-0",
@@ -16972,11 +16972,11 @@ Requête sur le SMT
       },
       {
         "code" : "43782-2",
-        "display" : "angiographie par fluoroscopie artère iliaque ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère iliaque ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "43783-0",
-        "display" : "angiographie par fluoroscopie veine rénale ; incidences pour échantillonage de rénine avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale ; incidences pour échantillonage de rénine avec contraste IV"
       },
       {
         "code" : "43784-8",
@@ -16996,7 +16996,7 @@ Requête sur le SMT
       },
       {
         "code" : "43789-7",
-        "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec Tc-99m IV"
+        "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec Tc-99m IV"
       },
       {
         "code" : "43790-5",
@@ -17008,19 +17008,19 @@ Requête sur le SMT
       },
       {
         "code" : "43792-1",
-        "display" : "angiographie par fluoroscopie artères tibiofibulaires droites ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères tibiofibulaires droites ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "43793-9",
-        "display" : "angiographie par fluoroscopie artères tibiofibulaires ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères tibiofibulaires ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "43794-7",
-        "display" : "angiographie par fluoroscopie artères tibiofibulaires - bilatérales ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères tibiofibulaires - bilatérales ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "43795-4",
-        "display" : "angiographie par fluoroscopie artères tibiofibulaires - gauches ; guidage pour angioplastie avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères tibiofibulaires - gauches ; guidage pour angioplastie avec contraste intraartériel"
       },
       {
         "code" : "43796-2",
@@ -17032,103 +17032,103 @@ Requête sur le SMT
       },
       {
         "code" : "44101-4",
-        "display" : "CT foie ; guidage pour ablation de tissu"
+        "display" : "TDM foie ; guidage pour ablation de tissu"
       },
       {
         "code" : "44102-2",
-        "display" : "CT espace articulaire ; guidage pour procédure"
+        "display" : "TDM espace articulaire ; guidage pour procédure"
       },
       {
         "code" : "44103-0",
-        "display" : "CT ganglion lymphatique ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM ganglion lymphatique ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "44104-8",
-        "display" : "CT médiastin ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM médiastin ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "44105-5",
-        "display" : "CT muscle ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM muscle ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "44106-3",
-        "display" : "CT prostate ; guidage pour aspiration à l'aiguille fine"
+        "display" : "TDM prostate ; guidage pour aspiration à l'aiguille fine"
       },
       {
         "code" : "44107-1",
-        "display" : "CT rétropéritoine ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM rétropéritoine ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "44108-9",
-        "display" : "CT glande surrénale ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "TDM glande surrénale ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "44109-7",
-        "display" : "CT muscle ; guidage pour biopsie profonde"
+        "display" : "TDM muscle ; guidage pour biopsie profonde"
       },
       {
         "code" : "44110-5",
-        "display" : "CT sein ; guidage pour localisation à l'aiguille"
+        "display" : "TDM sein ; guidage pour localisation à l'aiguille"
       },
       {
         "code" : "44111-3",
-        "display" : "CT base du crâne sans et avec contraste IV"
+        "display" : "TDM base du crâne sans et avec contraste IV"
       },
       {
         "code" : "44112-1",
-        "display" : "CT base du crâne sans contraste"
+        "display" : "TDM base du crâne sans contraste"
       },
       {
         "code" : "44113-9",
-        "display" : "CT rachis dorsal sans et avec contraste intrathécal"
+        "display" : "TDM rachis dorsal sans et avec contraste intrathécal"
       },
       {
         "code" : "44114-7",
-        "display" : "CT rachis lombaire sans et avec contraste intrathécal"
+        "display" : "TDM rachis lombaire sans et avec contraste intrathécal"
       },
       {
         "code" : "44115-4",
-        "display" : "CT abdomen et pelvis"
+        "display" : "TDM abdomen et pelvis"
       },
       {
         "code" : "44116-2",
-        "display" : "CT mandibule limitée"
+        "display" : "TDM mandibule limitée"
       },
       {
         "code" : "44117-0",
-        "display" : "CT rétropéritoine ; guidage pour biopsie percutanée"
+        "display" : "TDM rétropéritoine ; guidage pour biopsie percutanée"
       },
       {
         "code" : "44118-8",
-        "display" : "CT sein ; guidage pour localisation d'une aiguille sans et avec contraste IV"
+        "display" : "TDM sein ; guidage pour localisation d'une aiguille sans et avec contraste IV"
       },
       {
         "code" : "44119-6",
-        "display" : "CT sein bilatéral sans contraste"
+        "display" : "TDM sein bilatéral sans contraste"
       },
       {
         "code" : "44122-0",
-        "display" : "résonance magnétique cerveau ; guidage pour biopsie stéréotaxique sans et avec contraste IV"
+        "display" : "IRM cerveau ; guidage pour biopsie stéréotaxique sans et avec contraste IV"
       },
       {
         "code" : "44123-8",
-        "display" : "résonance magnétique voies biliaires et canaux pancréatiques sans contraste"
+        "display" : "IRM voies biliaires et canaux pancréatiques sans contraste"
       },
       {
         "code" : "44124-6",
-        "display" : "résonance magnétique glande surrénale avec contraste IV"
+        "display" : "IRM glande surrénale avec contraste IV"
       },
       {
         "code" : "44125-3",
-        "display" : "résonance magnétique voies biliaires et canaux pancréatiques avec contraste IV"
+        "display" : "IRM voies biliaires et canaux pancréatiques avec contraste IV"
       },
       {
         "code" : "44126-1",
-        "display" : "résonance magnétique coeur ; ciné pour encodage de la vélocité du flux sanguin avec contraste IV"
+        "display" : "IRM coeur ; ciné pour encodage de la vélocité du flux sanguin avec contraste IV"
       },
       {
         "code" : "44127-9",
-        "display" : "résonance magnétique coeur ciné pour fonction limitée"
+        "display" : "IRM coeur ciné pour fonction limitée"
       },
       {
         "code" : "44128-7",
@@ -17180,63 +17180,63 @@ Requête sur le SMT
       },
       {
         "code" : "44140-2",
-        "display" : "médecine nucléaire abdomen et pelvis ; incidences pour tumeur"
+        "display" : "MN abdomen et pelvis ; incidences pour tumeur"
       },
       {
         "code" : "44141-0",
-        "display" : "médecine nucléaire foie et rate Incidences avec Tc-99m MAA IV"
+        "display" : "MN foie et rate Incidences avec Tc-99m MAA IV"
       },
       {
         "code" : "44142-8",
-        "display" : "médecine nucléaire os ; incidences avec Tc-99m médronate IV"
+        "display" : "MN os ; incidences avec Tc-99m médronate IV"
       },
       {
         "code" : "44143-6",
-        "display" : "médecine nucléaire coeur ; incidences avec globules rouges marqués au Tc-99m IV"
+        "display" : "MN coeur ; incidences avec globules rouges marqués au Tc-99m IV"
       },
       {
         "code" : "44144-4",
-        "display" : "médecine nucléaire foie ; incidences avec Xe-133 en inhalation"
+        "display" : "MN foie ; incidences avec Xe-133 en inhalation"
       },
       {
         "code" : "44145-1",
-        "display" : "médecine nucléaire glande parathyroïde ; incidences avec Tc-99m Sestamibi IV"
+        "display" : "MN glande parathyroïde ; incidences avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "44146-9",
-        "display" : "médecine nucléaire moelle osseuse ; incidences avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN moelle osseuse ; incidences avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "44147-7",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidence pour absorption avec Tc-99m pertechnétate IV"
+        "display" : "MN glande thyroïde ; incidences et incidence pour absorption avec Tc-99m pertechnétate IV"
       },
       {
         "code" : "44148-5",
-        "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin avec Tc-99m bicisate IV"
+        "display" : "MN cerveau ; incidences pour débit sanguin avec Tc-99m bicisate IV"
       },
       {
         "code" : "44149-3",
-        "display" : "médecine nucléaire abdomen et pelvis ; incidences pour perméabilité d'un shunt avec Tc-99m MAA en injection"
+        "display" : "MN abdomen et pelvis ; incidences pour perméabilité d'un shunt avec Tc-99m MAA en injection"
       },
       {
         "code" : "44150-1",
-        "display" : "médecine nucléaire cerveau ; incidences avec Tc-99m bicisate IV"
+        "display" : "MN cerveau ; incidences avec Tc-99m bicisate IV"
       },
       {
         "code" : "44151-9",
-        "display" : "médecine nucléaire SPECT coeur avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "44152-7",
-        "display" : "médecine nucléaire SPECT cerveau avec Tc-99m bicisate IV"
+        "display" : "SPECT cerveau avec Tc-99m bicisate IV"
       },
       {
         "code" : "44153-5",
-        "display" : "médecine nucléaire SPECT rein avec Tc-99m glucoheptonate IV"
+        "display" : "SPECT rein avec Tc-99m glucoheptonate IV"
       },
       {
         "code" : "44154-3",
-        "display" : "médecine nucléaire SPECT coeur avec dipyridamole IV et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur avec dipyridamole IV et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "44155-0",
@@ -17468,7 +17468,7 @@ Requête sur le SMT
       },
       {
         "code" : "44219-4",
-        "display" : "angiographie par fluoroscopie ganglion lymphatique ; guidage pour aspiration à l'aiguille fine percutanée"
+        "display" : "angiofluoroscopie ganglion lymphatique ; guidage pour aspiration à l'aiguille fine percutanée"
       },
       {
         "code" : "44220-2",
@@ -17500,15 +17500,15 @@ Requête sur le SMT
       },
       {
         "code" : "44227-7",
-        "display" : "fluoroscopie côlon ; incidences avec constraste au barium par voie rectale"
+        "display" : "fluoroscopie côlon ; incidences avec contraste au barium par voie rectale"
       },
       {
         "code" : "44228-5",
-        "display" : "CT rein ; guidage pour ablation de tissu"
+        "display" : "TDM rein ; guidage pour ablation de tissu"
       },
       {
         "code" : "44229-3",
-        "display" : "CT os"
+        "display" : "TDM os"
       },
       {
         "code" : "44230-1",
@@ -17552,11 +17552,11 @@ Requête sur le SMT
       },
       {
         "code" : "44240-0",
-        "display" : "angiographie par fluoroscopie artères périphériques - bilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères périphériques - bilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "46281-2",
-        "display" : "CT ; guidage pour aspiration ou injection d'un kyste dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour aspiration ou injection d'un kyste dans une région du corps non spécifiée"
       },
       {
         "code" : "46282-0",
@@ -17580,23 +17580,23 @@ Requête sur le SMT
       },
       {
         "code" : "46289-5",
-        "display" : "CT ; guidage pour biopsie percutanée sans et avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour biopsie percutanée sans et avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "46290-3",
-        "display" : "CT ; guidage pour biopsie percutanée sans contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour biopsie percutanée sans contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "46291-1",
-        "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage sans et avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour drainage et placement d'un cathéter de drainage sans et avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "46292-9",
-        "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "46293-7",
-        "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage sans contraste dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour drainage et placement d'un cathéter de drainage sans contraste dans une région du corps non spécifiée"
       },
       {
         "code" : "46294-5",
@@ -17612,15 +17612,15 @@ Requête sur le SMT
       },
       {
         "code" : "46297-8",
-        "display" : "médecine nucléaire SPECT corps entier avec radionucléide IV"
+        "display" : "SPECT corps entier avec radionucléide IV"
       },
       {
         "code" : "46298-6",
-        "display" : "CT mastoïde - bilatérale"
+        "display" : "TDM mastoïde - bilatérale"
       },
       {
         "code" : "46299-4",
-        "display" : "résonance magnétique sein unilatéral"
+        "display" : "IRM sein unilatéral"
       },
       {
         "code" : "46301-8",
@@ -17636,83 +17636,83 @@ Requête sur le SMT
       },
       {
         "code" : "46304-2",
-        "display" : "CT sinus limitée sans contraste"
+        "display" : "TDM sinus limitée sans contraste"
       },
       {
         "code" : "46305-9",
-        "display" : "CT corps entier"
+        "display" : "TDM corps entier"
       },
       {
         "code" : "46306-7",
-        "display" : "CT corps entier avec contraste IV"
+        "display" : "TDM corps entier avec contraste IV"
       },
       {
         "code" : "46307-5",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - droit sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur - droit sans et avec contraste IV"
       },
       {
         "code" : "46308-3",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - gauche sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "46309-1",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - droit sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur - droit sans et avec contraste IV"
       },
       {
         "code" : "46310-9",
-        "display" : "résonance magnétique orbite, face et cou sans et avec contraste IV"
+        "display" : "IRM orbite, face et cou sans et avec contraste IV"
       },
       {
         "code" : "46311-7",
-        "display" : "CT glande parotide sans et avec contraste IV"
+        "display" : "TDM glande parotide sans et avec contraste IV"
       },
       {
         "code" : "46312-5",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - gauche sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur - gauche sans et avec contraste IV"
       },
       {
         "code" : "46313-3",
-        "display" : "CT pelvis sans et avec volume de contraste réduit IV"
+        "display" : "TDM pelvis sans et avec volume de contraste réduit IV"
       },
       {
         "code" : "46314-1",
-        "display" : "CT conduit auditif interne sans et avec volume de contraste réduit IV"
+        "display" : "TDM conduit auditif interne sans et avec volume de contraste réduit IV"
       },
       {
         "code" : "46315-8",
-        "display" : "CT région maxillofaciale sans et avec volume de contraste réduit IV"
+        "display" : "TDM région maxillofaciale sans et avec volume de contraste réduit IV"
       },
       {
         "code" : "46316-6",
-        "display" : "CT tête sans et avec volume de contraste réduit IV"
+        "display" : "TDM tête sans et avec volume de contraste réduit IV"
       },
       {
         "code" : "46317-4",
-        "display" : "CT thorax sans et avec volume de contraste réduit IV"
+        "display" : "TDM thorax sans et avec volume de contraste réduit IV"
       },
       {
         "code" : "46318-2",
-        "display" : "CT abdomen sans et avec volume de contraste réduit IV"
+        "display" : "TDM abdomen sans et avec volume de contraste réduit IV"
       },
       {
         "code" : "46319-0",
-        "display" : "résonance magnétique coude avec contraste intraarticulaire"
+        "display" : "IRM coude avec contraste intraarticulaire"
       },
       {
         "code" : "46320-8",
-        "display" : "CT orbite et face avec contraste IV"
+        "display" : "TDM orbite et face avec contraste IV"
       },
       {
         "code" : "46321-6",
-        "display" : "résonance magnétique orbite, face et cou avec contraste IV"
+        "display" : "IRM orbite, face et cou avec contraste IV"
       },
       {
         "code" : "46322-4",
-        "display" : "CT rein avec contraste IV"
+        "display" : "TDM rein avec contraste IV"
       },
       {
         "code" : "46323-2",
-        "display" : "résonance magnétique sein - unilatéral avec contraste IV"
+        "display" : "IRM sein - unilatéral avec contraste IV"
       },
       {
         "code" : "46324-0",
@@ -17720,39 +17720,39 @@ Requête sur le SMT
       },
       {
         "code" : "46325-7",
-        "display" : "CT conduit auditif interne avec volume réduit de contraste IV"
+        "display" : "TDM conduit auditif interne avec volume réduit de contraste IV"
       },
       {
         "code" : "46326-5",
-        "display" : "CT région maxillofaciale avec volume réduit de contraste IV"
+        "display" : "TDM région maxillofaciale avec volume réduit de contraste IV"
       },
       {
         "code" : "46327-3",
-        "display" : "CT thorax avec volume réduit de contraste IV"
+        "display" : "TDM thorax avec volume réduit de contraste IV"
       },
       {
         "code" : "46328-1",
-        "display" : "CT tête avec volume réduit de contraste IV"
+        "display" : "TDM tête avec volume réduit de contraste IV"
       },
       {
         "code" : "46329-9",
-        "display" : "CT pelvis avec volume réduit de contraste IV"
+        "display" : "TDM pelvis avec volume réduit de contraste IV"
       },
       {
         "code" : "46330-7",
-        "display" : "CT abdomen avec volume réduit de contraste IV"
+        "display" : "TDM abdomen avec volume réduit de contraste IV"
       },
       {
         "code" : "46331-5",
-        "display" : "CT orbite sans contraste"
+        "display" : "TDM orbite sans contraste"
       },
       {
         "code" : "46332-3",
-        "display" : "résonance magnétique orbite, face et cou sans contraste"
+        "display" : "IRM orbite, face et cou sans contraste"
       },
       {
         "code" : "46333-1",
-        "display" : "résonance magnétique sein - unilatéral sans contraste"
+        "display" : "IRM sein - unilatéral sans contraste"
       },
       {
         "code" : "46335-6",
@@ -17844,7 +17844,7 @@ Requête sur le SMT
       },
       {
         "code" : "46358-8",
-        "display" : "résonance magnétique corps entier"
+        "display" : "IRM corps entier"
       },
       {
         "code" : "46359-6",
@@ -17856,7 +17856,7 @@ Requête sur le SMT
       },
       {
         "code" : "46361-2",
-        "display" : "médecine nucléaire poumon ; incidences ventilation avec Xe-133 en inhalation"
+        "display" : "MN poumon ; incidences ventilation avec Xe-133 en inhalation"
       },
       {
         "code" : "46362-0",
@@ -17872,11 +17872,11 @@ Requête sur le SMT
       },
       {
         "code" : "46365-3",
-        "display" : "CT plexus coeliaque ; guidage pour ablation de tissu"
+        "display" : "TDM plexus coeliaque ; guidage pour ablation de tissu"
       },
       {
         "code" : "46366-1",
-        "display" : "médecine nucléaire SPECT os ; guidage pour biopsie percutanée avec radionucléide IV"
+        "display" : "SPECT os ; guidage pour biopsie percutanée avec radionucléide IV"
       },
       {
         "code" : "46369-5",
@@ -17896,7 +17896,7 @@ Requête sur le SMT
       },
       {
         "code" : "46373-7",
-        "display" : "médecine nucléaire SPECT thorax ; guidage pour placement d'une sonde avec radionucléide IV"
+        "display" : "SPECT thorax ; guidage pour placement d'une sonde avec radionucléide IV"
       },
       {
         "code" : "46374-5",
@@ -17936,7 +17936,7 @@ Requête sur le SMT
       },
       {
         "code" : "46384-4",
-        "display" : "médecine nucléaire SPECT os ; guidage pour biopsie superficielle avec radionucléide IV"
+        "display" : "SPECT os ; guidage pour biopsie superficielle avec radionucléide IV"
       },
       {
         "code" : "46385-1",
@@ -17972,19 +17972,19 @@ Requête sur le SMT
       },
       {
         "code" : "46393-5",
-        "display" : "CT foie avec Xe-133 en inhalation"
+        "display" : "TDM foie avec Xe-133 en inhalation"
       },
       {
         "code" : "46395-0",
-        "display" : "médecine nucléaire SPECT coeur synchronisée et fraction d'éjection au repos et avec stress et avec radionucléide IV"
+        "display" : "SPECT coeur synchronisée et fraction d'éjection au repos et avec stress et avec radionucléide IV"
       },
       {
         "code" : "46396-8",
-        "display" : "médecine nucléaire SPECT coeur synchronisée au repos et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur synchronisée au repos et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "47366-0",
-        "display" : "CT thorax limitée sans contraste"
+        "display" : "TDM thorax limitée sans contraste"
       },
       {
         "code" : "47367-8",
@@ -18028,7 +18028,7 @@ Requête sur le SMT
       },
       {
         "code" : "47378-5",
-        "display" : "médecine nucléaire SPECT foie pool sanguin avec radionucléide IV"
+        "display" : "SPECT foie pool sanguin avec radionucléide IV"
       },
       {
         "code" : "47379-3",
@@ -18056,15 +18056,15 @@ Requête sur le SMT
       },
       {
         "code" : "47985-7",
-        "display" : "CT rachis avec contraste intrathécal"
+        "display" : "TDM rachis avec contraste intrathécal"
       },
       {
         "code" : "47986-5",
-        "display" : "angiographie par fluoroscopie artères du membre inférieur - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre inférieur - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "47987-3",
-        "display" : "angiographie par fluoroscopie artères du membre inférieur - droit ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères du membre inférieur - droit ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "48433-7",
@@ -18080,43 +18080,43 @@ Requête sur le SMT
       },
       {
         "code" : "48436-0",
-        "display" : "résonance magnétique rachis lombaire avec contraste intrathécal"
+        "display" : "IRM rachis lombaire avec contraste intrathécal"
       },
       {
         "code" : "48439-4",
-        "display" : "résonance magnétique rachis dorsal avec contraste intrathécal"
+        "display" : "IRM rachis dorsal avec contraste intrathécal"
       },
       {
         "code" : "48440-2",
-        "display" : "résonance magnétique base du crâne avec contraste IV"
+        "display" : "IRM base du crâne avec contraste IV"
       },
       {
         "code" : "48441-0",
-        "display" : "résonance magnétique rachis dorsal sans et avec contraste intrathécal"
+        "display" : "IRM rachis dorsal sans et avec contraste intrathécal"
       },
       {
         "code" : "48442-8",
-        "display" : "CT rachis sans et avec contraste intrathécal"
+        "display" : "TDM rachis sans et avec contraste intrathécal"
       },
       {
         "code" : "48443-6",
-        "display" : "CT nasopharynx sans et avec contraste IV"
+        "display" : "TDM nasopharynx sans et avec contraste IV"
       },
       {
         "code" : "48444-4",
-        "display" : "résonance magnétique cerveau temporal avec contraste IV"
+        "display" : "IRM cerveau temporal avec contraste IV"
       },
       {
         "code" : "48445-1",
-        "display" : "résonance magnétique larynx sans contraste"
+        "display" : "IRM larynx sans contraste"
       },
       {
         "code" : "48446-9",
-        "display" : "CT nasopharynx avec contraste IV"
+        "display" : "TDM nasopharynx avec contraste IV"
       },
       {
         "code" : "48447-7",
-        "display" : "résonance magnétique rachis cervical avec contraste intrathécal"
+        "display" : "IRM rachis cervical avec contraste intrathécal"
       },
       {
         "code" : "48448-5",
@@ -18124,55 +18124,55 @@ Requête sur le SMT
       },
       {
         "code" : "48449-3",
-        "display" : "CT orbite avec contraste IV"
+        "display" : "TDM orbite avec contraste IV"
       },
       {
         "code" : "48450-1",
-        "display" : "résonance magnétique rachis cervical sans et avec contraste intrathécal"
+        "display" : "IRM rachis cervical sans et avec contraste intrathécal"
       },
       {
         "code" : "48451-9",
-        "display" : "CT orbite sans et avec contraste IV"
+        "display" : "TDM orbite sans et avec contraste IV"
       },
       {
         "code" : "48452-7",
-        "display" : "résonance magnétique rachis lombaire sans et avec contraste intrathécal"
+        "display" : "IRM rachis lombaire sans et avec contraste intrathécal"
       },
       {
         "code" : "48453-5",
-        "display" : "résonance magnétique cerveau temporal sans contraste"
+        "display" : "IRM cerveau temporal sans contraste"
       },
       {
         "code" : "48454-3",
-        "display" : "résonance magnétique clavicule - droite sans et avec contraste IV"
+        "display" : "IRM clavicule - droite sans et avec contraste IV"
       },
       {
         "code" : "48455-0",
-        "display" : "résonance magnétique clavicule - gauche sans et avec contraste IV"
+        "display" : "IRM clavicule - gauche sans et avec contraste IV"
       },
       {
         "code" : "48456-8",
-        "display" : "résonance magnétique clavicule - droite avec contraste IV"
+        "display" : "IRM clavicule - droite avec contraste IV"
       },
       {
         "code" : "48457-6",
-        "display" : "résonance magnétique clavicule - gauche avec contraste IV"
+        "display" : "IRM clavicule - gauche avec contraste IV"
       },
       {
         "code" : "48458-4",
-        "display" : "résonance magnétique clavicule - droite sans contraste"
+        "display" : "IRM clavicule - droite sans contraste"
       },
       {
         "code" : "48459-2",
-        "display" : "résonance magnétique clavicule - gauche sans contraste"
+        "display" : "IRM clavicule - gauche sans contraste"
       },
       {
         "code" : "48460-0",
-        "display" : "résonance magnétique limitée dans une région du corps non spécifiée"
+        "display" : "IRM limitée dans une région du corps non spécifiée"
       },
       {
         "code" : "48461-8",
-        "display" : "résonance magnétique cou limitée"
+        "display" : "IRM cou limitée"
       },
       {
         "code" : "48462-6",
@@ -18300,7 +18300,7 @@ Requête sur le SMT
       },
       {
         "code" : "48687-8",
-        "display" : "résonance magnétique base du crâne sans contraste"
+        "display" : "IRM base du crâne sans contraste"
       },
       {
         "code" : "48688-6",
@@ -18328,7 +18328,7 @@ Requête sur le SMT
       },
       {
         "code" : "48694-4",
-        "display" : "résonance magnétique cerveau.temporal sans et avec contraste IV"
+        "display" : "IRM cerveau.temporal sans et avec contraste IV"
       },
       {
         "code" : "48695-1",
@@ -18380,7 +18380,7 @@ Requête sur le SMT
       },
       {
         "code" : "48743-9",
-        "display" : "CT rétropéritoine sans et avec contraste IV"
+        "display" : "TDM rétropéritoine sans et avec contraste IV"
       },
       {
         "code" : "48746-2",
@@ -18404,7 +18404,7 @@ Requête sur le SMT
       },
       {
         "code" : "49507-7",
-        "display" : "résonance magnétique avec contraste IV dans une région du corps non spécifiée"
+        "display" : "IRM avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "49509-3",
@@ -18416,7 +18416,7 @@ Requête sur le SMT
       },
       {
         "code" : "49511-9",
-        "display" : "angiographie par fluoroscopie artère fémorale ; incidence d'écoulement sans et avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère fémorale ; incidence d'écoulement sans et avec contraste intraartériel"
       },
       {
         "code" : "49512-7",
@@ -18428,19 +18428,19 @@ Requête sur le SMT
       },
       {
         "code" : "49566-3",
-        "display" : "médecine nucléaire SPECT coeur au repos et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur au repos et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "49567-1",
-        "display" : "médecine nucléaire SPECT coeur de perfusion avec adénosine et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur de perfusion avec adénosine et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "49568-9",
-        "display" : "médecine nucléaire SPECT coeur de perfusion au repos et avec stress et avec Tl-201 IV et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur de perfusion au repos et avec stress et avec Tl-201 IV et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "49569-7",
-        "display" : "médecine nucléaire SPECT coeur de perfusion et cinétique pariétale au repos et avec stress et avec Tl-201 IV et avec Tc-99m Sestamibi IV"
+        "display" : "SPECT coeur de perfusion et cinétique pariétale au repos et avec stress et avec Tl-201 IV et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "49570-5",
@@ -18448,11 +18448,11 @@ Requête sur le SMT
       },
       {
         "code" : "49571-3",
-        "display" : "médecine nucléaire ; incidences limitées avec I-131 MIBG IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences limitées avec I-131 MIBG IV dans une région du corps non spécifiée"
       },
       {
         "code" : "50755-8",
-        "display" : "CT membre inférieur - bilatéral avec contraste IV"
+        "display" : "TDM membre inférieur - bilatéral avec contraste IV"
       },
       {
         "code" : "51387-9",
@@ -18468,7 +18468,7 @@ Requête sur le SMT
       },
       {
         "code" : "51391-1",
-        "display" : "angiographie par fluoroscopie veine porte et veine hépatique ; guidage pour placement transjugulaire d'un shunt portosystémique intrahépatique transjugulaire"
+        "display" : "angiofluoroscopie veine porte et veine hépatique ; guidage pour placement transjugulaire d'un shunt portosystémique intrahépatique transjugulaire"
       },
       {
         "code" : "51392-9",
@@ -18484,11 +18484,11 @@ Requête sur le SMT
       },
       {
         "code" : "52790-3",
-        "display" : "CT abdomen ; guidage pour remplacement percutané d'un cathéter de drainage"
+        "display" : "TDM abdomen ; guidage pour remplacement percutané d'un cathéter de drainage"
       },
       {
         "code" : "52791-1",
-        "display" : "CT pelvis ; guidage pour remplacement percutané d'un cathéter de drainage"
+        "display" : "TDM pelvis ; guidage pour remplacement percutané d'un cathéter de drainage"
       },
       {
         "code" : "57822-9",
@@ -18500,7 +18500,7 @@ Requête sur le SMT
       },
       {
         "code" : "58740-2",
-        "display" : "cholangiopancréatographie par résonance magnétique de l'abdomen sans contraste"
+        "display" : "cholangiopancréatographie par IRM de l'abdomen sans contraste"
       },
       {
         "code" : "58741-0",
@@ -18516,15 +18516,15 @@ Requête sur le SMT
       },
       {
         "code" : "58744-4",
-        "display" : "CT coeur"
+        "display" : "TDM coeur"
       },
       {
         "code" : "58746-9",
-        "display" : "angiographie par fluoroscopie fistule artérioveineuse ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie fistule artérioveineuse ; incidences avec contraste IV"
       },
       {
         "code" : "58747-7",
-        "display" : "CT ; guidage pour ablation de tissu dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour ablation de tissu dans une région du corps non spécifiée"
       },
       {
         "code" : "58748-5",
@@ -18532,11 +18532,11 @@ Requête sur le SMT
       },
       {
         "code" : "58749-3",
-        "display" : "résonance magnétique coeur avec stress et sans et avec contraste IV"
+        "display" : "IRM coeur avec stress et sans et avec contraste IV"
       },
       {
         "code" : "58750-1",
-        "display" : "résonance magnétique coeur avec stress"
+        "display" : "IRM coeur avec stress"
       },
       {
         "code" : "59281-6",
@@ -18548,11 +18548,11 @@ Requête sur le SMT
       },
       {
         "code" : "60515-4",
-        "display" : "CT côlon et rectum avec contraste naturel par l’air ambiant par voie rectale"
+        "display" : "TDM côlon et rectum avec contraste naturel par l’air ambiant par voie rectale"
       },
       {
         "code" : "60527-9",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-123 per os"
+        "display" : "MN glande thyroïde ; incidences et incidences pour absorption avec I-123 per os"
       },
       {
         "code" : "62443-7",
@@ -18568,19 +18568,19 @@ Requête sur le SMT
       },
       {
         "code" : "62446-0",
-        "display" : "angiographie par fluoroscopie artère rénale - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère rénale - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "62447-8",
-        "display" : "angiographie par fluoroscopie artère rénale - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère rénale - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "62448-6",
-        "display" : "angiographie par fluoroscopie artère de la tête - gauche et artère du cou - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère de la tête - gauche et artère du cou - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "62449-4",
-        "display" : "angiographie par fluoroscopie artère de la tête - droite et artère du cou - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère de la tête - droite et artère du cou - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "62450-2",
@@ -18596,11 +18596,11 @@ Requête sur le SMT
       },
       {
         "code" : "62491-6",
-        "display" : "angiographie par fluoroscopie artère iliaque - gauche ; guidage pour placement d'une prothèse avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère iliaque - gauche ; guidage pour placement d'une prothèse avec contraste intraartériel"
       },
       {
         "code" : "62492-4",
-        "display" : "angiographie par fluoroscopie artère iliaque - droite ; guidage pour placement d'une prothèse avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère iliaque - droite ; guidage pour placement d'une prothèse avec contraste intraartériel"
       },
       {
         "code" : "62494-0",
@@ -18616,11 +18616,11 @@ Requête sur le SMT
       },
       {
         "code" : "64140-7",
-        "display" : "angiographie par fluoroscopie vaisseaux rénaux - gauches ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux rénaux - gauches ; incidences avec contraste"
       },
       {
         "code" : "64141-5",
-        "display" : "angiographie par fluoroscopie vaisseaux rénaux - droits ; incidences avec contraste"
+        "display" : "angiofluoroscopie vaisseaux rénaux - droits ; incidences avec contraste"
       },
       {
         "code" : "64993-9",
@@ -18628,7 +18628,7 @@ Requête sur le SMT
       },
       {
         "code" : "64995-4",
-        "display" : "angiographie par fluoroscopie artère thoracique interne - gauche ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère thoracique interne - gauche ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "64996-2",
@@ -18648,15 +18648,15 @@ Requête sur le SMT
       },
       {
         "code" : "65000-2",
-        "display" : "angiographie par fluoroscopie artère thoracique interne - droite ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère thoracique interne - droite ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "65797-3",
-        "display" : "angiographie par fluoroscopie artère - gauche ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie artère - gauche ; guidage pour placement d'un stent"
       },
       {
         "code" : "65798-1",
-        "display" : "angiographie par fluoroscopie artère - droite ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie artère - droite ; guidage pour placement d'un stent"
       },
       {
         "code" : "65799-9",
@@ -18672,7 +18672,7 @@ Requête sur le SMT
       },
       {
         "code" : "69054-5",
-        "display" : "angiographie par fluoroscopie arc aortique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie arc aortique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "69055-2",
@@ -18720,11 +18720,11 @@ Requête sur le SMT
       },
       {
         "code" : "69066-9",
-        "display" : "angiographie par fluoroscopie vaisseaux abdominaux ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie vaisseaux abdominaux ; incidences avec contraste IV"
       },
       {
         "code" : "69067-7",
-        "display" : "angiographie par fluoroscopie ; guidage pour angioplastie avec contraste"
+        "display" : "angiofluoroscopie ; guidage pour angioplastie avec contraste"
       },
       {
         "code" : "69068-5",
@@ -18764,7 +18764,7 @@ Requête sur le SMT
       },
       {
         "code" : "69077-6",
-        "display" : "angiographie par fluoroscopie tronc artériel brachiocéphalique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie tronc artériel brachiocéphalique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "69078-4",
@@ -18784,119 +18784,119 @@ Requête sur le SMT
       },
       {
         "code" : "69083-4",
-        "display" : "CT abdomen ; guidage pour biopsie percutanée sans contraste IV"
+        "display" : "TDM abdomen ; guidage pour biopsie percutanée sans contraste IV"
       },
       {
         "code" : "69084-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux thoraciques sans contraste"
+        "display" : "angioscanner vaisseaux thoraciques sans contraste"
       },
       {
         "code" : "69087-5",
-        "display" : "CT cheville bilatérale sans contraste"
+        "display" : "TDM cheville bilatérale sans contraste"
       },
       {
         "code" : "69088-3",
-        "display" : "CT genou - bilatéral avec contraste IV"
+        "display" : "TDM genou - bilatéral avec contraste IV"
       },
       {
         "code" : "69089-1",
-        "display" : "CT genou - bilatéral sans contraste"
+        "display" : "TDM genou - bilatéral sans contraste"
       },
       {
         "code" : "69090-9",
-        "display" : "CT épaule - bilatérale sans contraste"
+        "display" : "TDM épaule - bilatérale sans contraste"
       },
       {
         "code" : "69091-7",
-        "display" : "CT poignet - bilatéral avec contraste IV"
+        "display" : "TDM poignet - bilatéral avec contraste IV"
       },
       {
         "code" : "69092-5",
-        "display" : "CT foie ; guidage pour biopsie percutanée sans contraste IV"
+        "display" : "TDM foie ; guidage pour biopsie percutanée sans contraste IV"
       },
       {
         "code" : "69093-3",
-        "display" : "CT pelvis ; guidage pour biopsie percutanée avec contraste IV"
+        "display" : "TDM pelvis ; guidage pour biopsie percutanée avec contraste IV"
       },
       {
         "code" : "69094-1",
-        "display" : "CT pelvis ; guidage pour biopsie percutanée sans contraste IV"
+        "display" : "TDM pelvis ; guidage pour biopsie percutanée sans contraste IV"
       },
       {
         "code" : "69095-8",
-        "display" : "CT vessie urinaire avec contraste IV"
+        "display" : "TDM vessie urinaire avec contraste IV"
       },
       {
         "code" : "69096-6",
-        "display" : "CT thorax limitée avec contraste IV"
+        "display" : "TDM thorax limitée avec contraste IV"
       },
       {
         "code" : "69102-2",
-        "display" : "CT cheville gauche avec contraste intraarticulaire"
+        "display" : "TDM cheville gauche avec contraste intraarticulaire"
       },
       {
         "code" : "69103-0",
-        "display" : "CT coude - gauche avec contraste intraarticulaire"
+        "display" : "TDM coude - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "69104-8",
-        "display" : "CT extrémité gauche sans contraste"
+        "display" : "TDM extrémité gauche sans contraste"
       },
       {
         "code" : "69105-5",
-        "display" : "CT hanche - gauche avec contraste intraarticulaire"
+        "display" : "TDM hanche - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "69106-3",
-        "display" : "CT genou - gauche avec contraste intraarticulaire"
+        "display" : "TDM genou - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "69107-1",
-        "display" : "CT poignet - gauche avec contraste intraarticulaire"
+        "display" : "TDM poignet - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "69109-7",
-        "display" : "CT cheville droite avec contraste intraarticulaire"
+        "display" : "TDM cheville droite avec contraste intraarticulaire"
       },
       {
         "code" : "69110-5",
-        "display" : "CT coude - droit avec contraste intraarticulaire"
+        "display" : "TDM coude - droit avec contraste intraarticulaire"
       },
       {
         "code" : "69111-3",
-        "display" : "CT membre droit sans contraste"
+        "display" : "TDM membre droit sans contraste"
       },
       {
         "code" : "69112-1",
-        "display" : "CT hanche - droite avec contraste intraarticulaire"
+        "display" : "TDM hanche - droite avec contraste intraarticulaire"
       },
       {
         "code" : "69113-9",
-        "display" : "CT rein - droit"
+        "display" : "TDM rein - droit"
       },
       {
         "code" : "69114-7",
-        "display" : "CT genou - droit avec contraste intraarticulaire"
+        "display" : "TDM genou - droit avec contraste intraarticulaire"
       },
       {
         "code" : "69115-4",
-        "display" : "CT poignet - droit avec contraste intraarticulaire"
+        "display" : "TDM poignet - droit avec contraste intraarticulaire"
       },
       {
         "code" : "69116-2",
-        "display" : "CT sacrum et coccyx"
+        "display" : "TDM sacrum et coccyx"
       },
       {
         "code" : "69117-0",
-        "display" : "CT scapula"
+        "display" : "TDM scapula"
       },
       {
         "code" : "69118-8",
-        "display" : "CT scapula sans contraste"
+        "display" : "TDM scapula sans contraste"
       },
       {
         "code" : "69119-6",
-        "display" : "angiographie par tomodensitométrie aorte thoracique sans contraste"
+        "display" : "angioscanner aorte thoracique sans contraste"
       },
       {
         "code" : "69120-4",
@@ -18944,11 +18944,11 @@ Requête sur le SMT
       },
       {
         "code" : "69134-5",
-        "display" : "angiographie par fluoroscopie artère iliaque ; guidage pour placement d'un stent"
+        "display" : "angiofluoroscopie artère iliaque ; guidage pour placement d'un stent"
       },
       {
         "code" : "69135-2",
-        "display" : "angiographie par fluoroscopie artère iliaque ; guidage pour athérectomie avec contraste"
+        "display" : "angiofluoroscopie artère iliaque ; guidage pour athérectomie avec contraste"
       },
       {
         "code" : "69136-0",
@@ -19056,247 +19056,247 @@ Requête sur le SMT
       },
       {
         "code" : "69163-4",
-        "display" : "résonance magnétique cheville bilatérale avec contraste IV"
+        "display" : "IRM cheville bilatérale avec contraste IV"
       },
       {
         "code" : "69164-2",
-        "display" : "résonance magnétique cheville bilatérale sans contraste"
+        "display" : "IRM cheville bilatérale sans contraste"
       },
       {
         "code" : "69165-9",
-        "display" : "résonance magnétique sein bilatéral ; pour implant"
+        "display" : "IRM sein bilatéral ; pour implant"
       },
       {
         "code" : "69166-7",
-        "display" : "résonance magnétique sein bilatéral pour implant sans et avec contraste IV"
+        "display" : "IRM sein bilatéral pour implant sans et avec contraste IV"
       },
       {
         "code" : "69167-5",
-        "display" : "résonance magnétique sein bilatéral pour implant avec contraste IV"
+        "display" : "IRM sein bilatéral pour implant avec contraste IV"
       },
       {
         "code" : "69168-3",
-        "display" : "résonance magnétique sein bilatéral pour implant sans contraste IV"
+        "display" : "IRM sein bilatéral pour implant sans contraste IV"
       },
       {
         "code" : "69169-1",
-        "display" : "résonance magnétique sein bilatéral ; guidage pour biopsie percutanée"
+        "display" : "IRM sein bilatéral ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69170-9",
-        "display" : "résonance magnétique coude - bilatéral avec contraste IV"
+        "display" : "IRM coude - bilatéral avec contraste IV"
       },
       {
         "code" : "69171-7",
-        "display" : "résonance magnétique coude - bilatéral sans contraste"
+        "display" : "IRM coude - bilatéral sans contraste"
       },
       {
         "code" : "69172-5",
-        "display" : "résonance magnétique fémur - bilatéral avec contraste IV"
+        "display" : "IRM fémur - bilatéral avec contraste IV"
       },
       {
         "code" : "69173-3",
-        "display" : "résonance magnétique fémur - bilatéral sans contraste"
+        "display" : "IRM fémur - bilatéral sans contraste"
       },
       {
         "code" : "69174-1",
-        "display" : "résonance magnétique avantbras - bilatéral sans et avec contraste IV"
+        "display" : "IRM avantbras - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "69175-8",
-        "display" : "résonance magnétique avantbras - bilatéral avec contraste IV"
+        "display" : "IRM avantbras - bilatéral avec contraste IV"
       },
       {
         "code" : "69176-6",
-        "display" : "résonance magnétique avantbras - bilatéral sans contraste"
+        "display" : "IRM avantbras - bilatéral sans contraste"
       },
       {
         "code" : "69177-4",
-        "display" : "résonance magnétique main - bilatérale sans et avec contraste IV"
+        "display" : "IRM main - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "69178-2",
-        "display" : "résonance magnétique main - bilatérale avec contraste IV"
+        "display" : "IRM main - bilatérale avec contraste IV"
       },
       {
         "code" : "69179-0",
-        "display" : "résonance magnétique main - bilatérale sans contraste"
+        "display" : "IRM main - bilatérale sans contraste"
       },
       {
         "code" : "69180-8",
-        "display" : "résonance magnétique bras - bilatéral"
+        "display" : "IRM bras - bilatéral"
       },
       {
         "code" : "69181-6",
-        "display" : "résonance magnétique bras - bilatéral sans et avec contraste IV"
+        "display" : "IRM bras - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "69182-4",
-        "display" : "résonance magnétique bras - bilatéral avec contraste IV"
+        "display" : "IRM bras - bilatéral avec contraste IV"
       },
       {
         "code" : "69183-2",
-        "display" : "résonance magnétique bras - bilatéral sans contraste"
+        "display" : "IRM bras - bilatéral sans contraste"
       },
       {
         "code" : "69184-0",
-        "display" : "résonance magnétique épaule - bilatérale avec contraste IV"
+        "display" : "IRM épaule - bilatérale avec contraste IV"
       },
       {
         "code" : "69185-7",
-        "display" : "résonance magnétique jambe - bilatérale sans contraste"
+        "display" : "IRM jambe - bilatérale sans contraste"
       },
       {
         "code" : "69186-5",
-        "display" : "résonance magnétique membre supérieur - bilatéral sans et avec contraste IV"
+        "display" : "IRM membre supérieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "69187-3",
-        "display" : "résonance magnétique membre supérieur - bilatéral avec contraste IV"
+        "display" : "IRM membre supérieur - bilatéral avec contraste IV"
       },
       {
         "code" : "69188-1",
-        "display" : "résonance magnétique membre supérieur - bilatéral sans contraste"
+        "display" : "IRM membre supérieur - bilatéral sans contraste"
       },
       {
         "code" : "69189-9",
-        "display" : "résonance magnétique sein pour implant sans et avec contraste IV"
+        "display" : "IRM sein pour implant sans et avec contraste IV"
       },
       {
         "code" : "69190-7",
-        "display" : "résonance magnétique sein pour implant avec contraste IV"
+        "display" : "IRM sein pour implant avec contraste IV"
       },
       {
         "code" : "69191-5",
-        "display" : "résonance magnétique sein pour implant sans contraste IV"
+        "display" : "IRM sein pour implant sans contraste IV"
       },
       {
         "code" : "69192-3",
-        "display" : "résonance magnétique sein ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "IRM sein ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "69193-1",
-        "display" : "résonance magnétique d'un membre"
+        "display" : "IRM d'un membre"
       },
       {
         "code" : "69194-9",
-        "display" : "résonance magnétique doigt sans et avec contraste IV"
+        "display" : "IRM doigt sans et avec contraste IV"
       },
       {
         "code" : "69195-6",
-        "display" : "résonance magnétique doigt avec contraste IV"
+        "display" : "IRM doigt avec contraste IV"
       },
       {
         "code" : "69196-4",
-        "display" : "résonance magnétique doigt sans contraste"
+        "display" : "IRM doigt sans contraste"
       },
       {
         "code" : "69197-2",
-        "display" : "résonance magnétique foie ; guidage pour biopsie percutanée"
+        "display" : "IRM foie ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69198-0",
-        "display" : "résonance magnétique muscle ; guidage pour biopsie percutanée"
+        "display" : "IRM muscle ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69199-8",
-        "display" : "résonance magnétique pancréas ; guidage pour biopsie percutanée"
+        "display" : "IRM pancréas ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69200-4",
-        "display" : "résonance magnétique plèvre thoracique ; guidage pour biopsie"
+        "display" : "IRM plèvre thoracique ; guidage pour biopsie"
       },
       {
         "code" : "69201-2",
-        "display" : "résonance magnétique glande salivaire ; guidage pour biopsie"
+        "display" : "IRM glande salivaire ; guidage pour biopsie"
       },
       {
         "code" : "69202-0",
-        "display" : "résonance magnétique glande thyroïde ; guidage pour biopsie percutanée"
+        "display" : "IRM glande thyroïde ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69203-8",
-        "display" : "résonance magnétique sein gauche ; guidage pour biopsie percutanée"
+        "display" : "IRM sein gauche ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69204-6",
-        "display" : "résonance magnétique doigt - gauche sans et avec contraste IV"
+        "display" : "IRM doigt - gauche sans et avec contraste IV"
       },
       {
         "code" : "69205-3",
-        "display" : "résonance magnétique doigt - gauche avec contraste IV"
+        "display" : "IRM doigt - gauche avec contraste IV"
       },
       {
         "code" : "69206-1",
-        "display" : "résonance magnétique doigt - gauche sans contraste"
+        "display" : "IRM doigt - gauche sans contraste"
       },
       {
         "code" : "69207-9",
-        "display" : "résonance magnétique hanche - gauche sans et avec contraste intraarticulaire"
+        "display" : "IRM hanche - gauche sans et avec contraste intraarticulaire"
       },
       {
         "code" : "69208-7",
-        "display" : "résonance magnétique épaule - gauche sans et avec contraste intraarticulaire"
+        "display" : "IRM épaule - gauche sans et avec contraste intraarticulaire"
       },
       {
         "code" : "69209-5",
-        "display" : "résonance magnétique poignet - gauche et main - gauche"
+        "display" : "IRM poignet - gauche et main - gauche"
       },
       {
         "code" : "69210-3",
-        "display" : "résonance magnétique articulation du membre inférieur avec contraste intraarticulaire"
+        "display" : "IRM articulation du membre inférieur avec contraste intraarticulaire"
       },
       {
         "code" : "69211-1",
-        "display" : "résonance magnétique os du nez"
+        "display" : "IRM os du nez"
       },
       {
         "code" : "69212-9",
-        "display" : "résonance magnétique pelvis limitée"
+        "display" : "IRM pelvis limitée"
       },
       {
         "code" : "69213-7",
-        "display" : "résonance magnétique sein droit ; guidage pour biopsie percutanée"
+        "display" : "IRM sein droit ; guidage pour biopsie percutanée"
       },
       {
         "code" : "69214-5",
-        "display" : "résonance magnétique doigt - droit sans et avec contraste IV"
+        "display" : "IRM doigt - droit sans et avec contraste IV"
       },
       {
         "code" : "69215-2",
-        "display" : "résonance magnétique doigt - droit avec contraste IV"
+        "display" : "IRM doigt - droit avec contraste IV"
       },
       {
         "code" : "69216-0",
-        "display" : "résonance magnétique doigt - droit sans contraste"
+        "display" : "IRM doigt - droit sans contraste"
       },
       {
         "code" : "69217-8",
-        "display" : "résonance magnétique hanche - droite sans et avec contraste intraarticulaire"
+        "display" : "IRM hanche - droite sans et avec contraste intraarticulaire"
       },
       {
         "code" : "69218-6",
-        "display" : "résonance magnétique épaule - droite sans et avec contraste intraarticulaire"
+        "display" : "IRM épaule - droite sans et avec contraste intraarticulaire"
       },
       {
         "code" : "69219-4",
-        "display" : "résonance magnétique poignet - droit et main - droite"
+        "display" : "IRM poignet - droit et main - droite"
       },
       {
         "code" : "69220-2",
-        "display" : "résonance magnétique base du crâne sans et avec contraste IV"
+        "display" : "IRM base du crâne sans et avec contraste IV"
       },
       {
         "code" : "69221-0",
-        "display" : "résonance magnétique scrotum et testicule avec contraste IV"
+        "display" : "IRM scrotum et testicule avec contraste IV"
       },
       {
         "code" : "69222-8",
-        "display" : "résonance magnétique veine cave"
+        "display" : "IRM veine cave"
       },
       {
         "code" : "69223-6",
-        "display" : "résonance magnétique sans contraste dans une région du corps non spécifiée"
+        "display" : "IRM sans contraste dans une région du corps non spécifiée"
       },
       {
         "code" : "69226-9",
@@ -19304,43 +19304,43 @@ Requête sur le SMT
       },
       {
         "code" : "69229-3",
-        "display" : "médecine nucléaire SPECT foie avec sulfocolloïde de technétium 99 IV"
+        "display" : "SPECT foie avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "69230-1",
-        "display" : "médecine nucléaire foie ; incidences avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN foie ; incidences avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "69231-9",
-        "display" : "médecine nucléaire coeur ; incidences avec stress et avec Tc-99m IV"
+        "display" : "MN coeur ; incidences avec stress et avec Tc-99m IV"
       },
       {
         "code" : "69232-7",
-        "display" : "médecine nucléaire coeur ; incidences avec stress et avec Tc-99m Sestamibi IV"
+        "display" : "MN coeur ; incidences avec stress et avec Tc-99m Sestamibi IV"
       },
       {
         "code" : "69233-5",
-        "display" : "médecine nucléaire glande parotide ; incidences avec pertechnétate de technétium 99m Tc IV"
+        "display" : "MN glande parotide ; incidences avec pertechnétate de technétium 99m Tc IV"
       },
       {
         "code" : "69234-3",
-        "display" : "médecine nucléaire SPECT rate avec globules rouges marqués au Tc-99m IV"
+        "display" : "SPECT rate avec globules rouges marqués au Tc-99m IV"
       },
       {
         "code" : "69235-0",
-        "display" : "médecine nucléaire SPECT scrotum et testicule pour débit sanguin avec radionucléide IV"
+        "display" : "SPECT scrotum et testicule pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "69236-8",
-        "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-131 per os"
+        "display" : "MN glande thyroïde ; incidences et incidences pour absorption avec I-131 per os"
       },
       {
         "code" : "69237-6",
-        "display" : "médecine nucléaire SPECT corps entier pour tumeur avec radionucléide IV"
+        "display" : "SPECT corps entier pour tumeur avec radionucléide IV"
       },
       {
         "code" : "69238-4",
-        "display" : "médecine nucléaire SPECT vessie urinaire et urètre avec contraste intravésical et pendant la miction"
+        "display" : "SPECT vessie urinaire et urètre avec contraste intravésical et pendant la miction"
       },
       {
         "code" : "69239-2",
@@ -19364,15 +19364,15 @@ Requête sur le SMT
       },
       {
         "code" : "69248-3",
-        "display" : "angiographie par fluoroscopie artère rénale ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère rénale ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
       },
       {
         "code" : "69249-1",
-        "display" : "angiographie par fluoroscopie artère poplitée ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère poplitée ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "69250-9",
-        "display" : "angiographie par fluoroscopie veine porte ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine porte ; incidences avec contraste IV"
       },
       {
         "code" : "69251-7",
@@ -19380,11 +19380,11 @@ Requête sur le SMT
       },
       {
         "code" : "69252-5",
-        "display" : "angiographie par fluoroscopie artères pulmonaires ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
+        "display" : "angiofluoroscopie artères pulmonaires ; guidage pour angioplastie transluminale percutanée avec contraste intraartériel"
       },
       {
         "code" : "69253-3",
-        "display" : "angiographie par fluoroscopie vaisseaux rénaux ; guidage pour athérectomie avec contraste"
+        "display" : "angiofluoroscopie vaisseaux rénaux ; guidage pour athérectomie avec contraste"
       },
       {
         "code" : "69254-1",
@@ -19560,7 +19560,7 @@ Requête sur le SMT
       },
       {
         "code" : "69301-0",
-        "display" : "angiographie par fluoroscopie veine du membre supérieur ; guidage pour angioplastie transluminale percutanée avec contraste IV"
+        "display" : "angiofluoroscopie veine du membre supérieur ; guidage pour angioplastie transluminale percutanée avec contraste IV"
       },
       {
         "code" : "69302-8",
@@ -19708,7 +19708,7 @@ Requête sur le SMT
       },
       {
         "code" : "69908-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
       },
       {
         "code" : "70915-4",
@@ -19736,11 +19736,11 @@ Requête sur le SMT
       },
       {
         "code" : "70921-2",
-        "display" : "CT rachis cervical ; guidage pour blocage nerveux"
+        "display" : "TDM rachis cervical ; guidage pour blocage nerveux"
       },
       {
         "code" : "70922-0",
-        "display" : "CT rachis dorsal ; guidage pour blocage nerveux"
+        "display" : "TDM rachis dorsal ; guidage pour blocage nerveux"
       },
       {
         "code" : "70923-8",
@@ -19764,7 +19764,7 @@ Requête sur le SMT
       },
       {
         "code" : "70931-1",
-        "display" : "CT rachis dorsal avec contraste intradiscal"
+        "display" : "TDM rachis dorsal avec contraste intradiscal"
       },
       {
         "code" : "70932-9",
@@ -19800,71 +19800,71 @@ Requête sur le SMT
       },
       {
         "code" : "72238-9",
-        "display" : "résonance magnétique orteils - droits sans et avec contraste IV"
+        "display" : "IRM orteils - droits sans et avec contraste IV"
       },
       {
         "code" : "72239-7",
-        "display" : "résonance magnétique orteils - droits sans contraste"
+        "display" : "IRM orteils - droits sans contraste"
       },
       {
         "code" : "72240-5",
-        "display" : "résonance magnétique orteils - droits avec contraste IV"
+        "display" : "IRM orteils - droits avec contraste IV"
       },
       {
         "code" : "72241-3",
-        "display" : "résonance magnétique orteils - gauches sans et avec contraste IV"
+        "display" : "IRM orteils - gauches sans et avec contraste IV"
       },
       {
         "code" : "72242-1",
-        "display" : "résonance magnétique orteils - gauches sans contraste"
+        "display" : "IRM orteils - gauches sans contraste"
       },
       {
         "code" : "72243-9",
-        "display" : "résonance magnétique orteils - gauches avec contraste IV"
+        "display" : "IRM orteils - gauches avec contraste IV"
       },
       {
         "code" : "72244-7",
-        "display" : "résonance magnétique pelvis endorectal sans et avec contraste IV"
+        "display" : "IRM pelvis endorectal sans et avec contraste IV"
       },
       {
         "code" : "72245-4",
-        "display" : "résonance magnétique pelvis avec contraste par voie rectale et au repos et contraction maximale du sphincter et pendant l'effort de défécation et pendant la défécation"
+        "display" : "IRM pelvis avec contraste par voie rectale et au repos et contraction maximale du sphincter et pendant l'effort de défécation et pendant la défécation"
       },
       {
         "code" : "72246-2",
-        "display" : "résonance magnétique abdomen et pelvis avec contraste per os et sans et avec contraste IV"
+        "display" : "IRM abdomen et pelvis avec contraste per os et sans et avec contraste IV"
       },
       {
         "code" : "72247-0",
-        "display" : "résonance magnétique abdomen et pelvis avec contraste per os et sans contraste IV"
+        "display" : "IRM abdomen et pelvis avec contraste per os et sans contraste IV"
       },
       {
         "code" : "72248-8",
-        "display" : "cholangiopancréatographie par résonance magnétique de l'abdomen sans et avec contraste"
+        "display" : "cholangiopancréatographie par IRM de l'abdomen sans et avec contraste"
       },
       {
         "code" : "72249-6",
-        "display" : "CT os de la face sans contraste"
+        "display" : "TDM os de la face sans contraste"
       },
       {
         "code" : "72250-4",
-        "display" : "CT intestin grêle avec contraste per os et avec contraste IV"
+        "display" : "TDM intestin grêle avec contraste per os et avec contraste IV"
       },
       {
         "code" : "72251-2",
-        "display" : "CT artères pulmonaires pour embolie pulmonaire"
+        "display" : "TDM artères pulmonaires pour embolie pulmonaire"
       },
       {
         "code" : "72252-0",
-        "display" : "CT thorax, abdomen et pelvis sans et avec contraste IV"
+        "display" : "TDM thorax, abdomen et pelvis sans et avec contraste IV"
       },
       {
         "code" : "72253-8",
-        "display" : "CT thorax, abdomen et pelvis sans contraste"
+        "display" : "TDM thorax, abdomen et pelvis sans contraste"
       },
       {
         "code" : "72254-6",
-        "display" : "CT thorax, abdomen et pelvis avec contraste IV"
+        "display" : "TDM thorax, abdomen et pelvis avec contraste IV"
       },
       {
         "code" : "72256-1",
@@ -19884,7 +19884,7 @@ Requête sur le SMT
       },
       {
         "code" : "72531-7",
-        "display" : "CT côlon et rectum avec contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
+        "display" : "TDM côlon et rectum avec contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
       },
       {
         "code" : "72532-5",
@@ -19912,7 +19912,7 @@ Requête sur le SMT
       },
       {
         "code" : "72538-2",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour ablation d'un cathéter veineux central inséré périphériquement"
+        "display" : "angiofluoroscopie veine ; guidage pour ablation d'un cathéter veineux central inséré périphériquement"
       },
       {
         "code" : "72539-0",
@@ -19944,15 +19944,15 @@ Requête sur le SMT
       },
       {
         "code" : "72546-5",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour ablation d'un substance obstruant la lumière d'un cathéter veineux central"
+        "display" : "angiofluoroscopie veine ; guidage pour ablation d'un substance obstruant la lumière d'un cathéter veineux central"
       },
       {
         "code" : "72547-3",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour ablation d'un substance obstruant la lumière en péricathéter d'un cathéter veineux central"
+        "display" : "angiofluoroscopie veine ; guidage pour ablation d'un substance obstruant la lumière en péricathéter d'un cathéter veineux central"
       },
       {
         "code" : "72548-1",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour ablation d'un cathéter veineux central avec contraste IV"
+        "display" : "angiofluoroscopie veine ; guidage pour ablation d'un cathéter veineux central avec contraste IV"
       },
       {
         "code" : "72549-9",
@@ -19960,11 +19960,11 @@ Requête sur le SMT
       },
       {
         "code" : "72550-7",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour réparation d'un cathéter veineux central avec port ou pompe"
+        "display" : "angiofluoroscopie veine ; guidage pour réparation d'un cathéter veineux central avec port ou pompe"
       },
       {
         "code" : "72551-5",
-        "display" : "angiographie par fluoroscopie veine ; guidage pour réparation d'un cathéter veineux central sans port ni pompe"
+        "display" : "angiofluoroscopie veine ; guidage pour réparation d'un cathéter veineux central sans port ni pompe"
       },
       {
         "code" : "72552-3",
@@ -20020,7 +20020,7 @@ Requête sur le SMT
       },
       {
         "code" : "75671-8",
-        "display" : "angiographie par tomodensitométrie cercle artériel du cerveau sans et avec contraste IV"
+        "display" : "angioscanner cercle artériel du cerveau sans et avec contraste IV"
       },
       {
         "code" : "75672-6",
@@ -20028,7 +20028,7 @@ Requête sur le SMT
       },
       {
         "code" : "75746-8",
-        "display" : "CT espace pleural - bilatéral ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural - bilatéral ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
       },
       {
         "code" : "75747-6",
@@ -20036,7 +20036,7 @@ Requête sur le SMT
       },
       {
         "code" : "75748-4",
-        "display" : "CT disque intervertébral du rachis cervical ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM disque intervertébral du rachis cervical ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "75749-2",
@@ -20052,7 +20052,7 @@ Requête sur le SMT
       },
       {
         "code" : "75752-6",
-        "display" : "CT espace pleural - gauche ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural - gauche ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
       },
       {
         "code" : "75816-9",
@@ -20064,7 +20064,7 @@ Requête sur le SMT
       },
       {
         "code" : "75818-5",
-        "display" : "CT espace pleural - droit ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural - droit ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
       },
       {
         "code" : "75853-2",
@@ -20072,215 +20072,215 @@ Requête sur le SMT
       },
       {
         "code" : "77311-9",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et vaisseaux bilatéraux pour endoprothèse"
+        "display" : "angioscanner aorte abdominale et vaisseaux bilatéraux pour endoprothèse"
       },
       {
         "code" : "77448-9",
-        "display" : "CT arrière du pied et mipied"
+        "display" : "TDM arrière du pied et mipied"
       },
       {
         "code" : "77451-3",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique et vaisseaux - bilatéraux pour endoprothèse"
+        "display" : "angioscanner aorte abdominale et thoracique et vaisseaux - bilatéraux pour endoprothèse"
       },
       {
         "code" : "77456-2",
-        "display" : "CT arrière du pied et mipied avec contraste IV"
+        "display" : "TDM arrière du pied et mipied avec contraste IV"
       },
       {
         "code" : "77457-0",
-        "display" : "CT arrière du pied et mipied sans et avec contraste IV"
+        "display" : "TDM arrière du pied et mipied sans et avec contraste IV"
       },
       {
         "code" : "77458-8",
-        "display" : "CT arrière du pied et mipied sans contraste"
+        "display" : "TDM arrière du pied et mipied sans contraste"
       },
       {
         "code" : "77466-1",
-        "display" : "CT arrière du pied - gauche et milieu du pied - gauche avec contraste IV"
+        "display" : "TDM arrière du pied - gauche et milieu du pied - gauche avec contraste IV"
       },
       {
         "code" : "77467-9",
-        "display" : "CT arrière du pied - droit et mipied - droit avec contraste IV"
+        "display" : "TDM arrière du pied - droit et mipied - droit avec contraste IV"
       },
       {
         "code" : "77468-7",
-        "display" : "CT arrière du pied - gauche et milieu du pied - gauche sans et avec contraste IV"
+        "display" : "TDM arrière du pied - gauche et milieu du pied - gauche sans et avec contraste IV"
       },
       {
         "code" : "77469-5",
-        "display" : "CT arrière du pied - droit et mipied - droit sans et avec contraste IV"
+        "display" : "TDM arrière du pied - droit et mipied - droit sans et avec contraste IV"
       },
       {
         "code" : "77470-3",
-        "display" : "CT arrière du pied - gauche et milieu du pied - gauche sans contraste"
+        "display" : "TDM arrière du pied - gauche et milieu du pied - gauche sans contraste"
       },
       {
         "code" : "77471-1",
-        "display" : "CT arrière du pied - droit et mipied - droit sans contraste"
+        "display" : "TDM arrière du pied - droit et mipied - droit sans contraste"
       },
       {
         "code" : "78031-2",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et vaisseaux collatéraux sans et avec contraste IV"
+        "display" : "angioscanner aorte abdominale et vaisseaux collatéraux sans et avec contraste IV"
       },
       {
         "code" : "78032-0",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique et vaisseaux collatéraux sans et avec contraste IV"
+        "display" : "angioscanner aorte abdominale et thoracique et vaisseaux collatéraux sans et avec contraste IV"
       },
       {
         "code" : "78037-9",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et vaisseaux collatéraux avec contraste IV"
+        "display" : "angioscanner aorte abdominale et vaisseaux collatéraux avec contraste IV"
       },
       {
         "code" : "78038-7",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique et vaisseaux collatéraux avec contraste IV"
+        "display" : "angioscanner aorte abdominale et thoracique et vaisseaux collatéraux avec contraste IV"
       },
       {
         "code" : "78973-5",
-        "display" : "CT membre inférieur - bilatéral pour mesure de jambe sans contraste"
+        "display" : "TDM membre inférieur - bilatéral pour mesure de jambe sans contraste"
       },
       {
         "code" : "79065-9",
-        "display" : "CT abdomen et pelvis post-traitement 3D sans contraste"
+        "display" : "TDM abdomen et pelvis post-traitement 3D sans contraste"
       },
       {
         "code" : "79066-7",
-        "display" : "CT abdomen post-traitement 3D sans contraste"
+        "display" : "TDM abdomen post-traitement 3D sans contraste"
       },
       {
         "code" : "79067-5",
-        "display" : "CT voies respiratoires sans contraste"
+        "display" : "TDM voies respiratoires sans contraste"
       },
       {
         "code" : "79068-3",
-        "display" : "CT thorax pour dépistage avec contraste IV"
+        "display" : "TDM thorax pour dépistage avec contraste IV"
       },
       {
         "code" : "79069-1",
-        "display" : "CT côlon et rectum pour dépistage sans contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
+        "display" : "TDM côlon et rectum pour dépistage sans contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
       },
       {
         "code" : "79071-7",
-        "display" : "CT côlon et rectum sans contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
+        "display" : "TDM côlon et rectum sans contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
       },
       {
         "code" : "79072-5",
-        "display" : "CT ; guidage pour radiothérapie dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour radiothérapie dans une région du corps non spécifiée"
       },
       {
         "code" : "79073-3",
-        "display" : "angiographie par tomodensitométrie coeur et artères coronaires avec contraste IV"
+        "display" : "angioscanner coeur et artères coronaires avec contraste IV"
       },
       {
         "code" : "79074-1",
-        "display" : "CT rein et uretère et vessie urinaire post-traitement 3D sans et avec contraste IV"
+        "display" : "TDM rein et uretère et vessie urinaire post-traitement 3D sans et avec contraste IV"
       },
       {
         "code" : "79075-8",
-        "display" : "CT pelvis par reconstruction avec contraste IV"
+        "display" : "TDM pelvis par reconstruction avec contraste IV"
       },
       {
         "code" : "79076-6",
-        "display" : "CT pelvis pour reconstruction sans contraste"
+        "display" : "TDM pelvis pour reconstruction sans contraste"
       },
       {
         "code" : "79077-4",
-        "display" : "angiographie par tomodensitométrie artères pulmonaires pour embolie pulmonaire avec contraste IV"
+        "display" : "angioscanner artères pulmonaires pour embolie pulmonaire avec contraste IV"
       },
       {
         "code" : "79078-2",
-        "display" : "CT rachis cervical par reconstruction avec contraste IV"
+        "display" : "TDM rachis cervical par reconstruction avec contraste IV"
       },
       {
         "code" : "79079-0",
-        "display" : "CT rachis cervical pour reconstruction sans contraste"
+        "display" : "TDM rachis cervical pour reconstruction sans contraste"
       },
       {
         "code" : "79080-8",
-        "display" : "CT rachis lombaire par reconstruction avec contraste IV"
+        "display" : "TDM rachis lombaire par reconstruction avec contraste IV"
       },
       {
         "code" : "79081-6",
-        "display" : "CT rachis lombaire pour reconstruction sans contraste"
+        "display" : "TDM rachis lombaire pour reconstruction sans contraste"
       },
       {
         "code" : "79082-4",
-        "display" : "CT rachis dorsal par reconstruction avec contraste IV"
+        "display" : "TDM rachis dorsal par reconstruction avec contraste IV"
       },
       {
         "code" : "79083-2",
-        "display" : "CT os temporal par reconstruction avec contraste IV"
+        "display" : "TDM os temporal par reconstruction avec contraste IV"
       },
       {
         "code" : "79084-0",
-        "display" : "CT os temporal pour reconstruction sans contraste"
+        "display" : "TDM os temporal pour reconstruction sans contraste"
       },
       {
         "code" : "79085-7",
-        "display" : "CT canaux biliaires sans et avec contraste IV"
+        "display" : "TDM canaux biliaires sans et avec contraste IV"
       },
       {
         "code" : "79086-5",
-        "display" : "CT thorax pour dépistage sans contraste"
+        "display" : "TDM thorax pour dépistage sans contraste"
       },
       {
         "code" : "79087-3",
-        "display" : "CT coeur et artères coronaires pour score calcique sans contraste"
+        "display" : "TDM coeur et artères coronaires pour score calcique sans contraste"
       },
       {
         "code" : "79088-1",
-        "display" : "CT coeur pour maladie congénitale avec contraste IV"
+        "display" : "TDM coeur pour maladie congénitale avec contraste IV"
       },
       {
         "code" : "79089-9",
-        "display" : "CT coeur avec contraste IV"
+        "display" : "TDM coeur avec contraste IV"
       },
       {
         "code" : "79090-7",
-        "display" : "densitométrie par CT rachis lombaire sans contraste"
+        "display" : "densitométrie par TDM rachis lombaire sans contraste"
       },
       {
         "code" : "79091-5",
-        "display" : "CT rachis dorsal pour reconstruction sans contraste"
+        "display" : "TDM rachis dorsal pour reconstruction sans contraste"
       },
       {
         "code" : "79092-3",
-        "display" : "densitométrie par CT rachis dorsal sans contraste"
+        "display" : "densitométrie par TDM rachis dorsal sans contraste"
       },
       {
         "code" : "79093-1",
-        "display" : "CT ; post-traitement 3D dans une région du corps non spécifiée"
+        "display" : "TDM ; post-traitement 3D dans une région du corps non spécifiée"
       },
       {
         "code" : "79094-9",
-        "display" : "CT vessie urinaire avec contraste intravésical"
+        "display" : "TDM vessie urinaire avec contraste intravésical"
       },
       {
         "code" : "79095-6",
-        "display" : "CT dents"
+        "display" : "TDM dents"
       },
       {
         "code" : "79096-4",
-        "display" : "CT thorax post-traitement 3D sans contraste"
+        "display" : "TDM thorax post-traitement 3D sans contraste"
       },
       {
         "code" : "79097-2",
-        "display" : "CT thorax et abdomen post-traitement 3D sans contraste"
+        "display" : "TDM thorax et abdomen post-traitement 3D sans contraste"
       },
       {
         "code" : "79098-0",
-        "display" : "CT thorax, abdomen et pelvis post-traitement 3D sans contraste"
+        "display" : "TDM thorax, abdomen et pelvis post-traitement 3D sans contraste"
       },
       {
         "code" : "79099-8",
-        "display" : "CT pelvis post-traitement 3D sans contraste"
+        "display" : "TDM pelvis post-traitement 3D sans contraste"
       },
       {
         "code" : "79101-2",
-        "display" : "CT côlon et rectum pour dépistage avec contraste naturel par l’air ambiant par voie rectale"
+        "display" : "TDM côlon et rectum pour dépistage avec contraste naturel par l’air ambiant par voie rectale"
       },
       {
         "code" : "79103-8",
-        "display" : "CT abdomen avec contraste IV"
+        "display" : "TDM abdomen avec contraste IV"
       },
       {
         "code" : "79349-7",
@@ -20388,31 +20388,31 @@ Requête sur le SMT
       },
       {
         "code" : "80495-5",
-        "display" : "résonance magnétique médiastin sans contraste"
+        "display" : "IRM médiastin sans contraste"
       },
       {
         "code" : "80496-3",
-        "display" : "résonance magnétique ; post-traitement 3D"
+        "display" : "IRM ; post-traitement 3D"
       },
       {
         "code" : "80497-1",
-        "display" : "résonance magnétique sein droit ; guidage pour localisation à l'aiguille"
+        "display" : "IRM sein droit ; guidage pour localisation à l'aiguille"
       },
       {
         "code" : "80498-9",
-        "display" : "résonance magnétique sein gauche ; guidage pour localisation à l'aiguille"
+        "display" : "IRM sein gauche ; guidage pour localisation à l'aiguille"
       },
       {
         "code" : "80499-7",
-        "display" : "résonance magnétique corps entier sans et avec contraste IV"
+        "display" : "IRM corps entier sans et avec contraste IV"
       },
       {
         "code" : "80500-2",
-        "display" : "résonance magnétique coeur avec stress et sans contraste"
+        "display" : "IRM coeur avec stress et sans contraste"
       },
       {
         "code" : "80501-0",
-        "display" : "résonance magnétique intestin grêle avec contraste per os et sans contraste IV"
+        "display" : "IRM intestin grêle avec contraste per os et sans contraste IV"
       },
       {
         "code" : "80502-8",
@@ -20420,51 +20420,51 @@ Requête sur le SMT
       },
       {
         "code" : "80503-6",
-        "display" : "résonance magnétique intestin grêle avec contraste per os et sans et avec contraste IV"
+        "display" : "IRM intestin grêle avec contraste per os et sans et avec contraste IV"
       },
       {
         "code" : "80504-4",
-        "display" : "résonance magnétique guidage pour biopsie percutanée d'une région du corps non spécifiée"
+        "display" : "IRM guidage pour biopsie percutanée d'une région du corps non spécifiée"
       },
       {
         "code" : "80505-1",
-        "display" : "résonance magnétique cerveau pour tumeur nouvellement diagnostiquée sans et avec contraste IV"
+        "display" : "IRM cerveau pour tumeur nouvellement diagnostiquée sans et avec contraste IV"
       },
       {
         "code" : "80506-9",
-        "display" : "résonance magnétique cerveau pour tumeur de bas grade sans et avec constraste IV"
+        "display" : "IRM cerveau pour tumeur de bas grade sans et avec contraste IV"
       },
       {
         "code" : "80507-7",
-        "display" : "résonance magnétique cerveau pour tumeur de haut grade sans et avec contraste IV"
+        "display" : "IRM cerveau pour tumeur de haut grade sans et avec contraste IV"
       },
       {
         "code" : "80508-5",
-        "display" : "résonance magnétique membre supérieur articulation avec contraste intraarticulaire"
+        "display" : "IRM membre supérieur articulation avec contraste intraarticulaire"
       },
       {
         "code" : "80509-3",
-        "display" : "résonance magnétique guidage pour placement d'un clip dans une région du corps non spécifiée"
+        "display" : "IRM guidage pour placement d'un clip dans une région du corps non spécifiée"
       },
       {
         "code" : "80510-1",
-        "display" : "résonance magnétique cerveau pour métastase sans et avec contraste IV"
+        "display" : "IRM cerveau pour métastase sans et avec contraste IV"
       },
       {
         "code" : "80511-9",
-        "display" : "résonance magnétique cerveau ; pour le postopératoire"
+        "display" : "IRM cerveau ; pour le postopératoire"
       },
       {
         "code" : "80512-7",
-        "display" : "résonance magnétique moelle osseuse sans contraste"
+        "display" : "IRM moelle osseuse sans contraste"
       },
       {
         "code" : "80513-5",
-        "display" : "résonance magnétique moelle osseuse avec contraste IV"
+        "display" : "IRM moelle osseuse avec contraste IV"
       },
       {
         "code" : "80514-3",
-        "display" : "résonance magnétique moelle osseuse sans et avec contraste IV"
+        "display" : "IRM moelle osseuse sans et avec contraste IV"
       },
       {
         "code" : "80583-8",
@@ -20472,11 +20472,11 @@ Requête sur le SMT
       },
       {
         "code" : "80584-6",
-        "display" : "résonance magnétique urètre endovaginale sans contraste"
+        "display" : "IRM urètre endovaginale sans contraste"
       },
       {
         "code" : "80585-3",
-        "display" : "résonance magnétique pelvis endorectal avec contraste IV"
+        "display" : "IRM pelvis endorectal avec contraste IV"
       },
       {
         "code" : "80833-7",
@@ -20704,11 +20704,11 @@ Requête sur le SMT
       },
       {
         "code" : "81162-0",
-        "display" : "guidage échographique de la position de l'aiguille pour ponction mammaire - incidence gauche et vue agrandie d'un fragment biopsique"
+        "display" : "guidage par échographie de la position de l'aiguille pour ponction mammaire - incidence gauche et vue agrandie d'un fragment biopsique"
       },
       {
         "code" : "81163-8",
-        "display" : "guidage échographique de la position de l'aiguille pour ponction mammaire - incidence droite et vue agrandie d'un fragment biopsique"
+        "display" : "guidage par échographie de la position de l'aiguille pour ponction mammaire - incidence droite et vue agrandie d'un fragment biopsique"
       },
       {
         "code" : "81164-6",
@@ -20720,95 +20720,95 @@ Requête sur le SMT
       },
       {
         "code" : "81206-5",
-        "display" : "médecine nucléaire foie et rate ; incidences avec sulfocolloïde de technétium 99 IV"
+        "display" : "MN foie et rate ; incidences avec sulfocolloïde de technétium 99 IV"
       },
       {
         "code" : "81542-3",
-        "display" : "médecine nucléaire rachis lombaire ; incidences pour fuite de liquide céphalorachidien après ponction lombaire avec radionucléide intrathécal"
+        "display" : "MN rachis lombaire ; incidences pour fuite de liquide céphalorachidien après ponction lombaire avec radionucléide intrathécal"
       },
       {
         "code" : "81543-1",
-        "display" : "médecine nucléaire tête ; incidences pour fuite de LCR avec rhinorrhée ou otorrhée avec radionucléide intrathécal"
+        "display" : "MN tête ; incidences pour fuite de LCR avec rhinorrhée ou otorrhée avec radionucléide intrathécal"
       },
       {
         "code" : "81544-9",
-        "display" : "médecine nucléaire tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec radionucléide IV"
+        "display" : "MN tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec radionucléide IV"
       },
       {
         "code" : "81545-6",
-        "display" : "médecine nucléaire abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
+        "display" : "MN abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
       },
       {
         "code" : "81546-4",
-        "display" : "médecine nucléaire rein ; incidences pour débit sanguin et fonction rénale avec radionucléide IV"
+        "display" : "MN rein ; incidences pour débit sanguin et fonction rénale avec radionucléide IV"
       },
       {
         "code" : "81547-2",
-        "display" : "médecine nucléaire SPECT corps entier avec In-111 pentétréotide IV"
+        "display" : "SPECT corps entier avec In-111 pentétréotide IV"
       },
       {
         "code" : "81548-0",
-        "display" : "médecine nucléaire SPECT avec globules blancs marqués IV"
+        "display" : "SPECT avec globules blancs marqués IV"
       },
       {
         "code" : "81549-8",
-        "display" : "médecine nucléaire SPECT et CT ganglion lymphatique avec radionucléide IV"
+        "display" : "SPECT et TDM ganglion lymphatique avec radionucléide IV"
       },
       {
         "code" : "81550-6",
-        "display" : "médecine nucléaire SPECT et CT glande parathyroïde avec radionucléide IV"
+        "display" : "SPECT et TDM glande parathyroïde avec radionucléide IV"
       },
       {
         "code" : "81551-4",
-        "display" : "tomographie par émission de positons et CT os de la base du crâne à micuisse fluorure 18F de sodium IV"
+        "display" : "tomographie par émission de positons et TDM os de la base du crâne à micuisse fluorure 18F de sodium IV"
       },
       {
         "code" : "81552-2",
-        "display" : "tomographie par émission de positons et CT os du corps entier fluorure 18F de sodium IV"
+        "display" : "tomographie par émission de positons et TDM os du corps entier fluorure 18F de sodium IV"
       },
       {
         "code" : "81553-0",
-        "display" : "tomographie par émission de positons et CT ; guidage limité pour localisation de tumeur avec 18F-FDG IV dans une région du corps non spécifiée"
+        "display" : "tomographie par émission de positons et TDM ; guidage limité pour localisation de tumeur avec 18F-FDG IV dans une région du corps non spécifiée"
       },
       {
         "code" : "81554-8",
-        "display" : "tomographie par émission de positons et CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV"
+        "display" : "tomographie par émission de positons et TDM de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV"
       },
       {
         "code" : "81555-5",
-        "display" : "tomographie par émission de positons et CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV"
+        "display" : "tomographie par émission de positons et TDM corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV"
       },
       {
         "code" : "81556-3",
-        "display" : "médecine nucléaire SPECT pour infection et inflammation avec radionucléide IV"
+        "display" : "SPECT pour infection et inflammation avec radionucléide IV"
       },
       {
         "code" : "81557-1",
-        "display" : "médecine nucléaire SPECT cerveau avec florbétapir IV"
+        "display" : "SPECT cerveau avec florbétapir IV"
       },
       {
         "code" : "81558-9",
-        "display" : "médecine nucléaire SPECT cerveau avec Tc-99m IV"
+        "display" : "SPECT cerveau avec Tc-99m IV"
       },
       {
         "code" : "81559-7",
-        "display" : "tomographie par émission de positons et CT limitée pour simulation avec radionucléide IV dans une région du corps non spécifiée"
+        "display" : "tomographie par émission de positons et TDM limitée pour simulation avec radionucléide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "81560-5",
-        "display" : "médecine nucléaire SPECT corps entier avec In-111 capromab pendétide IV"
+        "display" : "SPECT corps entier avec In-111 capromab pendétide IV"
       },
       {
         "code" : "81561-3",
-        "display" : "médecine nucléaire SPECT coeur avec états multiples d'exercice et avec radionucléide IV"
+        "display" : "SPECT coeur avec états multiples d'exercice et avec radionucléide IV"
       },
       {
         "code" : "81562-1",
-        "display" : "médecine nucléaire SPECT coeur avec état simple d'exercice et avec radionucléide IV"
+        "display" : "SPECT coeur avec état simple d'exercice et avec radionucléide IV"
       },
       {
         "code" : "81563-9",
-        "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et pool sanguin avec radionucléide IV"
+        "display" : "MN coeur ; incidences au premier passage du marqueur et pool sanguin avec radionucléide IV"
       },
       {
         "code" : "81564-7",
@@ -20820,7 +20820,7 @@ Requête sur le SMT
       },
       {
         "code" : "81566-2",
-        "display" : "médecine nucléaire coeur ; incidences synchronisées et pool sanguin et fraction d'éjection et cinétique pariétale avec états multiples d'exercice et avec radionucléide IV"
+        "display" : "MN coeur ; incidences synchronisées et pool sanguin et fraction d'éjection et cinétique pariétale avec états multiples d'exercice et avec radionucléide IV"
       },
       {
         "code" : "81567-0",
@@ -20836,31 +20836,31 @@ Requête sur le SMT
       },
       {
         "code" : "81570-4",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec état unique d'exercice et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec état unique d'exercice et avec radionucléide IV"
       },
       {
         "code" : "81571-2",
-        "display" : "médecine nucléaire coeur ; incidences de perfusion avec états multiple d'exercice et avec radionucléide IV"
+        "display" : "MN coeur ; incidences de perfusion avec états multiple d'exercice et avec radionucléide IV"
       },
       {
         "code" : "81572-0",
-        "display" : "médecine nucléaire glande salivaire ; incidences pour fonction avec radionucléide IV"
+        "display" : "MN glande salivaire ; incidences pour fonction avec radionucléide IV"
       },
       {
         "code" : "81573-8",
-        "display" : "médecine nucléaire cerveau ; incidences pour protocole de mort cérébrale avec radionucléide IV"
+        "display" : "MN cerveau ; incidences pour protocole de mort cérébrale avec radionucléide IV"
       },
       {
         "code" : "81574-6",
-        "display" : "médecine nucléaire cerveau ; plus de 4 incidences avec radionucléide IV"
+        "display" : "MN cerveau ; plus de 4 incidences avec radionucléide IV"
       },
       {
         "code" : "81575-3",
-        "display" : "médecine nucléaire cerveau ; plus de 4 incidences pour débit sanguin avec radionucléide IV"
+        "display" : "MN cerveau ; plus de 4 incidences pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "81576-1",
-        "display" : "médecine nucléaire cerveau ; moins de 4 incidences pour débit sanguin avec radionucléide IV"
+        "display" : "MN cerveau ; moins de 4 incidences pour débit sanguin avec radionucléide IV"
       },
       {
         "code" : "81577-9",
@@ -20876,35 +20876,35 @@ Requête sur le SMT
       },
       {
         "code" : "81580-3",
-        "display" : "médecine nucléaire glande thyroïde ; incidences pour thérapie avec I-131 per os"
+        "display" : "MN glande thyroïde ; incidences pour thérapie avec I-131 per os"
       },
       {
         "code" : "81581-1",
-        "display" : "médecine nucléaire glande thyroïde ; incidences pour dosimétrie avec radionucléide per os"
+        "display" : "MN glande thyroïde ; incidences pour dosimétrie avec radionucléide per os"
       },
       {
         "code" : "81582-9",
-        "display" : "médecine nucléaire glande thyroïde ; absorption avec radionucléide IV"
+        "display" : "MN glande thyroïde ; absorption avec radionucléide IV"
       },
       {
         "code" : "81583-7",
-        "display" : "médecine nucléaire corps entier ; incidences avec Sm-153 IV"
+        "display" : "MN corps entier ; incidences avec Sm-153 IV"
       },
       {
         "code" : "81584-5",
-        "display" : "médecine nucléaire corps entier ; incidences avec globules blancs marqués IV"
+        "display" : "MN corps entier ; incidences avec globules blancs marqués IV"
       },
       {
         "code" : "81585-2",
-        "display" : "médecine nucléaire ; incidences avec globules blancs marqués IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences avec globules blancs marqués IV dans une région du corps non spécifiée"
       },
       {
         "code" : "81586-0",
-        "display" : "médecine nucléaire corps entier ; incidences avec Y-90 ibritumomab tiuxétan IV"
+        "display" : "MN corps entier ; incidences avec Y-90 ibritumomab tiuxétan IV"
       },
       {
         "code" : "81587-8",
-        "display" : "médecine nucléaire ; incidences limitées pour infection ou inflammation avec radionucléide IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences limitées pour infection ou inflammation avec radionucléide IV dans une région du corps non spécifiée"
       },
       {
         "code" : "81588-6",
@@ -20912,51 +20912,51 @@ Requête sur le SMT
       },
       {
         "code" : "81589-4",
-        "display" : "médecine nucléaire corps entier ; incidences pour infection ou inflammation avec radionucléide IV"
+        "display" : "MN corps entier ; incidences pour infection ou inflammation avec radionucléide IV"
       },
       {
         "code" : "81590-2",
-        "display" : "médecine nucléaire veines d'extrémité - bilatérale ; incidences pour thrombose avec radionucléide IV"
+        "display" : "MN veines d'extrémité - bilatérale ; incidences pour thrombose avec radionucléide IV"
       },
       {
         "code" : "81591-0",
-        "display" : "médecine nucléaire veines d'extrémité - unilatérale ; incidences pour thrombose avec radionucléide IV"
+        "display" : "MN veines d'extrémité - unilatérale ; incidences pour thrombose avec radionucléide IV"
       },
       {
         "code" : "81592-8",
-        "display" : "médecine nucléaire pelvis ; incidences pour rein transplanté avec radionucléide IV"
+        "display" : "MN pelvis ; incidences pour rein transplanté avec radionucléide IV"
       },
       {
         "code" : "81593-6",
-        "display" : "médecine nucléaire ganglion lymphatique ; incidences avec radionucléide IV"
+        "display" : "MN ganglion lymphatique ; incidences avec radionucléide IV"
       },
       {
         "code" : "81594-4",
-        "display" : "médecine nucléaire ganglion lymphatique - bilatéral ; incidences avec radionucléide IV"
+        "display" : "MN ganglion lymphatique - bilatéral ; incidences avec radionucléide IV"
       },
       {
         "code" : "81595-1",
-        "display" : "médecine nucléaire ganglion lymphatique ; incidences pour lymphoedème avec radionucléide IV"
+        "display" : "MN ganglion lymphatique ; incidences pour lymphoedème avec radionucléide IV"
       },
       {
         "code" : "81596-9",
-        "display" : "médecine nucléaire poumon ; incidences de ventilation et perfusion quantitative avec radionucléide IV"
+        "display" : "MN poumon ; incidences de ventilation et perfusion quantitative avec radionucléide IV"
       },
       {
         "code" : "81597-7",
-        "display" : "médecine nucléaire os ; incidences pour métastases avec Ra-223 IV"
+        "display" : "MN os ; incidences pour métastases avec Ra-223 IV"
       },
       {
         "code" : "81598-5",
-        "display" : "médecine nucléaire corps entier ; incidences pour métastases de tumeur thyroïdienne post thérapeutique avec radionucléide IV"
+        "display" : "MN corps entier ; incidences pour métastases de tumeur thyroïdienne post thérapeutique avec radionucléide IV"
       },
       {
         "code" : "81599-3",
-        "display" : "médecine nucléaire corps entier ; guidage de plusieurs jours pour localisation de tumeur avec radionucléide IV"
+        "display" : "MN corps entier ; guidage de plusieurs jours pour localisation de tumeur avec radionucléide IV"
       },
       {
         "code" : "81600-9",
-        "display" : "médecine nucléaire ; incidences limitées pour infection ou inflammation avec globules rouges marqués au Tc-99m IV dans une région du corps non spécifiée"
+        "display" : "MN ; incidences limitées pour infection ou inflammation avec globules rouges marqués au Tc-99m IV dans une région du corps non spécifiée"
       },
       {
         "code" : "81601-7",
@@ -20964,55 +20964,55 @@ Requête sur le SMT
       },
       {
         "code" : "81602-5",
-        "display" : "médecine nucléaire estomac ; incidence pour phase solide de vidange gastrique avec radionucléide per os"
+        "display" : "MN estomac ; incidence pour phase solide de vidange gastrique avec radionucléide per os"
       },
       {
         "code" : "81603-3",
-        "display" : "médecine nucléaire rein ; incidences pour débit sanguin et fonction rénale avec diurétique IV et avec radionucléide IV"
+        "display" : "MN rein ; incidences pour débit sanguin et fonction rénale avec diurétique IV et avec radionucléide IV"
       },
       {
         "code" : "81604-1",
-        "display" : "médecine nucléaire rein ; incidences pour taux de filtration glomérulaire avec radionucléide IV"
+        "display" : "MN rein ; incidences pour taux de filtration glomérulaire avec radionucléide IV"
       },
       {
         "code" : "81605-8",
-        "display" : "médecine nucléaire uretère et vessie urinaire ; incidences avec radionucléide IV"
+        "display" : "MN uretère et vessie urinaire ; incidences avec radionucléide IV"
       },
       {
         "code" : "81606-6",
-        "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinétique et avec radionucléide IV"
+        "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinétique et avec radionucléide IV"
       },
       {
         "code" : "81607-4",
-        "display" : "médecine nucléaire cortex du rein ; incidences avec radionucléide IV"
+        "display" : "MN cortex du rein ; incidences avec radionucléide IV"
       },
       {
         "code" : "81608-2",
-        "display" : "médecine nucléaire rein ; incidences pour débit sanguin et fonction rénale avec inhibiteurs de l'enzyme de conversion de l'angiotensine per os et avec radionucléide IV"
+        "display" : "MN rein ; incidences pour débit sanguin et fonction rénale avec inhibiteurs de l'enzyme de conversion de l'angiotensine per os et avec radionucléide IV"
       },
       {
         "code" : "81609-0",
-        "display" : "médecine nucléaire foie ; incidences avec injection intraartérielle hépatique de sphères SR"
+        "display" : "MN foie ; incidences avec injection intraartérielle hépatique de sphères SR"
       },
       {
         "code" : "81610-8",
-        "display" : "médecine nucléaire foie ; incidences avec injection hépatique intraartérielle de Theraspheres"
+        "display" : "MN foie ; incidences avec injection hépatique intraartérielle de Theraspheres"
       },
       {
         "code" : "81611-6",
-        "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
+        "display" : "MN tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
       },
       {
         "code" : "81612-4",
-        "display" : "médecine nucléaire coeur ; incidences pool sanguin et fraction d'éjection et premier passage avec radionucléide IV"
+        "display" : "MN coeur ; incidences pool sanguin et fraction d'éjection et premier passage avec radionucléide IV"
       },
       {
         "code" : "81613-2",
-        "display" : "médecine nucléaire SPECT foie pour hémangiome avec radionucléide IV"
+        "display" : "SPECT foie pour hémangiome avec radionucléide IV"
       },
       {
         "code" : "82123-1",
-        "display" : "résonance magnétique guidage pour radiothérapie dans une région du corps non spécifiée"
+        "display" : "IRM guidage pour radiothérapie dans une région du corps non spécifiée"
       },
       {
         "code" : "82124-9",
@@ -21024,247 +21024,247 @@ Requête sur le SMT
       },
       {
         "code" : "82128-0",
-        "display" : "résonance magnétique cerveau et face sans contraste"
+        "display" : "IRM cerveau et face sans contraste"
       },
       {
         "code" : "82129-8",
-        "display" : "résonance magnétique cerveau et face sans et avec contraste IV"
+        "display" : "IRM cerveau et face sans et avec contraste IV"
       },
       {
         "code" : "82130-6",
-        "display" : "résonance magnétique tête et cou sans contraste"
+        "display" : "IRM tête et cou sans contraste"
       },
       {
         "code" : "82131-4",
-        "display" : "résonance magnétique tête et cou sans et avec contraste IV"
+        "display" : "IRM tête et cou sans et avec contraste IV"
       },
       {
         "code" : "82132-2",
-        "display" : "CT face et cou sans et avec contraste IV"
+        "display" : "TDM face et cou sans et avec contraste IV"
       },
       {
         "code" : "82133-0",
-        "display" : "CT face et cou sans contraste"
+        "display" : "TDM face et cou sans contraste"
       },
       {
         "code" : "82136-3",
-        "display" : "médecine nucléaire corps entier ; incidences pour tumeur avec I-123 MIBG IV"
+        "display" : "MN corps entier ; incidences pour tumeur avec I-123 MIBG IV"
       },
       {
         "code" : "82676-8",
-        "display" : "CT genou - gauche ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM genou - gauche ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "82677-6",
-        "display" : "angiographie par tomodensitométrie aorte abdominale avec contraste IV"
+        "display" : "angioscanner aorte abdominale avec contraste IV"
       },
       {
         "code" : "82678-4",
-        "display" : "angiographie par tomodensitométrie aorte abdominale sans et avec contraste IV"
+        "display" : "angioscanner aorte abdominale sans et avec contraste IV"
       },
       {
         "code" : "82679-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
       },
       {
         "code" : "82680-0",
-        "display" : "angiographie par tomodensitométrie vaisseaux de la tête et vaisseaux du cou sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux de la tête et vaisseaux du cou sans et avec contraste IV"
       },
       {
         "code" : "82681-8",
-        "display" : "CT tissu oral ; guidage pour biopsie percutanée"
+        "display" : "TDM tissu oral ; guidage pour biopsie percutanée"
       },
       {
         "code" : "82682-6",
-        "display" : "CT clavicule - gauche sans contraste"
+        "display" : "TDM clavicule - gauche sans contraste"
       },
       {
         "code" : "82683-4",
-        "display" : "CT clavicule - droite sans contraste"
+        "display" : "TDM clavicule - droite sans contraste"
       },
       {
         "code" : "82684-2",
-        "display" : "CT clavicule sans et avec contraste IV"
+        "display" : "TDM clavicule sans et avec contraste IV"
       },
       {
         "code" : "82685-9",
-        "display" : "CT clavicule avec contraste IV"
+        "display" : "TDM clavicule avec contraste IV"
       },
       {
         "code" : "82686-7",
-        "display" : "CT clavicule - droite avec contraste IV"
+        "display" : "TDM clavicule - droite avec contraste IV"
       },
       {
         "code" : "82687-5",
-        "display" : "CT clavicule sans contraste"
+        "display" : "TDM clavicule sans contraste"
       },
       {
         "code" : "82688-3",
-        "display" : "CT côlon et rectum sans et avec contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
+        "display" : "TDM côlon et rectum sans et avec contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
       },
       {
         "code" : "82689-1",
-        "display" : "CT intestin grêle avec contraste per os et sans et avec contraste IV"
+        "display" : "TDM intestin grêle avec contraste per os et sans et avec contraste IV"
       },
       {
         "code" : "82690-9",
-        "display" : "CT tête et rachis cervical sans contraste"
+        "display" : "TDM tête et rachis cervical sans contraste"
       },
       {
         "code" : "82691-7",
-        "display" : "CT tête et cou avec contraste IV"
+        "display" : "TDM tête et cou avec contraste IV"
       },
       {
         "code" : "82692-5",
-        "display" : "CT tête et cou sans contraste"
+        "display" : "TDM tête et cou sans contraste"
       },
       {
         "code" : "82693-3",
-        "display" : "CT pelvis et extrémité inférieure avec contraste IV"
+        "display" : "TDM pelvis et extrémité inférieure avec contraste IV"
       },
       {
         "code" : "82694-1",
-        "display" : "CT membre inférieur - bilatéral sans et avec contraste IV"
+        "display" : "TDM membre inférieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "82695-8",
-        "display" : "CT pelvis et membre inférieur - bilatéral avec contraste IV"
+        "display" : "TDM pelvis et membre inférieur - bilatéral avec contraste IV"
       },
       {
         "code" : "82696-6",
-        "display" : "CT rachis lombaire et sacrum avec contraste IV"
+        "display" : "TDM rachis lombaire et sacrum avec contraste IV"
       },
       {
         "code" : "82697-4",
-        "display" : "CT rachis lombaire et sacrum sans contraste"
+        "display" : "TDM rachis lombaire et sacrum sans contraste"
       },
       {
         "code" : "82698-2",
-        "display" : "CT côtes gauches avec contraste IV"
+        "display" : "TDM côtes gauches avec contraste IV"
       },
       {
         "code" : "82699-0",
-        "display" : "CT côtes gauches sans contraste"
+        "display" : "TDM côtes gauches sans contraste"
       },
       {
         "code" : "82700-6",
-        "display" : "CT côtes droites avec contraste IV"
+        "display" : "TDM côtes droites avec contraste IV"
       },
       {
         "code" : "82701-4",
-        "display" : "CT côtes droites sans contraste"
+        "display" : "TDM côtes droites sans contraste"
       },
       {
         "code" : "82702-2",
-        "display" : "CT côtes droites sans et avec contraste IV"
+        "display" : "TDM côtes droites sans et avec contraste IV"
       },
       {
         "code" : "82703-0",
-        "display" : "CT sacrum et coccyx sans et avec contraste IV"
+        "display" : "TDM sacrum et coccyx sans et avec contraste IV"
       },
       {
         "code" : "82704-8",
-        "display" : "CT sacrum et coccyx avec contraste IV"
+        "display" : "TDM sacrum et coccyx avec contraste IV"
       },
       {
         "code" : "82705-5",
-        "display" : "CT scapula - gauche sans contraste"
+        "display" : "TDM scapula - gauche sans contraste"
       },
       {
         "code" : "82706-3",
-        "display" : "CT scapula - droite sans contraste"
+        "display" : "TDM scapula - droite sans contraste"
       },
       {
         "code" : "82707-1",
-        "display" : "CT scapula - gauche sans et avec contraste IV"
+        "display" : "TDM scapula - gauche sans et avec contraste IV"
       },
       {
         "code" : "82708-9",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - bilatéral sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "82709-7",
-        "display" : "angiographie par tomodensitométrie aorte thoracique"
+        "display" : "angioscanner aorte thoracique"
       },
       {
         "code" : "82710-5",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - droit"
+        "display" : "angioscanner vaisseaux du membre inférieur - droit"
       },
       {
         "code" : "82711-3",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - bilatéraux"
+        "display" : "angioscanner vaisseaux du membre inférieur - bilatéraux"
       },
       {
         "code" : "82712-1",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - gauche"
+        "display" : "angioscanner vaisseaux du membre inférieur - gauche"
       },
       {
         "code" : "82713-9",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - gauche"
+        "display" : "angioscanner vaisseaux du membre supérieur - gauche"
       },
       {
         "code" : "82714-7",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - droit"
+        "display" : "angioscanner vaisseaux du membre supérieur - droit"
       },
       {
         "code" : "82715-4",
-        "display" : "CT genou - droit ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM genou - droit ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "82716-2",
-        "display" : "CT clavicule - gauche avec contraste IV"
+        "display" : "TDM clavicule - gauche avec contraste IV"
       },
       {
         "code" : "82717-0",
-        "display" : "CT côtes gauches sans et avec contraste IV"
+        "display" : "TDM côtes gauches sans et avec contraste IV"
       },
       {
         "code" : "82718-8",
-        "display" : "CT scapula - droite sans et avec contraste IV"
+        "display" : "TDM scapula - droite sans et avec contraste IV"
       },
       {
         "code" : "82742-8",
-        "display" : "CT tête et orbite - bilatérale ; sans et avec contraste et avec contraste"
+        "display" : "TDM tête et orbite - bilatérale ; sans et avec contraste et avec contraste"
       },
       {
         "code" : "82800-4",
-        "display" : "tomographie par émission de positons et CT coeur avec radionucléide IV et avec contraste IV"
+        "display" : "tomographie par émission de positons et TDM coeur avec radionucléide IV et avec contraste IV"
       },
       {
         "code" : "82801-2",
-        "display" : "tomographie par émission de positons et CT coeur sans contraste"
+        "display" : "tomographie par émission de positons et TDM coeur sans contraste"
       },
       {
         "code" : "82802-0",
-        "display" : "CT tête et sinus ; sans et avec contraste et avec contraste"
+        "display" : "TDM tête et sinus ; sans et avec contraste et avec contraste"
       },
       {
         "code" : "82803-8",
-        "display" : "CT tête et os temporal ; sans et avec contraste et avec contraste"
+        "display" : "TDM tête et os temporal ; sans et avec contraste et avec contraste"
       },
       {
         "code" : "82804-6",
-        "display" : "CT tête et cou ; sans et avec contraste et avec contraste"
+        "display" : "TDM tête et cou ; sans et avec contraste et avec contraste"
       },
       {
         "code" : "82805-3",
-        "display" : "tomographie par émission de positons et CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
+        "display" : "tomographie par émission de positons et TDM corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
       },
       {
         "code" : "82806-1",
-        "display" : "tomographie par émission de positons et CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
+        "display" : "tomographie par émission de positons et TDM corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
       },
       {
         "code" : "82807-9",
-        "display" : "tomographie par émission de positons et CT du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
+        "display" : "tomographie par émission de positons et TDM du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
       },
       {
         "code" : "82808-7",
-        "display" : "tomographie par émission de positons et CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
+        "display" : "tomographie par émission de positons et TDM de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
       },
       {
         "code" : "82809-5",
-        "display" : "tomographie par émission de positons et CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
+        "display" : "tomographie par émission de positons et TDM de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
       },
       {
         "code" : "83012-5",
@@ -21428,99 +21428,99 @@ Requête sur le SMT
       },
       {
         "code" : "83289-9",
-        "display" : "CT et angiographie par tomodensitométrie coeur et artères coronaires ; pour score calcique sans contraste"
+        "display" : "TDM et angioscanner coeur et artères coronaires ; pour score calcique sans contraste"
       },
       {
         "code" : "83290-7",
-        "display" : "angiographie par tomodensitométrie artères pulmonaires - bilatérales et veines du pelvis et veines du membre inférieur - bilatéral pour embolie pulmonaire et thrombose veineuse profonde avec contraste IV"
+        "display" : "angioscanner artères pulmonaires - bilatérales et veines du pelvis et veines du membre inférieur - bilatéral pour embolie pulmonaire et thrombose veineuse profonde avec contraste IV"
       },
       {
         "code" : "83291-5",
-        "display" : "CT pouce sans contraste"
+        "display" : "TDM pouce sans contraste"
       },
       {
         "code" : "83292-3",
-        "display" : "CT scapula avec contraste"
+        "display" : "TDM scapula avec contraste"
       },
       {
         "code" : "83293-1",
-        "display" : "CT rachis cervical et rachis lombaire avec contraste IV"
+        "display" : "TDM rachis cervical et rachis lombaire avec contraste IV"
       },
       {
         "code" : "83294-9",
-        "display" : "CT rachis dorsal et rachis lombaire avec contraste IV"
+        "display" : "TDM rachis dorsal et rachis lombaire avec contraste IV"
       },
       {
         "code" : "83295-6",
-        "display" : "CT cou et médiastin supérieur avec contraste IV"
+        "display" : "TDM cou et médiastin supérieur avec contraste IV"
       },
       {
         "code" : "83296-4",
-        "display" : "CT tête et orbite - bilatérale avec contraste IV et sans et avec contraste IV"
+        "display" : "TDM tête et orbite - bilatérale avec contraste IV et sans et avec contraste IV"
       },
       {
         "code" : "83297-2",
-        "display" : "CT rachis cervical et rachis lombaire sans et avec contraste IV"
+        "display" : "TDM rachis cervical et rachis lombaire sans et avec contraste IV"
       },
       {
         "code" : "83298-0",
-        "display" : "angiographie par tomodensitométrie vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
       },
       {
         "code" : "83299-8",
-        "display" : "CT et CT.angio thorax et abdomen et pelvis et aorte abdominale et thoracique sans et avec contraste IV"
+        "display" : "TDM et angioscanner thorax et abdomen et pelvis et aorte abdominale et thoracique sans et avec contraste IV"
       },
       {
         "code" : "83300-4",
-        "display" : "CT scapula bilatéral sans et avec contraste IV"
+        "display" : "TDM scapula bilatéral sans et avec contraste IV"
       },
       {
         "code" : "83301-2",
-        "display" : "CT cou et médiastin supérieur sans et avec contraste IV"
+        "display" : "TDM cou et médiastin supérieur sans et avec contraste IV"
       },
       {
         "code" : "83302-0",
-        "display" : "CT tête et os temporal sans contraste"
+        "display" : "TDM tête et os temporal sans contraste"
       },
       {
         "code" : "83303-8",
-        "display" : "CT orteil sans contraste"
+        "display" : "TDM orteil sans contraste"
       },
       {
         "code" : "83304-6",
-        "display" : "CT rachis cervical et rachis dorsal sans contraste"
+        "display" : "TDM rachis cervical et rachis dorsal sans contraste"
       },
       {
         "code" : "83305-3",
-        "display" : "CT rachis cervical et rachis lombaire sans contraste"
+        "display" : "TDM rachis cervical et rachis lombaire sans contraste"
       },
       {
         "code" : "83306-1",
-        "display" : "CT tête et région maxillofaciale sans contraste"
+        "display" : "TDM tête et région maxillofaciale sans contraste"
       },
       {
         "code" : "83307-9",
-        "display" : "CT tête et mandibule sans contraste"
+        "display" : "TDM tête et mandibule sans contraste"
       },
       {
         "code" : "83308-7",
-        "display" : "CT cou et médiastin supérieur sans contraste"
+        "display" : "TDM cou et médiastin supérieur sans contraste"
       },
       {
         "code" : "83309-5",
-        "display" : "CT sinus et mandibule sans contraste"
+        "display" : "TDM sinus et mandibule sans contraste"
       },
       {
         "code" : "83310-3",
-        "display" : "CT rachis dorsal et rachis lombaire sans contraste"
+        "display" : "TDM rachis dorsal et rachis lombaire sans contraste"
       },
       {
         "code" : "85040-4",
-        "display" : "CT ; modèle en impression 3D"
+        "display" : "TDM ; modèle en impression 3D"
       },
       {
         "code" : "85041-2",
-        "display" : "résonance magnétique modèle en impression 3D dans une région du corps non spécifiée"
+        "display" : "IRM modèle en impression 3D dans une région du corps non spécifiée"
       },
       {
         "code" : "85475-2",
@@ -21620,11 +21620,11 @@ Requête sur le SMT
       },
       {
         "code" : "86374-6",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques du pied - bilatéral ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques du pied - bilatéral ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "86375-3",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques du pied - unilatéral ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques du pied - unilatéral ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "86376-1",
@@ -21700,15 +21700,15 @@ Requête sur le SMT
       },
       {
         "code" : "86394-4",
-        "display" : "angiographie par fluoroscopie aorte thoracique ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie aorte thoracique ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86395-1",
-        "display" : "fluoroscopie.vidéo hypopharynx et oesophage ; incidences pour fonction de déglutition avec parole et avec contraste au barium per os"
+        "display" : "fluoroscopie vidéo hypopharynx et oesophage ; incidences pour fonction de déglutition avec parole et avec contraste au barium per os"
       },
       {
         "code" : "86396-9",
-        "display" : "angiographie par fluoroscopie veines d'extrémité - unilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veines d'extrémité - unilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "86397-7",
@@ -21760,7 +21760,7 @@ Requête sur le SMT
       },
       {
         "code" : "86409-0",
-        "display" : "fluoroscopie rectum ; incidences pour dysfonctionnement rectal avec constraste au barium par voie rectale"
+        "display" : "fluoroscopie rectum ; incidences pour dysfonctionnement rectal avec contraste au barium par voie rectale"
       },
       {
         "code" : "86410-8",
@@ -21772,7 +21772,7 @@ Requête sur le SMT
       },
       {
         "code" : "86412-4",
-        "display" : "angiographie par fluoroscopie vaisseaux lymphatiques du pied ; incidences avec contraste intralymphatique"
+        "display" : "angiofluoroscopie vaisseaux lymphatiques du pied ; incidences avec contraste intralymphatique"
       },
       {
         "code" : "86413-2",
@@ -21780,11 +21780,11 @@ Requête sur le SMT
       },
       {
         "code" : "86414-0",
-        "display" : "angiographie par fluoroscopie artères rénales - unilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères rénales - unilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86415-7",
-        "display" : "angiographie par fluoroscopie veine rénale - unilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine rénale - unilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "86416-5",
@@ -21792,19 +21792,19 @@ Requête sur le SMT
       },
       {
         "code" : "86417-3",
-        "display" : "angiographie par fluoroscopie artères cérébrales - bilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères cérébrales - bilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86418-1",
-        "display" : "angiographie par fluoroscopie artères pulmonaires - unilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères pulmonaires - unilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86419-9",
-        "display" : "angiographie par fluoroscopie artères viscérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères viscérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86420-7",
-        "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec contraste naturel par l’air ambiant per os et avec constraste au barium per os"
+        "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec contraste naturel par l’air ambiant per os et avec contraste au barium per os"
       },
       {
         "code" : "86421-5",
@@ -21828,19 +21828,19 @@ Requête sur le SMT
       },
       {
         "code" : "86426-4",
-        "display" : "angiographie par fluoroscopie veine jugulaire - unilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine jugulaire - unilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "86427-2",
-        "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle ; incidences avec contraste naturel par l’air ambiant per os et avec constraste au barium per os"
+        "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle ; incidences avec contraste naturel par l’air ambiant per os et avec contraste au barium per os"
       },
       {
         "code" : "86428-0",
-        "display" : "angiographie par fluoroscopie artères d'une extrémité - unilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères d'une extrémité - unilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86429-8",
-        "display" : "angiographie par fluoroscopie artères cérébrales - unilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères cérébrales - unilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86430-6",
@@ -21848,23 +21848,23 @@ Requête sur le SMT
       },
       {
         "code" : "86431-4",
-        "display" : "angiographie par fluoroscopie artères cérébrales - bilatérales et artères cervicales - bilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères cérébrales - bilatérales et artères cervicales - bilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86432-2",
-        "display" : "angiographie par fluoroscopie artères cérébrales - unilatérales et artères cervicales - unilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères cérébrales - unilatérales et artères cervicales - unilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86433-0",
-        "display" : "angiographie par fluoroscopie artères intercostales du rachis lombaire ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères intercostales du rachis lombaire ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86434-8",
-        "display" : "angiographie par fluoroscopie artères carotidiennes - unilatérales ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artères carotidiennes - unilatérales ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86435-5",
-        "display" : "angiographie par fluoroscopie veine jugulaire - bilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie veine jugulaire - bilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "86436-3",
@@ -21892,7 +21892,7 @@ Requête sur le SMT
       },
       {
         "code" : "86442-1",
-        "display" : "angiographie par fluoroscopie artère vertébrale - unilatérale ; incidences avec contraste intra-artériel"
+        "display" : "angiofluoroscopie artère vertébrale - unilatérale ; incidences avec contraste intra-artériel"
       },
       {
         "code" : "86443-9",
@@ -21900,11 +21900,11 @@ Requête sur le SMT
       },
       {
         "code" : "86460-3",
-        "display" : "angiographie par fluoroscopie vaisseau du rachis ; incidences"
+        "display" : "angiofluoroscopie vaisseau du rachis ; incidences"
       },
       {
         "code" : "86461-1",
-        "display" : "angiographie par fluoroscopie vaisseau surrénal ; incidences"
+        "display" : "angiofluoroscopie vaisseau surrénal ; incidences"
       },
       {
         "code" : "86462-9",
@@ -21916,155 +21916,155 @@ Requête sur le SMT
       },
       {
         "code" : "86464-5",
-        "display" : "angiographie par fluoroscopie aorte infrarénale ; guidage pour réparation d'un anévrysme ou une dissection"
+        "display" : "angiofluoroscopie aorte infrarénale ; guidage pour réparation d'un anévrysme ou une dissection"
       },
       {
         "code" : "86956-0",
-        "display" : "CT coeur ; sans contraste et pour fonction ventriculaire gauche avec contraste IV"
+        "display" : "TDM coeur ; sans contraste et pour fonction ventriculaire gauche avec contraste IV"
       },
       {
         "code" : "86957-8",
-        "display" : "CT glande salivaire sans et avec contraste IV"
+        "display" : "TDM glande salivaire sans et avec contraste IV"
       },
       {
         "code" : "86958-6",
-        "display" : "CT cou et thorax sans et avec contraste IV"
+        "display" : "TDM cou et thorax sans et avec contraste IV"
       },
       {
         "code" : "86959-4",
-        "display" : "CT rachis cervical et rachis dorsal sans et avec contraste IV"
+        "display" : "TDM rachis cervical et rachis dorsal sans et avec contraste IV"
       },
       {
         "code" : "86960-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - droit avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur - droit avec contraste IV"
       },
       {
         "code" : "86961-0",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - gauche avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur - gauche avec contraste IV"
       },
       {
         "code" : "86962-8",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - bilatéral avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur - bilatéral avec contraste IV"
       },
       {
         "code" : "86963-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - droit avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur - droit avec contraste IV"
       },
       {
         "code" : "86964-4",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - gauche avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur - gauche avec contraste IV"
       },
       {
         "code" : "86965-1",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - bilatéral avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre inférieur - bilatéral avec contraste IV"
       },
       {
         "code" : "86966-9",
-        "display" : "CT glande salivaire sans contraste"
+        "display" : "TDM glande salivaire sans contraste"
       },
       {
         "code" : "86967-7",
-        "display" : "CT pied - bilatéral sans contraste"
+        "display" : "TDM pied - bilatéral sans contraste"
       },
       {
         "code" : "86968-5",
-        "display" : "CT main - bilatérale avec contraste IV"
+        "display" : "TDM main - bilatérale avec contraste IV"
       },
       {
         "code" : "86969-3",
-        "display" : "CT épaule - bilatérale avec contraste IV"
+        "display" : "TDM épaule - bilatérale avec contraste IV"
       },
       {
         "code" : "86970-1",
-        "display" : "CT sacrum et coccyx sans contraste"
+        "display" : "TDM sacrum et coccyx sans contraste"
       },
       {
         "code" : "86971-9",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et thoraciques sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux et thoraciques sans et avec contraste IV"
       },
       {
         "code" : "86972-7",
-        "display" : "CT tête et cou sans et avec contraste IV"
+        "display" : "TDM tête et cou sans et avec contraste IV"
       },
       {
         "code" : "86973-5",
-        "display" : "CT pied - bilatéral avec contraste IV"
+        "display" : "TDM pied - bilatéral avec contraste IV"
       },
       {
         "code" : "86974-3",
-        "display" : "CT rachis dorsal et rachis lombaire sans et avec contraste IV"
+        "display" : "TDM rachis dorsal et rachis lombaire sans et avec contraste IV"
       },
       {
         "code" : "86975-0",
-        "display" : "CT coeur pour fonction ventriculaire gauche avec contraste IV"
+        "display" : "TDM coeur pour fonction ventriculaire gauche avec contraste IV"
       },
       {
         "code" : "86976-8",
-        "display" : "tomographie par émission de positons et CT cerveau métabolique avec radionucléide IV"
+        "display" : "tomographie par émission de positons et TDM cerveau métabolique avec radionucléide IV"
       },
       {
         "code" : "86977-6",
-        "display" : "CT tête et os temporal avec contraste IV"
+        "display" : "TDM tête et os temporal avec contraste IV"
       },
       {
         "code" : "86978-4",
-        "display" : "CT tête et sinus avec contraste IV"
+        "display" : "TDM tête et sinus avec contraste IV"
       },
       {
         "code" : "86979-2",
-        "display" : "CT pelvis et hanche - bilatérale sans contraste"
+        "display" : "TDM pelvis et hanche - bilatérale sans contraste"
       },
       {
         "code" : "86980-0",
-        "display" : "angiographie par tomodensitométrie coeur et artères coronaires sans et avec contraste IV"
+        "display" : "angioscanner coeur et artères coronaires sans et avec contraste IV"
       },
       {
         "code" : "86981-8",
-        "display" : "angiographie par tomodensitométrie vaisseaux thoraciques"
+        "display" : "angioscanner vaisseaux thoraciques"
       },
       {
         "code" : "86982-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et thoraciques avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux et thoraciques avec contraste IV"
       },
       {
         "code" : "86983-4",
-        "display" : "angiographie par tomodensitométrie vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
+        "display" : "angioscanner vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
       },
       {
         "code" : "86984-2",
-        "display" : "CT rachis cervical et rachis dorsal et rachis lombaire avec contraste IV"
+        "display" : "TDM rachis cervical et rachis dorsal et rachis lombaire avec contraste IV"
       },
       {
         "code" : "86985-9",
-        "display" : "CT rachis cervical et rachis dorsal avec contraste IV"
+        "display" : "TDM rachis cervical et rachis dorsal avec contraste IV"
       },
       {
         "code" : "86986-7",
-        "display" : "CT cou et thorax avec contraste IV"
+        "display" : "TDM cou et thorax avec contraste IV"
       },
       {
         "code" : "86987-5",
-        "display" : "CT rachis cervical et rachis dorsal et rachis lombaire sans contraste"
+        "display" : "TDM rachis cervical et rachis dorsal et rachis lombaire sans contraste"
       },
       {
         "code" : "86988-3",
-        "display" : "CT orbite et face sans contraste"
+        "display" : "TDM orbite et face sans contraste"
       },
       {
         "code" : "86989-1",
-        "display" : "CT tête et orbite - bilatérale avec contraste IV"
+        "display" : "TDM tête et orbite - bilatérale avec contraste IV"
       },
       {
         "code" : "86990-9",
-        "display" : "CT tête et orbite - bilatérale sans contraste"
+        "display" : "TDM tête et orbite - bilatérale sans contraste"
       },
       {
         "code" : "86991-7",
-        "display" : "CT tête et région maxillofaciale et rachis cervical sans contraste"
+        "display" : "TDM tête et région maxillofaciale et rachis cervical sans contraste"
       },
       {
         "code" : "86992-5",
-        "display" : "CT tête et sinus sans contraste"
+        "display" : "TDM tête et sinus sans contraste"
       },
       {
         "code" : "86993-3",
@@ -22080,7 +22080,7 @@ Requête sur le SMT
       },
       {
         "code" : "86996-6",
-        "display" : "{modalité d'imagerie} vertèbre du rachis ; guidage additionnel pour augmentation"
+        "display" : "vertèbre du rachis ; guidage additionnel pour augmentation"
       },
       {
         "code" : "86997-4",
@@ -22368,7 +22368,7 @@ Requête sur le SMT
       },
       {
         "code" : "87068-3",
-        "display" : "{modalité d'imagerie} rein ; guidage pour biopsie transjugulaire et veinographie"
+        "display" : "rein ; guidage pour biopsie transjugulaire et veinographie"
       },
       {
         "code" : "87069-1",
@@ -22464,23 +22464,23 @@ Requête sur le SMT
       },
       {
         "code" : "87092-3",
-        "display" : "{modalité d'imagerie} veine cave inférieure ; guidage pour placement d'un filtre veineux"
+        "display" : "veine cave inférieure ; guidage pour placement d'un filtre veineux"
       },
       {
         "code" : "87093-1",
-        "display" : "{modalité d'imagerie} veine cave inférieure ; guidage pour ablation d'un filtre veineux"
+        "display" : "veine cave inférieure ; guidage pour ablation d'un filtre veineux"
       },
       {
         "code" : "87094-9",
-        "display" : "{modalité d'imagerie} veine cave inférieure ; guidage pour repositionnement d'un filtre veineux"
+        "display" : "veine cave inférieure ; guidage pour repositionnement d'un filtre veineux"
       },
       {
         "code" : "87095-6",
-        "display" : "{modalité d'imagerie} artère viscérale ; guidage pour angioplastie percutanée transluminale"
+        "display" : "artère viscérale ; guidage pour angioplastie percutanée transluminale"
       },
       {
         "code" : "87096-4",
-        "display" : "{modalité d'imagerie} artère viscérale ; guidage pour placement d'un stent"
+        "display" : "artère viscérale ; guidage pour placement d'un stent"
       },
       {
         "code" : "87097-2",
@@ -22604,15 +22604,15 @@ Requête sur le SMT
       },
       {
         "code" : "87127-7",
-        "display" : "{modalité d'imagerie} veine cave supérieure ; guidage pour repositionnement d'un filtre veineux"
+        "display" : "veine cave supérieure ; guidage pour repositionnement d'un filtre veineux"
       },
       {
         "code" : "87128-5",
-        "display" : "{modalité d'imagerie} veine cave supérieure ; guidage pour placement d'un filtre veineux"
+        "display" : "veine cave supérieure ; guidage pour placement d'un filtre veineux"
       },
       {
         "code" : "87129-3",
-        "display" : "{modalité d'imagerie} jambe ; guidage pour angioplastie percutanée transluminale"
+        "display" : "jambe ; guidage pour angioplastie percutanée transluminale"
       },
       {
         "code" : "87130-1",
@@ -22664,11 +22664,11 @@ Requête sur le SMT
       },
       {
         "code" : "87142-6",
-        "display" : "{modalité d'imagerie} membre supérieur ; guidage pour échange d'un cathéter veineux central avec port"
+        "display" : "membre supérieur ; guidage pour échange d'un cathéter veineux central avec port"
       },
       {
         "code" : "87143-4",
-        "display" : "{modalité d'imagerie} membre supérieur ; guidage pour échange d'un cathéter veineux central inséré périphériquement"
+        "display" : "membre supérieur ; guidage pour échange d'un cathéter veineux central inséré périphériquement"
       },
       {
         "code" : "87144-2",
@@ -22732,7 +22732,7 @@ Requête sur le SMT
       },
       {
         "code" : "87159-0",
-        "display" : "{modalité d'imagerie} articulation temporomandibulaire ; guidage pour injection"
+        "display" : "articulation temporomandibulaire ; guidage pour injection"
       },
       {
         "code" : "87160-8",
@@ -22772,7 +22772,7 @@ Requête sur le SMT
       },
       {
         "code" : "87169-9",
-        "display" : "{modalité d'imagerie} artère ; guidage initial pour thrombectomie mécanique percutanée"
+        "display" : "artère ; guidage initial pour thrombectomie mécanique percutanée"
       },
       {
         "code" : "87170-7",
@@ -22820,7 +22820,7 @@ Requête sur le SMT
       },
       {
         "code" : "87181-4",
-        "display" : "{modalité d'imagerie} artère utérine ; embolisation thérapeutique"
+        "display" : "artère utérine ; embolisation thérapeutique"
       },
       {
         "code" : "87182-2",
@@ -22920,15 +22920,15 @@ Requête sur le SMT
       },
       {
         "code" : "87279-6",
-        "display" : "CT thorax pour dépistage"
+        "display" : "TDM thorax pour dépistage"
       },
       {
         "code" : "87280-4",
-        "display" : "angiographie par tomodensitométrie veines abdominales, veines du pelvis et veines du membre inférieur - bilatéral avec contraste IV"
+        "display" : "angioscanner veines abdominales, veines du pelvis et veines du membre inférieur - bilatéral avec contraste IV"
       },
       {
         "code" : "87281-2",
-        "display" : "angiographie par tomodensitométrie veines du membre inférieur - bilatéral avec contraste IV"
+        "display" : "angioscanner veines du membre inférieur - bilatéral avec contraste IV"
       },
       {
         "code" : "87308-3",
@@ -22952,351 +22952,351 @@ Requête sur le SMT
       },
       {
         "code" : "87836-3",
-        "display" : "angiographie par tomodensitométrie vaisseaux hépatiques sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux hépatiques sans et avec contraste IV"
       },
       {
         "code" : "87837-1",
-        "display" : "angiographie par tomodensitométrie valve aortique avec contraste IV"
+        "display" : "angioscanner valve aortique avec contraste IV"
       },
       {
         "code" : "87838-9",
-        "display" : "angiographie par tomodensitométrie veines abdominales et veines du pelvis avec contraste IV"
+        "display" : "angioscanner veines abdominales et veines du pelvis avec contraste IV"
       },
       {
         "code" : "87839-7",
-        "display" : "angiographie par tomodensitométrie veines pulmonaires avec contraste IV"
+        "display" : "angioscanner veines pulmonaires avec contraste IV"
       },
       {
         "code" : "87840-5",
-        "display" : "angiographie par tomodensitométrie artères coronaires et artères pulmonaires avec contraste IV"
+        "display" : "angioscanner artères coronaires et artères pulmonaires avec contraste IV"
       },
       {
         "code" : "87841-3",
-        "display" : "angiographie par tomodensitométrie artères coronaires et aorte thoracique avec contraste IV"
+        "display" : "angioscanner artères coronaires et aorte thoracique avec contraste IV"
       },
       {
         "code" : "87842-1",
-        "display" : "angiographie par tomodensitométrie artères coronaires et artères pulmonaires et aorte thoracique avec contraste IV"
+        "display" : "angioscanner artères coronaires et artères pulmonaires et aorte thoracique avec contraste IV"
       },
       {
         "code" : "87843-9",
-        "display" : "angiographie par tomodensitométrie veines du pelvis et veines du membre inférieur - bilatéral"
+        "display" : "angioscanner veines du pelvis et veines du membre inférieur - bilatéral"
       },
       {
         "code" : "87844-7",
-        "display" : "angiographie par tomodensitométrie veine du pelvis"
+        "display" : "angioscanner veine du pelvis"
       },
       {
         "code" : "87845-4",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur"
+        "display" : "angioscanner vaisseaux du membre inférieur"
       },
       {
         "code" : "87846-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux rénaux sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux rénaux sans et avec contraste IV"
       },
       {
         "code" : "87847-0",
-        "display" : "CT et angiographie par tomodensitométrie thorax et artères coronaires sans contraste et avec contraste IV"
+        "display" : "TDM et angioscanner thorax et artères coronaires sans contraste et avec contraste IV"
       },
       {
         "code" : "87848-8",
-        "display" : "angiographie par tomodensitométrie artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral pour embolie pulmonaire et thrombose veineuse profonde avec contraste IV"
+        "display" : "angioscanner artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral pour embolie pulmonaire et thrombose veineuse profonde avec contraste IV"
       },
       {
         "code" : "87849-6",
-        "display" : "angiographie par tomodensitométrie artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral ; pour embolie pulmonaire et thrombose veineuse profonde"
+        "display" : "angioscanner artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral ; pour embolie pulmonaire et thrombose veineuse profonde"
       },
       {
         "code" : "87850-4",
-        "display" : "angiographie par tomodensitométrie  artère épigastrique profonde inférieure sans et avec contraste IV"
+        "display" : "angioscanner artère épigastrique profonde inférieure sans et avec contraste IV"
       },
       {
         "code" : "87851-2",
-        "display" : "angiographie par tomodensitométrie vaisseaux mésentériques avec contraste IV"
+        "display" : "angioscanner vaisseaux mésentériques avec contraste IV"
       },
       {
         "code" : "87852-0",
-        "display" : "angiographie par tomodensitométrie vaisseaux mésentériques sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux mésentériques sans et avec contraste IV"
       },
       {
         "code" : "87853-8",
-        "display" : "CT abdomen, pelvis et angiographie par tomodensitométrie aorte abdominale sans et avec contraste IV"
+        "display" : "TDM abdomen, pelvis et angioscanner aorte abdominale sans et avec contraste IV"
       },
       {
         "code" : "87854-6",
-        "display" : "CT abdomen, pelvis et angiographie par tomodensitométrie aorte abdominale avec contraste IV"
+        "display" : "TDM abdomen, pelvis et angioscanner aorte abdominale avec contraste IV"
       },
       {
         "code" : "87855-3",
-        "display" : "angiographie par tomodensitométrie cercle artériel du cerveau et artères carotides sans et avec contraste IV"
+        "display" : "angioscanner cercle artériel du cerveau et artères carotides sans et avec contraste IV"
       },
       {
         "code" : "87856-1",
-        "display" : "angiographie par tomodensitométrie cercle artériel du cerveau et artères carotides avec contraste IV"
+        "display" : "angioscanner cercle artériel du cerveau et artères carotides avec contraste IV"
       },
       {
         "code" : "87857-9",
-        "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique sans et avec contraste IV"
+        "display" : "angioscanner aorte abdominale et thoracique sans et avec contraste IV"
       },
       {
         "code" : "87858-7",
-        "display" : "angiographie par tomodensitométrie artère épigastrique profonde inférieure avec contraste IV"
+        "display" : "angioscanner artère épigastrique profonde inférieure avec contraste IV"
       },
       {
         "code" : "87859-5",
-        "display" : "CT aorte thoracique sans et avec contraste IV"
+        "display" : "TDM aorte thoracique sans et avec contraste IV"
       },
       {
         "code" : "87860-3",
-        "display" : "CT aorte thoracique sans contraste"
+        "display" : "TDM aorte thoracique sans contraste"
       },
       {
         "code" : "87861-1",
-        "display" : "CT aorte abdominale et thoracique sans et avec contraste IV"
+        "display" : "TDM aorte abdominale et thoracique sans et avec contraste IV"
       },
       {
         "code" : "87862-9",
-        "display" : "CT abdomen et abdomen et Pelvis sans contraste et avec contraste IV"
+        "display" : "TDM abdomen et abdomen et Pelvis sans contraste et avec contraste IV"
       },
       {
         "code" : "87863-7",
-        "display" : "CT abdomen et thorax et abdomen sans contraste et avec contraste IV"
+        "display" : "TDM abdomen et thorax et abdomen sans contraste et avec contraste IV"
       },
       {
         "code" : "87864-5",
-        "display" : "CT abdomen et Thorax et Abdomen et Pelvis sans contraste et avec contraste IV"
+        "display" : "TDM abdomen et Thorax et Abdomen et Pelvis sans contraste et avec contraste IV"
       },
       {
         "code" : "87865-2",
-        "display" : "CT abdomen et Pelvis et Thorax et Abdomen et Pelvis sans contraste et avec contraste IV"
+        "display" : "TDM abdomen et Pelvis et Thorax et Abdomen et Pelvis sans contraste et avec contraste IV"
       },
       {
         "code" : "87866-0",
-        "display" : "CT rein et uretère et vessie urinaire sans et avec contraste IV"
+        "display" : "TDM rein et uretère et vessie urinaire sans et avec contraste IV"
       },
       {
         "code" : "87867-8",
-        "display" : "CT rachis lombaire ; par reconstruction"
+        "display" : "TDM rachis lombaire ; par reconstruction"
       },
       {
         "code" : "87868-6",
-        "display" : "CT rachis lombaire pour reconstruction sans et avec contraste IV"
+        "display" : "TDM rachis lombaire pour reconstruction sans et avec contraste IV"
       },
       {
         "code" : "87869-4",
-        "display" : "CT thorax, abdomen et pelvis"
+        "display" : "TDM thorax, abdomen et pelvis"
       },
       {
         "code" : "87870-2",
-        "display" : "CT du rachis cervical au coccyx sans et avec contraste IV"
+        "display" : "TDM du rachis cervical au coccyx sans et avec contraste IV"
       },
       {
         "code" : "87871-0",
-        "display" : "CT clavicule - gauche"
+        "display" : "TDM clavicule - gauche"
       },
       {
         "code" : "87872-8",
-        "display" : "CT clavicule - droite"
+        "display" : "TDM clavicule - droite"
       },
       {
         "code" : "87873-6",
-        "display" : "CT parenchyme pulmonaire sans et avec contraste IV"
+        "display" : "TDM parenchyme pulmonaire sans et avec contraste IV"
       },
       {
         "code" : "87874-4",
-        "display" : "CT médiastin avec contraste IV"
+        "display" : "TDM médiastin avec contraste IV"
       },
       {
         "code" : "87875-1",
-        "display" : "CT rachis dorsal ; par reconstruction"
+        "display" : "TDM rachis dorsal ; par reconstruction"
       },
       {
         "code" : "87876-9",
-        "display" : "CT thymus"
+        "display" : "TDM thymus"
       },
       {
         "code" : "87877-7",
-        "display" : "CT cou et thorax sans contraste"
+        "display" : "TDM cou et thorax sans contraste"
       },
       {
         "code" : "87878-5",
-        "display" : "CT genou - bilatéral avec contraste intraarticulaire"
+        "display" : "TDM genou - bilatéral avec contraste intraarticulaire"
       },
       {
         "code" : "87879-3",
-        "display" : "CT jambe - bilatérale sans contraste"
+        "display" : "TDM jambe - bilatérale sans contraste"
       },
       {
         "code" : "87880-1",
-        "display" : "CT cuisse - bilatérale avec contraste IV"
+        "display" : "TDM cuisse - bilatérale avec contraste IV"
       },
       {
         "code" : "87881-9",
-        "display" : "CT cuisse - bilatérale sans contraste"
+        "display" : "TDM cuisse - bilatérale sans contraste"
       },
       {
         "code" : "87882-7",
-        "display" : "CT jambe - gauche"
+        "display" : "TDM jambe - gauche"
       },
       {
         "code" : "87883-5",
-        "display" : "CT membre supérieur - bilatéral sans et avec contraste IV"
+        "display" : "TDM membre supérieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "87884-3",
-        "display" : "CT épaule - bilatérale avec contraste intraarticulaire"
+        "display" : "TDM épaule - bilatérale avec contraste intraarticulaire"
       },
       {
         "code" : "87885-0",
-        "display" : "CT bras - bilatéral sans contraste"
+        "display" : "TDM bras - bilatéral sans contraste"
       },
       {
         "code" : "87886-8",
-        "display" : "CT cinquième doigt - gauche sans contraste"
+        "display" : "TDM cinquième doigt - gauche sans contraste"
       },
       {
         "code" : "87887-6",
-        "display" : "CT quatrième doigt - gauche avec contraste IV"
+        "display" : "TDM quatrième doigt - gauche avec contraste IV"
       },
       {
         "code" : "87888-4",
-        "display" : "CT deuxième doigt - gauche sans contraste"
+        "display" : "TDM deuxième doigt - gauche sans contraste"
       },
       {
         "code" : "87889-2",
-        "display" : "CT pouce - gauche sans contraste"
+        "display" : "TDM pouce - gauche sans contraste"
       },
       {
         "code" : "87890-0",
-        "display" : "CT cinquième doigt - droit sans contraste"
+        "display" : "TDM cinquième doigt - droit sans contraste"
       },
       {
         "code" : "87891-8",
-        "display" : "CT quatrième doigt - droit sans contraste"
+        "display" : "TDM quatrième doigt - droit sans contraste"
       },
       {
         "code" : "87892-6",
-        "display" : "CT deuxième doigt - droit sans contraste"
+        "display" : "TDM deuxième doigt - droit sans contraste"
       },
       {
         "code" : "87893-4",
-        "display" : "CT troisième doigt - droit sans contraste"
+        "display" : "TDM troisième doigt - droit sans contraste"
       },
       {
         "code" : "87894-2",
-        "display" : "CT pouce - droit sans contraste"
+        "display" : "TDM pouce - droit sans contraste"
       },
       {
         "code" : "87895-9",
-        "display" : "CT doigt sans contraste"
+        "display" : "TDM doigt sans contraste"
       },
       {
         "code" : "87896-7",
-        "display" : "CT dents avec contraste IV"
+        "display" : "TDM dents avec contraste IV"
       },
       {
         "code" : "87897-5",
-        "display" : "CT tête et hypophyse et selle turcique avec contraste IV"
+        "display" : "TDM tête et hypophyse et selle turcique avec contraste IV"
       },
       {
         "code" : "87898-3",
-        "display" : "CT dents.maxillaire sans contraste"
+        "display" : "TDM dents.maxillaire sans contraste"
       },
       {
         "code" : "87899-1",
-        "display" : "CT dents.mandibule sans contraste"
+        "display" : "TDM dents.mandibule sans contraste"
       },
       {
         "code" : "87900-7",
-        "display" : "CT mastoïde avec contraste IV"
+        "display" : "TDM mastoïde avec contraste IV"
       },
       {
         "code" : "87901-5",
-        "display" : "CT os temporal - bilatéral sans et avec contraste IV"
+        "display" : "TDM os temporal - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "87902-3",
-        "display" : "CT os temporal - bilatéral avec contraste IV"
+        "display" : "TDM os temporal - bilatéral avec contraste IV"
       },
       {
         "code" : "87903-1",
-        "display" : "CT os temporal - bilatéral sans contraste"
+        "display" : "TDM os temporal - bilatéral sans contraste"
       },
       {
         "code" : "87904-9",
-        "display" : "CT articulation temporomandibulaire - bilatérale sans contraste"
+        "display" : "TDM articulation temporomandibulaire - bilatérale sans contraste"
       },
       {
         "code" : "87905-6",
-        "display" : "tomographie par émission de positons et CT tête et cou ; guidage pour localisation de tumeur avec 18F-FDG IV"
+        "display" : "tomographie par émission de positons et TDM tête et cou ; guidage pour localisation de tumeur avec 18F-FDG IV"
       },
       {
         "code" : "87906-4",
-        "display" : "CT région maxillofaciale - droite avec contraste IV"
+        "display" : "TDM région maxillofaciale - droite avec contraste IV"
       },
       {
         "code" : "87907-2",
-        "display" : "tomographie par émission de positons et CT cerveau pour amylose avec radionucléide IV"
+        "display" : "tomographie par émission de positons et TDM cerveau pour amylose avec radionucléide IV"
       },
       {
         "code" : "87908-0",
-        "display" : "CT tête et région maxillofaciale avec contraste IV"
+        "display" : "TDM tête et région maxillofaciale avec contraste IV"
       },
       {
         "code" : "87909-8",
-        "display" : "CT articulation temporomandibulaire avec contraste intraarticulaire"
+        "display" : "TDM articulation temporomandibulaire avec contraste intraarticulaire"
       },
       {
         "code" : "87910-6",
-        "display" : "CT tête et sinus sans et avec contraste IV"
+        "display" : "TDM tête et sinus sans et avec contraste IV"
       },
       {
         "code" : "87911-4",
-        "display" : "CT tête et région maxillofaciale sans et avec contraste IV"
+        "display" : "TDM tête et région maxillofaciale sans et avec contraste IV"
       },
       {
         "code" : "87912-2",
-        "display" : "CT sinus et orbite sans contraste"
+        "display" : "TDM sinus et orbite sans contraste"
       },
       {
         "code" : "87913-0",
-        "display" : "CT pelvis ; par reconstruction"
+        "display" : "TDM pelvis ; par reconstruction"
       },
       {
         "code" : "87914-8",
-        "display" : "CT os du pelvis sans et avec contraste IV"
+        "display" : "TDM os du pelvis sans et avec contraste IV"
       },
       {
         "code" : "87915-5",
-        "display" : "tomographie par émission de positons et CT du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
+        "display" : "tomographie par émission de positons et TDM du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
       },
       {
         "code" : "87916-3",
-        "display" : "CT ; guidage pour injection d'un kyste dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour injection d'un kyste dans une région du corps non spécifiée"
       },
       {
         "code" : "87917-1",
-        "display" : "CT os du pelvis sans contraste"
+        "display" : "TDM os du pelvis sans contraste"
       },
       {
         "code" : "87918-9",
-        "display" : "CT glande parathyroïde sans et avec contraste IV"
+        "display" : "TDM glande parathyroïde sans et avec contraste IV"
       },
       {
         "code" : "87919-7",
-        "display" : "CT os du pelvis"
+        "display" : "TDM os du pelvis"
       },
       {
         "code" : "87920-5",
-        "display" : "CT os du pelvis avec contraste IV"
+        "display" : "TDM os du pelvis avec contraste IV"
       },
       {
         "code" : "87921-3",
-        "display" : "CT trachée sans contraste"
+        "display" : "TDM trachée sans contraste"
       },
       {
         "code" : "87922-1",
-        "display" : "CT rachis cervical et rachis dorsal avec contraste intrathécal"
+        "display" : "TDM rachis cervical et rachis dorsal avec contraste intrathécal"
       },
       {
         "code" : "88242-3",
@@ -23308,55 +23308,55 @@ Requête sur le SMT
       },
       {
         "code" : "88315-7",
-        "display" : "CT.perfusion et CT.angio cerveau et vaisseaux du cou et de la tête ; sans et avec contraste pour perfusion et avec contraste"
+        "display" : "CT.perfusion et angioscanner cerveau et vaisseaux du cou et de la tête ; sans et avec contraste pour perfusion et avec contraste"
       },
       {
         "code" : "88316-5",
-        "display" : "CT moelle spinale ; guidage pour biopsie percutanée"
+        "display" : "TDM moelle spinale ; guidage pour biopsie percutanée"
       },
       {
         "code" : "88317-3",
-        "display" : "CT thorax ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM thorax ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "88318-1",
-        "display" : "angiographie par tomodensitométrie artères coronaires et veines pulmonaires avec contraste IV"
+        "display" : "angioscanner artères coronaires et veines pulmonaires avec contraste IV"
       },
       {
         "code" : "88319-9",
-        "display" : "CT abdomen, pelvis et extrémité inférieure - bilatérale avec contraste IV"
+        "display" : "TDM abdomen, pelvis et extrémité inférieure - bilatérale avec contraste IV"
       },
       {
         "code" : "88320-7",
-        "display" : "CT et angiographie par tomodensitométrie cou et vaisseaux du cou et de la tête avec contraste IV"
+        "display" : "TDM et angioscanner cou et vaisseaux du cou et de la tête avec contraste IV"
       },
       {
         "code" : "88321-5",
-        "display" : "CT ; guidage pour localisation stéréotaxique dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour localisation stéréotaxique dans une région du corps non spécifiée"
       },
       {
         "code" : "88322-3",
-        "display" : "CT et angiographie par tomodensitométrie thorax et artères pulmonaires avec contraste IV et pour embolie pulmonaire avec constraste IV"
+        "display" : "TDM et angioscanner thorax et artères pulmonaires avec contraste IV et pour embolie pulmonaire avec contraste IV"
       },
       {
         "code" : "88323-1",
-        "display" : "CT rein - droit ; guidage pour biopsie percutanée"
+        "display" : "TDM rein - droit ; guidage pour biopsie percutanée"
       },
       {
         "code" : "88324-9",
-        "display" : "CT poumon - gauche ; guidage pour biopsie percutanée"
+        "display" : "TDM poumon - gauche ; guidage pour biopsie percutanée"
       },
       {
         "code" : "88325-6",
-        "display" : "CT rein - gauche ; guidage pour biopsie percutanée"
+        "display" : "TDM rein - gauche ; guidage pour biopsie percutanée"
       },
       {
         "code" : "88326-4",
-        "display" : "CT.perfusion et CT.angio vaisseaux de la tête et cerveau sans et avec contraste IV"
+        "display" : "CT.perfusion et angioscanner vaisseaux de la tête et cerveau sans et avec contraste IV"
       },
       {
         "code" : "88327-2",
-        "display" : "CT et angiographie par tomodensitométrie tête et vaisseaux du cou et de la tête avec contraste IV"
+        "display" : "TDM et angioscanner tête et vaisseaux du cou et de la tête avec contraste IV"
       },
       {
         "code" : "88349-6",
@@ -23364,7 +23364,7 @@ Requête sur le SMT
       },
       {
         "code" : "88526-9",
-        "display" : "CT poumon - droit ; guidage pour biopsie percutanée"
+        "display" : "TDM poumon - droit ; guidage pour biopsie percutanée"
       },
       {
         "code" : "88831-3",
@@ -23444,543 +23444,543 @@ Requête sur le SMT
       },
       {
         "code" : "88944-4",
-        "display" : "médecine nucléaire poumon et foie ; incidences pour shunt artérioveineux avec Tc-99m MAA et avec injection hépatique intraartérielle"
+        "display" : "MN poumon et foie ; incidences pour shunt artérioveineux avec Tc-99m MAA et avec injection hépatique intraartérielle"
       },
       {
         "code" : "89283-6",
-        "display" : "CT cou et Thorax et Abdomen et Pelvis avec contraste IV"
+        "display" : "TDM cou et Thorax et Abdomen et Pelvis avec contraste IV"
       },
       {
         "code" : "89284-4",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal avec contraste IV"
+        "display" : "IRM rachis cervical et rachis dorsal avec contraste IV"
       },
       {
         "code" : "89602-7",
-        "display" : "CT rein - gauche ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM rein - gauche ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89603-5",
-        "display" : "CT rein - droit ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM rein - droit ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89604-3",
-        "display" : "CT rein - bilatéral ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM rein - bilatéral ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89605-0",
-        "display" : "CT rein - droit ; guidage pour ablation de tissu"
+        "display" : "TDM rein - droit ; guidage pour ablation de tissu"
       },
       {
         "code" : "89606-8",
-        "display" : "CT rein - gauche ; guidage pour ablation de tissu"
+        "display" : "TDM rein - gauche ; guidage pour ablation de tissu"
       },
       {
         "code" : "89607-6",
-        "display" : "CT poumon - droit ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM poumon - droit ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89608-4",
-        "display" : "CT poumon - gauche ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM poumon - gauche ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89609-2",
-        "display" : "CT espace péricardique ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM espace péricardique ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89610-0",
-        "display" : "CT espace péritonéal ; guidage pour positionnement d'un cathéter"
+        "display" : "TDM espace péritonéal ; guidage pour positionnement d'un cathéter"
       },
       {
         "code" : "89611-8",
-        "display" : "CT espace pleural - droit ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM espace pleural - droit ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89612-6",
-        "display" : "CT espace pleural - gauche ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM espace pleural - gauche ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89613-4",
-        "display" : "CT abdomen ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
+        "display" : "TDM abdomen ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
       },
       {
         "code" : "89614-2",
-        "display" : "CT rein ; guidage pour biopsie percutanée sans contraste IV"
+        "display" : "TDM rein ; guidage pour biopsie percutanée sans contraste IV"
       },
       {
         "code" : "89615-9",
-        "display" : "CT abdomen ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
+        "display" : "TDM abdomen ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
       },
       {
         "code" : "89616-7",
-        "display" : "CT pancréas ; guidage pour aspiration percutanée d'un kyste sans contraste"
+        "display" : "TDM pancréas ; guidage pour aspiration percutanée d'un kyste sans contraste"
       },
       {
         "code" : "89617-5",
-        "display" : "CT rein ; guidage pour aspiration percutanée d'un kyste avec contraste IV"
+        "display" : "TDM rein ; guidage pour aspiration percutanée d'un kyste avec contraste IV"
       },
       {
         "code" : "89618-3",
-        "display" : "CT rein ; guidage pour aspiration percutanée d'un kyste sans contraste"
+        "display" : "TDM rein ; guidage pour aspiration percutanée d'un kyste sans contraste"
       },
       {
         "code" : "89619-1",
-        "display" : "CT pancréas ; guidage pour biopsie percutanée avec contraste IV"
+        "display" : "TDM pancréas ; guidage pour biopsie percutanée avec contraste IV"
       },
       {
         "code" : "89620-9",
-        "display" : "CT abdomen ; guidage pour biopsie percutanée avec contraste IV"
+        "display" : "TDM abdomen ; guidage pour biopsie percutanée avec contraste IV"
       },
       {
         "code" : "89621-7",
-        "display" : "CT rein ; guidage pour biopsie percutanée avec contraste IV"
+        "display" : "TDM rein ; guidage pour biopsie percutanée avec contraste IV"
       },
       {
         "code" : "89622-5",
-        "display" : "CT espace péritonéal ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM espace péritonéal ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89623-3",
-        "display" : "CT espace péritonéal ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM espace péritonéal ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "89624-1",
-        "display" : "CT espace péritonéal ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM espace péritonéal ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89625-8",
-        "display" : "CT rein ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM rein ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89626-6",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux, du pelvis et du membre inférieur avec contraste IV"
+        "display" : "angioscanner vaisseaux abdominaux, du pelvis et du membre inférieur avec contraste IV"
       },
       {
         "code" : "89627-4",
-        "display" : "CT iléon - droit ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM iléon - droit ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89628-2",
-        "display" : "CT iléon - gauche ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM iléon - gauche ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89629-0",
-        "display" : "CT poumon - gauche ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM poumon - gauche ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89630-8",
-        "display" : "CT poumon - droit ; guidage pour aspiration percutanée d'un kyste"
+        "display" : "TDM poumon - droit ; guidage pour aspiration percutanée d'un kyste"
       },
       {
         "code" : "89631-6",
-        "display" : "médecine nucléaire SPECT et CT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
+        "display" : "SPECT et TDM corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
       },
       {
         "code" : "89695-1",
-        "display" : "CT pelvis ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
+        "display" : "TDM pelvis ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
       },
       {
         "code" : "89696-9",
-        "display" : "CT pelvis ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
+        "display" : "TDM pelvis ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
       },
       {
         "code" : "89697-7",
-        "display" : "CT pancréas ; guidage pour drainage d'un pseudokyste et placement d'un cathéter de drainage"
+        "display" : "TDM pancréas ; guidage pour drainage d'un pseudokyste et placement d'un cathéter de drainage"
       },
       {
         "code" : "89698-5",
-        "display" : "CT cheville droite ; guidage pour injection"
+        "display" : "TDM cheville droite ; guidage pour injection"
       },
       {
         "code" : "89699-3",
-        "display" : "CT cheville gauche ; guidage pour injection"
+        "display" : "TDM cheville gauche ; guidage pour injection"
       },
       {
         "code" : "89700-9",
-        "display" : "CT hanche - droite ; guidage pour injection"
+        "display" : "TDM hanche - droite ; guidage pour injection"
       },
       {
         "code" : "89701-7",
-        "display" : "CT hanche - gauche ; guidage pour injection"
+        "display" : "TDM hanche - gauche ; guidage pour injection"
       },
       {
         "code" : "89702-5",
-        "display" : "CT épaule - bilatérale ; guidage pour injection"
+        "display" : "TDM épaule - bilatérale ; guidage pour injection"
       },
       {
         "code" : "89703-3",
-        "display" : "CT épaule - gauche ; guidage pour injection"
+        "display" : "TDM épaule - gauche ; guidage pour injection"
       },
       {
         "code" : "89704-1",
-        "display" : "CT épaule - droite ; guidage pour injection"
+        "display" : "TDM épaule - droite ; guidage pour injection"
       },
       {
         "code" : "89705-8",
-        "display" : "CT poignet - gauche ; guidage pour injection"
+        "display" : "TDM poignet - gauche ; guidage pour injection"
       },
       {
         "code" : "89706-6",
-        "display" : "CT genou - bilatéral ; guidage pour injection"
+        "display" : "TDM genou - bilatéral ; guidage pour injection"
       },
       {
         "code" : "89707-4",
-        "display" : "CT genou - droit ; guidage pour injection"
+        "display" : "TDM genou - droit ; guidage pour injection"
       },
       {
         "code" : "89708-2",
-        "display" : "CT genou - gauche ; guidage pour injection"
+        "display" : "TDM genou - gauche ; guidage pour injection"
       },
       {
         "code" : "89709-0",
-        "display" : "CT articulation zygapophysaire du rachis ; guidage à plus de 2 niveaux pour injection"
+        "display" : "TDM articulation zygapophysaire du rachis ; guidage à plus de 2 niveaux pour injection"
       },
       {
         "code" : "89710-8",
-        "display" : "CT articulation zygapophysaire du rachis ; guidage à 2 niveaux pour injection"
+        "display" : "TDM articulation zygapophysaire du rachis ; guidage à 2 niveaux pour injection"
       },
       {
         "code" : "89711-6",
-        "display" : "CT articulation zygapophysaire du rachis ; guidage niveau 1 pour injection"
+        "display" : "TDM articulation zygapophysaire du rachis ; guidage niveau 1 pour injection"
       },
       {
         "code" : "89712-4",
-        "display" : "tomographie par émission de positons et CT ; guidage limité pour localisation de tumeur avec 18F-FDG IV et avec contraste IV dans une région du corps non spécifiée"
+        "display" : "tomographie par émission de positons et TDM ; guidage limité pour localisation de tumeur avec 18F-FDG IV et avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "89713-2",
-        "display" : "CT membre inférieur articulation droite avec contraste intraarticulaire"
+        "display" : "TDM membre inférieur articulation droite avec contraste intraarticulaire"
       },
       {
         "code" : "89714-0",
-        "display" : "CT membre inférieur articulation gauche avec contraste intraarticulaire"
+        "display" : "TDM membre inférieur articulation gauche avec contraste intraarticulaire"
       },
       {
         "code" : "89715-7",
-        "display" : "CT articulation du membre inférieur - droit avec contraste intraarticulaire"
+        "display" : "TDM articulation du membre inférieur - droit avec contraste intraarticulaire"
       },
       {
         "code" : "89716-5",
-        "display" : "CT articulation du membre inférieur - gauche avec contraste intraarticulaire"
+        "display" : "TDM articulation du membre inférieur - gauche avec contraste intraarticulaire"
       },
       {
         "code" : "89717-3",
-        "display" : "CT ; guidage pour biopsie stéréotaxique sans et avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour biopsie stéréotaxique sans et avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "89718-1",
-        "display" : "CT ; guidage pour localisation stéréotaxique avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour localisation stéréotaxique avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "89719-9",
-        "display" : "CT poumon - droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM poumon - droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89720-7",
-        "display" : "CT poumon - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM poumon - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89721-5",
-        "display" : "CT rétropéritoine ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM rétropéritoine ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89722-3",
-        "display" : "angiographie par tomodensitométrie veines du membre supérieur - gauche avec contraste IV"
+        "display" : "angioscanner veines du membre supérieur - gauche avec contraste IV"
       },
       {
         "code" : "89723-1",
-        "display" : "angiographie par tomodensitométrie veines du membre supérieur - droit avec contraste IV"
+        "display" : "angioscanner veines du membre supérieur - droit avec contraste IV"
       },
       {
         "code" : "89827-0",
-        "display" : "CT rachis lombaire et sacrum sans et avec contraste IV"
+        "display" : "TDM rachis lombaire et sacrum sans et avec contraste IV"
       },
       {
         "code" : "89828-8",
-        "display" : "CT muscle ; guidage pour biopsie superficielle"
+        "display" : "TDM muscle ; guidage pour biopsie superficielle"
       },
       {
         "code" : "89829-6",
-        "display" : "CT rétropéritoine ; guidage pour biopsie sans contraste"
+        "display" : "TDM rétropéritoine ; guidage pour biopsie sans contraste"
       },
       {
         "code" : "89830-4",
-        "display" : "CT rétropéritoine ; guidage pour biopsie avec contraste IV"
+        "display" : "TDM rétropéritoine ; guidage pour biopsie avec contraste IV"
       },
       {
         "code" : "89831-2",
-        "display" : "CT récessus subphrénique ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM récessus subphrénique ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "89832-0",
-        "display" : "CT tissu ; guidage pour biopsie profonde"
+        "display" : "TDM tissu ; guidage pour biopsie profonde"
       },
       {
         "code" : "89833-8",
-        "display" : "CT ; par reconstruction dans une région du corps non spécifiée"
+        "display" : "TDM ; par reconstruction dans une région du corps non spécifiée"
       },
       {
         "code" : "89834-6",
-        "display" : "CT clavicule - bilatérale sans contraste"
+        "display" : "TDM clavicule - bilatérale sans contraste"
       },
       {
         "code" : "89835-3",
-        "display" : "CT plexus brachial avec contraste IV"
+        "display" : "TDM plexus brachial avec contraste IV"
       },
       {
         "code" : "89836-1",
-        "display" : "CT plexus brachial sans contraste"
+        "display" : "TDM plexus brachial sans contraste"
       },
       {
         "code" : "89837-9",
-        "display" : "CT os temporal - gauche sans et avec contraste IV"
+        "display" : "TDM os temporal - gauche sans et avec contraste IV"
       },
       {
         "code" : "89838-7",
-        "display" : "CT os temporal - droit sans et avec contraste IV"
+        "display" : "TDM os temporal - droit sans et avec contraste IV"
       },
       {
         "code" : "89839-5",
-        "display" : "CT sternum ; guidage pour biopsie"
+        "display" : "TDM sternum ; guidage pour biopsie"
       },
       {
         "code" : "89840-3",
-        "display" : "CT plexus lombosacré sans contraste"
+        "display" : "TDM plexus lombosacré sans contraste"
       },
       {
         "code" : "89841-1",
-        "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - bilatéral sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du membre supérieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "89842-9",
-        "display" : "médecine nucléaire SPECT et CT corps entier avec radionucléide IV"
+        "display" : "SPECT et TDM corps entier avec radionucléide IV"
       },
       {
         "code" : "89844-5",
-        "display" : "CT tête et os temporal sans et avec contraste IV"
+        "display" : "TDM tête et os temporal sans et avec contraste IV"
       },
       {
         "code" : "89845-2",
-        "display" : "CT tête et orbite - bilatérale sans et avec contraste IV"
+        "display" : "TDM tête et orbite - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "89846-0",
-        "display" : "CT mipied - gauche et avant du pied - gauche sans et avec contraste IV"
+        "display" : "TDM mipied - gauche et avant du pied - gauche sans et avec contraste IV"
       },
       {
         "code" : "89847-8",
-        "display" : "CT mipied - droit et avant du pied - droit"
+        "display" : "TDM mipied - droit et avant du pied - droit"
       },
       {
         "code" : "89848-6",
-        "display" : "CT mipied - droit sans et avec contraste IV"
+        "display" : "TDM mipied - droit sans et avec contraste IV"
       },
       {
         "code" : "89849-4",
-        "display" : "CT doigt - droit sans contraste"
+        "display" : "TDM doigt - droit sans contraste"
       },
       {
         "code" : "89850-2",
-        "display" : "CT doigt - gauche sans contraste"
+        "display" : "TDM doigt - gauche sans contraste"
       },
       {
         "code" : "89851-0",
-        "display" : "angiographie par tomodensitométrie d'une région non spécifiée limitée"
+        "display" : "angioscanner d'une région non spécifiée limitée"
       },
       {
         "code" : "89852-8",
-        "display" : "CT limitée avec contraste IV dans une région du corps non spécifiée"
+        "display" : "TDM limitée avec contraste IV dans une région du corps non spécifiée"
       },
       {
         "code" : "89853-6",
-        "display" : "CT limitée sans contraste dans une région du corps non spécifiée"
+        "display" : "TDM limitée sans contraste dans une région du corps non spécifiée"
       },
       {
         "code" : "89854-4",
-        "display" : "CT espace périrénal - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM espace périrénal - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89855-1",
-        "display" : "CT espace périrénal droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM espace périrénal droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89856-9",
-        "display" : "CT ; guidage pour localisation stéréotaxique sans contraste"
+        "display" : "TDM ; guidage pour localisation stéréotaxique sans contraste"
       },
       {
         "code" : "89857-7",
-        "display" : "CT plèvre - droite ; guidage pour biopsie"
+        "display" : "TDM plèvre - droite ; guidage pour biopsie"
       },
       {
         "code" : "89858-5",
-        "display" : "CT plèvre - gauche ; guidage pour biopsie"
+        "display" : "TDM plèvre - gauche ; guidage pour biopsie"
       },
       {
         "code" : "89859-3",
-        "display" : "CT pelvis ; guidage pour drainage transrectal pour abcès"
+        "display" : "TDM pelvis ; guidage pour drainage transrectal pour abcès"
       },
       {
         "code" : "89860-1",
-        "display" : "CT thorax avec inspiration et avec expiration"
+        "display" : "TDM thorax avec inspiration et avec expiration"
       },
       {
         "code" : "89925-2",
-        "display" : "CT pelvis et membre inférieur - bilatéral sans et avec contraste IV"
+        "display" : "TDM pelvis et membre inférieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "89927-8",
-        "display" : "CT et angiographie par tomodensitométrie coeur et bulbe aortique ; pour score calcique sans contraste"
+        "display" : "TDM et angioscanner coeur et bulbe aortique ; pour score calcique sans contraste"
       },
       {
         "code" : "89928-6",
-        "display" : "CT disque intervertébral du rachis lombaire ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM disque intervertébral du rachis lombaire ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89929-4",
-        "display" : "CT disque intervertébral ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM disque intervertébral ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89930-2",
-        "display" : "CT os ; guidage pour ablation par radiofréquence"
+        "display" : "TDM os ; guidage pour ablation par radiofréquence"
       },
       {
         "code" : "89931-0",
-        "display" : "CT région périrectale ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM région périrectale ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "89932-8",
-        "display" : "CT ; guidage pour placement profond d'une aiguille dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour placement profond d'une aiguille dans une région du corps non spécifiée"
       },
       {
         "code" : "89952-6",
-        "display" : "CT articulation sacro-iliaque - droite ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM articulation sacro-iliaque - droite ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89953-4",
-        "display" : "CT épaule - droite ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM épaule - droite ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89954-2",
-        "display" : "CT épaule - gauche ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM épaule - gauche ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89955-9",
-        "display" : "CT hanche - bilatérale ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM hanche - bilatérale ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89956-7",
-        "display" : "CT hanche - gauche ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM hanche - gauche ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89957-5",
-        "display" : "CT hanche - droite ; guidage pour aspiration percutanée d'un fluide"
+        "display" : "TDM hanche - droite ; guidage pour aspiration percutanée d'un fluide"
       },
       {
         "code" : "89958-3",
-        "display" : "CT pelvis ; guidage pour cryoablation"
+        "display" : "TDM pelvis ; guidage pour cryoablation"
       },
       {
         "code" : "89959-1",
-        "display" : "CT tissu mou ; guidage pour biopsie percutanée"
+        "display" : "TDM tissu mou ; guidage pour biopsie percutanée"
       },
       {
         "code" : "89960-9",
-        "display" : "CT rein - droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM rein - droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89961-7",
-        "display" : "CT rein - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
+        "display" : "TDM rein - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
       },
       {
         "code" : "89962-5",
-        "display" : "CT poumon ; guidage pour ablation par radiofréquence"
+        "display" : "TDM poumon ; guidage pour ablation par radiofréquence"
       },
       {
         "code" : "90049-8",
-        "display" : "CT espace pleural - gauche ; guidage pour positionnement d'un sonde thoracique"
+        "display" : "TDM espace pleural - gauche ; guidage pour positionnement d'un sonde thoracique"
       },
       {
         "code" : "90050-6",
-        "display" : "CT espace pleural - bilatéral ; guidage pour positionnement d'un sonde thoracique"
+        "display" : "TDM espace pleural - bilatéral ; guidage pour positionnement d'un sonde thoracique"
       },
       {
         "code" : "90051-4",
-        "display" : "CT espace pleural - droit ; guidage pour positionnement d'un sonde thoracique"
+        "display" : "TDM espace pleural - droit ; guidage pour positionnement d'un sonde thoracique"
       },
       {
         "code" : "90307-0",
-        "display" : "CT articulation du pied - droit ; guidage pour injection"
+        "display" : "TDM articulation du pied - droit ; guidage pour injection"
       },
       {
         "code" : "90308-8",
-        "display" : "CT rachis dorsal ; guidage pour localisation à l'aiguille"
+        "display" : "TDM rachis dorsal ; guidage pour localisation à l'aiguille"
       },
       {
         "code" : "90309-6",
-        "display" : "CT poumon - droit ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM poumon - droit ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "90310-4",
-        "display" : "CT rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
+        "display" : "TDM rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
       },
       {
         "code" : "90311-2",
-        "display" : "CT ; guidage pour remplacement percutané d'un cathéter de drainage dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour remplacement percutané d'un cathéter de drainage dans une région du corps non spécifiée"
       },
       {
         "code" : "90312-0",
-        "display" : "médecine nucléaire SPECT et CT système squelettique avec radionucléide IV"
+        "display" : "SPECT et TDM système squelettique avec radionucléide IV"
       },
       {
         "code" : "90313-8",
-        "display" : "CT espace pleural - gauche ; guidage pour drainage et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural - gauche ; guidage pour drainage et placement d'une sonde thoracique"
       },
       {
         "code" : "90314-6",
-        "display" : "CT rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
+        "display" : "TDM rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
       },
       {
         "code" : "90315-3",
-        "display" : "CT tissu mou ; guidage pour biopsie profonde"
+        "display" : "TDM tissu mou ; guidage pour biopsie profonde"
       },
       {
         "code" : "90316-1",
-        "display" : "CT tissu mou ; guidage pour biopsie superficielle"
+        "display" : "TDM tissu mou ; guidage pour biopsie superficielle"
       },
       {
         "code" : "90317-9",
-        "display" : "CT membre inférieur - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM membre inférieur - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "90318-7",
-        "display" : "CT membre inférieur - droit ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM membre inférieur - droit ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "90319-5",
-        "display" : "CT poumon - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
+        "display" : "TDM poumon - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
       },
       {
         "code" : "90334-4",
-        "display" : "CT articulation zygapophysaire du rachis dorsal ; guidage pour injection"
+        "display" : "TDM articulation zygapophysaire du rachis dorsal ; guidage pour injection"
       },
       {
         "code" : "90335-1",
-        "display" : "CT articulation zygapophysaire du rachis lombaire ; guidage pour injection"
+        "display" : "TDM articulation zygapophysaire du rachis lombaire ; guidage pour injection"
       },
       {
         "code" : "90336-9",
-        "display" : "CT muscle ; guidage pour injection"
+        "display" : "TDM muscle ; guidage pour injection"
       },
       {
         "code" : "90352-6",
-        "display" : "CT et CT.perfusion et CT.angio tête et cerveau et vaisseaux de la tête sans et avec contraste IV"
+        "display" : "TDM et CT.perfusion et angioscanner tête et cerveau et vaisseaux de la tête sans et avec contraste IV"
       },
       {
         "code" : "90372-4",
-        "display" : "CT tendon ; guidage pour injection"
+        "display" : "TDM tendon ; guidage pour injection"
       },
       {
         "code" : "90373-2",
-        "display" : "CT tendon ou ligament ; guidage pour injection"
+        "display" : "TDM tendon ou ligament ; guidage pour injection"
       },
       {
         "code" : "91517-3",
@@ -24008,47 +24008,47 @@ Requête sur le SMT
       },
       {
         "code" : "91523-1",
-        "display" : "résonance magnétique thorax, abdomen et pelvis avec contraste IV"
+        "display" : "IRM thorax, abdomen et pelvis avec contraste IV"
       },
       {
         "code" : "91524-9",
-        "display" : "résonance magnétique thorax, abdomen et pelvis sans et avec contraste IV"
+        "display" : "IRM thorax, abdomen et pelvis sans et avec contraste IV"
       },
       {
         "code" : "91525-6",
-        "display" : "résonance magnétique thorax, abdomen et pelvis sans contraste"
+        "display" : "IRM thorax, abdomen et pelvis sans contraste"
       },
       {
         "code" : "91561-1",
-        "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire avec contraste IV"
+        "display" : "IRM rachis cervical et rachis dorsal et rachis lombaire avec contraste IV"
       },
       {
         "code" : "91591-8",
-        "display" : "résonance magnétique cerveau et orbite - bilatérale avec contraste IV"
+        "display" : "IRM cerveau et orbite - bilatérale avec contraste IV"
       },
       {
         "code" : "91592-6",
-        "display" : "résonance magnétique cerveau et orbite - bilatérale sans et avec contraste IV"
+        "display" : "IRM cerveau et orbite - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "91593-4",
-        "display" : "résonance magnétique cerveau et orbite - bilatérale sans contraste"
+        "display" : "IRM cerveau et orbite - bilatérale sans contraste"
       },
       {
         "code" : "91594-2",
-        "display" : "résonance magnétique sacrum et articulation sacro-iliaque avec contraste IV"
+        "display" : "IRM sacrum et articulation sacro-iliaque avec contraste IV"
       },
       {
         "code" : "91595-9",
-        "display" : "résonance magnétique sacrum et articulation sacro-iliaque sans et avec contraste IV"
+        "display" : "IRM sacrum et articulation sacro-iliaque sans et avec contraste IV"
       },
       {
         "code" : "91596-7",
-        "display" : "résonance magnétique sacrum et articulation sacro-iliaque sans contraste"
+        "display" : "IRM sacrum et articulation sacro-iliaque sans contraste"
       },
       {
         "code" : "91597-5",
-        "display" : "résonance magnétique orteil sans et avec contraste IV"
+        "display" : "IRM orteil sans et avec contraste IV"
       },
       {
         "code" : "91598-3",
@@ -24056,23 +24056,23 @@ Requête sur le SMT
       },
       {
         "code" : "91715-3",
-        "display" : "résonance magnétique rachis lombaire et sacrum avec contraste IV"
+        "display" : "IRM rachis lombaire et sacrum avec contraste IV"
       },
       {
         "code" : "91716-1",
-        "display" : "résonance magnétique rachis lombaire et sacrum sans et avec contraste IV"
+        "display" : "IRM rachis lombaire et sacrum sans et avec contraste IV"
       },
       {
         "code" : "91717-9",
-        "display" : "résonance magnétique rachis lombaire et sacrum sans contraste"
+        "display" : "IRM rachis lombaire et sacrum sans contraste"
       },
       {
         "code" : "91718-7",
-        "display" : "résonance magnétique ; postmortem dans une région du corps non spécifiée"
+        "display" : "IRM ; postmortem dans une région du corps non spécifiée"
       },
       {
         "code" : "91719-5",
-        "display" : "CT ; postmortem dans une région du corps non spécifiée"
+        "display" : "TDM ; postmortem dans une région du corps non spécifiée"
       },
       {
         "code" : "91720-3",
@@ -24080,19 +24080,19 @@ Requête sur le SMT
       },
       {
         "code" : "92025-6",
-        "display" : "CT tête et rachis cervical avec contraste IV"
+        "display" : "TDM tête et rachis cervical avec contraste IV"
       },
       {
         "code" : "92567-7",
-        "display" : "CT ; guidage pour drainage percutané et placement d'un cathéter de drainage dans une région du corps non spécifiée"
+        "display" : "TDM ; guidage pour drainage percutané et placement d'un cathéter de drainage dans une région du corps non spécifiée"
       },
       {
         "code" : "92569-3",
-        "display" : "CT espace pleural - bilatéral ; guidage pour drainage et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural - bilatéral ; guidage pour drainage et placement d'une sonde thoracique"
       },
       {
         "code" : "92571-9",
-        "display" : "CT espace pleural - droit ; guidage pour drainage et placement d'une sonde thoracique"
+        "display" : "TDM espace pleural - droit ; guidage pour drainage et placement d'une sonde thoracique"
       },
       {
         "code" : "92677-4",
@@ -24120,55 +24120,55 @@ Requête sur le SMT
       },
       {
         "code" : "92916-6",
-        "display" : "CT rétropéritoine ; guidage pour aspiration"
+        "display" : "TDM rétropéritoine ; guidage pour aspiration"
       },
       {
         "code" : "92917-4",
-        "display" : "CT rein - droit ; guidage pour aspiration"
+        "display" : "TDM rein - droit ; guidage pour aspiration"
       },
       {
         "code" : "92918-2",
-        "display" : "CT rein - gauche ; guidage pour aspiration"
+        "display" : "TDM rein - gauche ; guidage pour aspiration"
       },
       {
         "code" : "92919-0",
-        "display" : "CT rachis lombaire et sacrum ; guidage à 2 niveaux pour injection"
+        "display" : "TDM rachis lombaire et sacrum ; guidage à 2 niveaux pour injection"
       },
       {
         "code" : "92920-8",
-        "display" : "CT rachis lombaire et sacrum ; guidage niveau 1 pour injection"
+        "display" : "TDM rachis lombaire et sacrum ; guidage niveau 1 pour injection"
       },
       {
         "code" : "92921-6",
-        "display" : "CT rachis cervical et rachis dorsal ; guidage niveau 1 pour injection"
+        "display" : "TDM rachis cervical et rachis dorsal ; guidage niveau 1 pour injection"
       },
       {
         "code" : "92922-4",
-        "display" : "CT rachis lombaire ; guidage pour injection intrathécale"
+        "display" : "TDM rachis lombaire ; guidage pour injection intrathécale"
       },
       {
         "code" : "92923-2",
-        "display" : "CT rein ; guidage pour aspiration"
+        "display" : "TDM rein ; guidage pour aspiration"
       },
       {
         "code" : "92924-0",
-        "display" : "CT abdomen ; guidage pour aspiration"
+        "display" : "TDM abdomen ; guidage pour aspiration"
       },
       {
         "code" : "92925-7",
-        "display" : "CT rachis cervical et espace épidural thoracique ; guidage pour injection"
+        "display" : "TDM rachis cervical et espace épidural thoracique ; guidage pour injection"
       },
       {
         "code" : "92926-5",
-        "display" : "CT ; guidage pour radiothérapie sans et avec contraste IV"
+        "display" : "TDM ; guidage pour radiothérapie sans et avec contraste IV"
       },
       {
         "code" : "92927-3",
-        "display" : "tomographie par émission de positons et CT cerveau pour protéine tau avec radionucléide IV"
+        "display" : "tomographie par émission de positons et TDM cerveau pour protéine tau avec radionucléide IV"
       },
       {
         "code" : "92928-1",
-        "display" : "CT rachis lombaire et espace épidural du sacrum ; guidage pour injection"
+        "display" : "TDM rachis lombaire et espace épidural du sacrum ; guidage pour injection"
       },
       {
         "code" : "93241-8",
@@ -24176,7 +24176,7 @@ Requête sur le SMT
       },
       {
         "code" : "93603-9",
-        "display" : "CT tête et rachis cervical sans et avec contraste IV"
+        "display" : "TDM tête et rachis cervical sans et avec contraste IV"
       },
       {
         "code" : "93604-7",
@@ -24196,35 +24196,35 @@ Requête sur le SMT
       },
       {
         "code" : "94088-2",
-        "display" : "résonance magnétique rachis dorsal et rachis lombaire sans et avec constraste"
+        "display" : "IRM rachis dorsal et rachis lombaire sans et avec contraste"
       },
       {
         "code" : "94089-0",
-        "display" : "résonance magnétique et angioIRM thorax ; sans et avec contraste et avec contraste"
+        "display" : "IRM et angioIRM thorax ; sans et avec contraste et avec contraste"
       },
       {
         "code" : "94090-8",
-        "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel et guidage pour angioplastie percutanée transluminale et placement transcathéter du stent"
+        "display" : "angiofluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel et guidage pour angioplastie percutanée transluminale et placement transcathéter du stent"
       },
       {
         "code" : "94091-6",
-        "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel et guidage pour angioplastie percutanée transluminale"
+        "display" : "angiofluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel et guidage pour angioplastie percutanée transluminale"
       },
       {
         "code" : "94092-4",
-        "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel"
+        "display" : "angiofluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel"
       },
       {
         "code" : "94094-0",
-        "display" : "angiographie par fluoroscopie ; incidences limitées pour thérapie ou embolisation ou perfusion avec contraste via cathéter existant"
+        "display" : "angiofluoroscopie ; incidences limitées pour thérapie ou embolisation ou perfusion avec contraste via cathéter existant"
       },
       {
         "code" : "94095-7",
-        "display" : "angiographie par fluoroscopie vaisseaux d'extrémité - unilatérale ; incidences avec contraste IV"
+        "display" : "angiofluoroscopie vaisseaux d'extrémité - unilatérale ; incidences avec contraste IV"
       },
       {
         "code" : "94678-0",
-        "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec radionucléide IV"
+        "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec radionucléide IV"
       },
       {
         "code" : "94679-8",
@@ -24256,15 +24256,15 @@ Requête sur le SMT
       },
       {
         "code" : "94686-3",
-        "display" : "résonance magnétique et angioIRM vaisseaux de la tête et cerveau ; sans et avec contraste et sans contraste"
+        "display" : "IRM et angioIRM vaisseaux de la tête et cerveau ; sans et avec contraste et sans contraste"
       },
       {
         "code" : "94687-1",
-        "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et vaisseaux du pelvis sans contraste"
+        "display" : "angioscanner vaisseaux abdominaux et vaisseaux du pelvis sans contraste"
       },
       {
         "code" : "94688-9",
-        "display" : "angiographie par tomodensitométrie vaisseaux du cou et vaisseaux du thorax sans et avec contraste IV"
+        "display" : "angioscanner vaisseaux du cou et vaisseaux du thorax sans et avec contraste IV"
       },
       {
         "code" : "95610-2",
@@ -24280,31 +24280,31 @@ Requête sur le SMT
       },
       {
         "code" : "95923-9",
-        "display" : "résonance magnétique coeur avec stress et avec contraste IV"
+        "display" : "IRM coeur avec stress et avec contraste IV"
       },
       {
         "code" : "95924-7",
-        "display" : "CT système squelettique pour densité osseuse"
+        "display" : "TDM système squelettique pour densité osseuse"
       },
       {
         "code" : "95925-4",
-        "display" : "CT système squelettique.axial pour densité osseuse"
+        "display" : "TDM système squelettique.axial pour densité osseuse"
       },
       {
         "code" : "95926-2",
-        "display" : "CT système squelettique.périphérique pour densité osseuse"
+        "display" : "TDM système squelettique.périphérique pour densité osseuse"
       },
       {
         "code" : "95927-0",
-        "display" : "CT radius pour densité osseuse"
+        "display" : "TDM radius pour densité osseuse"
       },
       {
         "code" : "95928-8",
-        "display" : "CT poignet pour densité osseuse"
+        "display" : "TDM poignet pour densité osseuse"
       },
       {
         "code" : "95929-6",
-        "display" : "CT calcanéus pour densité osseuse"
+        "display" : "TDM calcanéus pour densité osseuse"
       },
       {
         "code" : "97100-2",
@@ -24520,15 +24520,15 @@ Requête sur le SMT
       },
       {
         "code" : "97391-7",
-        "display" : "résonance magnétique abdomen et pelvis sans contraste"
+        "display" : "IRM abdomen et pelvis sans contraste"
       },
       {
         "code" : "97392-5",
-        "display" : "résonance magnétique abdomen et pelvis sans et avec contraste IV"
+        "display" : "IRM abdomen et pelvis sans et avec contraste IV"
       },
       {
         "code" : "97393-3",
-        "display" : "résonance magnétique abdomen et pelvis avec contraste IV"
+        "display" : "IRM abdomen et pelvis avec contraste IV"
       },
       {
         "code" : "97394-1",
@@ -24952,7 +24952,7 @@ Requête sur le SMT
       },
       {
         "code" : "98033-4",
-        "display" : "tomographie par émission de positons et CT membre inférieur avec radionucléide IV"
+        "display" : "tomographie par émission de positons et TDM membre inférieur avec radionucléide IV"
       },
       {
         "code" : "98034-2",
@@ -24964,11 +24964,11 @@ Requête sur le SMT
       },
       {
         "code" : "98036-7",
-        "display" : "médecine nucléaire abdomen ; incidences pour thérapeutique avec sulfocolloïde de Technétium 99 IV"
+        "display" : "MN abdomen ; incidences pour thérapeutique avec sulfocolloïde de Technétium 99 IV"
       },
       {
         "code" : "98074-8",
-        "display" : "CT conduit auditif interne - bilatéral avec contraste"
+        "display" : "TDM conduit auditif interne - bilatéral avec contraste"
       },
       {
         "code" : "98282-7",
@@ -25376,7 +25376,7 @@ Requête sur le SMT
       },
       {
         "code" : "99610-8",
-        "display" : "CT Abdomen et Pelvis avec contraste per os"
+        "display" : "TDM Abdomen et Pelvis avec contraste per os"
       },
       {
         "code" : "99611-6",
@@ -25384,51 +25384,51 @@ Requête sur le SMT
       },
       {
         "code" : "99612-4",
-        "display" : "CT coeur sans contraste"
+        "display" : "TDM coeur sans contraste"
       },
       {
         "code" : "99613-2",
-        "display" : "CT du coeur sans et avec contraste IV"
+        "display" : "TDM du coeur sans et avec contraste IV"
       },
       {
         "code" : "99628-0",
-        "display" : "CT Cou et Thorax et Abdomen et Pelvis"
+        "display" : "TDM Cou et Thorax et Abdomen et Pelvis"
       },
       {
         "code" : "99629-8",
-        "display" : "CT Cou et Thorax et Abdomen et Pelvis sans contraste"
+        "display" : "TDM Cou et Thorax et Abdomen et Pelvis sans contraste"
       },
       {
         "code" : "99630-6",
-        "display" : "CT Cou et Thorax et Abdomen et Pelvis sans et avec contraste IV"
+        "display" : "TDM Cou et Thorax et Abdomen et Pelvis sans et avec contraste IV"
       },
       {
         "code" : "99631-4",
-        "display" : "CT cone beam articulation temporomandibulaire - bilatérale"
+        "display" : "TDM cone beam articulation temporomandibulaire - bilatérale"
       },
       {
         "code" : "99632-2",
-        "display" : "CT cone beam articulation temporomandibulaire sans et avec contraste IV"
+        "display" : "TDM cone beam articulation temporomandibulaire sans et avec contraste IV"
       },
       {
         "code" : "99633-0",
-        "display" : "CT Cone beam des dents"
+        "display" : "TDM Cone beam des dents"
       },
       {
         "code" : "99702-3",
-        "display" : "tractographie par résonance magnétique du cerveau"
+        "display" : "tractographie par IRM du cerveau"
       },
       {
         "code" : "99703-1",
-        "display" : "résonance magnétique de perfusion du cerveau"
+        "display" : "IRM de perfusion du cerveau"
       },
       {
         "code" : "99704-9",
-        "display" : "résonance magnétique du cerveau pour cartographie d’accident vasculaire cérébral"
+        "display" : "IRM du cerveau pour cartographie d’accident vasculaire cérébral"
       },
       {
         "code" : "99705-6",
-        "display" : "résonance magnétique du cerveau pour cartographie de crises comitiales"
+        "display" : "IRM du cerveau pour cartographie de crises comitiales"
       },
       {
         "code" : "99826-0",
@@ -25444,7 +25444,7 @@ Requête sur le SMT
       },
       {
         "code" : "100369-8",
-        "display" : "médecine nucléaire glande thyroïde incidences avec Tl-201 IV"
+        "display" : "MN glande thyroïde incidences avec Tl-201 IV"
       },
       {
         "code" : "100655-0",
@@ -25456,11 +25456,11 @@ Requête sur le SMT
       },
       {
         "code" : "100852-3",
-        "display" : "médecine nucléaire osseuse incidences pour métastases avec Sr-89 IV"
+        "display" : "MN osseuse incidences pour métastases avec Sr-89 IV"
       },
       {
         "code" : "100853-1",
-        "display" : "médecine nucléaire espace péricardique incidences pour épanchement"
+        "display" : "MN espace péricardique incidences pour épanchement"
       },
       {
         "code" : "100875-4",
@@ -25488,19 +25488,19 @@ Requête sur le SMT
       },
       {
         "code" : "100881-2",
-        "display" : "résonance magnétique os ; guidage pour cryoablation"
+        "display" : "IRM os ; guidage pour cryoablation"
       },
       {
         "code" : "100882-0",
-        "display" : "résonance magnétique péritoine avec contraste percutané intrapéritonéal"
+        "display" : "IRM péritoine avec contraste percutané intrapéritonéal"
       },
       {
         "code" : "100883-8",
-        "display" : "résonance magnétique guidage pour biopsie percutanée du rein - gauche"
+        "display" : "IRM guidage pour biopsie percutanée du rein - gauche"
       },
       {
         "code" : "100884-6",
-        "display" : "résonance magnétique guidage pour biopsie percutanée du rein - droit"
+        "display" : "IRM guidage pour biopsie percutanée du rein - droit"
       },
       {
         "code" : "101301-0",
@@ -25520,7 +25520,7 @@ Requête sur le SMT
       },
       {
         "code" : "101582-5",
-        "display" : "médecine nucléaire tractus gastrointestinal incidences pour entéropathie exsudative^sérum albumine humaine marquée au 99mTc"
+        "display" : "MN tractus gastrointestinal incidences pour entéropathie exsudative^sérum albumine humaine marquée au 99mTc"
       },
       {
         "code" : "103228-3",
@@ -26792,31 +26792,31 @@ Requête sur le SMT
       },
       {
         "code" : "103851-2",
-        "display" : "fluroscopie incidences de l'urètre avec constraste rétrograde via l'urètre"
+        "display" : "fluoroscopie incidences de l'urètre avec contraste rétrograde via l'urètre"
       },
       {
         "code" : "103852-0",
-        "display" : "guidage par angiographie par fluoroscopie pour angioplastie des vaisseaux des extrémités - bilatéraux -- avec contraste"
+        "display" : "guidage par angiofluoroscopie pour angioplastie des vaisseaux des extrémités - bilatéraux -- avec contraste"
       },
       {
         "code" : "103853-8",
-        "display" : "guidage par angiographie par fluoroscopie pour angioplastie des vaisseaux des extrémités - gauches -- avec contraste"
+        "display" : "guidage par angiofluoroscopie pour angioplastie des vaisseaux des extrémités - gauches -- avec contraste"
       },
       {
         "code" : "103854-6",
-        "display" : "guidage par angiographie par fluoroscopie pour angioplastie des vaisseaux des extrémités - droits -- avec contraste"
+        "display" : "guidage par angiofluoroscopie pour angioplastie des vaisseaux des extrémités - droits -- avec contraste"
       },
       {
         "code" : "103855-3",
-        "display" : "angiographie par fluoroscopie artère carotide.interne - bilatérale incidences avec contraste intraartériel"
+        "display" : "angiofluoroscopie artère carotide.interne - bilatérale incidences avec contraste intraartériel"
       },
       {
         "code" : "103856-1",
-        "display" : "angiographie par fluoroscopie vaisseaux vertébraux gauches incidences avec contraste intraartériel"
+        "display" : "angiofluoroscopie vaisseaux vertébraux gauches incidences avec contraste intraartériel"
       },
       {
         "code" : "103857-9",
-        "display" : "angiographie par fluoroscopie vaisseaux vertébraux droits incidences avec contraste intraartériel"
+        "display" : "angiofluoroscopie vaisseaux vertébraux droits incidences avec contraste intraartériel"
       },
       {
         "code" : "103858-7",
@@ -26824,107 +26824,107 @@ Requête sur le SMT
       },
       {
         "code" : "103859-5",
-        "display" : "CT abdomen et pelvis avec contraste per os et avec contraste IV"
+        "display" : "TDM abdomen et pelvis avec contraste per os et avec contraste IV"
       },
       {
         "code" : "103860-3",
-        "display" : "CT abdomen avec contraste per os"
+        "display" : "TDM abdomen avec contraste per os"
       },
       {
         "code" : "103861-1",
-        "display" : "CT de l'abdomen avec contraste per os et avec contraste IV"
+        "display" : "TDM de l'abdomen avec contraste per os et avec contraste IV"
       },
       {
         "code" : "103862-9",
-        "display" : "CT os de la face sans contraste et avec contraste IV"
+        "display" : "TDM os de la face sans contraste et avec contraste IV"
       },
       {
         "code" : "103863-7",
-        "display" : "CT du rein, de l'uretère et de la vessie urinaire avec contraste IV"
+        "display" : "TDM du rein, de l'uretère et de la vessie urinaire avec contraste IV"
       },
       {
         "code" : "103864-5",
-        "display" : "CT selle turcique et orbite avec contraste IV"
+        "display" : "TDM selle turcique et orbite avec contraste IV"
       },
       {
         "code" : "103865-2",
-        "display" : "CT de l'épaule - bilatérale sans contraste et avec contraste IV"
+        "display" : "TDM de l'épaule - bilatérale sans contraste et avec contraste IV"
       },
       {
         "code" : "103866-0",
-        "display" : "CT de la jambe - bilatérale avec contraste IV"
+        "display" : "TDM de la jambe - bilatérale avec contraste IV"
       },
       {
         "code" : "103867-8",
-        "display" : "CT de la jambe - bilatérale sans contraste et avec contraste IV"
+        "display" : "TDM de la jambe - bilatérale sans contraste et avec contraste IV"
       },
       {
         "code" : "103868-6",
-        "display" : "CT selle turcique et orbite sans contraste"
+        "display" : "TDM selle turcique et orbite sans contraste"
       },
       {
         "code" : "103869-4",
-        "display" : "CT selle turcique et orbite sans contraste et avec contraste IV"
+        "display" : "TDM selle turcique et orbite sans contraste et avec contraste IV"
       },
       {
         "code" : "103870-2",
-        "display" : "CT selle turcique et orbites - bilatérales"
+        "display" : "TDM selle turcique et orbites - bilatérales"
       },
       {
         "code" : "103871-0",
-        "display" : "CT selle turcique et orbites - bilatérales sans contraste"
+        "display" : "TDM selle turcique et orbites - bilatérales sans contraste"
       },
       {
         "code" : "103872-8",
-        "display" : "CT selle turcique et orbites - bilatérales avec contraste IV"
+        "display" : "TDM selle turcique et orbites - bilatérales avec contraste IV"
       },
       {
         "code" : "103873-6",
-        "display" : "CT selle turcique et orbite - bilatéraux sans contraste et avec contraste IV"
+        "display" : "TDM selle turcique et orbite - bilatéraux sans contraste et avec contraste IV"
       },
       {
         "code" : "103874-4",
-        "display" : "CT thorax et abdomen"
+        "display" : "TDM thorax et abdomen"
       },
       {
         "code" : "103875-1",
-        "display" : "CT du pelvis avec contraste per os"
+        "display" : "TDM du pelvis avec contraste per os"
       },
       {
         "code" : "103876-9",
-        "display" : "CT du pelvis avec contraste per os et avec contraste IV"
+        "display" : "TDM du pelvis avec contraste per os et avec contraste IV"
       },
       {
         "code" : "103877-7",
-        "display" : "CT de l'avantbras - bilatéral avec contraste IV"
+        "display" : "TDM de l'avantbras - bilatéral avec contraste IV"
       },
       {
         "code" : "103878-5",
-        "display" : "CT de l'avantbras - bilatéral sans contraste"
+        "display" : "TDM de l'avantbras - bilatéral sans contraste"
       },
       {
         "code" : "103879-3",
-        "display" : "CT de l'avantbras - bilatéral sans et avec contraste IV"
+        "display" : "TDM de l'avantbras - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "103880-1",
-        "display" : "CT de la cheville - bilatérale sans et avec contraste IV"
+        "display" : "TDM de la cheville - bilatérale sans et avec contraste IV"
       },
       {
         "code" : "103881-9",
-        "display" : "CT mastoïde sans contraste"
+        "display" : "TDM mastoïde sans contraste"
       },
       {
         "code" : "103882-7",
-        "display" : "CT mastoïde sans contraste et avec contraste IV"
+        "display" : "TDM mastoïde sans contraste et avec contraste IV"
       },
       {
         "code" : "103883-5",
-        "display" : "CT du pied - bilatéral sans et avec contraste IV"
+        "display" : "TDM du pied - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "103884-3",
-        "display" : "CT du poignet - bilatéral sans et avec contraste IV"
+        "display" : "TDM du poignet - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "103885-0",
@@ -27108,15 +27108,15 @@ Requête sur le SMT
       },
       {
         "code" : "103944-5",
-        "display" : "CT cou et thorax et abdomen sans contraste"
+        "display" : "TDM cou et thorax et abdomen sans contraste"
       },
       {
         "code" : "103945-2",
-        "display" : "CT cou et thorax et abdomen avec contraste IV"
+        "display" : "TDM cou et thorax et abdomen avec contraste IV"
       },
       {
         "code" : "104065-8",
-        "display" : "angiographie par tomodensitométrie tête avec constraste et angiographie par tomodensitométrie cou sans et avec contraste IV"
+        "display" : "angioscanner tête avec contraste et angioscanner cou sans et avec contraste IV"
       },
       {
         "code" : "104128-4",
@@ -27164,39 +27164,39 @@ Requête sur le SMT
       },
       {
         "code" : "104867-7",
-        "display" : "tomographie par émission de positons et CT coeur métabolique"
+        "display" : "tomographie par émission de positons et TDM coeur métabolique"
       },
       {
         "code" : "104868-5",
-        "display" : "tomographie par émission de positons et CT perfusion myocardique avec études multiples au repos et avec stress"
+        "display" : "tomographie par émission de positons et TDM perfusion myocardique avec études multiples au repos et avec stress"
       },
       {
         "code" : "104869-3",
-        "display" : "CT cerveau pendant la chirurgie"
+        "display" : "TDM cerveau pendant la chirurgie"
       },
       {
         "code" : "104870-1",
-        "display" : "CT du rachis cervical pendant la chirurgie"
+        "display" : "TDM du rachis cervical pendant la chirurgie"
       },
       {
         "code" : "105128-3",
-        "display" : "résonance magnétique foie et canaux biliaires et pancréas"
+        "display" : "IRM foie et canaux biliaires et pancréas"
       },
       {
         "code" : "105129-1",
-        "display" : "résonance magnétique foie et canaux biliaires et pancréas avec contraste IV"
+        "display" : "IRM foie et canaux biliaires et pancréas avec contraste IV"
       },
       {
         "code" : "105130-9",
-        "display" : "résonance magnétique de perfusion du cerveau avec contraste IV"
+        "display" : "IRM de perfusion du cerveau avec contraste IV"
       },
       {
         "code" : "105131-7",
-        "display" : "résonance magnétique de perfusion du cerveau sans et avec contraste IV"
+        "display" : "IRM de perfusion du cerveau sans et avec contraste IV"
       },
       {
         "code" : "105132-5",
-        "display" : "résonance magnétique de perfusion du cerveau sans contraste"
+        "display" : "IRM de perfusion du cerveau sans contraste"
       },
       {
         "code" : "105133-3",
@@ -27292,43 +27292,43 @@ Requête sur le SMT
       },
       {
         "code" : "105156-4",
-        "display" : "résonance magnétique orbite - bilatérale"
+        "display" : "IRM orbite - bilatérale"
       },
       {
         "code" : "105157-2",
-        "display" : "résonance magnétique intestin grêle avec contraste per os et avec contraste IV"
+        "display" : "IRM intestin grêle avec contraste per os et avec contraste IV"
       },
       {
         "code" : "105158-0",
-        "display" : "résonance magnétique plexus lombosacré sans contraste IV"
+        "display" : "IRM plexus lombosacré sans contraste IV"
       },
       {
         "code" : "105159-8",
-        "display" : "résonance magnétique plexus lombosacré avec contraste IV"
+        "display" : "IRM plexus lombosacré avec contraste IV"
       },
       {
         "code" : "105160-6",
-        "display" : "résonance magnétique plexus lombosacré sans et avec contraste IV"
+        "display" : "IRM plexus lombosacré sans et avec contraste IV"
       },
       {
         "code" : "105161-4",
-        "display" : "résonance magnétique d'une articulation du membre supérieur - bilatéral sans contraste IV"
+        "display" : "IRM d'une articulation du membre supérieur - bilatéral sans contraste IV"
       },
       {
         "code" : "105162-2",
-        "display" : "résonance magnétique articulation du membre supérieur - bilatéral sans et avec contraste IV"
+        "display" : "IRM articulation du membre supérieur - bilatéral sans et avec contraste IV"
       },
       {
         "code" : "105163-0",
-        "display" : "résonance magnétique cerveau pendant chirurgie avec contraste IV"
+        "display" : "IRM cerveau pendant chirurgie avec contraste IV"
       },
       {
         "code" : "105164-8",
-        "display" : "résonance magnétique cerveau pendant chirurgie avec et sans contraste IV"
+        "display" : "IRM cerveau pendant chirurgie avec et sans contraste IV"
       },
       {
         "code" : "105165-5",
-        "display" : "guidage par biopsie percutanée d'une biopsie du sein"
+        "display" : "guidage par IRM pour biopsie percutanée du sein"
       },
       {
         "code" : "105166-3",
@@ -27336,15 +27336,15 @@ Requête sur le SMT
       },
       {
         "code" : "105167-1",
-        "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste"
+        "display" : "IRM coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste"
       },
       {
         "code" : "105168-9",
-        "display" : "résonance magnétique coeur ciné pour fonction sans et avec contraste IV"
+        "display" : "IRM coeur ciné pour fonction sans et avec contraste IV"
       },
       {
         "code" : "105169-7",
-        "display" : "résonance magnétique coeur ciné pour fonction avec contraste IV"
+        "display" : "IRM coeur ciné pour fonction avec contraste IV"
       },
       {
         "code" : "105170-5",
@@ -27360,11 +27360,11 @@ Requête sur le SMT
       },
       {
         "code" : "105173-9",
-        "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste IV"
+        "display" : "IRM coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste IV"
       },
       {
         "code" : "105174-7",
-        "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin sans et avec contraste IV"
+        "display" : "IRM coeur ciné pour cartographie de la vélocité du flux sanguin sans et avec contraste IV"
       },
       {
         "code" : "105420-4",
@@ -27560,11 +27560,11 @@ Requête sur le SMT
       },
       {
         "code" : "106303-1",
-        "display" : "médecine nucléaire région non spécifiée incidences pour destruction de synoviale avec radionucléide IV"
+        "display" : "MN région non spécifiée incidences pour destruction de synoviale avec radionucléide IV"
       },
       {
         "code" : "106304-9",
-        "display" : "médecine nucléaire incidences abdominales"
+        "display" : "MN incidences abdominales"
       },
       {
         "code" : "106305-6",
@@ -27609,6 +27609,14 @@ Requête sur le SMT
       {
         "code" : "106315-5",
         "display" : "guidage par échographie pour retrait de cathéter de drainage région non spécifiée"
+      },
+      {
+        "code" : "106316-3",
+        "display" : "guidage par échographie pour exérèse par aspiration sous vide du sein gauche"
+      },
+      {
+        "code" : "106317-1",
+        "display" : "guidage par échographie pour exérèse par aspiration sous vide du sein droit"
       },
       {
         "code" : "106318-9",
@@ -27716,7 +27724,7 @@ Requête sur le SMT
       },
       {
         "code" : "106819-6",
-        "display" : "guidage par angiographie par fluoroscopie pour guidage vaisseau"
+        "display" : "guidage par angiofluoroscopie pour guidage vaisseau"
       },
       {
         "code" : "106820-4",
@@ -27727,12 +27735,16 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour guidage crane"
       },
       {
+        "code" : "106822-0",
+        "display" : "guidage par fluoroscopie pour ajustement d'anneau gastrique"
+      },
+      {
         "code" : "106823-8",
         "display" : "guidage par fluoroscopie pour pyélographie antérograde du rein - droit"
       },
       {
         "code" : "106824-6",
-        "display" : "guidage par fluoroscopie pour iléostomie du colon -- avec constraste"
+        "display" : "guidage par fluoroscopie pour iléostomie du colon -- avec contraste"
       },
       {
         "code" : "106825-3",
@@ -27743,60 +27755,100 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour placement d'un fil guide dans le système biliaire"
       },
       {
+        "code" : "106827-9",
+        "display" : "guidage par angiofluoroscopie pour imagerie par soustraction des vaisseaux cérébraux"
+      },
+      {
         "code" : "106828-7",
         "display" : "guidage par fluoroscopie pour réduction d'invagination intestinale du tractus gastrointestinal"
+      },
+      {
+        "code" : "106829-5",
+        "display" : "guidage par fluoroscopie pour guidage de brochage orthopédique du membre inférieur - bilatéral"
+      },
+      {
+        "code" : "106830-3",
+        "display" : "guidage par fluoroscopie pour guidage de brochage orthopédique du membre inférieur - gauche"
+      },
+      {
+        "code" : "106831-1",
+        "display" : "guidage par fluoroscopie pour guidage de brochage orthopédique du membre inférieur - droit"
+      },
+      {
+        "code" : "106832-9",
+        "display" : "guidage par fluoroscopie pour guidage de brochage orthopédique du membre supérieur - bilatéral"
+      },
+      {
+        "code" : "106833-7",
+        "display" : "guidage par fluoroscopie pour guidage de brochage orthopédique du membre supérieur - gauche"
+      },
+      {
+        "code" : "106834-5",
+        "display" : "guidage par fluoroscopie pour guidage de brochage orthopédique du membre supérieur - droit"
       },
       {
         "code" : "106837-8",
         "display" : "guidage par fluoroscopie du membre inférieur - bilatéral"
       },
       {
+        "code" : "106839-4",
+        "display" : "guidage par fluoroscopie pour hydrodilatation de l'articulation glénohumérale de l'épaule droite"
+      },
+      {
+        "code" : "106840-2",
+        "display" : "guidage par fluoroscopie pour hydrodilatation de l'articulation glénohumérale de l'épaule gauche"
+      },
+      {
         "code" : "106844-4",
-        "display" : "CT veine cérébrale avec contraste IV"
+        "display" : "TDM veine cérébrale avec contraste IV"
       },
       {
         "code" : "106845-1",
-        "display" : "CT thorax sans contraste IV"
+        "display" : "TDM thorax sans contraste IV"
+      },
+      {
+        "code" : "106846-9",
+        "display" : "guidage par TDM pour infiltration d'une racine nerveuse du rachis lombaire et sacrum"
       },
       {
         "code" : "106847-7",
-        "display" : "guidage par tomodensitométrie pour cryoablation d'une région non spécifiée"
+        "display" : "guidage par TDM pour cryoablation d'une région non spécifiée"
       },
       {
         "code" : "106848-5",
-        "display" : "CT rachis"
+        "display" : "TDM rachis"
       },
       {
         "code" : "106849-3",
-        "display" : "guidage par tomodensitométrie pour ablation par radiofréquence du rein"
+        "display" : "guidage par TDM pour ablation par radiofréquence du rein"
       },
       {
         "code" : "106850-1",
-        "display" : "guidage par tomodensitométrie pour ablation par micro-ondes du foie"
+        "display" : "guidage par TDM pour ablation par micro-ondes du foie"
       },
       {
         "code" : "106851-9",
-        "display" : "guidage par tomodensitométrie pour placement d'un marqueur fiduciaire dans les os pelviens"
+        "display" : "guidage par TDM pour placement d'un marqueur fiduciaire dans les os pelviens"
       },
       {
         "code" : "106852-7",
-        "display" : "guidage par tomodensitométrie pour injection dans l'espace épidural du rachis thoracique"
+        "display" : "guidage par TDM pour injection dans l'espace épidural du rachis thoracique"
       },
       {
         "code" : "106853-5",
-        "display" : "CT du canal lacrymal - droit sans et avec contraste IV"
+        "display" : "TDM du canal lacrymal - droit sans et avec contraste IV"
       },
       {
         "code" : "106854-3",
-        "display" : "CT du canal lacrymal - gauche sans et avec contraste IV"
+        "display" : "TDM du canal lacrymal - gauche sans et avec contraste IV"
       },
       {
         "code" : "106856-8",
-        "display" : "CT du rachis cervical et reconstruction post-traitement 3D"
+        "display" : "TDM du rachis cervical et reconstruction post-traitement 3D"
       },
       {
         "code" : "106857-6",
-        "display" : "guidage par tomodensitométrie pour cryoablation percutanée de tumeur du foie"
+        "display" : "guidage par TDM pour cryoablation percutanée de tumeur du foie"
       },
       {
         "code" : "107258-6",
@@ -27836,11 +27888,11 @@ Requête sur le SMT
       },
       {
         "code" : "107269-3",
-        "display" : "guidage par angiographie par fluoroscopie pour embolisation artère cérébrale"
+        "display" : "guidage par angiofluoroscopie pour embolisation artère cérébrale"
       },
       {
         "code" : "107270-1",
-        "display" : "guidage par angiographie par fluoroscopie pour insertion d'un stent artères carotides - droites"
+        "display" : "guidage par angiofluoroscopie pour insertion d'un stent artères carotides - droites"
       },
       {
         "code" : "107271-9",
@@ -27895,6 +27947,10 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour obstruction de fistule de l'espace pleural"
       },
       {
+        "code" : "107293-3",
+        "display" : "guidage par fluoroscopie pour néphrolithotomie percutanée du rein"
+      },
+      {
         "code" : "107294-1",
         "display" : "guidage par fluoroscopie pour ablation par radiofréquence nerf intercostal du rachis dorsal"
       },
@@ -27920,7 +27976,7 @@ Requête sur le SMT
       },
       {
         "code" : "107300-6",
-        "display" : "guidage par angiographie par fluoroscopie pour le placement d'une endoprothèse artère carotide commune - droite"
+        "display" : "guidage par angiofluoroscopie pour le placement d'une endoprothèse artère carotide commune - droite"
       },
       {
         "code" : "107301-4",
@@ -27951,28 +28007,40 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour thrombectomie percutanée artère cérébrale"
       },
       {
+        "code" : "107373-3",
+        "display" : "guidage par fluoroscopie pour embolisation percutanée de vaisseaux cérébraux avec contraste"
+      },
+      {
+        "code" : "107374-1",
+        "display" : "guidage par fluoroscopie pour embolisation percutanée par coils pour traitement d'un anévrisme de vaisseaux cérébraux"
+      },
+      {
+        "code" : "107375-8",
+        "display" : "guidage par fluoroscopie pour embolisation de vaisseaux cérébraux"
+      },
+      {
         "code" : "107379-0",
         "display" : "tomographie par émission de positons incidences corps entier"
       },
       {
         "code" : "107380-8",
-        "display" : "tomographie par émission de positons et CT incidences dans une région du corps non spécifiée"
+        "display" : "tomographie par émission de positons et TDM incidences dans une région du corps non spécifiée"
       },
       {
         "code" : "107381-6",
-        "display" : "médecine nucléaire SPECT et CT poumon ; incidences"
+        "display" : "SPECT et TDM poumon ; incidences"
       },
       {
         "code" : "107382-4",
-        "display" : "tomographie par émission de positons et CT incidences corps entier"
+        "display" : "tomographie par émission de positons et TDM incidences corps entier"
       },
       {
         "code" : "107383-2",
-        "display" : "tomographie par émission de positons et CT coeur ; incidences"
+        "display" : "tomographie par émission de positons et TDM coeur ; incidences"
       },
       {
         "code" : "107384-0",
-        "display" : "tomographie par émission de positons et CT prostate ; incidences"
+        "display" : "tomographie par émission de positons et TDM prostate ; incidences"
       },
       {
         "code" : "107385-7",
@@ -28007,12 +28075,20 @@ Requête sur le SMT
         "display" : "guidage par fluoroscopie pour placement percutané de stent dans la veine cave supérieure"
       },
       {
+        "code" : "107404-6",
+        "display" : "guidage par fluoroscopie pour l'administration percutanée d'un thrombolytique dans la veine cave supérieure"
+      },
+      {
         "code" : "107405-3",
         "display" : "guidage par fluoroscopie du foie pour dilatation du stent du shunt portosystémique intrahépatique transjugulaire"
       },
       {
         "code" : "107406-1",
         "display" : "guidage par fluoroscopie pour obstruction au ballon de l'artère iliaque"
+      },
+      {
+        "code" : "107407-9",
+        "display" : "guidage par fluoroscopie pour repositionnement de la sonde de stimulateur cardiaque"
       },
       {
         "code" : "107408-7",
@@ -28043,6 +28119,42 @@ Requête sur le SMT
         "display" : "guidage par échographie pour placement d'un marqueur axillaire - gauche"
       },
       {
+        "code" : "107415-2",
+        "display" : "guidage par échographie pour guidage du placement de marqueurs magnétiques en axillaire droit"
+      },
+      {
+        "code" : "107416-0",
+        "display" : "guidage par échographie pour guidage du placement de marqueurs magnétiques en axillaire gauche"
+      },
+      {
+        "code" : "107417-8",
+        "display" : "guidage par échographie pour guidage du placement de marqueurs magnétiques dans le sein droit"
+      },
+      {
+        "code" : "107418-6",
+        "display" : "guidage par échographie pour repérage par marqueur radioactif du sein gauche"
+      },
+      {
+        "code" : "107419-4",
+        "display" : "guidage par échographie pour repérage par marqueur radioactif axillaire - bilatéral"
+      },
+      {
+        "code" : "107420-2",
+        "display" : "guidage par IRM pour guidage du placement de marqueurs magnétiques dans le sein droit"
+      },
+      {
+        "code" : "107421-0",
+        "display" : "guidage par IRM pour guidage du placement de marqueurs magnétiques dans le sein gauche"
+      },
+      {
+        "code" : "107422-8",
+        "display" : "mammographie par émission de positons du sein droit ; incidences"
+      },
+      {
+        "code" : "107423-6",
+        "display" : "guidage RX stéréotaxique pour exérèse par aspiration sous vide dans le sein droit"
+      },
+      {
         "code" : "107424-4",
         "display" : "RX pénis ; incidences"
       },
@@ -28055,6 +28167,14 @@ Requête sur le SMT
         "display" : "guidage par mammographie stéréotaxique pour mise en place d'un marqueur du sein - bilatéral"
       },
       {
+        "code" : "107427-7",
+        "display" : "mammographie spectrale du sein droit ; incidences avec produit de contraste"
+      },
+      {
+        "code" : "107428-5",
+        "display" : "mammographie spectrale du sein gauche ; incidences avec produit de contraste"
+      },
+      {
         "code" : "107429-3",
         "display" : "guidage par échographie pour biopsie du poignet - droit"
       },
@@ -28065,6 +28185,18 @@ Requête sur le SMT
       {
         "code" : "107432-7",
         "display" : "échographie de l'urètre"
+      },
+      {
+        "code" : "107433-5",
+        "display" : "mammographie par émission de positons du sein gauche ; incidences"
+      },
+      {
+        "code" : "107434-3",
+        "display" : "guidage RX stéréotaxique pour exérèse par aspiration sous vide dans le sein gauche"
+      },
+      {
+        "code" : "107435-0",
+        "display" : "mammographie spectrale bilatérale ; incidences avec produit de contraste"
       },
       {
         "code" : "107437-6",
@@ -28087,12 +28219,28 @@ Requête sur le SMT
         "display" : "RX incidences du membre supérieur post-traitement 3D"
       },
       {
+        "code" : "107443-4",
+        "display" : "guidage par fluoroscopie pour thrombolyse percutanée de la veine mésentérique"
+      },
+      {
         "code" : "108347-6",
         "display" : "radiographie collimatée en fente incidences corps entier"
       },
       {
         "code" : "108348-4",
-        "display" : "CT larynx sans et avec contraste IV"
+        "display" : "TDM larynx sans et avec contraste IV"
+      },
+      {
+        "code" : "111475-0",
+        "display" : "RX cheville droite ; incidences de profil et de mortaise et de Broden avec stress manuel"
+      },
+      {
+        "code" : "111476-8",
+        "display" : "RX cheville gauche ; incidences standard et de mortaise"
+      },
+      {
+        "code" : "111477-6",
+        "display" : "RX cheville gauche ; incidences standard et avec stress manuel"
       }]
     }]
   }

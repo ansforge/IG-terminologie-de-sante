@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-modificateur-topographique-cisis",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-09-28T15:43:29.699+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-23T15:13:39.724+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.688"
   }],
-  "version" : "20260928134049",
+  "version" : "20261120114401",
   "name" : "JdvModificateurTopographiqueCisis",
   "title" : "JDV Modificateur Topographique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:49+01:00",
+  "date" : "2026-11-20T11:44:01+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Modificateur Topographique CISIS",
   "jurisdiction" : [{
@@ -285,6 +285,34 @@ Requête sur le SMT
       {
         "code" : "255562008",
         "display" : "milieu"
+      },
+      {
+        "code" : "255554000",
+        "display" : "dorsal(e)"
+      },
+      {
+        "code" : "351726001",
+        "display" : "sous"
+      },
+      {
+        "code" : "352730000",
+        "display" : "sus-"
+      },
+      {
+        "code" : "255481003",
+        "display" : "quadrant supérieur gauche"
+      },
+      {
+        "code" : "255497008",
+        "display" : "quadrant supérieur droit"
+      },
+      {
+        "code" : "255480002",
+        "display" : "quadrant inférieur gauche"
+      },
+      {
+        "code" : "255495000",
+        "display" : "quadrant inférieur droit"
       }]
     }]
   }

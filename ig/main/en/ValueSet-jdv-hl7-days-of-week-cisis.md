@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-days-of-week-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-09-28T15:42:27.383+02:00",
+    "versionId" : "11",
+    "lastUpdated" : "2026-11-23T15:12:20.169+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
   }],
-  "version" : "20260928134054",
+  "version" : "20261120114402",
   "name" : "DaysOfWeek",
   "title" : "Days Of Week",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:54+01:00",
+  "date" : "2026-11-20T11:44:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Days Of Week",
   "jurisdiction" : [{

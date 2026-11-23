@@ -23,6 +23,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -36,8 +38,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mso-resultat-qualitatif-4-cisis",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-09-28T15:43:32.270+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-11-23T15:12:21.980+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -55,7 +57,7 @@ Requête sur le SMT
   "version" : "20260928134051",
   "name" : "JdvMsoResultatQualitatif4Cisis",
   "title" : "Jdv MSO Resultat Qualitatif 4 CISIS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-09-28T13:40:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-evolution-rougeole-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-09-28T15:42:59.421+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-11-23T15:13:00.322+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.848"
   }],
-  "version" : "20260928134050",
+  "version" : "20261120114401",
   "name" : "JdvEvolutionRougeoleCisis",
   "title" : "JDV Evolution Rougeole CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:50+01:00",
+  "date" : "2026-11-20T11:44:01+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evolution Rougeole CISIS",
   "jurisdiction" : [{
@@ -77,6 +77,10 @@ Requête sur le SMT
       {
         "code" : "1352007006",
         "display" : "guérison sans séquelle"
+      },
+      {
+        "code" : "419620001",
+        "display" : "décès"
       }]
     }]
   }

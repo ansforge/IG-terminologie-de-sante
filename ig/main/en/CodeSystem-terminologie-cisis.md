@@ -87,6 +87,7 @@ This Code system is referenced in the definition of the following value sets:
 * [JDV Examen Enfant Obligatoire CISIS](ValueSet-jdv-examen-enfant-obligatoire-cisis.md)
 * [JDV Examen Realise CISIS](ValueSet-jdv-examen-realise-cisis.md)
 * [Jdv Exposition West Nile CISIS](ValueSet-jdv-exposition-west-nile-cisis.md)
+* [Jdv Exposition zika CISIS](ValueSet-jdv-exposition-zika-cisis.md)
 * [JDV Facteur De Risque Avc CISIS](ValueSet-jdv-facteur-de-risque-avc-cisis.md)
 * [JDV Facteur Risque Rougeole CISIS](ValueSet-jdv-facteur-risque-rougeole-cisis.md)
 * [JDV Fonction Etudiee Scintigraphie CISIS](ValueSet-jdv-fonction-etudiee-scintigraphie-cisis.md)

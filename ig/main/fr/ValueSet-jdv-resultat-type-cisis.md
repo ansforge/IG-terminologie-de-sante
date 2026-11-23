@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-type-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-09-28T15:43:51.422+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-11-23T15:14:06.723+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.828"
   }],
-  "version" : "20260928134051",
+  "version" : "20261120114401",
   "name" : "JdvResultatTypeCisis",
   "title" : "Jdv Type Resultat Type CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:51+01:00",
+  "date" : "2026-11-20T11:44:01+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Type Resultat Type CISIS",
   "jurisdiction" : [{

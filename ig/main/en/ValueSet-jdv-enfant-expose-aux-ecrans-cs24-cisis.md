@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-enfant-expose-aux-ecrans-cs24-cisis",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-09-28T15:42:56.126+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-23T15:12:55.409+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.760"
   }],
-  "version" : "20260928134048",
+  "version" : "20261120114400",
   "name" : "JdvEnfantExposeAuxEcransCs24Cisis",
   "title" : "JDV Enfant Expose Aux Ecrans Cs24 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:48+01:00",
+  "date" : "2026-11-20T11:44:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Enfant Expose Aux Ecrans Cs24 CISIS",
   "jurisdiction" : [{
