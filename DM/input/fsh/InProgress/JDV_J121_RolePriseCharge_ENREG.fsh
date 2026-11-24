@@ -17,7 +17,6 @@ Description: "Code des rôles et fonctions pour l'application ENREG"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R85-RolePriseCharge#307 "Mandataire judiciaire à la protection des majeurs (MJPM)"
-* $TRE-R85-RolePriseCharge#312 "Autre professionnel"
 * $TRE-R85-RolePriseCharge#313 "Aide-soignant"
 * $TRE-R85-RolePriseCharge#314 "Ambulancier"
 * $TRE-R85-RolePriseCharge#315 "Auxiliaire de puériculture"
