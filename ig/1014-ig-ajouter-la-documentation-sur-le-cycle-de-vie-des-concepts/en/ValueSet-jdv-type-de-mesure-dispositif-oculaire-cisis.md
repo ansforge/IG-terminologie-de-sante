@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-type-de-mesure-dispositif-oculaire-cisis",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-09-28T15:44:13.128+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-23T15:14:33.263+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.643"
   }],
-  "version" : "20260928134048",
+  "version" : "20261120114400",
   "name" : "JdvTypeDeMesureDispositifOculaireCisis",
   "title" : "JDV Type De Mesure Dispositif Oculaire CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:48+01:00",
+  "date" : "2026-11-20T11:44:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type De Mesure Dispositif Oculaire CISIS",
   "jurisdiction" : [{

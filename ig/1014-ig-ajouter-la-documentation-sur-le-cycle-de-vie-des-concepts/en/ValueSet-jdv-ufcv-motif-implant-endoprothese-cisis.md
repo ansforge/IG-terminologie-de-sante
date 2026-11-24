@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-motif-implant-endoprothese-cisis",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-09-28T15:44:22.836+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-23T15:14:44.676+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.12"
   }],
-  "version" : "20260928134055",
+  "version" : "20261120114402",
   "name" : "JdvUfcvMotifImplantEndoprotheseCisis",
   "title" : "JDV UFCV Motif Implant Endoprothese CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:55+01:00",
+  "date" : "2026-11-20T11:44:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Motif Implant Endoprothese CISIS",
   "jurisdiction" : [{

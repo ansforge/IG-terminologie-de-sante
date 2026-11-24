@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-motif-consultation-ophtalmologique-cisis",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2026-09-28T15:43:30.652+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-11-23T15:13:41.234+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.622"
   }],
-  "version" : "20260928134049",
+  "version" : "20261120114400",
   "name" : "JdvMotifConsultationOphtalmologiqueCisis",
   "title" : "JDV Motif Consultation Ophtalmologique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:49+01:00",
+  "date" : "2026-11-20T11:44:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Motif Consultation Ophtalmologique CISIS",
   "jurisdiction" : [{

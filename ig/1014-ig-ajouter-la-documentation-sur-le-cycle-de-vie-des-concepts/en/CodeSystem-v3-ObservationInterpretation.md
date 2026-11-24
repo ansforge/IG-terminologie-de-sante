@@ -9,6 +9,8 @@ This Code system is referenced in the definition of the following value sets:
 
 * [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
 * [JDV Indicateur Anormalite CISIS](ValueSet-jdv-indicateur-anormalite-cisis.md)
+* [Jdv MSO Observation Interpretation 2 CISIS](ValueSet-jdv-mso-ObservationInterpretation-2-cisis.md)
+* [Jdv MSO Observation Interpretation 4 CISIS](ValueSet-jdv-mso-ObservationInterpretation-4-cisis.md)
 * [JDV Resultat Depistage Cetonemie CISIS](ValueSet-jdv-resultat-depistage-cetonemie-cisis.md)
 * [JDV Resultat Depistage Crp CISIS](ValueSet-jdv-resultat-depistage-crp-cisis.md)
 * [JDV Resultat Depistage Glucose CISIS](ValueSet-jdv-resultat-depistage-glucose-cisis.md)

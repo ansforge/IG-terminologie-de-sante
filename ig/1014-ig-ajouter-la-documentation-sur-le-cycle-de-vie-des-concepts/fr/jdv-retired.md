@@ -34,12 +34,15 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | [JDV_J93_RegionOM_RASS](ValueSet-JDV-J93-RegionOM-RASS.md) | Régions (outre-mer et Monaco inclus) dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [JdvAddictionCisis](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS |
+| [JdvBodyStructureQualifierCisis](ValueSet-jdv-body-structure-qualifier-cisis.md) | JDV Body Structure Qualifier CISIS |
 | [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) | JDV Indicateur Anormalite CISIS |
 | [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS |
 | [JdvLateraliteNcitCisis](ValueSet-jdv-lateralite-ncit-cisis.md) | JDV Lateralite Ncit CISIS |
 | [JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md) | JDV Localisation Anatomique CISIS |
 | [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
+| [JdvMsoResultatQualitatif2Cisis](ValueSet-jdv-mso-resultat-qualitatif-2-cisis.md) | Jdv MSO Resultat Qualitatif 2 CISIS |
 | [JdvMsoResultatQualitatif3Cisis](ValueSet-jdv-mso-resultat-qualitatif-3-cisis.md) | Jdv MSO Resultat Qualitatif 3 CISIS |
+| [JdvMsoResultatQualitatif4Cisis](ValueSet-jdv-mso-resultat-qualitatif-4-cisis.md) | Jdv MSO Resultat Qualitatif 4 CISIS |
 | [JdvMsoResultatQualitatif5Cisis](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.md) | Jdv MSO Resultat Qualitatif 5 CISIS |
 | [JdvMsoResultatQualitatifCisis](ValueSet-jdv-mso-resultat-qualitatif-cisis.md) | Jdv MSO Resultat Qualitatif CISIS |
 | [JdvStructureDeSoinsCisis](ValueSet-jdv-structure-de-soins-cisis.md) | JDV Structure De Soins CISIS |

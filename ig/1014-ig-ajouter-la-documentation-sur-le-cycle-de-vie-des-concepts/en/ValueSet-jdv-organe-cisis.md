@@ -38,8 +38,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-organe-cisis",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2026-09-28T15:43:37.671+02:00",
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-23T15:13:50.216+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -54,12 +54,12 @@ No Expansion for this valueset (Unknown Code System)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.479"
   }],
-  "version" : "20260928134054",
+  "version" : "20261120114402",
   "name" : "JdvOrganeCisis",
   "title" : "JDV Organe CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:54+01:00",
+  "date" : "2026-11-20T11:44:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Organe CISIS",
   "jurisdiction" : [{

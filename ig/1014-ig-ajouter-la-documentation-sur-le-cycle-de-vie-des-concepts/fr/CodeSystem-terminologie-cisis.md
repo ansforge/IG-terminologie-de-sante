@@ -87,6 +87,7 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
 * [JDV Examen Enfant Obligatoire CISIS](ValueSet-jdv-examen-enfant-obligatoire-cisis.md)
 * [JDV Examen Realise CISIS](ValueSet-jdv-examen-realise-cisis.md)
 * [Jdv Exposition West Nile CISIS](ValueSet-jdv-exposition-west-nile-cisis.md)
+* [Jdv Exposition zika CISIS](ValueSet-jdv-exposition-zika-cisis.md)
 * [JDV Facteur De Risque Avc CISIS](ValueSet-jdv-facteur-de-risque-avc-cisis.md)
 * [JDV Facteur Risque Rougeole CISIS](ValueSet-jdv-facteur-risque-rougeole-cisis.md)
 * [JDV Fonction Etudiee Scintigraphie CISIS](ValueSet-jdv-fonction-etudiee-scintigraphie-cisis.md)
@@ -263,8 +264,8 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-09-21T16:55:45.107+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-11-23T12:25:30.947+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -278,12 +279,12 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202609211638",
+  "version" : "202611231157",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : true,
-  "date" : "2026-09-21T16:38:40+02:00",
+  "date" : "2026-11-23T11:57:59+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -34931,6 +34932,38 @@ Ce système de codes est référencé dans la définition des ensembles de valeu
     {
       "code" : "dateValid",
       "valueDateTime" : "2026-09-04T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1359",
+    "display" : "Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-10-22T00:00:00+02:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1360",
+    "display" : "Demande de confirmation biologique",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-10-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-10-26T00:00:00+01:00"
     },
     {
       "code" : "status",

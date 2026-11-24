@@ -36,8 +36,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ActSubstanceAdministrationCode-cisis",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-09-28T15:42:24.601+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-11-23T15:12:17.283+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -52,12 +52,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.19708"
   }],
-  "version" : "20260928134055",
+  "version" : "20261120114402",
   "name" : "ActSubstanceAdministrationCode",
   "title" : "ActSubstanceAdministrationCode",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-28T13:40:55+01:00",
+  "date" : "2026-11-20T11:44:02+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ActSubstanceAdministrationCode",
   "jurisdiction" : [{

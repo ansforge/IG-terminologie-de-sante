@@ -14,7 +14,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-11-23T09:49:36+00:00",
+  "date" : "2026-11-24T16:07:52+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -18183,6 +18183,22 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-jdv-exposition-zika-cisis.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-exposition-zika-cisis"
+      },
+      "name" : "Jdv Exposition zika CISIS",
+      "description" : "Jdv Exposition zika CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "ValueSet-jdv-facteur-de-risque-avc-cisis.html"
       }],
       "reference" : {
@@ -21422,6 +21438,38 @@
       },
       "name" : "JDV Motif Non Realisation Evenement CISIS",
       "description" : "JDV Motif Non Realisation Evenement CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-jdv-mso-ObservationInterpretation-2-cisis.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-mso-ObservationInterpretation-2-cisis"
+      },
+      "name" : "Jdv MSO Observation Interpretation 2 CISIS",
+      "description" : "Jdv MSO Observation Interpretation 2 CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-jdv-mso-ObservationInterpretation-4-cisis.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-mso-ObservationInterpretation-4-cisis"
+      },
+      "name" : "Jdv MSO Observation Interpretation 4 CISIS",
+      "description" : "Jdv MSO Observation Interpretation 4 CISIS",
       "exampleBoolean" : false
     },
     {
@@ -36099,6 +36147,15 @@
           }],
           "nameUrl" : "convention.html",
           "title" : "Convention de nommage",
+          "generation" : "markdown"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "cycleVie.html"
+          }],
+          "nameUrl" : "cycleVie.html",
+          "title" : "Cycle de vie des concepts",
           "generation" : "markdown"
         },
         {
