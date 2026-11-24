@@ -74,10 +74,6 @@ Requête sur le SMT
         "display" : "Mandataire judiciaire à la protection des majeurs (MJPM)"
       },
       {
-        "code" : "312",
-        "display" : "Autre professionnel"
-      },
-      {
         "code" : "313",
         "display" : "Aide-soignant"
       },

@@ -16,7 +16,7 @@
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-23T17:08:06+00:00",
+  "date" : "2026-11-24T14:58:22+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
