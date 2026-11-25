@@ -81,7 +81,7 @@ Testez et explorez directement le service FHIR du Serveur Multi-Terminologies gr
 
 ![](cycleVieConcepts.svg)
 
-Un concept est créé au statut active, peut devenir deprecated, puis est retired. Plus d'informations sur les statuts et les règles d'évolution sont disponibles dans la page [Cycle de vie des concepts](cycle-de-vie-concepts.md).
+ Un concept est créé au statut **active**, peut devenir **deprecated**, puis est **retired**. Plus d'informations sur les statuts et les règles d'évolution sont disponibles dans la page [Cycle de vie des concepts](cycleVie.md). 
 
 ### IP Statements
 
