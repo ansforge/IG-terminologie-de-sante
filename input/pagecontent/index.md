@@ -94,9 +94,9 @@ Les terminologies publiées sur le SMT et les jeux de valeurs sont accessibles a
 
 ### Cycle de vie des concepts
 
-<img src="images/cycleVieConcepts.svg" alt="Cycle de vie des concepts"/>
+<img src="cycleVieConcepts.svg" alt="Cycle de vie des concepts"/>
 
-Un concept est créé au statut active, peut devenir deprecated, puis est retired. Plus d'informations sur les statuts et les règles d'évolution sont disponibles dans la page Cycle de vie des concepts.
+Un concept est créé au statut active, peut devenir deprecated, puis est retired. Plus d'informations sur les statuts et les règles d'évolution sont disponibles dans la page [Cycle de vie des concepts](cycle-de-vie-concepts.html).
 
 ### IP Statements
 
