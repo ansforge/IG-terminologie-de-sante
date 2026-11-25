@@ -24,7 +24,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X01_TranscoSavFaireADELI_SavFaireR01",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-24T14:58:22+00:00",
+  "date" : "2026-11-25T08:27:17+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
