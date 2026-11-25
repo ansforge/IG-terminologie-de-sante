@@ -320,10 +320,6 @@ Requête sur le SMT
         "display" : "Autre acteur mettant en oeuvre la méthode MAIA"
       },
       {
-        "code" : "312",
-        "display" : "Autre professionnel"
-      },
-      {
         "code" : "313",
         "display" : "Aide-soignant"
       },
