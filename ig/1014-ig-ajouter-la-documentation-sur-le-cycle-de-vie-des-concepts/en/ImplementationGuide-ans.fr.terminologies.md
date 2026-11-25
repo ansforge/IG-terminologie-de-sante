@@ -14,7 +14,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-11-24T16:07:52+00:00",
+  "date" : "2026-11-25T10:23:32+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
