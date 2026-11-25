@@ -17,22 +17,6 @@ Les statuts s'appuient sur la propriété `status` du CodeSystem FHIR [concept-p
 | `deprecated` | Le concept est obsolète et son retrait est prévu. | Les données existantes restent interprétables ; les nouveaux usages doivent s'orienter vers un autre concept lorsqu'il existe. |
 | `retired` | Le concept est conservé pour des raisons historiques mais son usage n'est plus autorisé. | Ne doit plus être utilisé. Il reste présent dans le CodeSystem pour permettre l'interprétation des données historiques. |
 
-##### `active`
-
-Le concept est destiné à un usage normal. Il peut être utilisé pour coder de nouvelles données et figure dans les jeux de valeurs qui le référencent.
-
-##### `experimental`
-
-Le concept est mis à disposition à titre d'essai. Il peut être modifié ou retiré par la suite : il ne doit pas être utilisé lorsque la pérennité du code est nécessaire.
-
-##### `deprecated`
-
-Un concept est déprécié lorsqu'il est obsolète et que son retrait est prévu, mais qu'il reste en usage dans des données ou des systèmes existants. Ce statut laisse aux producteurs et aux consommateurs le temps de migrer vers un concept de remplacement, lorsqu'il existe, avant le retrait définitif.
-
-##### `retired`
-
-Un concept retiré est conservé pour des raisons historiques mais son usage n'est plus autorisé pour coder de nouvelles données. Il n'est pas supprimé du CodeSystem : son code et sa définition sont conservés afin que les données déjà produites restent interprétables.
-
 #### Règles d'évolution
 
 1. À sa création, un concept est au statut `active` ou `experimental`.
