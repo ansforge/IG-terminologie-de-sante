@@ -1,6 +1,7 @@
 import asyncio
 import json
 import os.path
+import re
 import sys
 
 import requests
@@ -225,7 +226,7 @@ async def main():
 
             # Expand automatique des JDV logiques
 
-            if has_filter(ValueSet):
+            if re.match(r"jdv[-_]?j\d+", e_valueSet["name"], re.IGNORECASE) and has_filter(ValueSet):
 
                 print(f"  [expand] {e_valueSet['name']}")
 
