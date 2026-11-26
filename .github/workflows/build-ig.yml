@@ -1,14 +1,14 @@
 name: Build IG
-
+ 
 on:
   schedule:
     - cron: '00 4  * * *'
   workflow_call:
   workflow_dispatch:
-
-
-
-
+ 
+ 
+ 
+ 
 # The following jobs are equal for all IGs and can be moved to a common composite-action if 'uses'-support is added, see:
 # https://github.com/actions/runner/blob/main/docs/adrs/1144-composite-actions.md
 jobs:
@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
         with:      
           path: igSource
-
+ 
       - run: |
           echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
           cat ./igSource/publication-request.json >> $GITHUB_ENV
@@ -32,13 +32,13 @@ jobs:
         
       - name: Install minifier
         run :  npm install -g html-minifier
-
+ 
       - name: Install typing-extensions
         run :  pip install typing-extensions
         
       - name: Install modules
         run: npm install -g fsh-sushi
-
+ 
       - name: Suppression des fichiers templates
         run : |
           rm  -rf ./igSource/DM/input/fsh/Template/*.fsh    
@@ -52,7 +52,7 @@ jobs:
         run: | 
           rm ./igSource/DM/input/fsh/Done/GitHub/*.fsh
           rm -rf ./igSource/DM/input/fsh/InProgress/*.fsh
-
+ 
           
       - name: Get From ontoserver      
         run: |
@@ -72,14 +72,14 @@ jobs:
       #  run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/1.8.22/publisher.jar
      #   run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar 
         run: wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/3.0.3/publisher.jar
-
-
-
+ 
+ 
+ 
       - name: Build and test with Rake        
         run: |
           sudo apt-get install ruby-full
           sudo gem install jekyll
-
+ 
       - name: Run sushi 
         run: sushi ./igSource
         
@@ -98,7 +98,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.10' 
-
+ 
       - name: Install saxon
         run : pip install saxonche
         
@@ -106,7 +106,7 @@ jobs:
         run: |
               cd  ./igSource
               python ./tools/transform.py './output' './tools/xsl'
-
+ 
        
         
       - name:  1 ZIP des fichiers 
@@ -122,7 +122,7 @@ jobs:
               zip -rj ./output/listFormat/tre-tabs.zip ./output/listFormat/CodeSystem*.tabs
               zip -rj ./output/listFormat/ass-fhir-json.zip ./output/ConceptMap*.json 
               zip -rj ./output/listFormat/ass-fhir-xml.zip ./output/ConceptMap*.xml         
-
+ 
       - name:  1 ZIP des NOS 
         run :  |
               cd  ./igSource
@@ -138,16 +138,24 @@ jobs:
               zip -FSrj ./output/listFormat/NOS-Fichiers_Publics.zip ./output/listFormat/ValueSet*.tabs   ./output/listFormat/CodeSystem*.tabs   
               zip -FSrj ./output/listFormat/NOS-Jeux_de_Valeurs_CI-SIS.zip ./output/listFormat/*CISIS*.tabs               
        
-
+ 
       - name:  Suppression des fichiers trop volumineux
         run : |
               rm -f ./igSource/output/qa-ipreview.html
               rm -f ./igSource/output/package.db
-
+              rm -f ./igSource/output/*.tgz
+              rm -f ./igSource/output/full-ig.zip
+              rm -rf ./igSource/output/temp ./igSource/output/txCache
+ 
+      - name: Taille de la sortie (diagnostic)
+        run: |
+          du -sh ./igSource/output
+          du -ah ./igSource/output | sort -rh | head -40
+ 
       - name: Get branch names
         id: branch-name
         uses: tj-actions/branch-names@v4.3
-
+ 
       # Publishes the HTML page to a seperate branch in order to host it using GitHub-Pages.
       # This will overwrite the currently published HTML page.
       - name: 🚀 Deploy to GitHub-Pages
@@ -156,5 +164,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./igSource/output
           destination_dir: ig/${{ steps.branch-name.outputs.current_branch }}
-          exclude_assets: '**.zip,**.tgz,**.pack,**expansions.json,**expansions.xml,**CodeSystem-TRE-R13-Commune.json.html**, **CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'          
+          enable_jekyll: false
+          exclude_assets: '**.zip,**.tgz,**.pack,**expansions.json,**expansions.xml,**CodeSystem-TRE-R13-Commune.json.html**,**CodeSystem-TRE-R13-Commune.ttl.html**,**CodeSystem-TRE-R13-Commune.xml.html**'
           commit_message: ' ${{ github.event.head_commit.message }}'
+ 
