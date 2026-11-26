@@ -7,7 +7,8 @@ Identifiant des modèles de CDA non structurés
 
 This Code system is referenced in the definition of the following value sets:
 
-* This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md)
+* [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md)
 
 -------
 

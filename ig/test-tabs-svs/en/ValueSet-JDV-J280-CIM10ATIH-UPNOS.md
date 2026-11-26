@@ -42,6 +42,7 @@ Expansions are not generated for retired value sets
     "lastUpdated" : "2025-04-01T12:14:08.132+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

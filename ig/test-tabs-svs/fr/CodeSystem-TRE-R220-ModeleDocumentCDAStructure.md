@@ -7,7 +7,7 @@ Identifiant des modèles de CDA structurés
 
 Ce système de codes est référencé dans la définition des ensembles de valeurs suivants :
 
-* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md)
 
 -------
 

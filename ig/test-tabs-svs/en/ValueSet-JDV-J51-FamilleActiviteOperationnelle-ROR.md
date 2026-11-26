@@ -42,6 +42,7 @@ No Expansion for this valueset (Unknown Code System)
     "lastUpdated" : "2026-07-06T19:06:38.930+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {

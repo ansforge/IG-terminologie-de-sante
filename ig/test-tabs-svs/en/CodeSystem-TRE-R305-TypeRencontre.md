@@ -8,6 +8,8 @@ Type de rencontre
 This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J142_TypeRencontre_CISIS](ValueSet-JDV-J142-TypeRencontre-CISIS.md)
+* [JDV Encompassing Encounter Code CISIS](ValueSet-jdv-encompassing-encounter-code-cisis.md)
+* [JDV Type Rencontre CISIS](ValueSet-jdv-type-rencontre-cisis.md)
 
 -------
 

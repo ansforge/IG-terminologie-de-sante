@@ -9,6 +9,10 @@ This Code system is referenced in the definition of the following value sets:
 
 * [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md)
 * [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md)
+* [JDV Avis Medical Complementaire CISIS](ValueSet-jdv-avis-medical-complementaire-cisis.md)
+* [JDV Patient adresse par CISIS](ValueSet-jdv-patient-adresse-par-cisis.md)
+* [JDV Profession Personnel Activite CISIS](ValueSet-jdv-profession-personnel-activite-cisis.md)
+* [JDV Readaptation CISIS](ValueSet-jdv-readaptation-cisis.md)
 
 -------
 

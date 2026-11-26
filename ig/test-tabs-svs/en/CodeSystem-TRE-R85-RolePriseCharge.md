@@ -19,6 +19,7 @@ This Code system is referenced in the definition of the following value sets:
 * [JDV_J65_SubjectRole_DMP](ValueSet-JDV-J65-SubjectRole-DMP.md)
 * [JDV_J71_ProfessionFonction_MSSante](ValueSet-JDV-J71-ProfessionFonction-MSSante.md)
 * [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md)
+* [JDV Profession Personnel Activite CISIS](ValueSet-jdv-profession-personnel-activite-cisis.md)
 
 -------
 
