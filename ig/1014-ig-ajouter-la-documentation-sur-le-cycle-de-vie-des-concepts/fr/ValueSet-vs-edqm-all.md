@@ -46,7 +46,7 @@ Requête sur le SMT
   "name" : "ValueSet_EDQM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-11-25T15:38:40+00:00",
+  "date" : "2026-11-27T11:14:40+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
   "jurisdiction" : [{

@@ -79,7 +79,7 @@ Testez et explorez directement le service FHIR du Serveur Multi-Terminologies gr
 
 ### Cycle de vie des concepts
 
-Un concept est créé au statut **active**, peut devenir **deprecated**, puis est **retired**.
+Un concept est créé au statut **active** (valide et utilisable). Il peut ensuite évoluer vers le statut **deprecated** (toujours valide, mais dont l'utilisation n'est plus recommandée) puis vers le statut **retired** (retiré, à ne plus utiliser). Un concept au statut **active** peut également passer directement au statut **retired**.
 
 Plus d'informations sur les statuts et les règles d'évolution sont disponibles dans la page [Cycle de vie des concepts](cycleVie.md).
 

@@ -1,9 +1,9 @@
 Terminologies : Validation Results
 =========================================
 
-err = 363, warn = 50846, info = 5040, broken links = 108
-IG Publisher Version: 3.0.3 Out of date - current version is 3.0.5
-Generated Wed Nov 25 15:49:54 UTC 2026. FHIR version 4.0.1 for ans.fr.terminologies#1.15.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+err = 367, warn = 50847, info = 5040, broken links = 108
+IG Publisher Version: 3.0.3 Out of date - current version is 3.0.8
+Generated Fri Nov 27 11:27:58 UTC 2026. FHIR version 4.0.1 for ans.fr.terminologies#1.15.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 119 / 33863 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr : 2 / 2 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 2 / 2 / 1
@@ -67,7 +67,7 @@ Generated Wed Nov 25 15:49:54 UTC 2026. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess : 0 / 1 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ValueSet-jdv-j350-type-act-de-soin-amm-finess : 0 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 0 / 5 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies : 4 / 6 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_NUVA_CIP_CIPUCD : 2 / 3 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_NUVA_CIS_CIP_BDMP : 2 / 3 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/ASS/Alignement_Codes_Presentation_BDPM_CIPUCD : 2 / 3 / 2
@@ -36239,11 +36239,16 @@ WARNING: ValueSet/jdv-j350-type-act-de-soin-amm-finess: ValueSet: Resource has a
 
 
 == fsh-generated/resources/ImplementationGuide-ans.fr.terminologies.json ==
+WARNING: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/fsh-generated/resources/ImplementationGuide-ans.fr.terminologies: Unknown Parameters: [path-image-source=input/images-source, path-image-source=template/images-source]
+ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[1318].extension[0].value.ofType(code): The System URI could not be determined for the code 'path-image-source' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'
+ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[1318].extension[0].value.ofType(code): The value provided ('path-image-source') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'path-image-source' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'; The provided code '#path-image-source' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0')
+ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[1319].extension[0].value.ofType(code): The System URI could not be determined for the code 'path-image-source' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'
+ERROR: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.extension[1319].extension[0].value.ofType(code): The value provided ('path-image-source') was not found in the value set 'ig-parameters Codes ValueSet' (http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0), and a code is required from this value set  (error message = The System URI could not be determined for the code 'path-image-source' in the ValueSet 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0'; The provided code '#path-image-source' was not found in the value set 'http://hl7.org/fhir/tools/ValueSet/ig-parameters|1.3.0')
 WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.resource[1016].description: value should not start or finish with whitespace ' Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès.'
 WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.resource[1017].description: value should not start or finish with whitespace ' Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé.'
 WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.definition.resource[1027].description: value should not start or finish with whitespace ' Catégorie et type de droit et prestation caractérisant la décision d'orientation.'
 WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.dependsOn[1]: The ImplementationGuide uses package hl7.fhir.uv.ips#1.1.0 released on 2022-11-22, but the most recent appropriate version is 2.0.1. This reference is getting old and the more recent version should be considered
-WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.2.0 released on 2025-02-10, but the most recent appropriate version is 5.4.0. This reference is getting old and the more recent version should be considered
+WARNING: ImplementationGuide/ans.fr.terminologies: ImplementationGuide.dependsOn[2]: The ImplementationGuide uses package hl7.fhir.uv.extensions.r4#5.2.0 released on 2025-02-10, but the most recent appropriate version is 5.4.1. This reference is getting old and the more recent version should be considered
 INFORMATION: Resource: The resource ImplementationGuide/ans.fr.terminologies could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/ig-guidance/oids.html)
 
 
