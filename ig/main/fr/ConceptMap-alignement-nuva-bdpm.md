@@ -11,8 +11,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-bdpm",
   "meta" : {
-    "versionId" : "27",
-    "lastUpdated" : "2026-11-05T11:10:17.033+01:00",
+    "versionId" : "28",
+    "lastUpdated" : "2026-11-26T10:42:06.739+01:00",
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",

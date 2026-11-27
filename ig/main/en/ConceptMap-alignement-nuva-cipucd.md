@@ -11,8 +11,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-cipucd",
   "meta" : {
-    "versionId" : "32",
-    "lastUpdated" : "2026-11-05T11:16:02.525+01:00",
+    "versionId" : "33",
+    "lastUpdated" : "2026-11-26T10:42:03.490+01:00",
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",
