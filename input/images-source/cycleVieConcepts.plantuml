@@ -1,22 +1,13 @@
-@startuml
+@startuml A-horizontal
 left to right direction
-skinparam shadowing false
-skinparam defaultFontName Arial
-skinparam ArrowColor #444444
-skinparam state {
-  BorderColor #444444
-  FontSize 14
-  ArrowFontSize 12
-}
 hide empty description
 
-state "active\n<size:11>validé, utilisable</size>" as active #D8F0D8
-state "deprecated\n<size:11>valide, usage déconseillé</size>" as deprecated #FFE0B3
-state "retired\n<size:11>retiré, ne plus utiliser</size>" as retired #E3E3E3
+state "**active**\nConcept validé et utilisable\nsans restriction" as active #D8F0D8
+state "**deprecated**\nConcept toujours valide, mais dont\nl'utilisation est déconseillée" as deprecated #FFE0B3
+state "**retired**\nConcept conservé pour l'historique,\nusage non autorisé" as retired #E3E3E3
 
-[*] --> active :création
-active --> deprecated : usage\ndéconseillé
-active --> retired : retrait
-deprecated --> retired : retrait\ndéfinitif
-
+[*] --> active :  Création  
+active --> deprecated :  Dépréciation  
+deprecated --> retired :  Retrait définitif  
+active -[norank]-> retired : Retrait
 @enduml

@@ -98,14 +98,13 @@ Les terminologies publiées sur le SMT et les jeux de valeurs sont accessibles a
   <img src="cycleVieConcepts.svg" alt="Cycle de vie des concepts" style="display:block;max-width:100%;height:auto;margin:0 auto;" />
 </div>
 
-Un concept est créé au statut **active**, peut devenir **deprecated**, puis est **retired**.
+Un concept est créé au statut **active** (valide et utilisable). Il peut ensuite évoluer vers le statut **deprecated** (toujours valide, mais dont l'utilisation n'est plus recommandée) puis vers le statut **retired** (retiré, à ne plus utiliser). Un concept au statut **active** peut également passer directement au statut **retired**.
 
 Plus d'informations sur les statuts et les règles d'évolution sont disponibles dans la page [Cycle de vie des concepts](cycleVie.html).
 
 ### IP Statements
 
 {% include ip-statements.xhtml %}
-
 
 ### Cross Version Analysis
 
@@ -118,4 +117,3 @@ Plus d'informations sur les statuts et les règles d'évolution sont disponibles
 ### Globals Table
 
 {% include globals-table.xhtml %}
-
