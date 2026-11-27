@@ -1,0 +1,97 @@
+# JDV Niveau Etude CISIS - Terminologies de Santé v1.15.0
+
+## ValueSet: JDV Niveau Etude CISIS 
+
+ 
+JDV Niveau Etude CISIS 
+
+ **References** 
+
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Définition logique (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description du (des) tableau(x) ci-dessus](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-niveau-etude-cisis",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2026-11-23T15:13:47.914+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-niveau-etude-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.108"
+  }],
+  "version" : "20261120114402",
+  "name" : "JdvNiveauEtudeCisis",
+  "title" : "JDV Niveau Etude CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-11-20T11:44:02+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV Niveau Etude CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "PAT-035",
+        "display" : "Ecole primaire"
+      },
+      {
+        "code" : "PAT-036",
+        "display" : "Collège"
+      },
+      {
+        "code" : "PAT-037",
+        "display" : "Lycée"
+      },
+      {
+        "code" : "PAT-038",
+        "display" : "Bac +1 ou +2"
+      },
+      {
+        "code" : "PAT-039",
+        "display" : "Bac +3 et +"
+      }]
+    }]
+  }
+}
+
+```

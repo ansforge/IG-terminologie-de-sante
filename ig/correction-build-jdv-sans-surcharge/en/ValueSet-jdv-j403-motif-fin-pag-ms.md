@@ -1,0 +1,82 @@
+# Jdv J403 Motif Fin Pag Ms - Terminologies de Santé v1.15.0
+
+## ValueSet: Jdv J403 Motif Fin Pag Ms 
+
+ 
+Motif pour l'arrêt du plan d'accompagnement global (PAG). 
+
+ **References** 
+
+This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+
+###  Recherche en live sur le SMT 
+
+Indiquer un mot clé puis taper sur "enter" :
+
+```
+Requête sur le SMT
+```
+
+### Logical Definition (CLD)
+
+ 
+
+### Expansion
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-j403-motif-fin-pag-ms",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2026-05-12T10:17:40.349+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-05-05T12:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j403-motif-fin-pag-ms",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.243"
+  }],
+  "version" : "20260505120000",
+  "name" : "JdvJ403MotifFinPagMs",
+  "title" : "Jdv J403 Motif Fin Pag Ms",
+  "status" : "draft",
+  "experimental" : false,
+  "date" : "2026-05-05T12:00:00.000+00:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Motif pour l'arrêt du plan d'accompagnement global (PAG).",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r421-motif-fin-pag",
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    }]
+  }
+}
+
+```

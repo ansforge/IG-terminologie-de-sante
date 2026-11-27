@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="JDV-J155-MethodGlucoseSanguin-ENS"/>
+  <meta>
+    <versionId value="7"/>
+    <lastUpdated value="2026-07-06T19:05:16.667+02:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <language value="fr"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr" lang="fr"><hr/><p><b>French</b></p><hr/><p class="res-header-id"><b>Narratif généré : EnsembleValeurs JDV-J155-MethodGlucoseSanguin-ENS</b></p><a name="JDV-J155-MethodGlucoseSanguin-ENS"> </a><a name="hcJDV-J155-MethodGlucoseSanguin-ENS"> </a><div style="display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 7; Dernière mise à jour : 2026-07-06 19:05:16+0200; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px"><p>Expansion basée sur :</p><ul><li>SNOMED CT édition 11000315107 21-Jun 2026</li><li><a href="CodeSystem-terminologie-emdn.html">codesystem European Medical device nomenclature vv1.2 (CodeSystem)</a></li></ul></div><p>Ce jeu de valeur (ValueSet) contient 2 concepts</p><table class="codes"><tr><td><b>Système</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage (fr-FR)</b> - French (France) (fr)</td></tr><tr><td><a name="JDV-J155-MethodGlucoseSanguin-ENS-https://smt.esante.gouv.fr/terminologie-emdn-Z1204011501"> </a><code>https://smt.esante.gouv.fr/terminologie-emdn</code></td><td>v1.2</td><td style="white-space:nowrap">  Z1204011501</td><td>SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE</td></tr><tr><td><a name="JDV-J155-MethodGlucoseSanguin-ENS-http://snomed.info/sct-82078001"> </a><code>http://snomed.info/sct</code></td><td>http://snomed.info/sct/11000315107/version/20260621</td><td style="white-space:nowrap">  <a href="http://snomed.info/id/82078001">82078001</a></td><td>prélèvement de sang pour le laboratoire</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-04-30T12:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://mos.esante.gouv.fr/NOS/JDV_J155-MethodGlucoseSanguin-ENS/FHIR/JDV-J155-MethodGlucoseSanguin-ENS"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.610"/>
+  </identifier>
+  <version value="20240726120000"/>
+  <name value="JDV_J155_MethodGlucoseSanguin_ENS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-07-26T12:00:00+01:00"/>
+  <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <description value="JDV pour la méthode de mesure du glucose sanguin"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+      <display value="France (la)"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/terminologie-emdn"/>
+      <concept>
+        <code value="Z1204011501"/>
+        <display value="SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="82078001"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <identifier value="urn:uuid:d1625760-3936-4c23-ac75-6c941d22233e"/>
+    <timestamp value="2026-11-27T10:07:47+01:00"/>
+    <total value="2"/>
+    <parameter>
+      <name value="used-codesystem"/>
+      <valueUri value="http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20260621"/>
+    </parameter>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20260621"/>
+    </parameter>
+    <parameter>
+      <name value="used-codesystem"/>
+      <valueUri value="https://smt.esante.gouv.fr/terminologie-emdn|v1.2"/>
+    </parameter>
+    <parameter>
+      <name value="version"/>
+      <valueUri value="https://smt.esante.gouv.fr/terminologie-emdn|v1.2"/>
+    </parameter>
+    <contains>
+      <system value="https://smt.esante.gouv.fr/terminologie-emdn"/>
+      <version value="v1.2"/>
+      <code value="Z1204011501"/>
+      <display value="SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"/>
+    </contains>
+    <contains>
+      <system value="http://snomed.info/sct"/>
+      <version value="http://snomed.info/sct/11000315107/version/20260621"/>
+      <code value="82078001"/>
+      <display value="prélèvement de sang pour le laboratoire"/>
+    </contains>
+  </expansion>
+</ValueSet>

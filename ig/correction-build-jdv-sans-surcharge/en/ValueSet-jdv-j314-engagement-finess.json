@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-j314-engagement-finess",
+  "meta" : {
+    "versionId" : "2",
+    "lastUpdated" : "2026-07-02T16:33:16.071+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"en\" lang=\"en\"><hr/><p><b>English</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-j314-engagement-finess</b></p><a name=\"en-jdv-j314-engagement-finess\"> </a><a name=\"en-hcjdv-j314-engagement-finess\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Last updated: 2026-07-02 16:33:16+0200; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes from<a href=\"CodeSystem-tre-r395-engagement.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;20260629120000</span> where niveau  = 2</li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-06-19T18:02:28.249+00:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j314-engagement-finess",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:OID:1.2.250.1.213.1.6.1.322"
+  }],
+  "version" : "20260629120000",
+  "name" : "JdvJ314EngagementFiness",
+  "title" : "Jdv J314 Engagement Finess",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-06-29T12:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR",
+      "display" : "France (la)"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      }]
+    }]
+  }
+}
