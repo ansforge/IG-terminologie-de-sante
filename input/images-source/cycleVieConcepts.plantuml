@@ -1,0 +1,13 @@
+@startuml A-horizontal
+left to right direction
+hide empty description
+
+state "**active**\nConcept validé et utilisable\nsans restriction" as active #D8F0D8
+state "**deprecated**\nConcept toujours valide, mais dont\nl'utilisation est déconseillée" as deprecated #FFE0B3
+state "**retired**\nConcept conservé pour l'historique,\nusage non autorisé" as retired #E3E3E3
+
+[*] --> active :  Création  
+active --> deprecated :  Dépréciation  
+deprecated --> retired :  Retrait définitif  
+active -[norank]-> retired : Retrait
+@enduml
