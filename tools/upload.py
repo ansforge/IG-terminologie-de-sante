@@ -11,6 +11,8 @@ import requests
 import sys
 import urllib.request
 
+ONTOSERVER_URL = "https://smt.esante.gouv.fr/fhir"
+
 
 def fix_narrative(resource):
     """Supprime la narrative générée par le serveur distant pour laisser le Publisher local la régénérer."""
@@ -18,7 +20,44 @@ def fix_narrative(resource):
     return resource
 
 
+def has_concept_without_display(valueset):
+    """True si un compose.include liste des concepts dont au moins un n'a pas de display (JDV sans surcharge)."""
+    for include in valueset.get("compose", {}).get("include", []):
+        if any(not c.get("display") for c in include.get("concept", [])):
+            return True
+    return False
+
+
+def expand_valueset(valueset, token=None):
+    """Appelle $expand sur ontoserver, retourne le ValueSet expandé ou None en cas d'erreur."""
+    vs_url = valueset.get("url")
+    if not vs_url:
+        return None
+
+    params = {"url": vs_url}
+    if valueset.get("version"):
+        params["valueSetVersion"] = valueset["version"]
+
+    headers = {"Authorization": f"Bearer {token}"} if token else {}
+
+    try:
+        response = requests.get(
+            f"{ONTOSERVER_URL}/ValueSet/$expand",
+            params=params,
+            headers=headers,
+            timeout=60
+        )
+        if response.status_code == 200:
+            print(f"  -> Expand OK: {vs_url}")
+            return response.json()
+        print(f"  -> Expand FAILED ({response.status_code}): {vs_url}")
+    except Exception as e:
+        print(f"  -> Expand ERROR: {vs_url} : {e}")
+    return None
+
+
 async def main():
+    access_token = None
     if len(sys.argv) >= 3:
         userName =  sys.argv[1] 
         passWord =  sys.argv[2] 
@@ -90,6 +129,15 @@ async def main():
             ValueSet = await client.reference('ValueSet', e_valueSet["id"]).to_resource()
             ValueSet["language"] = "fr-FR"
             if(e_valueSet["id"] !="designation-use") :
+                # Exception : JDV sans surcharge (codes sans display) -> expand
+                if has_concept_without_display(ValueSet) :
+                    print ("  [expand] " + e_valueSet["name"])
+                    expanded = expand_valueset(ValueSet, access_token)
+                    expansion = expanded.get("expansion") if expanded else None
+                    if expansion :
+                        for item in expansion.get("contains", []) :
+                            item.pop("extension", None)  # extension Ontoserver
+                        ValueSet["expansion"] = expansion
                 with open('../input/ontoserver/JDV/'+ e_valueSet["name"]    + "_" +  e_valueSet["id"] + ".json", "w", encoding="utf-8") as f:
                     f.write(json.dumps(fix_narrative(ValueSet)))
 
@@ -119,4 +167,3 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
-
