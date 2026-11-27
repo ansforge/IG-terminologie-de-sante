@@ -56,6 +56,28 @@ def expand_valueset(valueset, token=None):
     return None
 
 
+def fill_display_from_expansion(valueset, expanded):
+    """Complète les display manquants de compose.include.concept à partir de l'expand.
+    L'expansion elle-même n'est pas écrite dans le ValueSet (évite les doublons de codes)."""
+    if not expanded:
+        return
+    displays = {}
+
+    def walk(items):
+        for item in items:
+            displays[(item.get("system"), item.get("code"))] = item.get("display")
+            walk(item.get("contains", []))
+
+    walk(expanded.get("expansion", {}).get("contains", []))
+
+    for include in valueset.get("compose", {}).get("include", []):
+        for c in include.get("concept", []):
+            if not c.get("display"):
+                d = displays.get((include.get("system"), c.get("code")))
+                if d:
+                    c["display"] = d
+
+
 async def main():
     access_token = None
     if len(sys.argv) >= 3:
@@ -133,11 +155,7 @@ async def main():
                 if has_concept_without_display(ValueSet) :
                     print ("  [expand] " + e_valueSet["name"])
                     expanded = expand_valueset(ValueSet, access_token)
-                    expansion = expanded.get("expansion") if expanded else None
-                    if expansion :
-                        for item in expansion.get("contains", []) :
-                            item.pop("extension", None)  # extension Ontoserver
-                        ValueSet["expansion"] = expansion
+                    fill_display_from_expansion(ValueSet, expanded)
                 with open('../input/ontoserver/JDV/'+ e_valueSet["name"]    + "_" +  e_valueSet["id"] + ".json", "w", encoding="utf-8") as f:
                     f.write(json.dumps(fix_narrative(ValueSet)))
 
